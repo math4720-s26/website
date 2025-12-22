@@ -1,0 +1,10 @@
+---
+title: "Help Desk Hours"
+---
+
+```{r}
+#| echo: false
+#| out-width: 100%
+knitr::include_graphics("./images/help_hours.png")
+```
+

@@ -1,0 +1,244 @@
+---
+title: "Learning Statistics using Generative AI"
+subtitle: "Multiple Linear Regression: Sleep, Caffeine, and Stress"
+categories: "Project"
+format:
+  html:
+    html-math-method: mathjax
+editor: source
+---
+
+::: callout-important
+[Due **Friday, Nov 28, 11:59 PM but extendable**]{.red}
+:::
+
+This project allows you to demonstrate your understanding of multiple linear regression and your ability to interpret model results in context. You will explore a simulated health related data set with one response variable (`stress`) and two predictors (`sleep` and `caffeine`). The final product is a clearly written statistical analysis report.
+
+By completing this project you will:
+
+- Create and interpret scatterplots for exploratory data analysis
+- Fit a multiple linear regression model
+- Interpret regression coefficients in context
+- Evaluate model fit and communicate findings clearly
+- Practice responsible use of generative AI as a thinking partner
+
+# Project Guidelines
+
+- Please submit your work in *one* **PDF** file to **D2L > Assessments > Dropbox**. Multiple files or a file that is not in pdf format is not allowed. Your PDF should include all required parts (in order): 
+  + **data analysis report** with tables and figures
+  + **personal reflection**
+  + **AI chat history**
+
+
+- With your submission, you commit to academic integrity through the following honor pledge:
+
+> I recognize the importance of personal integrity in all aspects of life and work. I commit myself to truthfulness, honor and responsibility, by which I earn the respect of others. I support the development of good character and commit myself to uphold the highest standards of academic integrity as an important aspect of personal integrity. My commitment obliges me to conduct myself according to the Marquette University Honor Code.
+
+- [**_This project is to be entirely your own efforts._**]{.red} You are **required and can only use** generative AI (GenAI) tools to help you do the project.
+
+- As part of project evaluation, you must document how you used Generative AI during your work. Specifically, you are required to attach your **entire conversation history** with the AI, from the initial prompt (@sec-prompt) to the last prompt (@sec-instruction). Refer to @sec-ai for more detailed guidance.
+
+- As part of your project evaluation, you are required to write a reflection (approximately **300** words) describing how you used AI to support your learning of the project topics. Refer to @sec-reflection for more detailed guidance.
+
+- The project topic multiple linear regression will be [**included on your Final Exam**]{.red}. Please do not simply copy and paste responses from Generative AI tools. Instead, use AI as a learning aid to deepen your understanding of the topic. Engage with the material, ask questions, and reflect on the concepts so that you are prepared to apply them independently during the exam.
+
+
+# Project Content
+
+- Your project has three parts: the **data analysis report**, **personal reflection**, and **AI chat history**. 
+
+- Please use the initial prompt (@sec-prompt) to start your conversation with AI.
+
+## Data Analysis Report
+
+- The data analysis report of multiple linear regression, including relevant tables and figures, should meet the following formatting requirements
+  + Length: **3 to 5 pages**
+  + Spacing: **single space**
+  + Font: **Times New Roman, 12 pt**
+  + Margins: **one inch on all sides**
+
+- Please **do not** show any code in the report.
+
+### Required sections
+
+Please use the provided [**project template**](./template.docx) to complete your report.
+
+**1. Introduction**
+
+Briefly introduce the topic. Define the variables. State the objective of the analysis.
+
+**2. Exploratory Data Analysis**
+
+Include scatterplots of stress versus sleep, stress versus caffeine, and sleep versus caffeine. Write short descriptions of what you observe.
+
+**3. Model Building**
+
+Fit a regression model that predicts stress from sleep and caffeine. Include the full model output.
+
+**4. Interpretation of Results**
+
+Interpret each coefficient in context. Explain signs, magnitudes, and meaning.
+
+**5. Evaluation of Model Fit**
+
+Report and interpret R squared and other relevant information. Comment on model quality and limitations.
+
+**6. Conclusion**
+
+Write a clear summary of your findings in ordinary language.
+
+
+### Data set
+
+The data set can be downloaded [**here**](./health_sleep_caffeine_stress.csv). This data set contains three numerical variables measured for a group of individuals. Each variable is described below.
+
+#### Variable `sleep`
+
+- Description: Average number of hours of sleep per night during a typical week
+- Unit: Hours
+- Typical Range: About 5.0 to 8.5 hours
+
+#### Variable `caffeine`
+
+- Description: Average daily caffeine intake from all sources including coffee, tea, soda, or energy drinks
+- Unit: Milligrams of caffeine per day
+- Typical Range: About 65 to 290 milligrams
+
+#### Variable `stress`
+
+- Description: Perceived stress score based on a short survey. Higher values indicate greater stress.
+- Scale Range: 0 to 40
+- Typical Range in this sample: About 11 to 33
+
+Stress is a common concern among adults and college students. Many people believe that lifestyle choices such as sleep and caffeine consumption can influence how stressed a person feels. Sleep is often thought to reduce stress because it allows the body and mind to recover. Caffeine is often used to stay alert, but higher caffeine intake may increase feelings of tension or restlessness.
+
+Researchers are interested in understanding how these everyday behaviors relate to stress levels. In real health studies, researchers often collect data on sleep habits, caffeine consumption, and stress scores to explore these relationships. Multiple linear regression provides a useful way to examine how two different predictors together relate to a single outcome.
+
+This simulated data set reflects these ideas. It includes information on sleep hours, caffeine intake, and perceived stress scores for a group of individuals. The goal is to **model `stress` as a function of `sleep` and `caffeine` and to understand how the two predictors together help explain variation in stress levels**.
+
+You can use the following questions in the Introduction section as motivation for your analysis:
+
+- How is sleep related to stress when we account for differences in caffeine intake?
+- How is caffeine intake related to stress when we account for differences in sleep?
+- Do sleep and caffeine together help explain variation in perceived stress scores?
+- Which of the two predictors appears to have a stronger association with stress in this sample?
+
+These questions help motivate why multiple linear regression is appropriate for this data set.
+
+
+## Personal Reflection {#sec-reflection}
+
+After completing your entire project, please write a reflection (~300 words) addressing the following points (you may expand beyond them):
+
+- Which GenAI tool you used
+- How AI influenced or improved your thinking throughout the project
+- How AI supported your understanding of multiple linear regression
+- What challenges you encountered while using AI to self-learn or solve problems
+- What you would do differently in the future when using AI for coursework or research, based on this experience
+
+This reflection is part of your final project submission. Be honest and thoughtful. It will not be graded on whether you used AI “correctly,” but on the depth of your reflection.
+
+<!-- Examples: -->
+
+<!-- - It helped me understand the difference between simple and multiple regression. -->
+<!-- - It helped me think about assumptions I might have forgotten. -->
+<!-- - It helped me plan which plots to create. -->
+
+Please use the [**project template**](./template.docx).
+
+
+## AI Usage {#sec-ai}
+
+- You use **one** of the following GenAI tools: **ChatGPT**, **Google Gemini**, and **Microsoft Copilot**.
+
+- Other GenAI tools are not allowed.
+
+- You use generative AI as a **thinking partner**. This means the AI may help you think about concepts or understand the reasoning behind analysis steps.
+
+- The AI **must not** produce answers, interpretations, text for your report, or numerical results from your data set. Your work must represent your own thinking.
+
+- You must include your AI usage history after your data analysis report. Work submitted without this document will not receive full credit. See @sec-instruction for more details.
+
+### Initial prompts {#sec-prompt}
+
+[‼ You must start your chat with GenAI using the following prompt:]{.red}
+
+::: {.italic style="font-style: italic" .blue}
+
+I am working on a multiple linear regression project using a small health-related dataset with three variables: sleep, caffeine, and stress. Act as my thinking partner. Do not give me full answers or report-ready text. Instead, guide me step by step, and after each step, ask me one clarifying or reflective question before moving on. Explain why each step matters and what ideas I should consider when making decisions. Use general examples if needed, but do not use my dataset values or provide final interpretations.
+
+Help me understand the process by asking questions like:
+What does this coefficient mean in context?
+How would I explain R squared to someone with no statistics background?
+Why might these predictors be related?
+What assumptions should I check?
+What limitations might I need to note?
+
+Your role is to support my reasoning and help me understand how to build and interpret the model gradually, not to create my report content.
+
+
+:::
+
+This prompt ensures the following learning outcomes:
+
+- You receive process guidance but must produce your own text.
+- AI supports conceptual understanding rather than answering the assignment.
+- You learn to ask better questions and reflect on your reasoning.
+- The AI serves as a coach, not a solution generator.
+
+
+### Documenting AI usage {#sec-instruction}
+
+You must include your **entire AI usage history** at the end of your report. The purpose is to help you describe how you used generative AI as a thinking partner and demonstrate that the work you submitted reflects your own reasoning.
+
+Please use the [**project template**](./template.docx).
+
+Follow the [**step-by-step guide**](./chat.docx) to share your AI chat conversation.
+
+<!-- Once you complete your project and finish your conversation with the AI tool, please prepare your full chat history. Before ending the chat, make sure to insert your final prompt shown below so that the entire interaction is captured from start to finish. -->
+
+<!-- ::: {.italic style="font-style: italic" .blue} -->
+<!-- Compile the entire conversation, clearly labeled to show which parts are AI inputs and which are my responses. -->
+<!-- ::: -->
+
+<!-- Follow the [**step-by-step guide**](./chat.docx) to share your AI chat conversation. -->
+
+<!-- **[Note:]** You can also share your chat history w -->
+
+<!-- Your statement must include all of the following: -->
+
+<!-- **A. The AI tool you used** -->
+
+<!-- For example: ChatGPT, Gemini, or Copilot. -->
+
+<!-- **B. The purpose of your AI use** -->
+
+<!-- Explain what you asked the AI to help you think through. Examples include: -->
+
+<!-- - Understanding what a regression coefficient represents -->
+<!-- - Brainstorming questions to ask about the model -->
+<!-- - Clarifying how to interpret R squared -->
+<!-- - Getting help generating ideas for visualizations -->
+
+<!-- **C. Confirmation of what the AI did not do** -->
+
+<!-- You must confirm that the AI did not: -->
+
+<!-- - Produce your written interpretations -->
+<!-- - Provide numerical answers -->
+<!-- - Generate plots for you -->
+<!-- - Write sections of your report -->
+<!-- - Tell you exactly what to conclude about this dataset -->
+
+
+
+# Project Evaluation
+
+The main areas of evaluation are:
+
+- Understanding of the statistical context (25 pts)
+- Quality and correctness of exploratory visualizations (25 pts)
+- Accuracy of model construction and interpretation (25 pts)
+- Quality of writing and clarity of communication (25 pts)
+- Clearness and depth of your reflection (25 pts)
+- Proper and transparent documentation of AI use (25 pts)

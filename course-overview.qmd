@@ -1,0 +1,20 @@
+---
+title: "MATH 4720/5720 <br>Fall 2025"
+image: images/logo.png
+image-alt: Hex logo for course with
+about:
+  template: trestles
+  links:
+    - icon: laptop
+      href: https://math4720-f25.github.io/website/
+      aria-label: Link to course website
+    - icon: github
+      href: https://github.com/math4720-f25/website
+      aria-label: Link to course GitHub organization
+---
+
+This course introduces the ideas of data summary and visualization, probability, and statistics with applications to natural and social sciences and daily life. Topics include but not limited to: random variables, discrete and continuous probability distributions, sampling distributions, confidence intervals, hypothesis testing, analysis of variance, and linear regression. This course builds a foundation for statistical inference, machine learning, and data modeling.
+
+The course will assume facility with using the internet and a personal computer. A portion of the course involves [\textsf{R}](https://www.r-project.org/about.html) programming using [RStudio or Posit Cloud](https://rstudio.com/), but prior coding experience is not required.
+
+![](images/background-bikeshare.png){fig-alt="A series of six, generic data visualizations: a scatterplot, a density plot, a contour plot, a line plot, a box plot, and another scatterplot." width="700"}

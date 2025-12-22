@@ -1,0 +1,15 @@
+{
+  "hash": "890ccec6503ee70b382b15b804cc3f35",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Help Desk Hours\"\n---\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](./images/help_hours.png){width=100%}\n:::\n:::\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

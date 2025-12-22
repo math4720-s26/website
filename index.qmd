@@ -1,0 +1,57 @@
+---
+title: "MATH 4720 (MSSC 5720) Statistical Methods Fall 2025"
+tbl-colwidths: [5,8,20,10,6,6,8,6,6]
+format:
+  html
+---
+
+-   The website is for Section-101 **2 - 3:15 PM** and Section-102 **3:30-4:45 PM**.
+
+*This schedule will be updated as the semester progresses, with all changes documented here.*
+
+::: column-screen-inset-right
+| Week | Date | Topic | Materials | Reading | R Code | Homework | Quiz/Exercise | Exam/Project |
+|:------:|--------|--------|:------:|:------:|:------:|:------:|:------:|:------:|
+| 1 | Mon, Aug 25 | Syllabus/Overview of Statistics | [🖥️ syllabus](/slides/01-syllabus-slides.html)<br>[🖥️ statistics and data](/slides/02-overview-slides.html) | [Syllabus](course-syllabus.html)<br>[IS Ch1](https://chenghanyu-introstatsbook.netlify.app/intro-stats)<br>[GenAI Video](https://shorturl.at/0yLUl) |  |  |  |  |
+|  | Wed, Aug 27 | Statistical Studies and Data Collection; Data Type |  | [IS Ch 2](https://chenghanyu-introstatsbook.netlify.app/intro-data) |  | ✍️ [HW 1](hw/hw01.html "Data collection and data type") (due 9/5) |  |  |
+| 2 | Mon, Sep 1 | ***NO CLASS: Labor Day*** |  |  |  |  |  |  |
+|  | Wed, Sep 3 | R Software and Computation | [🖥️ R and RStudio](/slides/03-r-slides.html)<br>[🖥️ data type and structure](/slides/04-programming-slides.html) | [IS Ch 3](https://chenghanyu-introstatsbook.netlify.app/intro-r) | [`r fontawesome::fa("file-code")`](code/03_intro-r.R) (data type and structure) |  |  |  |
+| 3 | Mon, Sep 8 | Summarizing Data: Centrality | [🖥️ data summary](/slides/05-data-discription-slides.html)<br>👉[histogram breaks](ojs/data-hist-ojs.html)<br>👉[data extremes](ojs/data-extremes-ojs.html) | [IS Ch 5 - 6](https://chenghanyu-introstatsbook.netlify.app/data-graphics) | [`r fontawesome::fa("file-code")`](code/04_data-graphics.R) (data graphics) |  |  |  |
+|  | Wed, Sep 10 | Summarizing Data: Variation |  | IS Ch 5 - 6 | [`r fontawesome::fa("file-code")`](code/05_data-numerics.R) (data numerics) | ✍️ [HW 2](hw/hw02.html "Basic R, Data Description and Graphics") (due 9/19) |  |  |
+| 4 | Mon, Sep 15 | Probability Fundamentals | [🖥️ probability](/slides/06-probability-slides.html)<br>👉[venn diagram](http://www.stat.ucla.edu/~vlew/stat11/lectures/venn/venn.html) | [IS Ch 7 - 8](https://chenghanyu-introstatsbook.netlify.app/prob-define) |  |  |  |  |
+|  | Wed, Sep 17 | Conditional Probability, Independence, Bayes Formula |  | [IS Ch 9](https://chenghanyu-introstatsbook.netlify.app/prob-rv) |  | ✍️ [HW 3](hw/hw03.html "Probability Fundamentals") (due 9/26) | ✅ Quiz 1 |  |
+| 5 | Mon, Sep 22 | Random Variables, Discrete Probability Distributions | [🖥️ distribution](/slides/07-distribution-slides.html) <br>👉[binomial](ojs/prob-binomial-ojs.html)<br>👉[poisson](ojs/prob-poisson-ojs.html) | [IS Ch 10](https://chenghanyu-introstatsbook.netlify.app/prob-disc) | [`r fontawesome::fa("file-code")`](code/09-prob-disc.R) (discrete distribution) |  |  |  |
+|  | Wed, Sep 24 | Continuous Probability Distributions [**Activity: Match the Scenario to the Distribution**](activity/act_distribution.html) | 👉[normal](ojs/prob-normal-ojs.html) | [IS Ch 11](https://chenghanyu-introstatsbook.netlify.app/prob-cont) | [`r fontawesome::fa("file-code")`](code/10-prob-cont.R) (continuous distribution) | ✍️ [HW 4](hw/hw04.html "Probability Distributions") (due 10/3) |  |  |
+| 6 | Mon, Sep 29 | Sampling Distributions | [🖥️ sampling-dist-clt](/slides/08-sampling-dist-clt-slides.html) | [IS Ch 12](https://chenghanyu-introstatsbook.netlify.app/prob-sampling#why-use-sampling-distribution) | [`r fontawesome::fa("file-code")`](code/10-prob-sampling-clt.R) (sampling distribution and CLT) |  | 📋 [Exercise for Exam 1](exercise/exercise1.html) |  |
+|  | Wed, Oct 1 | Central Limit Theorem (CLT) | 👉[CLT](ojs/prob-clt-ojs.html)<br> 👉[Rolling dice](https://cheyu.shinyapps.io/rolling-die/) | [IS Ch 13](https://chenghanyu-introstatsbook.netlify.app/prob-llnclt#central-limit-theorem) |  |  | ✅ Quiz 2 |  |
+| 7 | Mon, Oct 6 | **In-class Exam 1** |  |  |  |  |  | ✅ [Take-home Exam 1](exam/take_home_exam1.html) |
+|  | Wed, Oct 8 | Confidence Intervals | [🖥️ confidence interval](/slides/09-ci-slides.html) <br> 👉[CI](ojs/infer-ci-ojs.html) | [IS Ch 14](https://chenghanyu-introstatsbook.netlify.app/infer-ci) | [`r fontawesome::fa("file-code")`](code/13-infer-ci.R) (confidence interval) |  |  |  |
+| 8 | Mon, Oct 13 | Confidence Intervals [**Activity: How Much Do Students Sleep?**](activity/act_ci.html) | 👉[Student-t](ojs/infer-ci-t-ojs.html) |  |  |  |  |  |
+|  | Wed, Oct 15 | Hypothesis Testing | [🖥️ testing](/slides/10-ht-slides.html)<br> 👉[testing](ojs/infer-ht-ojs.html) | [IS Ch 16](https://chenghanyu-introstatsbook.netlify.app/infer-ht) | [`r fontawesome::fa("file-code")`](code/15-infer-ht.R) (testing) | ✍️ [HW 5](hw/hw05.html "Confidence interval") (due 10/24) |  |  |
+| 9 | Mon, Oct 20 | Hypothesis Testing |  |  |  |  |  |  |
+|  | Wed, Oct 22 | Two Population Means: Matched Pairs | [🖥️ two samples](/slides/11-infer-two-means-slides.html) | [IS Ch 17](https://chenghanyu-introstatsbook.netlify.app/infer-twomean) | [`r fontawesome::fa("file-code")`](code/16-infer-twomean.R) (two samples) | ✍️ [HW 6](hw/hw06.html "two population means") (due 10/31) |  |  |
+| 10 | Mon, Oct 27 | Two Population Means: Independent Samples Inference for One Population Variance | [🖥️ variances](/slides/12-infer-variance-slides.html) <br> 👉[chi-squared](ojs/infer-var-chisq-ojs.html) | [IS Ch 18](https://chenghanyu-introstatsbook.netlify.app/infer-var) | [`r fontawesome::fa("file-code")`](code/17-infer-var.R) (variances) |  |  |  |
+|  | Wed, Oct 29 | Inference about Two Population Variances | 👉 [f](ojs/infer-var-f-ojs.html) |  |  | ✍️ [**Extra credit!**](hw/hw06-extra.html) (due 10/31)<br>✍️ [HW 7](hw/hw07.html) (due 11/7) | ✅ Quiz 3 |  |
+| 11 | Mon, Nov 3 | Analysis of Variance (ANOVA) Rationale | [🖥️ ANOVA](/slides/13-anova-slides.html) | [IS Ch 24](https://chenghanyu-introstatsbook.netlify.app/model-anova) | [`r fontawesome::fa("file-code")`](code/23-model-anova.R) (ANOVA [data](./code/data_anova.csv)) |  | 📋 [Exercise for Exam 2](exercise/exercise2.html) |  |
+|  | Wed, Nov 5 | Analysis of Variance (ANOVA) Procedure |  |  |  |  |  |  |
+| 12 | Mon, Nov 10 | **In-class Exam 2** |  |  |  |  |  | ✅ [Take-home Exam 2](exam/take_home_exam2.html) |
+|  | Wed, Nov 12 | ~~Multiple Comparisons~~ Correlation; Overview of Regression | [🖥️ correlation](/slides/14-correlation-slides.html) | [IS Ch 27.1](https://chenghanyu-introstatsbook.netlify.app/model-reg#correlation); [IS Ch 27.2](https://chenghanyu-introstatsbook.netlify.app/model-reg#meaning-of-regression) | [`r fontawesome::fa("file-code")`](code/26-model-reg.R) (correlation and regression) |  |  |  |
+| 13 | Mon, Nov 17 | Simple Linear Regression: Fitting and Inference | [🖥️ regression](/slides/15-regression-slides.html) <br> 👉 [regression fitting](ojs/model-reg-ojs.html) | [IS Ch 27.3 - 27.4](https://chenghanyu-introstatsbook.netlify.app/model-reg#fitting-a-regression-line-haty-b_0-b_1x) |  |  |  | 📂 [AI Project](project/project.html) |
+|  | Wed, Nov 19 | Simple Linear Regression: ANOVA approach | 👉 [sampling distribution of coefficients](ojs/model-reg-beta-ojs.html) | [IS Ch 27.5](https://chenghanyu-introstatsbook.netlify.app/model-reg#analysis-of-variance-anova-approach) |  |  |  |  |
+| 14 | Mon, Nov 24 | Simple Linear Regression: Prediction [**Activity: Height vs. Shoe Size**](activity/act_reg.html) |  | [IS Ch 27.6](https://chenghanyu-introstatsbook.netlify.app/model-reg#prediction) |  | ✍️ [HW 8](hw/hw08.html) |  |  |
+|  | Wed, Nov 26 | ***NO CLASS: Thanksgiving*** |  |  |  |  | 📋 [Exercise for Exam 3](exercise/exercise3.html) |  |
+| 15 | Mon, Dec 1 | Inference about Proportions | [🖥️ categorical variables](/slides/16-infer-cat-slides.html) | [IS Ch 19](https://chenghanyu-introstatsbook.netlify.app/infer-prop) | `r fontawesome::fa("file-code")` |  |  | [📖 Key topics of multiple linear regression](exercise/exercise_mlr.html) |
+|  | Wed, Dec 3 | Test of Goodness of Fit; Test of Independence |  | [IS Ch 20](https://chenghanyu-introstatsbook.netlify.app/infer-cat) |  |  | ✅ Quiz 4 (Take-home practice) |  |
+| 16 | [**Wed**, **Dec 10, 10:30 AM - 12:30 PM**]{.red} | **In-class Final Exam (Sec101-2PM)** |  |  |  |  |  |  |
+|  | [**Fri, Dec 12, 8- 10 AM**]{.red} | **In-class Final Exam (Sec102-3:30PM)** |  |  |  |  |  |  |
+:::
+
+I reserve the right to make changes to the schedule.
+
+```{r echo = FALSE}
+knitr::knit_exit()
+```
+
+|   |   |   | Prepare | Slides | AE | Labs | HW | Exam | Project |
+|--------|--------|--------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| Week | Date | Topic | 📖 | 🖥️ | 📋 | [💻](https://sakai.duke.edu/samigo-app/servlet/Login?id=6fa7ebf3-01af-42a6-91ba-3e813d3901221641094171786) | ✍️ | ✅ | 📂 |

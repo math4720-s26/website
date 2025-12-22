@@ -1,0 +1,15 @@
+{
+  "hash": "988adeaffd9946e902e30ecc8d74e222",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Activity: Simple Linear Regression\"\nsubtitle: \"Height vs. Shoe Size\"\n---\n\n\n## **Objective**\n\nYou will:\n\n- Identify predictor (height) and response (shoe size).\n- Explain what the slope means in context.\n- Recognize variability and limitations of small-sample regressions.\n- Experience how combining data strengthens inference.\n\n\n## Instructions\n\n(1) Form a group of 4 or 5. (This is your sample size!)\n\n(2) Collect your data. Each person will share their **height** and **shoe size**! \n    - Height ($X$): **inches** (Use [feet-to-inch conversion](https://www.rapidtables.com/convert/length/feet-inch-to-inch.html) to help you get your height in inches.)\n    - Shoe Size ($Y$): **US**\n  \n(3) Make a R data frame. (Replace my numbers with your data!)\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndf <- data.frame(height = c(69, 74, 77, 60, 62), \n                 size = c(11, 10.5, 12, 9.5, 9))\ndf\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n  height size\n1     69 11.0\n2     74 10.5\n3     77 12.0\n4     60  9.5\n5     62  9.0\n```\n\n\n:::\n:::\n\n\n\n(4) Analyze within your group.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# (a) Plot your data. Height on the x-axis, Shoe Size on the y-axis.\nplot(x = ______, y = _______)\n```\n:::\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# (b) Fit the simple linear regression model\nmodel <- lm(____ ~ ____)\n\n# (c) Draw the fitted regression line.\nabline(______)\n```\n:::\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# (d) Obtain the estimated slope. What does it mean in context? Is the effect statistically significant?\n```\n:::\n\n\n\n## Discussion\n\n- How does your group’s pattern compare to the overall line?\n- What does the slope mean in context?\n- Why might individual data vary around the line?\n- Would it make sense to predict shoe size for someone far outside our data range (e.g., 7'3\" tall)? Why or why not?\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

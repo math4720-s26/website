@@ -1,0 +1,65 @@
+---
+title: "Activity: Simple Linear Regression"
+subtitle: "Height vs. Shoe Size"
+---
+
+
+## **Objective**
+
+You will:
+
+- Identify predictor (height) and response (shoe size).
+- Explain what the slope means in context.
+- Recognize variability and limitations of small-sample regressions.
+- Experience how combining data strengthens inference.
+
+
+## Instructions
+
+(1) Form a group of 4 or 5. (This is your sample size!)
+
+(2) Collect your data. Each person will share their **height** and **shoe size**! 
+    - Height ($X$): **inches** (Use [feet-to-inch conversion](https://www.rapidtables.com/convert/length/feet-inch-to-inch.html) to help you get your height in inches.)
+    - Shoe Size ($Y$): **US**
+  
+(3) Make a R data frame. (Replace my numbers with your data!)
+
+```{r}
+df <- data.frame(height = c(69, 74, 77, 60, 62), 
+                 size = c(11, 10.5, 12, 9.5, 9))
+df
+```
+
+
+(4) Analyze within your group.
+
+```{r}
+#| eval: false
+# (a) Plot your data. Height on the x-axis, Shoe Size on the y-axis.
+plot(x = ______, y = _______)
+```
+
+
+```{r}
+#| eval: false
+# (b) Fit the simple linear regression model
+model <- lm(____ ~ ____)
+
+# (c) Draw the fitted regression line.
+abline(______)
+```
+
+
+```{r}
+#| eval: false
+
+# (d) Obtain the estimated slope. What does it mean in context? Is the effect statistically significant?
+```
+
+
+## Discussion
+
+- How does your group’s pattern compare to the overall line?
+- What does the slope mean in context?
+- Why might individual data vary around the line?
+- Would it make sense to predict shoe size for someone far outside our data range (e.g., 7'3" tall)? Why or why not?
