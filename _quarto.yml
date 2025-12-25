@@ -4,7 +4,7 @@ project:
 website:
   page-navigation: true
   title: "MATH 4720 (MSSC 5720) - Spring 2026"
-  description: "Homepage for MATH 4720 (MSSC 5720) - Statistical Methods at Marquette University, Fall 2025."
+  description: "Homepage for MATH 4720 (MSSC 5720) - Statistical Methods at Marquette University, Spring 2026."
   site-url: "https://math4720-s26.github.io/website/"
 
   repo-url: https://github.com/math4720-s26/website
@@ -34,7 +34,7 @@ website:
       #   href: https://cmgr.oit.duke.edu/containers
       #   text: "RStudio Containers"
       - icon: person-fill
-        href: https://d2l.mu.edu/d2l/home/589421
+        href: https://d2l.mu.edu/d2l/home/630388
         text: "D2L"
 
     style: docked
