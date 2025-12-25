@@ -1,0 +1,15 @@
+{
+  "hash": "7ba480ee51d9aef5773245c318c7853f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Worksheet 9\"\nsubtitle: \"ANOVA\"\ncategories: \"Worksheet\"\nformat:\n  html:\n    html-math-method: mathjax\neditor: source\nexecute: \n  include: true\n---\n\n\n(@) You have 4 groups and a total sample size 40. Find $df_T$, $df_B$ and $df_W$.\n\n\n\n\n\n(@) We run one way ANOVA with $p$-value $< \\alpha$. What can we conclude, and what can we not conclude?\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

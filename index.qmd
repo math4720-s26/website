@@ -39,7 +39,7 @@ format:
 | 14 | Tue, Apr 14 | Correlation; Overview of Regression | 🖥️ correlation <br> 🖥️ regression <br> 👉 regression fitting | [IS Ch 27.1](https://chenghanyu-introstatsbook.netlify.app/model-reg#correlation); [IS Ch 27.2](https://chenghanyu-introstatsbook.netlify.app/model-reg#meaning-of-regression) | `r fontawesome::fa("file-code")` (correlation and regression) |  |  |  |  |
 |  | Thu, Apr 16 | Simple Linear Regression: Fitting and Inference | 👉 sampling distribution of coefficients | [IS Ch 27.3 - 27.5](https://chenghanyu-introstatsbook.netlify.app/model-reg#fitting-a-regression-line-haty-b_0-b_1x) |  |  |  | ✅ Quiz 4 |  |
 | 15 | Tue, Apr 21 | **In-class Exam 2** |  |  |  |  |  |  | ✅ Take-home Exam 2 |
-|  | Thu, Apr 23 | Simple Linear Regression: Prediction |  | [IS Ch 27.6](https://chenghanyu-introstatsbook.netlify.app/model-reg#prediction) | ✍️ HW 8 (due 5/1) |  |  |  |  |
+|  | Thu, Apr 23 | Simple Linear Regression: Prediction |  | [IS Ch 27.6](https://chenghanyu-introstatsbook.netlify.app/model-reg#prediction) |  | ✍️ HW 8 (due 5/1) |  |  |  |
 | 16 | Tue, Apr 28 | To Be Determined |  |  |  |  |  |  | 📂 Final Project Guideline |
 |  | Tue, Apr 30 | To Be Determined |  |  |  |  |  |  |  |
 | 17 | Fri, May 8 | **Final Project** |  |  |  |  |  |  |  |

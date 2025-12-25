@@ -91,9 +91,11 @@ website:
       #     - href: project-work.qmd
       #       text: Topics and Works
       - hw.qmd
-      - exercise.qmd
-      - exam.qmd
-      - project/project.qmd
+      - ws.qmd
+      # - exercise.qmd
+      # - exam.qmd
+      # - project/project.qmd
+
 
       # - section: "Project"
       #   contents:

@@ -10,7 +10,7 @@ execute:
 ---
 
 ::: callout-important
-[Due **Friday, Sep 5, 11:59 PM**]{.red}
+[Due **Friday, Jan 23, 11:59 PM**]{.red}
 :::
 
 - Homework 1 covers Week 1 course materials.
