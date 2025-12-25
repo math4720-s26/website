@@ -4,9 +4,9 @@ subtitle: "Data Collection and Data Type"
 categories: "Homework"
 editor: source
 params:
-  show_sol: true
+  show_sol: false
 execute:
-  echo: true
+  echo: false
 ---
 
 ::: callout-important
