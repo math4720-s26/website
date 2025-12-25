@@ -1,15 +1,15 @@
 ---
-title: "MATH 4720/5720 <br>Fall 2025"
+title: "MATH 4720/5720 <br>Spring 2026"
 image: images/logo.png
 image-alt: Hex logo for course with
 about:
   template: trestles
   links:
     - icon: laptop
-      href: https://math4720-f25.github.io/website/
+      href: https://math4720-s26.github.io/website/
       aria-label: Link to course website
     - icon: github
-      href: https://github.com/math4720-f25/website
+      href: https://github.com/math4720-s26/website
       aria-label: Link to course GitHub organization
 ---
 
