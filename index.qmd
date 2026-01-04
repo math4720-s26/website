@@ -9,7 +9,7 @@ format:
 
 ::: column-screen-inset-right
 | Week | Date | Topic | Materials | Reading | R Code | Homework | Worksheet | Quiz | Exam/Project |
-|:-----:|------|-------|:------:|:------:|:-----:|:-----:|-------|:-------:|:-------:|
+|:--:|----|----|:--:|:--:|:--:|:--:|----|:--:|:--:|
 | 1 | Tue, Jan 13 | Syllabus/Overview of Statistics | 🖥️ syllabus<br>🖥️ statistics and data | [Syllabus](course-syllabus.html)<br>[IS Ch1](https://chenghanyu-introstatsbook.netlify.app/intro-stats)<br>[GenAI Video](https://shorturl.at/0yLUl) |  |  |  |  |  |
 |  | Thu, Jan 15 | Statistical Studies and Data Collection; Data Type |  | [IS Ch 2](https://chenghanyu-introstatsbook.netlify.app/intro-data) |  | ✍️ HW 1 (due 1/23) |  |  |  |
 | 2 | Tue, Jan 20 | R Software and Computation | 🖥️ R and RStudio<br>🖥️ data type and structure | [IS Ch 3](https://chenghanyu-introstatsbook.netlify.app/intro-r) | `r fontawesome::fa("file-code")` (data type and structure) |  |  |  |  |
@@ -52,5 +52,5 @@ knitr::knit_exit()
 ```
 
 |   |   |   | Prepare | Slides | AE | Labs | HW | Exam | Project |
-|--------|--------|--------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|----|----|----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Week | Date | Topic | 📖 | 🖥️ | 📋 | [💻](https://sakai.duke.edu/samigo-app/servlet/Login?id=6fa7ebf3-01af-42a6-91ba-3e813d3901221641094171786) | ✍️ | ✅ | 📂 |
