@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.19">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="author" content="Dr.&nbsp;Cheng-Han Yu">
-<title>Midterm Presentation II - Classification – MATH 4720 (MSSC 5720) - Spring 2026</title>
+<title>Activity: Descriptive statistics – MATH 4720 (MSSC 5720) - Spring 2026</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,29 +17,66 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-311c866fdd058187a59d486837a94991.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-311c866fdd058187a59d486837a94991.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/countdown-0.5.0/countdown.js"></script>
+<link href="../site_libs/quarto-contrib/countdown-0.5.0/countdown.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -67,8 +103,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta property="og:title" content="Midterm Presentation II - Classification – MATH 4720 (MSSC 5720) - Spring 2026">
-<meta property="og:description" content="MSSC 6250 Machine Learning, Spring 2025">
+<meta property="og:title" content="Activity: Descriptive statistics – MATH 4720 (MSSC 5720) - Spring 2026">
+<meta property="og:description" content="Homepage for MATH 4720 (MSSC 5720) - Statistical Methods at Marquette University, Spring 2026.">
 <meta property="og:site_name" content="MATH 4720 (MSSC 5720) - Spring 2026">
 </head>
 <body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -240,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Midterm Presentation II - Classification</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Activity: Descriptive statistics</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -250,8 +286,8 @@ ul.task-list li input[type="checkbox"] {
   </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none"><img src="./images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none"></a>
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none"><img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none"></a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/math4720-s26/website" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
     <a href="https://d2l.mu.edu/d2l/home/630388" title="D2L" class="quarto-navigation-tool px-1" aria-label="D2L"><i class="bi bi-person-fill"></i></a>
@@ -276,25 +312,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-hours.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-hours.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Help Desk Hours</span></a>
   </div>
 </li>
@@ -302,13 +338,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hw.html" class="sidebar-item-text sidebar-link">
+  <a href="../hw.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Homework</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ws.html" class="sidebar-item-text sidebar-link">
+  <a href="../ws.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Worksheet</span></a>
   </div>
 </li>
@@ -320,256 +356,174 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-<li><a href="#timeline-and-things-to-do" id="toc-timeline-and-things-to-do" class="nav-link active" data-scroll-target="#timeline-and-things-to-do">Timeline and Things to Do</a></li>
+<li><a href="#objective" id="toc-objective" class="nav-link active" data-scroll-target="#objective"><strong>Objective</strong></a></li>
   <li>
-<a href="#policy" id="toc-policy" class="nav-link" data-scroll-target="#policy">Policy</a>
+<a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a>
   <ul class="collapse">
-<li><a href="#proposal" id="toc-proposal" class="nav-link" data-scroll-target="#proposal"><strong>Proposal</strong></a></li>
-  <li><a href="#presentation" id="toc-presentation" class="nav-link" data-scroll-target="#presentation"><strong>Presentation</strong></a></li>
-  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials"><strong>Materials</strong></a></li>
+<li><a href="#load-airquality-data" id="toc-load-airquality-data" class="nav-link" data-scroll-target="#load-airquality-data">Load <code>airquality</code> data</a></li>
+  <li><a href="#create-the-histogram-and-the-boxplot-of-the-variable-ozone" id="toc-create-the-histogram-and-the-boxplot-of-the-variable-ozone" class="nav-link" data-scroll-target="#create-the-histogram-and-the-boxplot-of-the-variable-ozone">Create the histogram and the boxplot of the variable <code>Ozone</code></a></li>
+  <li><a href="#boxplot-of-ozone-by-month" id="toc-boxplot-of-ozone-by-month" class="nav-link" data-scroll-target="#boxplot-of-ozone-by-month">Boxplot of <code>ozone</code> by <code>month</code></a></li>
   </ul>
 </li>
-  <li>
-<a href="#project-content" id="toc-project-content" class="nav-link" data-scroll-target="#project-content">Project Content</a>
-  <ul class="collapse">
-<li><a href="#data-analytics" id="toc-data-analytics" class="nav-link" data-scroll-target="#data-analytics">Data Analytics</a></li>
-  <li><a href="#modelalgorithm" id="toc-modelalgorithm" class="nav-link" data-scroll-target="#modelalgorithm">Model/Algorithm</a></li>
-  </ul>
-</li>
-  <li>
-<a href="#sec-grading" id="toc-sec-grading" class="nav-link" data-scroll-target="#sec-grading">Project Evaluation and Grading</a>
-  <ul class="collapse">
-<li><a href="#group-performance-evaluation" id="toc-group-performance-evaluation" class="nav-link" data-scroll-target="#group-performance-evaluation">Group Performance Evaluation</a></li>
-  </ul>
-</li>
-  </ul><div class="toc-actions"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/present-description-2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+  <li><a href="#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone" id="toc-obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone" class="nav-link" data-scroll-target="#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone">Obtain the mean, median, IQR, minimum, and maximum of <code>Ozone</code></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul><div class="toc-actions"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/activity/act_descriptive.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Midterm Presentation II - Classification</h1>
-<p class="subtitle lead">MSSC 6250 Machine Learning, Spring 2025</p>
+<h1 class="title">Activity: Descriptive statistics</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Dr.&nbsp;Cheng-Han Yu </p>
-          </div>
-  </div>
     
   
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 4, 2026</p>
-    </div>
-  </div>
     
   </div>
   
 
 
-</header><section id="timeline-and-things-to-do" class="level1"><h1>Timeline and Things to Do</h1>
-<ul>
-<li><p><strong>Proposal</strong>. Please send me a <span class="blue"><strong>one-page PDF</strong></span> describing what you are going to do for your project (no word limit) with your <strong>project title</strong> by <span class="red"><strong>Tuesday, 4/8 11:59 PM</strong></span>.</p></li>
-<li><p><strong>Presentation</strong>. You will be presenting your project on <span class="red"><strong>Tuesday, 4/15 in class</strong></span>.</p></li>
-<li><p><strong>Materials</strong>. Please share your <span class="blue"><strong>entire work</strong></span> (slides, code, data, etc) by <span class="red"><strong>Friday, 4/18 11:59 PM</strong></span>.</p></li>
-</ul></section><section id="policy" class="level1"><h1>Policy</h1>
-<section id="proposal" class="level2"><h2 class="anchored" data-anchor-id="proposal"><strong>Proposal</strong></h2>
-<ul>
-<li><p><em>Each one of you loses 5 points of your project grade if you don’t meet the requirement or miss the deadline.</em></p></li>
-<li>
-<p>Your proposal (in PDF) should include three parts:</p>
-<ul>
-<li><strong>Project title</strong></li>
-<li>
-<strong>The goal of your project</strong>. For example, what is the research question you’d like to answer? What machine learning method/model/algorithm you’d like to introduce? What data you’d like to use for analysis or demonstration? etc.</li>
-</ul>
-</li>
-<li><p>Although it is risky, you can change your project topic after you submit your proposal if you decide to do something else.</p></li>
-</ul></section><section id="presentation" class="level2"><h2 class="anchored" data-anchor-id="presentation"><strong>Presentation</strong></h2>
-<ul>
-<li><p>Each group presentation should be between <strong>10 and 11 minute</strong> long, followed by <strong>1 to 2 minute</strong> Q&amp;A. If your presentation is too short or too long, <em>every one of you loses 5 points</em> of your project grade.</p></li>
-<li><p>Every group member has to present some part of the group work. <strong>The one who does not present receives no point</strong>.</p></li>
-<li><p><span class="green">Questions are REQUIRED during Q&amp;A. Each group is required to ask as least one question. More questions are welcome. If you, as a group, don’t ask a question when you should, every one of you loses 5 points of your project grade.</span></p></li>
-</ul>
-<div class="green">
-<table class="caption-top table">
-<thead><tr class="header">
-<th>Team Presenting</th>
-<th>Team Asking Questions</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td>Team 1</td>
-<td>Team 6</td>
-</tr>
-<tr class="even">
-<td>Team 2</td>
-<td>Team 1</td>
-</tr>
-<tr class="odd">
-<td>Team 3</td>
-<td>Team 2</td>
-</tr>
-<tr class="even">
-<td>Team 4</td>
-<td>Team 3</td>
-</tr>
-<tr class="odd">
-<td>Team 5</td>
-<td>Team 4</td>
-</tr>
-<tr class="even">
-<td>Team 6</td>
-<td>Team 5</td>
-</tr>
-</tbody>
-</table>
-</div>
-<!-- After the 1st group presentation, the 2nd group should ask at least one question in Q&A. After the 2nd group presentation, the 3rd group should at least ask one question in Q&A, and so on and so forth. The 1st group will ask the last group questions about their project. If you, as a group, don’t ask a question when you should, every one of you loses 10 points of your project grade. -->
-</section><section id="materials" class="level2"><h2 class="anchored" data-anchor-id="materials"><strong>Materials</strong></h2>
-<ul>
-<li><p><em>Each one of you loses 5 points of your project grade if you don’t meet the requirement or miss the deadline.</em></p></li>
-<li><p>You need to share your entire work, including slides, code, and data if applicable.</p></li>
-<li><p>Your code should be able to <strong>reproduce all the numerical results, outputs, tables, and figures shown in the slides</strong>, including the source of the raw data (where you find and load the data) if the project is about data analysis.</p></li>
-</ul></section></section><section id="project-content" class="level1"><h1>Project Content</h1>
-<p>Your project can be in either of the following categories:</p>
+</header><section id="objective" class="level2"><h2 class="anchored" data-anchor-id="objective"><strong>Objective</strong></h2>
 <ol type="1">
-<li><p><strong>(DA)</strong> Data analytics using one or more <strong>CLASSIFICATION</strong> methods.</p></li>
-<li><p><strong>(MA)</strong> Introduce a new <strong>CLASSIFICATION</strong> model/method/algorithm not lectured in class.</p></li>
-</ol>
-<section id="data-analytics" class="level2"><h2 class="anchored" data-anchor-id="data-analytics">Data Analytics</h2>
-<p>For your DA project, you need to</p>
-<ul>
-<li><p>Describe the selected data set.</p></li>
-<li><p>Explain and show why the chosen model(s) is appropriate for answering your research questions and better than others.</p></li>
-<li><p>Interpret your analysis result.</p></li>
-</ul>
-<p>Below are some data repositories you can start with, but you are encouraged to explore more and find your favorite one.</p>
-<ul>
-<li><a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a></li>
-<li><a href="https://www.kaggle.com/datasets">Kaggle</a></li>
-<li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a></li>
-<li><a href="https://dataverse.harvard.edu/">Harvard Dataverse</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/index.php">UCI Machine Learning Repository</a></li>
-<li><a href="https://data.fivethirtyeight.com/">FiveThirtyEight</a></li>
-</ul></section><section id="modelalgorithm" class="level2"><h2 class="anchored" data-anchor-id="modelalgorithm">Model/Algorithm</h2>
-<p>For your MA project, you need to</p>
-<ul>
-<li><p>Describe the intuition and idea of the method. What are the pros and cons of the method?</p></li>
-<li><p>Provide the mathematical expression of the model/algorithm. Explain the model and its properties, and how we do supervised learning with the model/algorithm.</p></li>
-<li><p>Compare the chosen method with other methods learned in class. Determine which method performs better under what conditions.</p></li>
-<li><p>Demo how to implement the method using a programming language for supervised learning.</p></li>
-</ul></section></section><section id="sec-grading" class="level1"><h1>Project Evaluation and Grading</h1>
-<ul>
-<li><p>Your project performance grade is <em>determined by <strong>your classmates and Dr.&nbsp;Yu</strong></em>.</p></li>
-<li><p>Table 1 shows your possible performance grade. For example, if your group finish in second place (Silver) you get 145 points.</p></li>
-<li><p>Your project grade will be</p></li>
-</ul>
-<blockquote class="blockquote">
-<p>project grade = performance grade - points lost due to violation of policy</p>
-</blockquote>
+<li>Create and interpret distribution graphics.</li>
+<li>Compute mean, median, IQR, and range in base R, including handling missing values.</li>
+<li>Identify outliers and decide which summaries best describe typical and variability.</li>
+</ol></section><section id="instructions" class="level2"><h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<p>Form a group of <strong>four</strong> or <strong>five</strong>.</p>
+<section id="load-airquality-data" class="level3"><h3 class="anchored" data-anchor-id="load-airquality-data">Load <code>airquality</code> data</h3>
 <div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Performance Grade Sheet</caption>
-<thead><tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: center;">Performace Grade 🎖</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Gold 🥇 1st</td>
-<td style="text-align: center;">150</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Silver 🥈 2nd</td>
-<td style="text-align: center;">145</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Bronze 🥉 3rd</td>
-<td style="text-align: center;">140</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Other teams</td>
-<td style="text-align: center;">135</td>
-</tr>
-</tbody>
-</table>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">airquality</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">airquality</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  Ozone Solar.R Wind Temp Month Day
+1    41     190  7.4   67     5   1
+2    36     118  8.0   72     5   2
+3    12     149 12.6   74     5   3
+4    18     313 11.5   62     5   4
+5    NA      NA 14.3   56     5   5
+6    28      NA 14.9   66     5   6</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">airquality</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>'data.frame':   153 obs. of  6 variables:
+ $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...
+ $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...
+ $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...
+ $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...
+ $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...
+ $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...</code></pre>
 </div>
 </div>
-<section id="group-performance-evaluation" class="level2"><h2 class="anchored" data-anchor-id="group-performance-evaluation">Group Performance Evaluation</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Discussion
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><p>You will need to <strong>evaluate all group projects except the one you work on</strong>.</p></li>
-<li>
-<p>You evaluate group performance based on the rubric attached. Four evaluation criteria are considered:</p>
+<li>What does the function <code><a href="https://rdrr.io/r/utils/head.html">head()</a></code> do?</li>
+<li>What does <code>NA</code> mean?</li>
+<li>Discuss the data type of the variables in the <code>airquality</code> data.</li>
+</ul>
+</div>
+</div>
+</section><section id="create-the-histogram-and-the-boxplot-of-the-variable-ozone" class="level3"><h3 class="anchored" data-anchor-id="create-the-histogram-and-the-boxplot-of-the-variable-ozone">Create the histogram and the boxplot of the variable <code>Ozone</code>
+</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">____</span>(_________________, <span class="at">breaks =</span> <span class="dv">15</span>, <span class="at">main =</span> <span class="st">"Histogram of Ozone"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">_______</span>(_________________, <span class="at">main =</span> <span class="st">"Boxplot of Ozone"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Discussion
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><strong>Project Content and Organization (8 pts)</strong></li>
-<li><strong>Presentation Material (Slides) Quality (4 pts)</strong></li>
-<li><strong>Oral Presentation Skill and Delivery (4 pts)</strong></li>
-<li><strong>Interactions and Q&amp;A (4 pts)</strong></li>
+<li>Is the distribution symmetric, left-skewed or right-skewed?</li>
+<li>Is the distribution unimodal or bimodal?</li>
+<li>Are there outliers?</li>
 </ul>
-</li>
-<li><p>The total points of a project presentation is <strong>20</strong> points.</p></li>
-<li><p>Evaluation sheets will be provided on the presentation day.</p></li>
-</ul>
-<p>How do you get the full points for each category? Check the rubric below. <!-- Note that for Content and Organization, data analysis and package projects have different requirements. --></p>
+</div>
+</div>
+</section><section id="boxplot-of-ozone-by-month" class="level3"><h3 class="anchored" data-anchor-id="boxplot-of-ozone-by-month">Boxplot of <code>ozone</code> by <code>month</code>
+</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">boxplot</span>(_____ <span class="sc">~</span> _____, <span class="at">data =</span> airquality)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Discussion
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>
-<p><strong>Content and Organization (DA)</strong></p>
+<li>Which month has the highest typical ozone?</li>
+<li>Which month looks most variable?</li>
+</ul>
+</div>
+</div>
+</section></section><section id="obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone" class="level2"><h2 class="anchored" data-anchor-id="obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone">Obtain the mean, median, IQR, minimum, and maximum of <code>Ozone</code>
+</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Discussion
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Beautiful visualization helps find out relationship of variables and specification of models</li>
-<li>All questions are answered accurately by the models</li>
-<li>Discuss how and why the models are chosen</li>
-<li>Apply sophisticated models and detailed analysis</li>
-<li>All ideas are presented in logical order</li>
+<li>Which is larger, the mean or the median?</li>
+<li>What does that suggest about skewness and outliers?</li>
 </ul>
-</li>
-<li>
-<p><strong>Content and Organization (MA)</strong></p>
-<ul>
-<li>Explain the method clearly and accuratly</li>
-<li>Show the pros and cons of the method, and compare with the methods learned in class.</li>
-<li>Show how the method can be implemednted for supervised learning.</li>
-<li>All ideas are presented in logical order</li>
-</ul>
-</li>
-<li>
-<p><strong>Presentation Material Quality</strong></p>
-<ul>
-<li>Presentation material show code and output beautifully</li>
-<li>Presentation material clearly aid the speaker in telling a coherent story</li>
-<li>All tables and graphics are informative and related to the topic and make it easier to understand</li>
-<li>Attractive design, layout, and neatness.</li>
-</ul>
-</li>
-<li>
-<p><strong>Oral Presentation Skill</strong></p>
-<ul>
-<li>Good volume and energy</li>
-<li>Proper pace and diction</li>
-<li>Avoidance of distracting gestures</li>
-</ul>
-</li>
-<li>
-<p><strong>Interactions and Q&amp;A</strong></p>
-<ul>
-<li>Good eye contact with audience</li>
-<li>Excellent listening skills</li>
-<li>Answers audience questions with authority and accuracy</li>
-</ul>
-</li>
-<li><p>After you evaluate all group project presentations, you rank them from 1st to last based on their earned points.</p></li>
-<li><p><strong>No two groups receive the same ranking</strong>. If you give two or more groups some points, you still need to give them a different ranking, deciding which team deserves a higher ranking according to your preference.</p></li>
-</ul>
+</div>
+</div>
+</section><section id="conclusion" class="level2"><h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Fill in the blanks using your results.</p>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Typical ozone: Month __ has the highest typical ozone because its boxplot median is highest, and the median ozone is __ (ppb).</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Variability: Month __ is most variable because its boxplot is widest, and its IQR is __ (ppb).</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>Summary choice: Because the plots show outliers and skewness, we trust __ more than __ for describing a typical day and variability.</li>
+</ol>
+</blockquote>
+<div id="timer_36953e0928433ee7193a3fe4feeb9685ed6d7aff" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 0;bottom: 0;">
+  <div class="countdown-controls">
+    <button class="countdown-bump-down">−</button>
+    <button class="countdown-bump-up">+</button>
+ </div>
+ <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+ </div>
 
 
-</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -988,7 +942,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/present-description-2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/activity/act_descriptive.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
