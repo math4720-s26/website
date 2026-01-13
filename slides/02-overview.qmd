@@ -10,8 +10,8 @@ format:
 webr:
   cell-options:
     autorun: false
-  packages:
-    - tidyverse
+  # packages:
+  #   - tidyverse
 ---
 
 
@@ -50,7 +50,7 @@ library(plotrix)
 library(diagram)
 library(knitr)
 data(COL)
-source("../fcns/sample_method_fcns.R")
+source("./sample_method_fcns.R")
 ```
 
 <!-- begin: webr fodder -->
@@ -427,7 +427,7 @@ text(x = 0, y = -0.3, labels = "Set of data selected from the population:", cex 
 ::: tiny
 ```{r}
 #| label: mu_data
-roster <- read.csv("./data/marquette_roster_2024_25.csv")
+roster <- read.csv("./data/marquette_roster_2025_26.csv")
 kable(roster, align = "c")
 ```
 :::
@@ -707,9 +707,9 @@ Is **this 4720/5720 class** a *"good"* sample of the target population?
 ```{r}
 #| out-width: 60%
 par(mar = c(0, 0, 1, 0), mgp = c(1, 0.2, 0))
-major <- c("CS" = 9, "Engineering" = 11,
-           "Bio related" = 5, "Environmental" = 5, "DS & Other" = 13)
-pie(major, col = 1:7, main = "Major of 4720/5720 class", cex = 1.4)
+major <- c("Engineering" = 17,
+           "Bio related" = 10, "Other STEM" = 6)
+pie(major, col = 2:4, main = "Major of 4720/5720 class", cex = 1.4)
 ```
 
 ::: notes
@@ -1325,6 +1325,7 @@ arrows(1.07, 0.5, 1.15, 0.64, length = 0.08)
   + <span style="color:blue">Class (Freshman, Sophomore, Junior, Senior, Graduate) </span>
   + <span style="color:blue">Country (USA `r emo::ji('us')`, Canada `r emo::ji('canada')`, UK `r emo::ji('uk')`, Germany `r emo::ji('de')`, Japan `r emo::ji('jp')`, Korea `r emo::ji('kr')`) </span> 
 
+. . .
 
 - A **numerical** variable is recorded in a *numerical* value representing counts or measurements.
 
@@ -1391,6 +1392,8 @@ arrows(1.07, 0.5, 1.15, 0.64, length = 0.08)
 
 :::
 
+
+
 ## Levels of Measurements: Interval and Ratio for Numerical Variables
 
 - **Interval**: The data have meaningful difference between any two values. But the data do NOT have a **natural zero or starting point**. The data can do $\color{red} +$ and $\color{red} -$, but can't reasonably do $\color{red} \times$ and $\color{red} \div$. 
@@ -1400,7 +1403,8 @@ arrows(1.07, 0.5, 1.15, 0.64, length = 0.08)
 
 - **Ratio**: The data have both meaningful differences and ratios, and there is a natural zero starting point that indicates none of the quantity. The data can do $\color{red} +$, $\color{red} -$,  $\color{red} \times$ and $\color{red} \div$.
   + <span style="color:blue">Distance</span> is **ratio** because $80$ miles is twice as far as $40$ miles $(80/40 = 2)$, and $0$ mile means no distance.
-
+  
+  
 ## Converting Numerical to Categorical
 
 - You've already seen an example.

@@ -762,14 +762,14 @@
     "href": "slides/02-overview-slides.html#statistics-is-a-science-of-data-so-what-is-data",
     "title": "Overview of Statistics and Data 📖",
     "section": "Statistics is a Science of Data, so What is Data?",
-    "text": "Statistics is a Science of Data, so What is Data?\n\nData: A set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\nAll right. Statistics is a Science of Data, so What is Data?\nLet’s define Data.\nA data set is a set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n1\nKam Jones\nSr\nG\n6’5”\n205\nMemphis, TN\nEvangelical Christian School\n19.2\n4.5\n5.9\n\n\n2\nChase Ross\nJr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n10.5\n3.8\n2.1\n\n\n4\nStevie Mitchell\nSr\nG\n6’3”\n200\nReading, PA\nWilson HS\n10.7\n4.1\n1.6\n\n\n5\nTre Norman\nSo\nG\n6’4”\n210\nBoston, MA\nWorcester Academy\n1.9\n1.5\n0.5\n\n\n7\nZaide Lowery\nSo\nG\n6’5”\n200\nSpringfield, MO\nLa Lumiere School\n4.1\n3.0\n0.2\n\n\n8\nJoshua Clark\nFr\nF\n7’1”\n225\nVirginia Beach, VA\nClements HS\nNA\nNA\nNA\n\n\n10\nDamarius Owens\nFr\nF\n6’7”\n200\nRochester, NY\nWestern Reserve Academy\n2.6\n1.2\n0.5\n\n\n12\nBen Gold\nJr\nF\n6’11”\n235\nWellington, NZ\nNBA Global Academy\n7.4\n4.3\n0.9\n\n\n13\nRoyce Parham\nFr\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n5.1\n2.2\n0.4\n\n\n21\nAl Amadou\nSo\nF\n6’9”\n210\nPhiladelphia, PA\nChestnut Hill Academy\nNA\nNA\nNA\n\n\n22\nSean Jones\nJr (RS)\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\nNA\nNA\nNA\n\n\n23\nDavid Joplin\nSr\nF\n6’8”\n225\nBrookfield, WI\nBrookfield Central HS\n14.2\n5.4\n1.3\n\n\n25\nJack Anderson\nSr\nG\n6’4”\n200\nDavie, FL\nWestern HS\n0.4\n0.4\n0.0\n\n\n35\nCaedin Hamilton\nR-Fr\nF\n6’9”\n250\nSanta Maria, CA\nSt. Joseph HS\n1.5\n1.2\n0.6\n\n\n40\nCasey O’Malley\nJr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.6\n0.2\n0.0\n\n\n41\nJonah Lucas\nJr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.2\n0.0\n\n\n42\nLuke Jacobson\nFr\nF\n6’7”\n215\nSan Luis Obispo, CA\nMission Prep\nNA\nNA\nNA\n\n\n54\nJake Ciardo\nJr\nG\n6’2”\n185\nGermantown, WI\nGermantown HS\n0.4\n0.8\n0.0\n\n\n55\nCameron Brown\nSr\nG\n6’1”\n215\nPlano, TX\nJohn Paul II HS\n0.4\n0.2\n0.0\n\n\n\n\n\n\n\nFor example, the data set right here is a set of Marquette mens basketball players.\nSo objects are individuals or players in the data.\nAnd each player has several characteristics or attributes shown in columns associated with him.\nFor example, his #, class, position, height, weight, hometown, and high school.\nThese characteristics are called variables because they vary form one to another. Clear?"
+    "text": "Statistics is a Science of Data, so What is Data?\n\nData: A set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\nAll right. Statistics is a Science of Data, so What is Data?\nLet’s define Data.\nA data set is a set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n0\nNigel James Jr.\nFr\nG\n6’0”\n190\nHuntington, NY\nLong island Lutheran School\n13.5\n2.7\n3.9\n\n\n1\nNash Walker\nFr\nG\n6’6”\n190\nSmithton, Tasmania\nNBA Global Academy\nNA\nNA\nNA\n\n\n2\nChase Ross\nSr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n15.5\n4.3\n3.2\n\n\n5\nTre Norman\nJr\nG\n6’4”\n205\nBoston, MA\nWorcester Academy\n2.6\n1.6\n0.7\n\n\n6\nSheek Pearson\nFr\nF\n6’11”\n205\nSt. Charles, MO\nJohn Burroughs School\nNA\nNA\nNA\n\n\n8\nJoshua Clark\nSo\nF\n7’1”\n240\nVirginia Beach, VA\nClements HS\n1.9\n2.6\n0.0\n\n\n9\nDamarius Owens\nSo\nF\n6’7”\n205\nRochester, NY\nWestern Reserve Academy\n3.6\n2.4\n0.6\n\n\n10\nAdrien Stevens\nFr\nG\n6’4”\n215\nPotomac, MD\nBullis School\n5.7\n2.2\n1.1\n\n\n12\nBen Gold\nSr\nF\n6’11”\n235\nWellington, New Zealand\nNBA Global Academy\n8.3\n6.4\n0.7\n\n\n13\nRoyce Parham\nSo\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n10.0\n4.7\n0.8\n\n\n18\nCaedin Hamilton\nJr\nF\n6’9”\n245\nSanta Maria, CA\nSt. Joseph\n4.1\n3.6\n0.7\n\n\n21\nIan Miletic\nFr\nF\n6’7”\n200\nArlington Heights, IL\nRolling Meadows HS\nNA\nNA\nNA\n\n\n22\nSean Jones\nSr\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\n6.2\n1.4\n3.9\n\n\n35\nMichael Phillips II\nFr\nF\n6’6”\n200\nRolesville, NC\nGRACE Christian School\n2.4\n1.4\n0.1\n\n\n40\nCasey O’Malley\nSr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.0\n0.0\n0.5\n\n\n41\nJonah Lucas\nSr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.5\n0.0\n\n\n42\nBraeden Brenn\nSo\nF\n6’8”\n210\nAppleton, WI\nSt. Mary Catholic HS\n1.0\n0.0\n0.0\n\n\n\n\n\n\n\nFor example, the data set right here is a set of Marquette mens basketball players.\nSo objects are individuals or players in the data.\nAnd each player has several characteristics or attributes shown in columns associated with him.\nFor example, his #, class, position, height, weight, hometown, and high school.\nThese characteristics are called variables because they vary form one to another. Clear?"
   },
   {
     "objectID": "slides/02-overview-slides.html#data-matrix",
     "href": "slides/02-overview-slides.html#data-matrix",
     "title": "Overview of Statistics and Data 📖",
     "section": "Data Matrix",
-    "text": "Data Matrix\n\nEach row corresponds to a unique case or observational unit.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n1\nKam Jones\nSr\nG\n6’5”\n205\nMemphis, TN\nEvangelical Christian School\n19.2\n4.5\n5.9\n\n\n2\nChase Ross\nJr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n10.5\n3.8\n2.1\n\n\n4\nStevie Mitchell\nSr\nG\n6’3”\n200\nReading, PA\nWilson HS\n10.7\n4.1\n1.6\n\n\n5\nTre Norman\nSo\nG\n6’4”\n210\nBoston, MA\nWorcester Academy\n1.9\n1.5\n0.5\n\n\n7\nZaide Lowery\nSo\nG\n6’5”\n200\nSpringfield, MO\nLa Lumiere School\n4.1\n3.0\n0.2\n\n\n8\nJoshua Clark\nFr\nF\n7’1”\n225\nVirginia Beach, VA\nClements HS\nNA\nNA\nNA\n\n\n10\nDamarius Owens\nFr\nF\n6’7”\n200\nRochester, NY\nWestern Reserve Academy\n2.6\n1.2\n0.5\n\n\n12\nBen Gold\nJr\nF\n6’11”\n235\nWellington, NZ\nNBA Global Academy\n7.4\n4.3\n0.9\n\n\n13\nRoyce Parham\nFr\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n5.1\n2.2\n0.4\n\n\n21\nAl Amadou\nSo\nF\n6’9”\n210\nPhiladelphia, PA\nChestnut Hill Academy\nNA\nNA\nNA\n\n\n22\nSean Jones\nJr (RS)\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\nNA\nNA\nNA\n\n\n23\nDavid Joplin\nSr\nF\n6’8”\n225\nBrookfield, WI\nBrookfield Central HS\n14.2\n5.4\n1.3\n\n\n25\nJack Anderson\nSr\nG\n6’4”\n200\nDavie, FL\nWestern HS\n0.4\n0.4\n0.0\n\n\n35\nCaedin Hamilton\nR-Fr\nF\n6’9”\n250\nSanta Maria, CA\nSt. Joseph HS\n1.5\n1.2\n0.6\n\n\n40\nCasey O’Malley\nJr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.6\n0.2\n0.0\n\n\n41\nJonah Lucas\nJr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.2\n0.0\n\n\n42\nLuke Jacobson\nFr\nF\n6’7”\n215\nSan Luis Obispo, CA\nMission Prep\nNA\nNA\nNA\n\n\n54\nJake Ciardo\nJr\nG\n6’2”\n185\nGermantown, WI\nGermantown HS\n0.4\n0.8\n0.0\n\n\n55\nCameron Brown\nSr\nG\n6’1”\n215\nPlano, TX\nJohn Paul II HS\n0.4\n0.2\n0.0\n\n\n\n\n\n\n\nAnd we usually store a data set in a matrix form that has rows and columns.\nEach row corresponds to a unique case or observational unit, or the object.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns."
+    "text": "Data Matrix\n\nEach row corresponds to a unique case or observational unit.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n0\nNigel James Jr.\nFr\nG\n6’0”\n190\nHuntington, NY\nLong island Lutheran School\n13.5\n2.7\n3.9\n\n\n1\nNash Walker\nFr\nG\n6’6”\n190\nSmithton, Tasmania\nNBA Global Academy\nNA\nNA\nNA\n\n\n2\nChase Ross\nSr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n15.5\n4.3\n3.2\n\n\n5\nTre Norman\nJr\nG\n6’4”\n205\nBoston, MA\nWorcester Academy\n2.6\n1.6\n0.7\n\n\n6\nSheek Pearson\nFr\nF\n6’11”\n205\nSt. Charles, MO\nJohn Burroughs School\nNA\nNA\nNA\n\n\n8\nJoshua Clark\nSo\nF\n7’1”\n240\nVirginia Beach, VA\nClements HS\n1.9\n2.6\n0.0\n\n\n9\nDamarius Owens\nSo\nF\n6’7”\n205\nRochester, NY\nWestern Reserve Academy\n3.6\n2.4\n0.6\n\n\n10\nAdrien Stevens\nFr\nG\n6’4”\n215\nPotomac, MD\nBullis School\n5.7\n2.2\n1.1\n\n\n12\nBen Gold\nSr\nF\n6’11”\n235\nWellington, New Zealand\nNBA Global Academy\n8.3\n6.4\n0.7\n\n\n13\nRoyce Parham\nSo\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n10.0\n4.7\n0.8\n\n\n18\nCaedin Hamilton\nJr\nF\n6’9”\n245\nSanta Maria, CA\nSt. Joseph\n4.1\n3.6\n0.7\n\n\n21\nIan Miletic\nFr\nF\n6’7”\n200\nArlington Heights, IL\nRolling Meadows HS\nNA\nNA\nNA\n\n\n22\nSean Jones\nSr\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\n6.2\n1.4\n3.9\n\n\n35\nMichael Phillips II\nFr\nF\n6’6”\n200\nRolesville, NC\nGRACE Christian School\n2.4\n1.4\n0.1\n\n\n40\nCasey O’Malley\nSr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.0\n0.0\n0.5\n\n\n41\nJonah Lucas\nSr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.5\n0.0\n\n\n42\nBraeden Brenn\nSo\nF\n6’8”\n210\nAppleton, WI\nSt. Mary Catholic HS\n1.0\n0.0\n0.0\n\n\n\n\n\n\n\nAnd we usually store a data set in a matrix form that has rows and columns.\nEach row corresponds to a unique case or observational unit, or the object.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns."
   },
   {
     "objectID": "slides/02-overview-slides.html#target-population",
@@ -881,7 +881,7 @@
     "href": "slides/02-overview-slides.html#categorical-vs.-numerical-variables",
     "title": "Overview of Statistics and Data 📖",
     "section": "Categorical vs. Numerical Variables",
-    "text": "Categorical vs. Numerical Variables\n\n\nA categorical variable provides non-numerical information which can be placed in one (and only one) category from two or more categories.\n\nGender (Male 👨, Female 👩, Trans 🏳️‍🌈) \nClass (Freshman, Sophomore, Junior, Senior, Graduate) \nCountry (USA 🇺🇸, Canada 🇨🇦, UK 🇬🇧, Germany 🇩🇪, Japan 🇯🇵, Korea 🇰🇷) \n\n\n\nA numerical variable is recorded in a numerical value representing counts or measurements.\n\n GPA \n The number of relationships you’ve had \n Height"
+    "text": "Categorical vs. Numerical Variables\n\n\nA categorical variable provides non-numerical information which can be placed in one (and only one) category from two or more categories.\n\nGender (Male 👨, Female 👩, Trans 🏳️‍🌈) \nClass (Freshman, Sophomore, Junior, Senior, Graduate) \nCountry (USA 🇺🇸, Canada 🇨🇦, UK 🇬🇧, Germany 🇩🇪, Japan 🇯🇵, Korea 🇰🇷) \n\n\n\n\n\n\nA numerical variable is recorded in a numerical value representing counts or measurements.\n\n GPA \n The number of relationships you’ve had \n Height"
   },
   {
     "objectID": "slides/02-overview-slides.html#numerical-variables-can-be-discrete-or-continuous",
@@ -923,7 +923,7 @@
     "href": "slides/02-overview-slides.html#section-5",
     "title": "Overview of Statistics and Data 📖",
     "section": "",
-    "text": "Identify data type of each variable in the Marquette men’s basketball player data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n1\nKam Jones\nSr\nG\n6’5”\n205\nMemphis, TN\nEvangelical Christian School\n19.2\n4.5\n5.9\n\n\n2\nChase Ross\nJr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n10.5\n3.8\n2.1\n\n\n4\nStevie Mitchell\nSr\nG\n6’3”\n200\nReading, PA\nWilson HS\n10.7\n4.1\n1.6\n\n\n5\nTre Norman\nSo\nG\n6’4”\n210\nBoston, MA\nWorcester Academy\n1.9\n1.5\n0.5\n\n\n7\nZaide Lowery\nSo\nG\n6’5”\n200\nSpringfield, MO\nLa Lumiere School\n4.1\n3.0\n0.2\n\n\n8\nJoshua Clark\nFr\nF\n7’1”\n225\nVirginia Beach, VA\nClements HS\nNA\nNA\nNA\n\n\n10\nDamarius Owens\nFr\nF\n6’7”\n200\nRochester, NY\nWestern Reserve Academy\n2.6\n1.2\n0.5\n\n\n12\nBen Gold\nJr\nF\n6’11”\n235\nWellington, NZ\nNBA Global Academy\n7.4\n4.3\n0.9\n\n\n13\nRoyce Parham\nFr\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n5.1\n2.2\n0.4\n\n\n21\nAl Amadou\nSo\nF\n6’9”\n210\nPhiladelphia, PA\nChestnut Hill Academy\nNA\nNA\nNA\n\n\n22\nSean Jones\nJr (RS)\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\nNA\nNA\nNA\n\n\n23\nDavid Joplin\nSr\nF\n6’8”\n225\nBrookfield, WI\nBrookfield Central HS\n14.2\n5.4\n1.3\n\n\n25\nJack Anderson\nSr\nG\n6’4”\n200\nDavie, FL\nWestern HS\n0.4\n0.4\n0.0\n\n\n35\nCaedin Hamilton\nR-Fr\nF\n6’9”\n250\nSanta Maria, CA\nSt. Joseph HS\n1.5\n1.2\n0.6\n\n\n40\nCasey O’Malley\nJr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.6\n0.2\n0.0\n\n\n41\nJonah Lucas\nJr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.2\n0.0\n\n\n42\nLuke Jacobson\nFr\nF\n6’7”\n215\nSan Luis Obispo, CA\nMission Prep\nNA\nNA\nNA\n\n\n54\nJake Ciardo\nJr\nG\n6’2”\n185\nGermantown, WI\nGermantown HS\n0.4\n0.8\n0.0\n\n\n55\nCameron Brown\nSr\nG\n6’1”\n215\nPlano, TX\nJohn Paul II HS\n0.4\n0.2\n0.0\n\n\n\n\n\n\n\n  \n    −\n    +\n \n 03:00"
+    "text": "Identify data type of each variable in the Marquette men’s basketball player data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n0\nNigel James Jr.\nFr\nG\n6’0”\n190\nHuntington, NY\nLong island Lutheran School\n13.5\n2.7\n3.9\n\n\n1\nNash Walker\nFr\nG\n6’6”\n190\nSmithton, Tasmania\nNBA Global Academy\nNA\nNA\nNA\n\n\n2\nChase Ross\nSr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n15.5\n4.3\n3.2\n\n\n5\nTre Norman\nJr\nG\n6’4”\n205\nBoston, MA\nWorcester Academy\n2.6\n1.6\n0.7\n\n\n6\nSheek Pearson\nFr\nF\n6’11”\n205\nSt. Charles, MO\nJohn Burroughs School\nNA\nNA\nNA\n\n\n8\nJoshua Clark\nSo\nF\n7’1”\n240\nVirginia Beach, VA\nClements HS\n1.9\n2.6\n0.0\n\n\n9\nDamarius Owens\nSo\nF\n6’7”\n205\nRochester, NY\nWestern Reserve Academy\n3.6\n2.4\n0.6\n\n\n10\nAdrien Stevens\nFr\nG\n6’4”\n215\nPotomac, MD\nBullis School\n5.7\n2.2\n1.1\n\n\n12\nBen Gold\nSr\nF\n6’11”\n235\nWellington, New Zealand\nNBA Global Academy\n8.3\n6.4\n0.7\n\n\n13\nRoyce Parham\nSo\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n10.0\n4.7\n0.8\n\n\n18\nCaedin Hamilton\nJr\nF\n6’9”\n245\nSanta Maria, CA\nSt. Joseph\n4.1\n3.6\n0.7\n\n\n21\nIan Miletic\nFr\nF\n6’7”\n200\nArlington Heights, IL\nRolling Meadows HS\nNA\nNA\nNA\n\n\n22\nSean Jones\nSr\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\n6.2\n1.4\n3.9\n\n\n35\nMichael Phillips II\nFr\nF\n6’6”\n200\nRolesville, NC\nGRACE Christian School\n2.4\n1.4\n0.1\n\n\n40\nCasey O’Malley\nSr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.0\n0.0\n0.5\n\n\n41\nJonah Lucas\nSr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.5\n0.0\n\n\n42\nBraeden Brenn\nSo\nF\n6’8”\n210\nAppleton, WI\nSt. Mary Catholic HS\n1.0\n0.0\n0.0\n\n\n\n\n\n\n\n  \n    −\n    +\n \n 03:00"
   },
   {
     "objectID": "slides/02-overview.html#statistics-as-numeric-records",
@@ -1000,14 +1000,14 @@
     "href": "slides/02-overview.html#statistics-is-a-science-of-data-so-what-is-data",
     "title": "Overview of Statistics and Data 📖",
     "section": "Statistics is a Science of Data, so What is Data?",
-    "text": "Statistics is a Science of Data, so What is Data?\n\nData: A set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\n\nAll right. Statistics is a Science of Data, so What is Data?\nLet’s define Data.\nA data set is a set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\n. . .\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n1\nKam Jones\nSr\nG\n6’5”\n205\nMemphis, TN\nEvangelical Christian School\n19.2\n4.5\n5.9\n\n\n2\nChase Ross\nJr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n10.5\n3.8\n2.1\n\n\n4\nStevie Mitchell\nSr\nG\n6’3”\n200\nReading, PA\nWilson HS\n10.7\n4.1\n1.6\n\n\n5\nTre Norman\nSo\nG\n6’4”\n210\nBoston, MA\nWorcester Academy\n1.9\n1.5\n0.5\n\n\n7\nZaide Lowery\nSo\nG\n6’5”\n200\nSpringfield, MO\nLa Lumiere School\n4.1\n3.0\n0.2\n\n\n8\nJoshua Clark\nFr\nF\n7’1”\n225\nVirginia Beach, VA\nClements HS\nNA\nNA\nNA\n\n\n10\nDamarius Owens\nFr\nF\n6’7”\n200\nRochester, NY\nWestern Reserve Academy\n2.6\n1.2\n0.5\n\n\n12\nBen Gold\nJr\nF\n6’11”\n235\nWellington, NZ\nNBA Global Academy\n7.4\n4.3\n0.9\n\n\n13\nRoyce Parham\nFr\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n5.1\n2.2\n0.4\n\n\n21\nAl Amadou\nSo\nF\n6’9”\n210\nPhiladelphia, PA\nChestnut Hill Academy\nNA\nNA\nNA\n\n\n22\nSean Jones\nJr (RS)\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\nNA\nNA\nNA\n\n\n23\nDavid Joplin\nSr\nF\n6’8”\n225\nBrookfield, WI\nBrookfield Central HS\n14.2\n5.4\n1.3\n\n\n25\nJack Anderson\nSr\nG\n6’4”\n200\nDavie, FL\nWestern HS\n0.4\n0.4\n0.0\n\n\n35\nCaedin Hamilton\nR-Fr\nF\n6’9”\n250\nSanta Maria, CA\nSt. Joseph HS\n1.5\n1.2\n0.6\n\n\n40\nCasey O’Malley\nJr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.6\n0.2\n0.0\n\n\n41\nJonah Lucas\nJr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.2\n0.0\n\n\n42\nLuke Jacobson\nFr\nF\n6’7”\n215\nSan Luis Obispo, CA\nMission Prep\nNA\nNA\nNA\n\n\n54\nJake Ciardo\nJr\nG\n6’2”\n185\nGermantown, WI\nGermantown HS\n0.4\n0.8\n0.0\n\n\n55\nCameron Brown\nSr\nG\n6’1”\n215\nPlano, TX\nJohn Paul II HS\n0.4\n0.2\n0.0\n\n\n\n\n\n\n\n\nFor example, the data set right here is a set of Marquette mens basketball players.\nSo objects are individuals or players in the data.\nAnd each player has several characteristics or attributes shown in columns associated with him.\nFor example, his #, class, position, height, weight, hometown, and high school.\nThese characteristics are called variables because they vary form one to another. Clear?"
+    "text": "Statistics is a Science of Data, so What is Data?\n\nData: A set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\n\nAll right. Statistics is a Science of Data, so What is Data?\nLet’s define Data.\nA data set is a set of objects on which we observe or measure one or more characteristics.\nObjects are individuals, observations, subjects or cases in statistical studies.\nA characteristic or attribute is called a variable because it varies from one to another.\n\n\n. . .\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n0\nNigel James Jr.\nFr\nG\n6’0”\n190\nHuntington, NY\nLong island Lutheran School\n13.5\n2.7\n3.9\n\n\n1\nNash Walker\nFr\nG\n6’6”\n190\nSmithton, Tasmania\nNBA Global Academy\nNA\nNA\nNA\n\n\n2\nChase Ross\nSr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n15.5\n4.3\n3.2\n\n\n5\nTre Norman\nJr\nG\n6’4”\n205\nBoston, MA\nWorcester Academy\n2.6\n1.6\n0.7\n\n\n6\nSheek Pearson\nFr\nF\n6’11”\n205\nSt. Charles, MO\nJohn Burroughs School\nNA\nNA\nNA\n\n\n8\nJoshua Clark\nSo\nF\n7’1”\n240\nVirginia Beach, VA\nClements HS\n1.9\n2.6\n0.0\n\n\n9\nDamarius Owens\nSo\nF\n6’7”\n205\nRochester, NY\nWestern Reserve Academy\n3.6\n2.4\n0.6\n\n\n10\nAdrien Stevens\nFr\nG\n6’4”\n215\nPotomac, MD\nBullis School\n5.7\n2.2\n1.1\n\n\n12\nBen Gold\nSr\nF\n6’11”\n235\nWellington, New Zealand\nNBA Global Academy\n8.3\n6.4\n0.7\n\n\n13\nRoyce Parham\nSo\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n10.0\n4.7\n0.8\n\n\n18\nCaedin Hamilton\nJr\nF\n6’9”\n245\nSanta Maria, CA\nSt. Joseph\n4.1\n3.6\n0.7\n\n\n21\nIan Miletic\nFr\nF\n6’7”\n200\nArlington Heights, IL\nRolling Meadows HS\nNA\nNA\nNA\n\n\n22\nSean Jones\nSr\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\n6.2\n1.4\n3.9\n\n\n35\nMichael Phillips II\nFr\nF\n6’6”\n200\nRolesville, NC\nGRACE Christian School\n2.4\n1.4\n0.1\n\n\n40\nCasey O’Malley\nSr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.0\n0.0\n0.5\n\n\n41\nJonah Lucas\nSr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.5\n0.0\n\n\n42\nBraeden Brenn\nSo\nF\n6’8”\n210\nAppleton, WI\nSt. Mary Catholic HS\n1.0\n0.0\n0.0\n\n\n\n\n\n\n\n\nFor example, the data set right here is a set of Marquette mens basketball players.\nSo objects are individuals or players in the data.\nAnd each player has several characteristics or attributes shown in columns associated with him.\nFor example, his #, class, position, height, weight, hometown, and high school.\nThese characteristics are called variables because they vary form one to another. Clear?"
   },
   {
     "objectID": "slides/02-overview.html#data-matrix",
     "href": "slides/02-overview.html#data-matrix",
     "title": "Overview of Statistics and Data 📖",
     "section": "Data Matrix",
-    "text": "Data Matrix\n\nEach row corresponds to a unique case or observational unit.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n1\nKam Jones\nSr\nG\n6’5”\n205\nMemphis, TN\nEvangelical Christian School\n19.2\n4.5\n5.9\n\n\n2\nChase Ross\nJr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n10.5\n3.8\n2.1\n\n\n4\nStevie Mitchell\nSr\nG\n6’3”\n200\nReading, PA\nWilson HS\n10.7\n4.1\n1.6\n\n\n5\nTre Norman\nSo\nG\n6’4”\n210\nBoston, MA\nWorcester Academy\n1.9\n1.5\n0.5\n\n\n7\nZaide Lowery\nSo\nG\n6’5”\n200\nSpringfield, MO\nLa Lumiere School\n4.1\n3.0\n0.2\n\n\n8\nJoshua Clark\nFr\nF\n7’1”\n225\nVirginia Beach, VA\nClements HS\nNA\nNA\nNA\n\n\n10\nDamarius Owens\nFr\nF\n6’7”\n200\nRochester, NY\nWestern Reserve Academy\n2.6\n1.2\n0.5\n\n\n12\nBen Gold\nJr\nF\n6’11”\n235\nWellington, NZ\nNBA Global Academy\n7.4\n4.3\n0.9\n\n\n13\nRoyce Parham\nFr\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n5.1\n2.2\n0.4\n\n\n21\nAl Amadou\nSo\nF\n6’9”\n210\nPhiladelphia, PA\nChestnut Hill Academy\nNA\nNA\nNA\n\n\n22\nSean Jones\nJr (RS)\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\nNA\nNA\nNA\n\n\n23\nDavid Joplin\nSr\nF\n6’8”\n225\nBrookfield, WI\nBrookfield Central HS\n14.2\n5.4\n1.3\n\n\n25\nJack Anderson\nSr\nG\n6’4”\n200\nDavie, FL\nWestern HS\n0.4\n0.4\n0.0\n\n\n35\nCaedin Hamilton\nR-Fr\nF\n6’9”\n250\nSanta Maria, CA\nSt. Joseph HS\n1.5\n1.2\n0.6\n\n\n40\nCasey O’Malley\nJr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.6\n0.2\n0.0\n\n\n41\nJonah Lucas\nJr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.2\n0.0\n\n\n42\nLuke Jacobson\nFr\nF\n6’7”\n215\nSan Luis Obispo, CA\nMission Prep\nNA\nNA\nNA\n\n\n54\nJake Ciardo\nJr\nG\n6’2”\n185\nGermantown, WI\nGermantown HS\n0.4\n0.8\n0.0\n\n\n55\nCameron Brown\nSr\nG\n6’1”\n215\nPlano, TX\nJohn Paul II HS\n0.4\n0.2\n0.0\n\n\n\n\n\n\n\n\nAnd we usually store a data set in a matrix form that has rows and columns.\nEach row corresponds to a unique case or observational unit, or the object.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns."
+    "text": "Data Matrix\n\nEach row corresponds to a unique case or observational unit.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n0\nNigel James Jr.\nFr\nG\n6’0”\n190\nHuntington, NY\nLong island Lutheran School\n13.5\n2.7\n3.9\n\n\n1\nNash Walker\nFr\nG\n6’6”\n190\nSmithton, Tasmania\nNBA Global Academy\nNA\nNA\nNA\n\n\n2\nChase Ross\nSr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n15.5\n4.3\n3.2\n\n\n5\nTre Norman\nJr\nG\n6’4”\n205\nBoston, MA\nWorcester Academy\n2.6\n1.6\n0.7\n\n\n6\nSheek Pearson\nFr\nF\n6’11”\n205\nSt. Charles, MO\nJohn Burroughs School\nNA\nNA\nNA\n\n\n8\nJoshua Clark\nSo\nF\n7’1”\n240\nVirginia Beach, VA\nClements HS\n1.9\n2.6\n0.0\n\n\n9\nDamarius Owens\nSo\nF\n6’7”\n205\nRochester, NY\nWestern Reserve Academy\n3.6\n2.4\n0.6\n\n\n10\nAdrien Stevens\nFr\nG\n6’4”\n215\nPotomac, MD\nBullis School\n5.7\n2.2\n1.1\n\n\n12\nBen Gold\nSr\nF\n6’11”\n235\nWellington, New Zealand\nNBA Global Academy\n8.3\n6.4\n0.7\n\n\n13\nRoyce Parham\nSo\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n10.0\n4.7\n0.8\n\n\n18\nCaedin Hamilton\nJr\nF\n6’9”\n245\nSanta Maria, CA\nSt. Joseph\n4.1\n3.6\n0.7\n\n\n21\nIan Miletic\nFr\nF\n6’7”\n200\nArlington Heights, IL\nRolling Meadows HS\nNA\nNA\nNA\n\n\n22\nSean Jones\nSr\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\n6.2\n1.4\n3.9\n\n\n35\nMichael Phillips II\nFr\nF\n6’6”\n200\nRolesville, NC\nGRACE Christian School\n2.4\n1.4\n0.1\n\n\n40\nCasey O’Malley\nSr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.0\n0.0\n0.5\n\n\n41\nJonah Lucas\nSr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.5\n0.0\n\n\n42\nBraeden Brenn\nSo\nF\n6’8”\n210\nAppleton, WI\nSt. Mary Catholic HS\n1.0\n0.0\n0.0\n\n\n\n\n\n\n\n\nAnd we usually store a data set in a matrix form that has rows and columns.\nEach row corresponds to a unique case or observational unit, or the object.\nEach column represents a characteristic or variable.\nThis structure allows new cases to be added as rows or new variables as new columns."
   },
   {
     "objectID": "slides/02-overview.html#target-population",
@@ -1119,7 +1119,7 @@
     "href": "slides/02-overview.html#categorical-vs.-numerical-variables",
     "title": "Overview of Statistics and Data 📖",
     "section": "Categorical vs. Numerical Variables",
-    "text": "Categorical vs. Numerical Variables\n\n\nA categorical variable provides non-numerical information which can be placed in one (and only one) category from two or more categories.\n\nGender (Male 👨, Female 👩, Trans 🏳️‍🌈) \nClass (Freshman, Sophomore, Junior, Senior, Graduate) \nCountry (USA 🇺🇸, Canada 🇨🇦, UK 🇬🇧, Germany 🇩🇪, Japan 🇯🇵, Korea 🇰🇷) \n\n\n\nA numerical variable is recorded in a numerical value representing counts or measurements.\n\n GPA \n The number of relationships you’ve had \n Height"
+    "text": "Categorical vs. Numerical Variables\n\n\nA categorical variable provides non-numerical information which can be placed in one (and only one) category from two or more categories.\n\nGender (Male 👨, Female 👩, Trans 🏳️‍🌈) \nClass (Freshman, Sophomore, Junior, Senior, Graduate) \nCountry (USA 🇺🇸, Canada 🇨🇦, UK 🇬🇧, Germany 🇩🇪, Japan 🇯🇵, Korea 🇰🇷) \n\n\n\n. . .\n\n\nA numerical variable is recorded in a numerical value representing counts or measurements.\n\n GPA \n The number of relationships you’ve had \n Height"
   },
   {
     "objectID": "slides/02-overview.html#numerical-variables-can-be-discrete-or-continuous",
@@ -1161,7 +1161,7 @@
     "href": "slides/02-overview.html#section-5",
     "title": "Overview of Statistics and Data 📖",
     "section": "",
-    "text": "Identify data type of each variable in the Marquette men’s basketball player data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n1\nKam Jones\nSr\nG\n6’5”\n205\nMemphis, TN\nEvangelical Christian School\n19.2\n4.5\n5.9\n\n\n2\nChase Ross\nJr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n10.5\n3.8\n2.1\n\n\n4\nStevie Mitchell\nSr\nG\n6’3”\n200\nReading, PA\nWilson HS\n10.7\n4.1\n1.6\n\n\n5\nTre Norman\nSo\nG\n6’4”\n210\nBoston, MA\nWorcester Academy\n1.9\n1.5\n0.5\n\n\n7\nZaide Lowery\nSo\nG\n6’5”\n200\nSpringfield, MO\nLa Lumiere School\n4.1\n3.0\n0.2\n\n\n8\nJoshua Clark\nFr\nF\n7’1”\n225\nVirginia Beach, VA\nClements HS\nNA\nNA\nNA\n\n\n10\nDamarius Owens\nFr\nF\n6’7”\n200\nRochester, NY\nWestern Reserve Academy\n2.6\n1.2\n0.5\n\n\n12\nBen Gold\nJr\nF\n6’11”\n235\nWellington, NZ\nNBA Global Academy\n7.4\n4.3\n0.9\n\n\n13\nRoyce Parham\nFr\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n5.1\n2.2\n0.4\n\n\n21\nAl Amadou\nSo\nF\n6’9”\n210\nPhiladelphia, PA\nChestnut Hill Academy\nNA\nNA\nNA\n\n\n22\nSean Jones\nJr (RS)\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\nNA\nNA\nNA\n\n\n23\nDavid Joplin\nSr\nF\n6’8”\n225\nBrookfield, WI\nBrookfield Central HS\n14.2\n5.4\n1.3\n\n\n25\nJack Anderson\nSr\nG\n6’4”\n200\nDavie, FL\nWestern HS\n0.4\n0.4\n0.0\n\n\n35\nCaedin Hamilton\nR-Fr\nF\n6’9”\n250\nSanta Maria, CA\nSt. Joseph HS\n1.5\n1.2\n0.6\n\n\n40\nCasey O’Malley\nJr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.6\n0.2\n0.0\n\n\n41\nJonah Lucas\nJr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.2\n0.0\n\n\n42\nLuke Jacobson\nFr\nF\n6’7”\n215\nSan Luis Obispo, CA\nMission Prep\nNA\nNA\nNA\n\n\n54\nJake Ciardo\nJr\nG\n6’2”\n185\nGermantown, WI\nGermantown HS\n0.4\n0.8\n0.0\n\n\n55\nCameron Brown\nSr\nG\n6’1”\n215\nPlano, TX\nJohn Paul II HS\n0.4\n0.2\n0.0"
+    "text": "Identify data type of each variable in the Marquette men’s basketball player data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nName\nClass\nPos\nHt\nWt\nHometown\nHigh_School\nPPG\nRPG\nAPG\n\n\n\n0\nNigel James Jr.\nFr\nG\n6’0”\n190\nHuntington, NY\nLong island Lutheran School\n13.5\n2.7\n3.9\n\n\n1\nNash Walker\nFr\nG\n6’6”\n190\nSmithton, Tasmania\nNBA Global Academy\nNA\nNA\nNA\n\n\n2\nChase Ross\nSr\nG\n6’5”\n210\nDallas, TX\nCushing Academy\n15.5\n4.3\n3.2\n\n\n5\nTre Norman\nJr\nG\n6’4”\n205\nBoston, MA\nWorcester Academy\n2.6\n1.6\n0.7\n\n\n6\nSheek Pearson\nFr\nF\n6’11”\n205\nSt. Charles, MO\nJohn Burroughs School\nNA\nNA\nNA\n\n\n8\nJoshua Clark\nSo\nF\n7’1”\n240\nVirginia Beach, VA\nClements HS\n1.9\n2.6\n0.0\n\n\n9\nDamarius Owens\nSo\nF\n6’7”\n205\nRochester, NY\nWestern Reserve Academy\n3.6\n2.4\n0.6\n\n\n10\nAdrien Stevens\nFr\nG\n6’4”\n215\nPotomac, MD\nBullis School\n5.7\n2.2\n1.1\n\n\n12\nBen Gold\nSr\nF\n6’11”\n235\nWellington, New Zealand\nNBA Global Academy\n8.3\n6.4\n0.7\n\n\n13\nRoyce Parham\nSo\nF\n6’8”\n230\nPittsburgh, PA\nWestern Reserve Academy\n10.0\n4.7\n0.8\n\n\n18\nCaedin Hamilton\nJr\nF\n6’9”\n245\nSanta Maria, CA\nSt. Joseph\n4.1\n3.6\n0.7\n\n\n21\nIan Miletic\nFr\nF\n6’7”\n200\nArlington Heights, IL\nRolling Meadows HS\nNA\nNA\nNA\n\n\n22\nSean Jones\nSr\nG\n5’10”\n185\nColumbus, OH\nLincoln HS\n6.2\n1.4\n3.9\n\n\n35\nMichael Phillips II\nFr\nF\n6’6”\n200\nRolesville, NC\nGRACE Christian School\n2.4\n1.4\n0.1\n\n\n40\nCasey O’Malley\nSr\nG\n6’3”\n200\nOmaha, NE\nCreighton Prep\n0.0\n0.0\n0.5\n\n\n41\nJonah Lucas\nSr\nG\n6’1”\n180\nWest Lafayette, IN\nHarrison HS\n0.0\n0.5\n0.0\n\n\n42\nBraeden Brenn\nSo\nF\n6’8”\n210\nAppleton, WI\nSt. Mary Catholic HS\n1.0\n0.0\n0.0"
   },
   {
     "objectID": "slides/04-programming-slides.html#r-is-a-calculator---arithmetic-operators",
@@ -3842,7 +3842,7 @@
     "href": "index.html",
     "title": "MATH 4720 (MSSC 5720) Statistical Methods Spring 2026",
     "section": "",
-    "text": "This schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nReading\nR Code\nHomework\nWorksheet\nQuiz\nExam/Project\n\n\n\n1\nTue, Jan 13\nSyllabus/Overview of Statistics\n\n🖥️ syllabus🖥️ statistics and data\n\nSyllabusIS Ch1GenAI Video\n\n\n\n\n\n\n\n\n\nThu, Jan 15\nStatistical Studies and Data Collection; Data Type\n\nIS Ch 2\n\n✍️ HW 1 (due 1/23)\n\n\n\n\n\n2\nTue, Jan 20\nR Software and Computation\n🖥️ R and RStudio🖥️ data type and structure\nIS Ch 3\n\n (data type and structure)\n\n\n\n\n\n\n\nThu, Jan 22\nSummarizing Data: Centrality\n🖥️ data summary👉histogram breaks👉data extremes\nIS Ch 5 - 6\n\n (data graphics)\n\n\n\n\n\n\n3\nTue, Jan 27\nSummarizing Data: Variation\n\n\n\n (data numerics)\n\n\n\n\n\n\n\nThu, Jan 29\nProbability Fundamentals\n🖥️ probability👉venn diagram\nIS Ch 7 - 8\n\n✍️ HW 2 (due 2/6)\n\n\n\n\n\n4\nTue, Feb 3\nConditional Probability, Independence, Bayes Formula\n\n\n\n\n\n\n\n\n\n\nThu, Feb 5\nRandom Variables, Discrete Probability Distributions\n🖥️ distribution 👉binomial👉poisson\nIS Ch 9 - 10\n\n (discrete distribution)\n✍️ HW 3 (due 2/13)\n\n✅ Quiz 1\n\n\n\n5\nTue, Feb 10\nContinuous Probability Distributions\n👉normal\nIS Ch 11\n\n (continuous distribution)\n\n\n\n\n\n\n\nThu, Feb 12\nSampling Distributions\n🖥️ sampling-dist-clt\nIS Ch 12\n\n (sampling distribution and CLT)\n\n\n\n\n\n\n6\nTue, Feb 17\nCentral Limit Theorem (CLT)\n👉CLT 👉Rolling dice\nIS Ch 13\n\n\n\n\n\n\n\n\nThu, Feb 19\nConfidence Intervals\n🖥️ confidence interval  👉CI\nIS Ch 14\n\n (confidence interval)\n✍️ HW 4 (due 2/27)\n\n\n\n\n\n7\nTue, Feb 24\nConfidence Intervals\n👉Student-t\n\n\n\n\n\n\n\n\n\nThu, Feb 26\nHypothesis Testing\n🖥️ testing 👉testing\nIS Ch 16\n\n\n\n✅ Quiz 2\n\n\n\n8\nTue, Mar 3\nIn-class Exam 1\n\n\n\n\n\n\n✅ Take-home Exam 1\n\n\n\nThu, Mar 5\nHypothesis Testing\n\n\n\n (testing)\n\n\n\n\n\n\n9\nTue, Mar 10\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n\nThu, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n10\nTue, Mar 17\nHypothesis Testing\n\n\n\n\n\n\n\n\n\n\nThu, Mar 19\nTwo Population Means: Matched Pairs\n🖥️ two samples\nIS Ch 17\n\n (two samples)\n✍️ HW 5 (due 3/27)\n\n\n\n\n\n11\nTue, Mar 24\nTwo Population Means: Independent Samples\n\n\n\n\n\n\n\n\n\n\nThu, Mar 26\nInference for One Population Variance\n🖥️ variances  👉chi-squared\nIS Ch 18\n\n (variances)\n✍️ HW 6 (due 4/3)\n\n✅ Quiz 3\n\n\n\n12\nTue, Mar 31\nInference about Two Population Variances\n👉 f\n\n\n\n\n\n\n\n\n\nThu, Apr 2\nNO CLASS: Easter break\n\n\n\n\n\n\n\n\n\n13\nTue, Apr 7\nAnalysis of Variance (ANOVA) Rationale\n🖥️ ANOVA\nIS Ch 24\n\n (ANOVA data)\n\n\n\n\n\n\n\nThu, Apr 9\nAnalysis of Variance (ANOVA) Procedure\n\n\n\n✍️ HW 7 (due 4/17)\n\n\n\n\n\n14\nTue, Apr 14\nCorrelation; Overview of Regression\n🖥️ correlation  🖥️ regression  👉 regression fitting\n\nIS Ch 27.1; IS Ch 27.2\n\n\n (correlation and regression)\n\n\n\n\n\n\n\nThu, Apr 16\nSimple Linear Regression: Fitting and Inference\n👉 sampling distribution of coefficients\nIS Ch 27.3 - 27.5\n\n\n\n✅ Quiz 4\n\n\n\n15\nTue, Apr 21\nIn-class Exam 2\n\n\n\n\n\n\n✅ Take-home Exam 2\n\n\n\nThu, Apr 23\nSimple Linear Regression: Prediction\n\nIS Ch 27.6\n\n✍️ HW 8 (due 5/1)\n\n\n\n\n\n16\nTue, Apr 28\nTo Be Determined\n\n\n\n\n\n\n📂 Final Project Guideline\n\n\n\nTue, Apr 30\nTo Be Determined\n\n\n\n\n\n\n\n\n\n17\nFri, May 8\nFinal Project\n\n\n\n\n\n\n\n\n\n\n\nDr. Yu reserves the right to make changes to the schedule.",
+    "text": "This schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nReading\nR Code\nHomework\nWorksheet\nQuiz\nExam/Project\n\n\n\n1\nTue, Jan 13\nSyllabus/Overview of Statistics\n\n🖥️ syllabus🖥️ statistics and data\n\n\nSyllabusIS Ch1GenAI Video\n\n\n\n\n\n\n\n\n\nThu, Jan 15\nStatistical Studies and Data Collection; Data Type\n\nIS Ch 2\n\n✍️ HW 1 (due 1/23)\n\n\n\n\n\n2\nTue, Jan 20\nR Software and Computation\n🖥️ R and RStudio🖥️ data type and structure\nIS Ch 3\n\n (data type and structure)\n\n\n\n\n\n\n\nThu, Jan 22\nSummarizing Data: Centrality\n🖥️ data summary👉histogram breaks👉data extremes\nIS Ch 5 - 6\n\n (data graphics)\n\n\n\n\n\n\n3\nTue, Jan 27\nSummarizing Data: Variation\n\n\n\n (data numerics)\n\n\n\n\n\n\n\nThu, Jan 29\nProbability Fundamentals\n🖥️ probability👉venn diagram\nIS Ch 7 - 8\n\n✍️ HW 2 (due 2/6)\n\n\n\n\n\n4\nTue, Feb 3\nConditional Probability, Independence, Bayes Formula\n\n\n\n\n\n\n\n\n\n\nThu, Feb 5\nRandom Variables, Discrete Probability Distributions\n🖥️ distribution 👉binomial👉poisson\nIS Ch 9 - 10\n\n (discrete distribution)\n✍️ HW 3 (due 2/13)\n\n✅ Quiz 1\n\n\n\n5\nTue, Feb 10\nContinuous Probability Distributions\n👉normal\nIS Ch 11\n\n (continuous distribution)\n\n\n\n\n\n\n\nThu, Feb 12\nSampling Distributions\n🖥️ sampling-dist-clt\nIS Ch 12\n\n (sampling distribution and CLT)\n\n\n\n\n\n\n6\nTue, Feb 17\nCentral Limit Theorem (CLT)\n👉CLT 👉Rolling dice\nIS Ch 13\n\n\n\n\n\n\n\n\nThu, Feb 19\nConfidence Intervals\n🖥️ confidence interval  👉CI\nIS Ch 14\n\n (confidence interval)\n✍️ HW 4 (due 2/27)\n\n\n\n\n\n7\nTue, Feb 24\nConfidence Intervals\n👉Student-t\n\n\n\n\n\n\n\n\n\nThu, Feb 26\nHypothesis Testing\n🖥️ testing 👉testing\nIS Ch 16\n\n\n\n✅ Quiz 2\n\n\n\n8\nTue, Mar 3\nIn-class Exam 1\n\n\n\n\n\n\n✅ Take-home Exam 1\n\n\n\nThu, Mar 5\nHypothesis Testing\n\n\n\n (testing)\n\n\n\n\n\n\n9\nTue, Mar 10\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n\nThu, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n10\nTue, Mar 17\nHypothesis Testing\n\n\n\n\n\n\n\n\n\n\nThu, Mar 19\nTwo Population Means: Matched Pairs\n🖥️ two samples\nIS Ch 17\n\n (two samples)\n✍️ HW 5 (due 3/27)\n\n\n\n\n\n11\nTue, Mar 24\nTwo Population Means: Independent Samples\n\n\n\n\n\n\n\n\n\n\nThu, Mar 26\nInference for One Population Variance\n🖥️ variances  👉chi-squared\nIS Ch 18\n\n (variances)\n✍️ HW 6 (due 4/3)\n\n✅ Quiz 3\n\n\n\n12\nTue, Mar 31\nInference about Two Population Variances\n👉 f\n\n\n\n\n\n\n\n\n\nThu, Apr 2\nNO CLASS: Easter break\n\n\n\n\n\n\n\n\n\n13\nTue, Apr 7\nAnalysis of Variance (ANOVA) Rationale\n🖥️ ANOVA\nIS Ch 24\n\n (ANOVA data)\n\n\n\n\n\n\n\nThu, Apr 9\nAnalysis of Variance (ANOVA) Procedure\n\n\n\n✍️ HW 7 (due 4/17)\n\n\n\n\n\n14\nTue, Apr 14\nCorrelation; Overview of Regression\n🖥️ correlation  🖥️ regression  👉 regression fitting\n\nIS Ch 27.1; IS Ch 27.2\n\n\n (correlation and regression)\n\n\n\n\n\n\n\nThu, Apr 16\nSimple Linear Regression: Fitting and Inference\n👉 sampling distribution of coefficients\nIS Ch 27.3 - 27.5\n\n\n\n✅ Quiz 4\n\n\n\n15\nTue, Apr 21\nIn-class Exam 2\n\n\n\n\n\n\n✅ Take-home Exam 2\n\n\n\nThu, Apr 23\nSimple Linear Regression: Prediction\n\nIS Ch 27.6\n\n✍️ HW 8 (due 5/1)\n\n\n\n\n\n16\nTue, Apr 28\nTo Be Determined\n\n\n\n\n\n\n📂 Final Project Guideline\n\n\n\nTue, Apr 30\nTo Be Determined\n\n\n\n\n\n\n\n\n\n17\nFri, May 8\nFinal Project\n\n\n\n\n\n\n\n\n\n\n\nDr. Yu reserves the right to make changes to the schedule.",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -5439,7 +5439,7 @@
     "href": "slides/01-syllabus.html#help-desk-hours",
     "title": "Welcome Aboard 🙌",
     "section": "Help Desk Hours",
-    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😭\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
+    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😢\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
   },
   {
     "objectID": "slides/01-syllabus.html#course-materials",
@@ -5484,39 +5484,53 @@
     "text": "Grade-Percentage Conversion ✨\n\nYour final grade is based on your percentage of points earned out of 1000 points.\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\).\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[83, 87)\n\n\nB-\n[80, 83)\n\n\nC+\n[77, 80)\n\n\nC\n[73, 77)\n\n\nC-\n[70, 73)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
   },
   {
-    "objectID": "slides/01-syllabus.html#homework-175-pts",
-    "href": "slides/01-syllabus.html#homework-175-pts",
+    "objectID": "slides/01-syllabus.html#homework-10",
+    "href": "slides/01-syllabus.html#homework-10",
     "title": "Welcome Aboard 🙌",
-    "section": "Homework (175 pts)",
-    "text": "Homework (175 pts)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\n❌ No make-up homework.\nThe lowest score will not be in your final grade calculation.\nUsing generative AI (GenAI) tools is allowed, but you must carefully cite it or reveal your use of AI."
+    "section": "Homework (10%)",
+    "text": "Homework (10%)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\n❌ No make-up homework.\n\n\nUsing generative AI (GenAI) tools is allowed, but you must carefully disclose your usage."
   },
   {
-    "objectID": "slides/01-syllabus.html#quizzes-200-pts",
-    "href": "slides/01-syllabus.html#quizzes-200-pts",
+    "objectID": "slides/01-syllabus.html#quizzes-20",
+    "href": "slides/01-syllabus.html#quizzes-20",
     "title": "Welcome Aboard 🙌",
-    "section": "Quizzes (200 pts)",
-    "text": "Quizzes (200 pts)\n\nThere are 4 in-class 15-min quizzes. \n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
+    "section": "Quizzes (20%)",
+    "text": "Quizzes (20%)\n\nThere are 4 in-class 15-min quizzes.\nEach quiz is worth 5% of your overall grade.\n\n\n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
   },
   {
-    "objectID": "slides/01-syllabus.html#exams-450-pts",
-    "href": "slides/01-syllabus.html#exams-450-pts",
+    "objectID": "slides/01-syllabus.html#exams-40",
+    "href": "slides/01-syllabus.html#exams-40",
     "title": "Welcome Aboard 🙌",
-    "section": "Exams (450 pts)",
-    "text": "Exams (450 pts)\n\nThere are two midterm exams and one final exam.\nThe midterms have in-class and take-home parts, and the final is a in-class written exam.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully cite it or reveal your use of AI.\n\n. . .\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 6.\nExam 2 covers Week 7 to 11.\nFinal exam is comprehensive and covers the all course materials. 😎\n❌ No make-up exams for any reason unless you got an excused absence."
+    "section": "Exams (40%)",
+    "text": "Exams (40%)\n\nThere will be two exams.\nThe exams have in-class and take-home parts.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully disclose your AI usage.\n\n. . .\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 7.\nExam 2 covers Week 8 to 14.\n\n\n❌ No make-up exams for any reason unless you got an excused absence."
   },
   {
-    "objectID": "slides/01-syllabus.html#ai-project-150-pts",
-    "href": "slides/01-syllabus.html#ai-project-150-pts",
+    "objectID": "slides/01-syllabus.html#worksheets-10",
+    "href": "slides/01-syllabus.html#worksheets-10",
     "title": "Welcome Aboard 🙌",
-    "section": "AI Project (150 pts)",
-    "text": "AI Project (150 pts)\n\nThere will be one AI project released around Week 13.\nYou have to use GenAI to self learn a topic that is not covered in my lectures, and generate a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
+    "section": "Worksheets (10%)",
+    "text": "Worksheets (10%)\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade."
   },
   {
-    "objectID": "slides/01-syllabus.html#what-computing-language-we-use-i-teach",
-    "href": "slides/01-syllabus.html#what-computing-language-we-use-i-teach",
+    "objectID": "slides/01-syllabus.html#group-activities-10",
+    "href": "slides/01-syllabus.html#group-activities-10",
     "title": "Welcome Aboard 🙌",
-    "section": "What Computing Language We Use (I Teach)?",
-    "text": "What Computing Language We Use (I Teach)?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 09/02/2025. Don’t miss it!"
+    "section": "Group Activities (10%)",
+    "text": "Group Activities (10%)\n\nThere are several in-class group activities\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade."
+  },
+  {
+    "objectID": "slides/01-syllabus.html#final-project-10",
+    "href": "slides/01-syllabus.html#final-project-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Final Project (10%)",
+    "text": "Final Project (10%)\n\nThe project will be released after Exam 2.\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
+  },
+  {
+    "objectID": "slides/01-syllabus.html#what-computing-language-we-use",
+    "href": "slides/01-syllabus.html#what-computing-language-we-use",
+    "title": "Welcome Aboard 🙌",
+    "section": "What Computing Language We Use?",
+    "text": "What Computing Language We Use?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 1/20/2026. Don’t miss it!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn this course, we will be using programming language R to learn statistics.\nTo me, R is the best language for statistical computing!\nR is actually created by two statisticians for statistics.\nThe R syntax for doing statistics is very clean and intuitive.\nNow, R becomes one of the main languages for doing data science and machine learning.\nSo I think it’s worth learning it.\nBut still that’s your choice.\n❌ If you do NOT want to learn R, choose another section!\nAlthough I teach R in this course, you may use other tools or software to do your work, but I will NOT teach any of them."
   },
   {
     "objectID": "slides/01-syllabus.html#document-generative-ai-use",
@@ -5610,39 +5624,53 @@
     "text": "Grade-Percentage Conversion ✨\n\nYour final grade is based on your percentage of points earned out of 1000 points.\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\).\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[83, 87)\n\n\nB-\n[80, 83)\n\n\nC+\n[77, 80)\n\n\nC\n[73, 77)\n\n\nC-\n[70, 73)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
   },
   {
-    "objectID": "slides/01-syllabus-slides.html#homework-175-pts",
-    "href": "slides/01-syllabus-slides.html#homework-175-pts",
+    "objectID": "slides/01-syllabus-slides.html#homework-10",
+    "href": "slides/01-syllabus-slides.html#homework-10",
     "title": "Welcome Aboard 🙌",
-    "section": "Homework (175 pts)",
-    "text": "Homework (175 pts)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\n❌ No make-up homework.\nThe lowest score will not be in your final grade calculation.\nUsing generative AI (GenAI) tools is allowed, but you must carefully cite it or reveal your use of AI."
+    "section": "Homework (10%)",
+    "text": "Homework (10%)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\n❌ No make-up homework.\n\n\nUsing generative AI (GenAI) tools is allowed, but you must carefully disclose your usage."
   },
   {
-    "objectID": "slides/01-syllabus-slides.html#quizzes-200-pts",
-    "href": "slides/01-syllabus-slides.html#quizzes-200-pts",
+    "objectID": "slides/01-syllabus-slides.html#quizzes-20",
+    "href": "slides/01-syllabus-slides.html#quizzes-20",
     "title": "Welcome Aboard 🙌",
-    "section": "Quizzes (200 pts)",
-    "text": "Quizzes (200 pts)\n\nThere are 4 in-class 15-min quizzes. \n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
+    "section": "Quizzes (20%)",
+    "text": "Quizzes (20%)\n\nThere are 4 in-class 15-min quizzes.\nEach quiz is worth 5% of your overall grade.\n\n\n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
   },
   {
-    "objectID": "slides/01-syllabus-slides.html#exams-450-pts",
-    "href": "slides/01-syllabus-slides.html#exams-450-pts",
+    "objectID": "slides/01-syllabus-slides.html#exams-40",
+    "href": "slides/01-syllabus-slides.html#exams-40",
     "title": "Welcome Aboard 🙌",
-    "section": "Exams (450 pts)",
-    "text": "Exams (450 pts)\n\nThere are two midterm exams and one final exam.\nThe midterms have in-class and take-home parts, and the final is a in-class written exam.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully cite it or reveal your use of AI.\n\n\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 6.\nExam 2 covers Week 7 to 11.\nFinal exam is comprehensive and covers the all course materials. 😎\n❌ No make-up exams for any reason unless you got an excused absence."
+    "section": "Exams (40%)",
+    "text": "Exams (40%)\n\nThere will be two exams.\nThe exams have in-class and take-home parts.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully disclose your AI usage.\n\n\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 7.\nExam 2 covers Week 8 to 14.\n\n\n❌ No make-up exams for any reason unless you got an excused absence."
   },
   {
-    "objectID": "slides/01-syllabus-slides.html#ai-project-150-pts",
-    "href": "slides/01-syllabus-slides.html#ai-project-150-pts",
+    "objectID": "slides/01-syllabus-slides.html#worksheets-10",
+    "href": "slides/01-syllabus-slides.html#worksheets-10",
     "title": "Welcome Aboard 🙌",
-    "section": "AI Project (150 pts)",
-    "text": "AI Project (150 pts)\n\nThere will be one AI project released around Week 13.\nYou have to use GenAI to self learn a topic that is not covered in my lectures, and generate a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
+    "section": "Worksheets (10%)",
+    "text": "Worksheets (10%)\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade."
   },
   {
-    "objectID": "slides/01-syllabus-slides.html#what-computing-language-we-use-i-teach",
-    "href": "slides/01-syllabus-slides.html#what-computing-language-we-use-i-teach",
+    "objectID": "slides/01-syllabus-slides.html#group-activities-10",
+    "href": "slides/01-syllabus-slides.html#group-activities-10",
     "title": "Welcome Aboard 🙌",
-    "section": "What Computing Language We Use (I Teach)?",
-    "text": "What Computing Language We Use (I Teach)?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 09/02/2025. Don’t miss it!"
+    "section": "Group Activities (10%)",
+    "text": "Group Activities (10%)\n\nThere are several in-class group activities\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#final-project-10",
+    "href": "slides/01-syllabus-slides.html#final-project-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Final Project (10%)",
+    "text": "Final Project (10%)\n\nThe project will be released after Exam 2.\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#what-computing-language-we-use",
+    "href": "slides/01-syllabus-slides.html#what-computing-language-we-use",
+    "title": "Welcome Aboard 🙌",
+    "section": "What Computing Language We Use?",
+    "text": "What Computing Language We Use?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 1/20/2026. Don’t miss it!\n\n\n\n\n\n\n\n\n\n\n\n\nIn this course, we will be using programming language R to learn statistics.\nTo me, R is the best language for statistical computing!\nR is actually created by two statisticians for statistics.\nThe R syntax for doing statistics is very clean and intuitive.\nNow, R becomes one of the main languages for doing data science and machine learning.\nSo I think it’s worth learning it.\nBut still that’s your choice.\n❌ If you do NOT want to learn R, choose another section!\nAlthough I teach R in this course, you may use other tools or software to do your work, but I will NOT teach any of them."
   },
   {
     "objectID": "slides/01-syllabus-slides.html#document-generative-ai-use",
@@ -6875,103 +6903,5 @@
     "title": "Exercise",
     "section": "",
     "text": "More extra exercises to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\n\n\n\n\n\nExercise 1\n\n\nExercises for Exam 1\n\n\n\n\n\n\nExercise 2\n\n\nExercises for Exam 2\n\n\n\n\n\n\nExercise 3\n\n\nExercises for Final Exam\n\n\n\n\n\n\nKey Topics of Multiple Linear Regression\n\n\nMultiple Linear Regression for Final Exam\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "slides/01-syllabus.html#homework-10",
-    "href": "slides/01-syllabus.html#homework-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Homework (10%)",
-    "text": "Homework (10%)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\n❌ No make-up homework.\n\n\nUsing generative AI (GenAI) tools is allowed, but you must carefully disclose your usage."
-  },
-  {
-    "objectID": "slides/01-syllabus.html#quizzes-20",
-    "href": "slides/01-syllabus.html#quizzes-20",
-    "title": "Welcome Aboard 🙌",
-    "section": "Quizzes (20%)",
-    "text": "Quizzes (20%)\n\nThere are 4 in-class 15-min quizzes.\nEach quiz is worth 5% of your overall grade.\n\n\n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
-  },
-  {
-    "objectID": "slides/01-syllabus.html#exams-40",
-    "href": "slides/01-syllabus.html#exams-40",
-    "title": "Welcome Aboard 🙌",
-    "section": "Exams (40%)",
-    "text": "Exams (40%)\n\nThere will be two exams.\nThe exams have in-class and take-home parts.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully disclose your AI usage.\n\n. . .\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 7.\nExam 2 covers Week 8 to 14.\n\n\n❌ No make-up exams for any reason unless you got an excused absence."
-  },
-  {
-    "objectID": "slides/01-syllabus.html#worksheets-10",
-    "href": "slides/01-syllabus.html#worksheets-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Worksheets (10%)",
-    "text": "Worksheets (10%)\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade."
-  },
-  {
-    "objectID": "slides/01-syllabus.html#group-activities-10",
-    "href": "slides/01-syllabus.html#group-activities-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Group Activities (10%)",
-    "text": "Group Activities (10%)\n\nThere are several in-class group activities\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade."
-  },
-  {
-    "objectID": "slides/01-syllabus.html#final-project-10",
-    "href": "slides/01-syllabus.html#final-project-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Final Project (10%)",
-    "text": "Final Project (10%)\n\nThe project will be released after Exam 2.\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
-  },
-  {
-    "objectID": "slides/01-syllabus.html#what-computing-language-we-use",
-    "href": "slides/01-syllabus.html#what-computing-language-we-use",
-    "title": "Welcome Aboard 🙌",
-    "section": "What Computing Language We Use?",
-    "text": "What Computing Language We Use?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 1/20/2026. Don’t miss it!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn this course, we will be using programming language R to learn statistics.\nTo me, R is the best language for statistical computing!\nR is actually created by two statisticians for statistics.\nThe R syntax for doing statistics is very clean and intuitive.\nNow, R becomes one of the main languages for doing data science and machine learning.\nSo I think it’s worth learning it.\nBut still that’s your choice.\n❌ If you do NOT want to learn R, choose another section!\nAlthough I teach R in this course, you may use other tools or software to do your work, but I will NOT teach any of them."
-  },
-  {
-    "objectID": "slides/01-syllabus-slides.html#homework-10",
-    "href": "slides/01-syllabus-slides.html#homework-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Homework (10%)",
-    "text": "Homework (10%)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\n❌ No make-up homework.\n\n\nUsing generative AI (GenAI) tools is allowed, but you must carefully disclose your usage."
-  },
-  {
-    "objectID": "slides/01-syllabus-slides.html#quizzes-20",
-    "href": "slides/01-syllabus-slides.html#quizzes-20",
-    "title": "Welcome Aboard 🙌",
-    "section": "Quizzes (20%)",
-    "text": "Quizzes (20%)\n\nThere are 4 in-class 15-min quizzes.\nEach quiz is worth 5% of your overall grade.\n\n\n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
-  },
-  {
-    "objectID": "slides/01-syllabus-slides.html#exams-40",
-    "href": "slides/01-syllabus-slides.html#exams-40",
-    "title": "Welcome Aboard 🙌",
-    "section": "Exams (40%)",
-    "text": "Exams (40%)\n\nThere will be two exams.\nThe exams have in-class and take-home parts.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully disclose your AI usage.\n\n\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 7.\nExam 2 covers Week 8 to 14.\n\n\n❌ No make-up exams for any reason unless you got an excused absence."
-  },
-  {
-    "objectID": "slides/01-syllabus-slides.html#worksheets-10",
-    "href": "slides/01-syllabus-slides.html#worksheets-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Worksheets (10%)",
-    "text": "Worksheets (10%)\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade."
-  },
-  {
-    "objectID": "slides/01-syllabus-slides.html#group-activities-10",
-    "href": "slides/01-syllabus-slides.html#group-activities-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Group Activities (10%)",
-    "text": "Group Activities (10%)\n\nThere are several in-class group activities\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade."
-  },
-  {
-    "objectID": "slides/01-syllabus-slides.html#final-project-10",
-    "href": "slides/01-syllabus-slides.html#final-project-10",
-    "title": "Welcome Aboard 🙌",
-    "section": "Final Project (10%)",
-    "text": "Final Project (10%)\n\nThe project will be released after Exam 2.\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
-  },
-  {
-    "objectID": "slides/01-syllabus-slides.html#what-computing-language-we-use",
-    "href": "slides/01-syllabus-slides.html#what-computing-language-we-use",
-    "title": "Welcome Aboard 🙌",
-    "section": "What Computing Language We Use?",
-    "text": "What Computing Language We Use?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 1/20/2026. Don’t miss it!\n\n\n\n\n\n\n\n\n\n\n\n\nIn this course, we will be using programming language R to learn statistics.\nTo me, R is the best language for statistical computing!\nR is actually created by two statisticians for statistics.\nThe R syntax for doing statistics is very clean and intuitive.\nNow, R becomes one of the main languages for doing data science and machine learning.\nSo I think it’s worth learning it.\nBut still that’s your choice.\n❌ If you do NOT want to learn R, choose another section!\nAlthough I teach R in this course, you may use other tools or software to do your work, but I will NOT teach any of them."
   }
 ]
