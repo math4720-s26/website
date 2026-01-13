@@ -292,6 +292,10 @@ knitr::include_graphics("./images/01-syllabus/website_s26.png")
 ![](./images/01-syllabus/read4.png){.fragment width="1200" height="800"}
 ::::
 
+::: notes
+
+It does not mean we don't learn anymore. In fact, we learn and study in a different way. Watch videos, taking online short courses, read online tutorials or blogs.
+:::
 
 
 ## Textbook (Dr. Yu's Online Book)
@@ -369,7 +373,8 @@ knitr::include_graphics("./images/01-syllabus/d2l_s26.png")
 
 ## Grade-Percentage Conversion &#x2728;
 
-- Your final grade is based on your percentage of points earned out of 1000 points.
+- The final grade is based on your earned percentage and the grade-percentage conversion Table.
+
 - $[x, y)$ means greater than or equal to $x$ and less than $y$.
 
 ```{r}
@@ -422,7 +427,7 @@ knitr::kable(grade_dist, longtable = TRUE, format = "html", align = 'l') %>% kab
 
 - `r emo::ji("x")` No cheat sheet or GenAI is allowed.
 
-- `r emo::ji("x")` **No make-up quizzes** for any reason unless you got an [excused absence](https://bulletin.marquette.edu/policies/attendance/undergraduate/). Check the [syllabus](https://math4720-f25.github.io/website/course-syllabus.html#quizzes) for more details.
+- `r emo::ji("x")` **No make-up quizzes** for any reason unless you got an [excused absence](https://bulletin.marquette.edu/policies/attendance/undergraduate/). Check the [syllabus](https://math4720-s26.github.io/website/course-syllabus.html#quizzes) for more details.
 
 
 ## Exams (40%)
