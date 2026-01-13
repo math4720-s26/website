@@ -5,7 +5,7 @@ filters:
   - webr
 format:
   live-revealjs:
-    footer: "[🔗 math4720-f25.github.io/website](https://math4720-f25.github.io/website/)"
+    footer: "[🔗 math4720-s26.github.io/website](https://math4720-s26.github.io/website/)"
     theme: slides.scss
     html-math-method:
       method: mathjax

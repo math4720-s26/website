@@ -126,6 +126,13 @@ knitr::knit_hooks$set(output = function(x, options) {
 
 
 
+::: notes
+
+- Hello everyone, how are you? I hope you have a great summer. Welcome to 4720 Introduction to Statistics course. I am your instructor Cheng-Han Yu.  
+- First thing first. Get to know each other. Let me first introduce myself. I was born and grew up in Taipei, Taiwan, my home country, which is a island right next to China. Taipei is a big city in terms of population. It is about the same population size as Chicago. This building is called Taipei 101, which is the tallest building in Taiwan.
+
+:::
+
 ## My Journey {background-image="images/01-syllabus/sample_gate.png" background-size="cover" background-position="50% 50%" background-opacity="0.3"}
 
 -   Assistant Professor (2020/08 - )
@@ -163,9 +170,27 @@ knitr::include_graphics("./images/01-syllabus/iub.png")
 ```
 
 
+
+
+::: notes
+
+After college, working and doing military service for several years, I came to the US for my PhD degree. Originally I would like to study economics, but then I switched my major to statistics. 
+- I got my master degree in economics from Indiana University Bloomington, then I transferred to UC Santa Cruz to finish my PhD studies. 
+- Then I spent two years doing my postdoctoral research at Rice University in Houston, Texas.
+- Finally, in fall 2020, I came to Marquette being an assistant professor.
+- Midwest/Indiana-West/California-South/Texas-Midwest/Wisconsin
+- Been to any one of these universities/cities? 
+- The most beautiful campus.
+- Who are international students? I can totally understand how hard studying and living in another country. Feel free to share your stories or difficulties, and I am more than happy to help you if you have any questions.
+- Poor listening and speaking skills. I was shy. 
+- Usually if it is a class less than 30 students, I'd like to ask students to briefly introduce themselves, but this semester we have a big class, bear with me if I can't recognize you.
+
+:::
+
+
 ## How to Reach Me
 
-- Office hours **MoWe 4:50 - 5:50 PM** and **Tu 1 - 2 PM** in **Cudahy Hall 353**.
+- Office hours **TuTh 3:20 - 4:20 PM** and **We 2 - 3 PM** in **Cudahy Hall 353**.
 
 - `r emo::ji('e-mail')`  <cheng-han.yu@marquette.edu> 
   + Answer your question within 24 hours. 
@@ -176,7 +201,7 @@ knitr::include_graphics("./images/01-syllabus/iub.png")
 ```{r}
 knitr::include_graphics("./images/01-syllabus/email.png")
 ```
-  + I will **NOT** reply your e-mail if ... **Check the email policy in the [syllabus](https://math4720-f25.github.io/website/course-syllabus.html)**!
+  + I will **NOT** reply your e-mail if ... **Check the email policy in the [syllabus](https://math4720-s26.github.io/website/course-syllabus.html)**!
 
 
 
@@ -240,20 +265,18 @@ knitr::include_graphics("./images/01-syllabus/help_s25.png")
 
 
 
-
 ## Course Materials
 
-- Course Website - <https://math4720-f25.github.io/website/>
+- Course Website - <https://math4720-s26.github.io/website/>
 
 
 ```{r}
 #| fig-align: center
-#| fig-link: https://math4720-f25.github.io/website/
-knitr::include_graphics("./images/01-syllabus/website_f25.png")
+#| fig-link: https://math4720-s26.github.io/website/
+knitr::include_graphics("./images/01-syllabus/website_s26.png")
 ```
 
 - **All course materials and information** can be found on this website. Bookmark it!
-
 
 
 ## Textbook (Really?!)
@@ -283,12 +306,28 @@ knitr::include_graphics("./images/01-syllabus/website_f25.png")
 knitr::include_graphics("./images/01-syllabus/IS.png")
 ```
 
+
+
+::: notes
+
+- Nowadays, students don't read books!
+
+- For this course, I don't think you need to buy any textbook.
+
+- One book you may be interested is my online book.Introduction to Statistics that provide full detailed explanation of course slides, and other topics that re not covered in this course.
+
+- So if you find it difficult to understand the course slides, you are welcome to read the book.
+
+:::
+
+
 ## Learning Management System (D2L)
 
 ```{r}
 #| out-width: 100%
 #| fig-align: center
-knitr::include_graphics("./images/01-syllabus/d2l_f25.png")
+#| fig-link: https://d2l.mu.edu/d2l/home/630388
+knitr::include_graphics("./images/01-syllabus/d2l_s26.png")
 ```
 
 - Submit your work: **Assessments > Dropbox**
@@ -300,13 +339,26 @@ knitr::include_graphics("./images/01-syllabus/d2l_f25.png")
 
 ## Grading Policy &#x2728;
 
-- Your final grade is earned out of **[1000]{.red} total points** distributed as follows:
-  - **Homework 1 to 8: [175]{.red} pts (25 pts each)**
-  - **Quiz 1 to 4: [200]{.red} pts (50 pts each)**
-  - **Exam 1 and 2: [300]{.red} pts (150 pts each)**
-  - **Final exam: [150]{.red} pts**
-  - **AI Project: [150]{.red} pts** 
-  - **Class participation: [25]{.red} pts**
+<!-- - Your final grade is earned out of **[1000]{.red} total points** distributed as follows: -->
+<!--   - **Homework 1 to 8: [175]{.red} pts (25 pts each)** -->
+<!--   - **Quiz 1 to 4: [200]{.red} pts (50 pts each)** -->
+<!--   - **Exam 1 and 2: [300]{.red} pts (150 pts each)** -->
+<!--   - **Final exam: [150]{.red} pts** -->
+<!--   - **AI Project: [150]{.red} pts**  -->
+<!--   - **Class participation: [25]{.red} pts** -->
+<!-- ::: large -->
+
+| Category                | Weight |
+| ----------------------- | -----: |
+| 8 Homework sets         |    10% |
+| 4 Quizzes               |    20% |
+| 2 Exams                 |    40% |
+| ~10 Worksheets          |    10% |
+| ~3 Group Activities     |    10% |
+| 1 Final Project         |    10% |
+
+<!-- ::: -->
+
 
 - `r emo::ji("x")` No extra credit projects/homework/exam to compensate for a poor grade.
 
@@ -335,7 +387,7 @@ knitr::kable(grade_dist, longtable = TRUE, format = "html", align = 'l') %>% kab
 
 
 
-## Homework (175 pts)
+## Homework (10%)
 
 - **Assessments > Dropbox** and upload your homework in **PDF** format.
 
@@ -347,19 +399,24 @@ knitr::kable(grade_dist, longtable = TRUE, format = "html", align = 'l') %>% kab
 
 - MSSC 5720 students may have more or different homework questions.
 
+- Homework is graded as *complete* or *incomplete*. Each incomplete set results in a 2% deduction from your overall grade.
+
 - `r emo::ji("x")` **No make-up homework**.
 
-- The lowest score will not be in your final grade calculation.
+<!-- - The lowest score will not be in your final grade calculation. -->
 
-- Using generative AI (GenAI) tools is allowed, but you **must carefully cite it or reveal your use of AI.**
-
-
+- Using generative AI (GenAI) tools is allowed, but you **must carefully disclose your usage.**
 
 
 
-## Quizzes (200 pts)
+
+
+## Quizzes (20%)
 
 - There are 4 in-class 15-min quizzes.
+
+- Each quiz is worth 5% of your overall grade.
+
 <!-- - Questions in the quizzes are similar to homework questions. So do the HW! -->
 - `r emo::ji("books")` Quizzes are individual and in **closed-book** and **no-tech** format, except a calculator.
 
@@ -368,44 +425,61 @@ knitr::kable(grade_dist, longtable = TRUE, format = "html", align = 'l') %>% kab
 - `r emo::ji("x")` **No make-up quizzes** for any reason unless you got an [excused absence](https://bulletin.marquette.edu/policies/attendance/undergraduate/). Check the [syllabus](https://math4720-f25.github.io/website/course-syllabus.html#quizzes) for more details.
 
 
-## Exams (450 pts)
+## Exams (40%)
 
-- There are **two** midterm exams and **one** final exam.
+- There will be **two** exams.
 
-- The midterms have *in-class* and *take-home* parts, and the final is a in-class written exam.
+- The exams have *in-class* and *take-home* parts.
 
 <!-- - The in-class exams are about one-hour long. -->
 - `r emo::ji("page_facing_up")` For the in-class parts, one piece of  **letter size** cheat sheet is allowed. It has to be turned-in with your exam.
 
-- For the take-home parts, you are allowed to use GenAI tools. However, you **must carefully cite it or reveal your use of AI.**
+- For the take-home parts, you are allowed to use GenAI tools. However, you **must carefully disclose your AI usage.**
 
 . . .
 
 - **Assessments > Dropbox** to submit your take-home exams in **PDF** format.
 <!-- - `r emo::ji("x")` **Handwriting is NOT allowed**. -->
 
-- Exam 1 covers Week **1 to 6**.
+- Exam 1 covers Week **1 to 7**.
 
-- Exam 2 covers Week **7 to 11**.
+- Exam 2 covers Week **8 to 14**.
 
-- Final exam is comprehensive and covers the **all course materials**.  `r emo::ji("sunglasses")`
+<!-- - Final exam is comprehensive and covers the **all course materials**.  `r emo::ji("sunglasses")` -->
 
 - `r emo::ji("x")` **No make-up exams** for any reason unless you got an [excused absence](https://bulletin.marquette.edu/policies/attendance/undergraduate/).
 
 
+## Worksheets (10%)
 
-## AI Project (150 pts)
+- Several worksheets will be distributed and completed during class sessions.
 
-- There will be one AI project released around Week 13.
+- The worksheets are graded as *complete* or *incomplete*.
 
-- You have to use GenAI to self learn a topic that is not covered in my lectures, and generate a data analysis report.
+- Each incomplete sheet results in a 1% deduction from your overall grade.
+
+
+## Group Activities (10%)
+
+- There are several in-class group activities
+
+- The group activities are graded as *complete* or *incomplete*.
+
+- Each incomplete activity results in a 2% deduction from your overall grade.
+
+
+## Final Project (10%)
+
+- The project will be released after Exam 2.
+
+- You are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.
 
 - The project topic will also be tested in the final exam.
 
 - You **must carefully cite your GenAI tool or reveal your use of AI.**
 
 
-##  What Computing Language We Use (I Teach)?
+##  What Computing Language We Use?
 
 ::::: {.columns}
 
@@ -414,7 +488,7 @@ knitr::kable(grade_dist, longtable = TRUE, format = "html", align = 'l') %>% kab
 - `r emo::ji("chart_with_upwards_trend") ` The best language for statistical computing!
 <!-- - `r emo::ji("x") ` If you do **NOT** want to learn R, choose another section!  -->
 - `r emo::ji("white_check_mark")` You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will **NOT** teach any of them.
-- `r emo::ji("x")` Drop/Swap deadline: **09/02/2025**. Don't miss it!
+- `r emo::ji("x")` Drop/Swap deadline: **1/20/2026**. Don't miss it!
 
 ::::
 
@@ -431,6 +505,24 @@ knitr::include_graphics("./images/01-syllabus/Rlogo.png")
 ::::
 
 :::::
+
+
+
+
+::: notes
+
+- In this course, we will be using programming language R to learn statistics.
+- To me, R is the best language for statistical computing!
+- R is actually created by two statisticians for statistics.
+- The R syntax for doing statistics is very clean and intuitive. 
+- Now, R becomes one of the main languages for doing data science and machine learning. 
+- So I think it's worth learning it.
+- But still that's your choice. 
+- `r emo::ji("x")` If you do **NOT** want to learn R, choose another section! 
+- Although I teach R in this course, you may use other tools or software to do your work, but I will **NOT** teach any of them.
+
+:::
+
 
 ## Document Generative AI Use
 
@@ -473,6 +565,11 @@ knitr::include_graphics("images/01-syllabus/genai.png")
  
 ## Document Generative AI Use
 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
 - **Why/How I used AI (prompts and questions)**
   + *I asked ChatGPT to generate a histogram using R.*
  
@@ -480,17 +577,22 @@ knitr::include_graphics("images/01-syllabus/genai.png")
 
 ::: tiny
 ```{r}
-#| out-width: 35%
+#| out-width: 100%
 #| fig-align: center
 knitr::include_graphics("images/01-syllabus/genai_screenshot.png")
 ```
 :::
 
+:::
+
+::: {.column width="50%"}
 
 - **How I used the output**
   + *I reviewed the suggestions, but I did not use the exact code. Instead, I change the code format and breaks value to 50.*
 
+:::
 
+::::
 
  
 <!-- ## Sharing/Reusing Code -->

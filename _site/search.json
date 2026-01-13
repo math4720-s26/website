@@ -3842,7 +3842,7 @@
     "href": "index.html",
     "title": "MATH 4720 (MSSC 5720) Statistical Methods Spring 2026",
     "section": "",
-    "text": "This schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nReading\nR Code\nHomework\nWorksheet\nQuiz\nExam/Project\n\n\n\n1\nTue, Jan 13\nSyllabus/Overview of Statistics\n🖥️ syllabus🖥️ statistics and data\n\nSyllabusIS Ch1GenAI Video\n\n\n\n\n\n\n\n\n\nThu, Jan 15\nStatistical Studies and Data Collection; Data Type\n\nIS Ch 2\n\n✍️ HW 1 (due 1/23)\n\n\n\n\n\n2\nTue, Jan 20\nR Software and Computation\n🖥️ R and RStudio🖥️ data type and structure\nIS Ch 3\n\n (data type and structure)\n\n\n\n\n\n\n\nThu, Jan 22\nSummarizing Data: Centrality\n🖥️ data summary👉histogram breaks👉data extremes\nIS Ch 5 - 6\n\n (data graphics)\n\n\n\n\n\n\n3\nTue, Jan 27\nSummarizing Data: Variation\n\n\n\n (data numerics)\n\n\n\n\n\n\n\nThu, Jan 29\nProbability Fundamentals\n🖥️ probability👉venn diagram\nIS Ch 7 - 8\n\n✍️ HW 2 (due 2/6)\n\n\n\n\n\n4\nTue, Feb 3\nConditional Probability, Independence, Bayes Formula\n\n\n\n\n\n\n\n\n\n\nThu, Feb 5\nRandom Variables, Discrete Probability Distributions\n🖥️ distribution 👉binomial👉poisson\nIS Ch 9 - 10\n\n (discrete distribution)\n✍️ HW 3 (due 2/13)\n\n✅ Quiz 1\n\n\n\n5\nTue, Feb 10\nContinuous Probability Distributions\n👉normal\nIS Ch 11\n\n (continuous distribution)\n\n\n\n\n\n\n\nThu, Feb 12\nSampling Distributions\n🖥️ sampling-dist-clt\nIS Ch 12\n\n (sampling distribution and CLT)\n\n\n\n\n\n\n6\nTue, Feb 17\nCentral Limit Theorem (CLT)\n👉CLT 👉Rolling dice\nIS Ch 13\n\n\n\n\n\n\n\n\nThu, Feb 19\nConfidence Intervals\n🖥️ confidence interval  👉CI\nIS Ch 14\n\n (confidence interval)\n✍️ HW 4 (due 2/27)\n\n\n\n\n\n7\nTue, Feb 24\nConfidence Intervals\n👉Student-t\n\n\n\n\n\n\n\n\n\nThu, Feb 26\nHypothesis Testing\n🖥️ testing 👉testing\nIS Ch 16\n\n\n\n✅ Quiz 2\n\n\n\n8\nTue, Mar 3\nIn-class Exam 1\n\n\n\n\n\n\n✅ Take-home Exam 1\n\n\n\nThu, Mar 5\nHypothesis Testing\n\n\n\n (testing)\n\n\n\n\n\n\n9\nTue, Mar 10\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n\nThu, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n10\nTue, Mar 17\nHypothesis Testing\n\n\n\n\n\n\n\n\n\n\nThu, Mar 19\nTwo Population Means: Matched Pairs\n🖥️ two samples\nIS Ch 17\n\n (two samples)\n✍️ HW 5 (due 3/27)\n\n\n\n\n\n11\nTue, Mar 24\nTwo Population Means: Independent Samples\n\n\n\n\n\n\n\n\n\n\nThu, Mar 26\nInference for One Population Variance\n🖥️ variances  👉chi-squared\nIS Ch 18\n\n (variances)\n✍️ HW 6 (due 4/3)\n\n✅ Quiz 3\n\n\n\n12\nTue, Mar 31\nInference about Two Population Variances\n👉 f\n\n\n\n\n\n\n\n\n\nThu, Apr 2\nNO CLASS: Easter break\n\n\n\n\n\n\n\n\n\n13\nTue, Apr 7\nAnalysis of Variance (ANOVA) Rationale\n🖥️ ANOVA\nIS Ch 24\n\n (ANOVA data)\n\n\n\n\n\n\n\nThu, Apr 9\nAnalysis of Variance (ANOVA) Procedure\n\n\n\n✍️ HW 7 (due 4/17)\n\n\n\n\n\n14\nTue, Apr 14\nCorrelation; Overview of Regression\n🖥️ correlation  🖥️ regression  👉 regression fitting\n\nIS Ch 27.1; IS Ch 27.2\n\n\n (correlation and regression)\n\n\n\n\n\n\n\nThu, Apr 16\nSimple Linear Regression: Fitting and Inference\n👉 sampling distribution of coefficients\nIS Ch 27.3 - 27.5\n\n\n\n✅ Quiz 4\n\n\n\n15\nTue, Apr 21\nIn-class Exam 2\n\n\n\n\n\n\n✅ Take-home Exam 2\n\n\n\nThu, Apr 23\nSimple Linear Regression: Prediction\n\nIS Ch 27.6\n\n✍️ HW 8 (due 5/1)\n\n\n\n\n\n16\nTue, Apr 28\nTo Be Determined\n\n\n\n\n\n\n📂 Final Project Guideline\n\n\n\nTue, Apr 30\nTo Be Determined\n\n\n\n\n\n\n\n\n\n17\nFri, May 8\nFinal Project\n\n\n\n\n\n\n\n\n\n\n\nDr. Yu reserves the right to make changes to the schedule.",
+    "text": "This schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nReading\nR Code\nHomework\nWorksheet\nQuiz\nExam/Project\n\n\n\n1\nTue, Jan 13\nSyllabus/Overview of Statistics\n\n🖥️ syllabus🖥️ statistics and data\n\nSyllabusIS Ch1GenAI Video\n\n\n\n\n\n\n\n\n\nThu, Jan 15\nStatistical Studies and Data Collection; Data Type\n\nIS Ch 2\n\n✍️ HW 1 (due 1/23)\n\n\n\n\n\n2\nTue, Jan 20\nR Software and Computation\n🖥️ R and RStudio🖥️ data type and structure\nIS Ch 3\n\n (data type and structure)\n\n\n\n\n\n\n\nThu, Jan 22\nSummarizing Data: Centrality\n🖥️ data summary👉histogram breaks👉data extremes\nIS Ch 5 - 6\n\n (data graphics)\n\n\n\n\n\n\n3\nTue, Jan 27\nSummarizing Data: Variation\n\n\n\n (data numerics)\n\n\n\n\n\n\n\nThu, Jan 29\nProbability Fundamentals\n🖥️ probability👉venn diagram\nIS Ch 7 - 8\n\n✍️ HW 2 (due 2/6)\n\n\n\n\n\n4\nTue, Feb 3\nConditional Probability, Independence, Bayes Formula\n\n\n\n\n\n\n\n\n\n\nThu, Feb 5\nRandom Variables, Discrete Probability Distributions\n🖥️ distribution 👉binomial👉poisson\nIS Ch 9 - 10\n\n (discrete distribution)\n✍️ HW 3 (due 2/13)\n\n✅ Quiz 1\n\n\n\n5\nTue, Feb 10\nContinuous Probability Distributions\n👉normal\nIS Ch 11\n\n (continuous distribution)\n\n\n\n\n\n\n\nThu, Feb 12\nSampling Distributions\n🖥️ sampling-dist-clt\nIS Ch 12\n\n (sampling distribution and CLT)\n\n\n\n\n\n\n6\nTue, Feb 17\nCentral Limit Theorem (CLT)\n👉CLT 👉Rolling dice\nIS Ch 13\n\n\n\n\n\n\n\n\nThu, Feb 19\nConfidence Intervals\n🖥️ confidence interval  👉CI\nIS Ch 14\n\n (confidence interval)\n✍️ HW 4 (due 2/27)\n\n\n\n\n\n7\nTue, Feb 24\nConfidence Intervals\n👉Student-t\n\n\n\n\n\n\n\n\n\nThu, Feb 26\nHypothesis Testing\n🖥️ testing 👉testing\nIS Ch 16\n\n\n\n✅ Quiz 2\n\n\n\n8\nTue, Mar 3\nIn-class Exam 1\n\n\n\n\n\n\n✅ Take-home Exam 1\n\n\n\nThu, Mar 5\nHypothesis Testing\n\n\n\n (testing)\n\n\n\n\n\n\n9\nTue, Mar 10\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n\nThu, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n10\nTue, Mar 17\nHypothesis Testing\n\n\n\n\n\n\n\n\n\n\nThu, Mar 19\nTwo Population Means: Matched Pairs\n🖥️ two samples\nIS Ch 17\n\n (two samples)\n✍️ HW 5 (due 3/27)\n\n\n\n\n\n11\nTue, Mar 24\nTwo Population Means: Independent Samples\n\n\n\n\n\n\n\n\n\n\nThu, Mar 26\nInference for One Population Variance\n🖥️ variances  👉chi-squared\nIS Ch 18\n\n (variances)\n✍️ HW 6 (due 4/3)\n\n✅ Quiz 3\n\n\n\n12\nTue, Mar 31\nInference about Two Population Variances\n👉 f\n\n\n\n\n\n\n\n\n\nThu, Apr 2\nNO CLASS: Easter break\n\n\n\n\n\n\n\n\n\n13\nTue, Apr 7\nAnalysis of Variance (ANOVA) Rationale\n🖥️ ANOVA\nIS Ch 24\n\n (ANOVA data)\n\n\n\n\n\n\n\nThu, Apr 9\nAnalysis of Variance (ANOVA) Procedure\n\n\n\n✍️ HW 7 (due 4/17)\n\n\n\n\n\n14\nTue, Apr 14\nCorrelation; Overview of Regression\n🖥️ correlation  🖥️ regression  👉 regression fitting\n\nIS Ch 27.1; IS Ch 27.2\n\n\n (correlation and regression)\n\n\n\n\n\n\n\nThu, Apr 16\nSimple Linear Regression: Fitting and Inference\n👉 sampling distribution of coefficients\nIS Ch 27.3 - 27.5\n\n\n\n✅ Quiz 4\n\n\n\n15\nTue, Apr 21\nIn-class Exam 2\n\n\n\n\n\n\n✅ Take-home Exam 2\n\n\n\nThu, Apr 23\nSimple Linear Regression: Prediction\n\nIS Ch 27.6\n\n✍️ HW 8 (due 5/1)\n\n\n\n\n\n16\nTue, Apr 28\nTo Be Determined\n\n\n\n\n\n\n📂 Final Project Guideline\n\n\n\nTue, Apr 30\nTo Be Determined\n\n\n\n\n\n\n\n\n\n17\nFri, May 8\nFinal Project\n\n\n\n\n\n\n\n\n\n\n\nDr. Yu reserves the right to make changes to the schedule.",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -3933,32 +3933,116 @@
     "text": "Discussion\n\nHow does your group’s pattern compare to the overall line?\nWhat does the slope mean in context?\nWhy might individual data vary around the line?\nWould it make sense to predict shoe size for someone far outside our data range (e.g., 7’3” tall)? Why or why not?"
   },
   {
-    "objectID": "activity/act_sampling_clt.html",
-    "href": "activity/act_sampling_clt.html",
-    "title": "Activity: Sampling Distribution and Central Limit Theorem",
+    "objectID": "activity/act_descriptive.html",
+    "href": "activity/act_descriptive.html",
+    "title": "Activity: Descriptive statistics",
     "section": "",
-    "text": "You will experience\n\nhow sample means vary,\nhow a sampling distribution of sample mean is created\nhow they approximate a normal distribution as sample size increases."
+    "text": "Create and interpret distribution graphics.\nCompute mean, median, IQR, and range in base R, including handling missing values.\nIdentify outliers and decide which summaries best describe typical and variability."
   },
   {
-    "objectID": "activity/act_sampling_clt.html#objective",
-    "href": "activity/act_sampling_clt.html#objective",
-    "title": "Activity: Sampling Distribution and Central Limit Theorem",
+    "objectID": "activity/act_descriptive.html#objective",
+    "href": "activity/act_descriptive.html#objective",
+    "title": "Activity: Descriptive statistics",
     "section": "",
-    "text": "You will experience\n\nhow sample means vary,\nhow a sampling distribution of sample mean is created\nhow they approximate a normal distribution as sample size increases."
+    "text": "Create and interpret distribution graphics.\nCompute mean, median, IQR, and range in base R, including handling missing values.\nIdentify outliers and decide which summaries best describe typical and variability."
   },
   {
-    "objectID": "activity/act_sampling_clt.html#instructions",
-    "href": "activity/act_sampling_clt.html#instructions",
-    "title": "Activity: Sampling Distribution and Central Limit Theorem",
+    "objectID": "activity/act_descriptive.html#instructions",
+    "href": "activity/act_descriptive.html#instructions",
+    "title": "Activity: Descriptive statistics",
     "section": "Instructions",
-    "text": "Instructions\n\nGo to Dr. Yu’s app https://cheyu.shinyapps.io/rolling-die/\n\n\n\n\n\n\n\n\n\n\n\nRoll your die 5 times, records your outcomes in Enter your die rolls separated by commas or spaces:, then hit Submit Rolls.\nCheck the histogram of sample means. Does it look like a normal distribution?\nChange 5 to 30 in Select number of rolls:\nRoll your die 30 times, records your outcomes in Enter your die rolls separated by commas or spaces:, then hit Submit Rolls.\nHow does the histogram look compared to the 5-roll sample means?"
+    "text": "Instructions\nForm a group of four or five.\nLoad airquality data\n\ndata(airquality)\nhead(airquality)\n\n  Ozone Solar.R Wind Temp Month Day\n1    41     190  7.4   67     5   1\n2    36     118  8.0   72     5   2\n3    12     149 12.6   74     5   3\n4    18     313 11.5   62     5   4\n5    NA      NA 14.3   56     5   5\n6    28      NA 14.9   66     5   6\n\nstr(airquality)\n\n'data.frame':   153 obs. of  6 variables:\n $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...\n $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...\n $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...\n $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...\n $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...\n $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...\n\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhat does the function head() do?\nWhat does NA mean?\nDiscuss the data type of the variables in the airquality data.\n\n\n\nCreate the histogram and the boxplot of the variable Ozone\n\n\n____(_________________, breaks = 15, main = \"Histogram of Ozone\")\n\n\n_______(_________________, main = \"Boxplot of Ozone\")\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nIs the distribution symmetric, left-skewed or right-skewed?\nIs the distribution unimodal or bimodal?\nAre there outliers?\n\n\n\nBoxplot of ozone by month\n\n\nboxplot(_____ ~ _____, data = airquality)\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich month has the highest typical ozone?\nWhich month looks most variable?"
   },
   {
-    "objectID": "activity/act_sampling_clt.html#discussion",
-    "href": "activity/act_sampling_clt.html#discussion",
-    "title": "Activity: Sampling Distribution and Central Limit Theorem",
-    "section": "Discussion",
-    "text": "Discussion\n\nWhat happened to the variability of the sample means as sample size increased?\nHow did the shape of the distribution change?\nHow does this illustrate the Central Limit Theorem?"
+    "objectID": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
+    "href": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
+    "title": "Activity: Descriptive statistics",
+    "section": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n",
+    "text": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich is larger, the mean or the median?\nWhat does that suggest about skewness and outliers?"
+  },
+  {
+    "objectID": "activity/act_descriptive.html#conclusion",
+    "href": "activity/act_descriptive.html#conclusion",
+    "title": "Activity: Descriptive statistics",
+    "section": "Conclusion",
+    "text": "Conclusion\nFill in the blanks using your results.\n\n\nTypical ozone: Month __ has the highest typical ozone because its boxplot median is highest, and the median ozone is __ (ppb).\n\n\n\n\nVariability: Month __ is most variable because its boxplot is widest, and its IQR is __ (ppb).\n\n\n\n\nSummary choice: Because the plots show outliers and skewness, we trust __ more than __ for describing a typical day and variability.\n\n\n\n  \n    −\n    +\n \n 10:00"
+  },
+  {
+    "objectID": "present-description-2.html",
+    "href": "present-description-2.html",
+    "title": "Midterm Presentation II - Classification",
+    "section": "",
+    "text": "Proposal. Please send me a one-page PDF describing what you are going to do for your project (no word limit) with your project title by Tuesday, 4/8 11:59 PM.\nPresentation. You will be presenting your project on Tuesday, 4/15 in class.\nMaterials. Please share your entire work (slides, code, data, etc) by Friday, 4/18 11:59 PM."
+  },
+  {
+    "objectID": "present-description-2.html#proposal",
+    "href": "present-description-2.html#proposal",
+    "title": "Midterm Presentation II - Classification",
+    "section": "Proposal",
+    "text": "Proposal\n\nEach one of you loses 5 points of your project grade if you don’t meet the requirement or miss the deadline.\n\nYour proposal (in PDF) should include three parts:\n\nProject title\n\nThe goal of your project. For example, what is the research question you’d like to answer? What machine learning method/model/algorithm you’d like to introduce? What data you’d like to use for analysis or demonstration? etc.\n\n\nAlthough it is risky, you can change your project topic after you submit your proposal if you decide to do something else."
+  },
+  {
+    "objectID": "present-description-2.html#presentation",
+    "href": "present-description-2.html#presentation",
+    "title": "Midterm Presentation II - Classification",
+    "section": "Presentation",
+    "text": "Presentation\n\nEach group presentation should be between 10 and 11 minute long, followed by 1 to 2 minute Q&A. If your presentation is too short or too long, every one of you loses 5 points of your project grade.\nEvery group member has to present some part of the group work. The one who does not present receives no point.\nQuestions are REQUIRED during Q&A. Each group is required to ask as least one question. More questions are welcome. If you, as a group, don’t ask a question when you should, every one of you loses 5 points of your project grade.\n\n\n\n\nTeam Presenting\nTeam Asking Questions\n\n\n\nTeam 1\nTeam 6\n\n\nTeam 2\nTeam 1\n\n\nTeam 3\nTeam 2\n\n\nTeam 4\nTeam 3\n\n\nTeam 5\nTeam 4\n\n\nTeam 6\nTeam 5"
+  },
+  {
+    "objectID": "present-description-2.html#materials",
+    "href": "present-description-2.html#materials",
+    "title": "Midterm Presentation II - Classification",
+    "section": "Materials",
+    "text": "Materials\n\nEach one of you loses 5 points of your project grade if you don’t meet the requirement or miss the deadline.\nYou need to share your entire work, including slides, code, and data if applicable.\nYour code should be able to reproduce all the numerical results, outputs, tables, and figures shown in the slides, including the source of the raw data (where you find and load the data) if the project is about data analysis."
+  },
+  {
+    "objectID": "present-description-2.html#data-analytics",
+    "href": "present-description-2.html#data-analytics",
+    "title": "Midterm Presentation II - Classification",
+    "section": "Data Analytics",
+    "text": "Data Analytics\nFor your DA project, you need to\n\nDescribe the selected data set.\nExplain and show why the chosen model(s) is appropriate for answering your research questions and better than others.\nInterpret your analysis result.\n\nBelow are some data repositories you can start with, but you are encouraged to explore more and find your favorite one.\n\nTidyTuesday\nKaggle\nAwesome Public Datasets\nHarvard Dataverse\nUCI Machine Learning Repository\nFiveThirtyEight"
+  },
+  {
+    "objectID": "present-description-2.html#modelalgorithm",
+    "href": "present-description-2.html#modelalgorithm",
+    "title": "Midterm Presentation II - Classification",
+    "section": "Model/Algorithm",
+    "text": "Model/Algorithm\nFor your MA project, you need to\n\nDescribe the intuition and idea of the method. What are the pros and cons of the method?\nProvide the mathematical expression of the model/algorithm. Explain the model and its properties, and how we do supervised learning with the model/algorithm.\nCompare the chosen method with other methods learned in class. Determine which method performs better under what conditions.\nDemo how to implement the method using a programming language for supervised learning."
+  },
+  {
+    "objectID": "present-description-2.html#group-performance-evaluation",
+    "href": "present-description-2.html#group-performance-evaluation",
+    "title": "Midterm Presentation II - Classification",
+    "section": "Group Performance Evaluation",
+    "text": "Group Performance Evaluation\n\nYou will need to evaluate all group projects except the one you work on.\n\nYou evaluate group performance based on the rubric attached. Four evaluation criteria are considered:\n\nProject Content and Organization (8 pts)\nPresentation Material (Slides) Quality (4 pts)\nOral Presentation Skill and Delivery (4 pts)\nInteractions and Q&A (4 pts)\n\n\nThe total points of a project presentation is 20 points.\nEvaluation sheets will be provided on the presentation day.\n\nHow do you get the full points for each category? Check the rubric below. \n\n\nContent and Organization (DA)\n\nBeautiful visualization helps find out relationship of variables and specification of models\nAll questions are answered accurately by the models\nDiscuss how and why the models are chosen\nApply sophisticated models and detailed analysis\nAll ideas are presented in logical order\n\n\n\nContent and Organization (MA)\n\nExplain the method clearly and accuratly\nShow the pros and cons of the method, and compare with the methods learned in class.\nShow how the method can be implemednted for supervised learning.\nAll ideas are presented in logical order\n\n\n\nPresentation Material Quality\n\nPresentation material show code and output beautifully\nPresentation material clearly aid the speaker in telling a coherent story\nAll tables and graphics are informative and related to the topic and make it easier to understand\nAttractive design, layout, and neatness.\n\n\n\nOral Presentation Skill\n\nGood volume and energy\nProper pace and diction\nAvoidance of distracting gestures\n\n\n\nInteractions and Q&A\n\nGood eye contact with audience\nExcellent listening skills\nAnswers audience questions with authority and accuracy\n\n\nAfter you evaluate all group project presentations, you rank them from 1st to last based on their earned points.\nNo two groups receive the same ranking. If you give two or more groups some points, you still need to give them a different ranking, deciding which team deserves a higher ranking according to your preference."
+  },
+  {
+    "objectID": "present-work.html",
+    "href": "present-work.html",
+    "title": "Midterm Project I Proposal and Presentation",
+    "section": "",
+    "text": "The presentation order is determined by the time you sent me your member info (c(\"John\", \"Jeremy\", \"Praful\") is the first to let me know, followed by c(\"Sajjad\", \"Tanjina\", \"Dewan\"), etc) and random sampling as follows.\n\nteam_lst &lt;- list(c(\"John\", \"Jeremy\", \"Praful\"), \n                 c(\"Sajjad\", \"Tanjina\", \"Dewan\"),\n                 c(\"Ethan\", \"Navid\", \"Sylvester\"), \n                 c(\"Violet\", \"Vanessa\", \"Michele\"), \n                 c(\"Rakesh\", \"Daniel\", \"Jeremy\"), \n                 c(\"Sai\", \"Rohith\", \"Shristi\"))\nset.seed(6250)\nteam_lst[sample(1:6, 6)]\n\n[[1]]\n[1] \"Sajjad\"  \"Tanjina\" \"Dewan\"  \n\n[[2]]\n[1] \"John\"   \"Jeremy\" \"Praful\"\n\n[[3]]\n[1] \"Violet\"  \"Vanessa\" \"Michele\"\n\n[[4]]\n[1] \"Rakesh\" \"Daniel\" \"Jeremy\"\n\n[[5]]\n[1] \"Sai\"     \"Rohith\"  \"Shristi\"\n\n[[6]]\n[1] \"Ethan\"     \"Navid\"     \"Sylvester\""
+  },
+  {
+    "objectID": "present-work.html#presentation-order",
+    "href": "present-work.html#presentation-order",
+    "title": "Midterm Project I Proposal and Presentation",
+    "section": "",
+    "text": "The presentation order is determined by the time you sent me your member info (c(\"John\", \"Jeremy\", \"Praful\") is the first to let me know, followed by c(\"Sajjad\", \"Tanjina\", \"Dewan\"), etc) and random sampling as follows.\n\nteam_lst &lt;- list(c(\"John\", \"Jeremy\", \"Praful\"), \n                 c(\"Sajjad\", \"Tanjina\", \"Dewan\"),\n                 c(\"Ethan\", \"Navid\", \"Sylvester\"), \n                 c(\"Violet\", \"Vanessa\", \"Michele\"), \n                 c(\"Rakesh\", \"Daniel\", \"Jeremy\"), \n                 c(\"Sai\", \"Rohith\", \"Shristi\"))\nset.seed(6250)\nteam_lst[sample(1:6, 6)]\n\n[[1]]\n[1] \"Sajjad\"  \"Tanjina\" \"Dewan\"  \n\n[[2]]\n[1] \"John\"   \"Jeremy\" \"Praful\"\n\n[[3]]\n[1] \"Violet\"  \"Vanessa\" \"Michele\"\n\n[[4]]\n[1] \"Rakesh\" \"Daniel\" \"Jeremy\"\n\n[[5]]\n[1] \"Sai\"     \"Rohith\"  \"Shristi\"\n\n[[6]]\n[1] \"Ethan\"     \"Navid\"     \"Sylvester\""
+  },
+  {
+    "objectID": "present-work.html#project-materials",
+    "href": "present-work.html#project-materials",
+    "title": "Midterm Project I Proposal and Presentation",
+    "section": "Project Materials",
+    "text": "Project Materials\n\nGroup 1 (Sajjad, Tanjina, Dewan) Predicting Life Expectancy: proposal\nGroup 2 (John, Jeremy, Praful) Poisson Regression: proposal\nGroup 3 (Violet, Vanessa, Michele) Is Ridge Regression or LASSO a better model to predict the price of houses in Ames, Iowa: proposal\nGroup 4 (Rakesh, Daniel, Jeremy) Predicting Abalone Age Using Regression Models: proposal\nGroup 5 (Sai, Rohith, Shristi) Analyzing the Impact of Housing Features on Sale Prices: A Regression-Based Study on the Ames Housing Dataset : proposal\nGroup 6 (Ethan, Navid, Sylvester) Predicting Car Sticker Price Regression: proposal"
+  },
+  {
+    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "title": "Attribution-ShareAlike 4.0 International",
+    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
   },
   {
     "objectID": "present-description.html",
@@ -4017,81 +4101,32 @@
     "text": "Group Performance Evaluation\n\nYou will need to evaluate all group projects except the one you work on.\n\nYou evaluate group performance based on the rubric attached. Four evaluation criteria are considered:\n\nProject Content and Organization (8 pts)\nPresentation Material (Slides) Quality (4 pts)\nOral Presentation Skill and Delivery (4 pts)\nInteractions and Q&A (4 pts)\n\n\nThe total points of a project presentation is 20 points.\nEvaluation sheets will be provided on the presentation day.\n\nHow do you get the full points for each category? Check the rubric below. \n\n\nContent and Organization (DA)\n\nBeautiful visualization helps find out relationship of variables and specification of models\nAll questions are answered accurately by the models\nDiscuss how and why the models are chosen\nApply sophisticated models and detailed analysis\nAll ideas are presented in logical order\n\n\n\nContent and Organization (MA)\n\nExplain the method clearly and accuratly\nShow the pros and cons of the method, and compare with the methods learned in class.\nShow how the method can be implemednted for supervised learning.\nAll ideas are presented in logical order\n\n\n\nPresentation Material Quality\n\nPresentation material show code and output beautifully\nPresentation material clearly aid the speaker in telling a coherent story\nAll tables and graphics are informative and related to the topic and make it easier to understand\nAttractive design, layout, and neatness.\n\n\n\nOral Presentation Skill\n\nGood volume and energy\nProper pace and diction\nAvoidance of distracting gestures\n\n\n\nInteractions and Q&A\n\nGood eye contact with audience\nExcellent listening skills\nAnswers audience questions with authority and accuracy\n\n\nAfter you evaluate all group project presentations, you rank them from 1st to last based on their earned points.\nNo two groups receive the same ranking. If you give two or more groups some points, you still need to give them a different ranking, deciding which team deserves a higher ranking according to your preference."
   },
   {
-    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "title": "Attribution-ShareAlike 4.0 International",
-    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
-    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
-  },
-  {
-    "objectID": "present-work.html",
-    "href": "present-work.html",
-    "title": "Midterm Project I Proposal and Presentation",
+    "objectID": "activity/act_sampling_clt.html",
+    "href": "activity/act_sampling_clt.html",
+    "title": "Activity: Sampling Distribution and Central Limit Theorem",
     "section": "",
-    "text": "The presentation order is determined by the time you sent me your member info (c(\"John\", \"Jeremy\", \"Praful\") is the first to let me know, followed by c(\"Sajjad\", \"Tanjina\", \"Dewan\"), etc) and random sampling as follows.\n\nteam_lst &lt;- list(c(\"John\", \"Jeremy\", \"Praful\"), \n                 c(\"Sajjad\", \"Tanjina\", \"Dewan\"),\n                 c(\"Ethan\", \"Navid\", \"Sylvester\"), \n                 c(\"Violet\", \"Vanessa\", \"Michele\"), \n                 c(\"Rakesh\", \"Daniel\", \"Jeremy\"), \n                 c(\"Sai\", \"Rohith\", \"Shristi\"))\nset.seed(6250)\nteam_lst[sample(1:6, 6)]\n\n[[1]]\n[1] \"Sajjad\"  \"Tanjina\" \"Dewan\"  \n\n[[2]]\n[1] \"John\"   \"Jeremy\" \"Praful\"\n\n[[3]]\n[1] \"Violet\"  \"Vanessa\" \"Michele\"\n\n[[4]]\n[1] \"Rakesh\" \"Daniel\" \"Jeremy\"\n\n[[5]]\n[1] \"Sai\"     \"Rohith\"  \"Shristi\"\n\n[[6]]\n[1] \"Ethan\"     \"Navid\"     \"Sylvester\""
+    "text": "You will experience\n\nhow sample means vary,\nhow a sampling distribution of sample mean is created\nhow they approximate a normal distribution as sample size increases."
   },
   {
-    "objectID": "present-work.html#presentation-order",
-    "href": "present-work.html#presentation-order",
-    "title": "Midterm Project I Proposal and Presentation",
+    "objectID": "activity/act_sampling_clt.html#objective",
+    "href": "activity/act_sampling_clt.html#objective",
+    "title": "Activity: Sampling Distribution and Central Limit Theorem",
     "section": "",
-    "text": "The presentation order is determined by the time you sent me your member info (c(\"John\", \"Jeremy\", \"Praful\") is the first to let me know, followed by c(\"Sajjad\", \"Tanjina\", \"Dewan\"), etc) and random sampling as follows.\n\nteam_lst &lt;- list(c(\"John\", \"Jeremy\", \"Praful\"), \n                 c(\"Sajjad\", \"Tanjina\", \"Dewan\"),\n                 c(\"Ethan\", \"Navid\", \"Sylvester\"), \n                 c(\"Violet\", \"Vanessa\", \"Michele\"), \n                 c(\"Rakesh\", \"Daniel\", \"Jeremy\"), \n                 c(\"Sai\", \"Rohith\", \"Shristi\"))\nset.seed(6250)\nteam_lst[sample(1:6, 6)]\n\n[[1]]\n[1] \"Sajjad\"  \"Tanjina\" \"Dewan\"  \n\n[[2]]\n[1] \"John\"   \"Jeremy\" \"Praful\"\n\n[[3]]\n[1] \"Violet\"  \"Vanessa\" \"Michele\"\n\n[[4]]\n[1] \"Rakesh\" \"Daniel\" \"Jeremy\"\n\n[[5]]\n[1] \"Sai\"     \"Rohith\"  \"Shristi\"\n\n[[6]]\n[1] \"Ethan\"     \"Navid\"     \"Sylvester\""
+    "text": "You will experience\n\nhow sample means vary,\nhow a sampling distribution of sample mean is created\nhow they approximate a normal distribution as sample size increases."
   },
   {
-    "objectID": "present-work.html#project-materials",
-    "href": "present-work.html#project-materials",
-    "title": "Midterm Project I Proposal and Presentation",
-    "section": "Project Materials",
-    "text": "Project Materials\n\nGroup 1 (Sajjad, Tanjina, Dewan) Predicting Life Expectancy: proposal\nGroup 2 (John, Jeremy, Praful) Poisson Regression: proposal\nGroup 3 (Violet, Vanessa, Michele) Is Ridge Regression or LASSO a better model to predict the price of houses in Ames, Iowa: proposal\nGroup 4 (Rakesh, Daniel, Jeremy) Predicting Abalone Age Using Regression Models: proposal\nGroup 5 (Sai, Rohith, Shristi) Analyzing the Impact of Housing Features on Sale Prices: A Regression-Based Study on the Ames Housing Dataset : proposal\nGroup 6 (Ethan, Navid, Sylvester) Predicting Car Sticker Price Regression: proposal"
+    "objectID": "activity/act_sampling_clt.html#instructions",
+    "href": "activity/act_sampling_clt.html#instructions",
+    "title": "Activity: Sampling Distribution and Central Limit Theorem",
+    "section": "Instructions",
+    "text": "Instructions\n\nGo to Dr. Yu’s app https://cheyu.shinyapps.io/rolling-die/\n\n\n\n\n\n\n\n\n\n\n\nRoll your die 5 times, records your outcomes in Enter your die rolls separated by commas or spaces:, then hit Submit Rolls.\nCheck the histogram of sample means. Does it look like a normal distribution?\nChange 5 to 30 in Select number of rolls:\nRoll your die 30 times, records your outcomes in Enter your die rolls separated by commas or spaces:, then hit Submit Rolls.\nHow does the histogram look compared to the 5-roll sample means?"
   },
   {
-    "objectID": "present-description-2.html",
-    "href": "present-description-2.html",
-    "title": "Midterm Presentation II - Classification",
-    "section": "",
-    "text": "Proposal. Please send me a one-page PDF describing what you are going to do for your project (no word limit) with your project title by Tuesday, 4/8 11:59 PM.\nPresentation. You will be presenting your project on Tuesday, 4/15 in class.\nMaterials. Please share your entire work (slides, code, data, etc) by Friday, 4/18 11:59 PM."
-  },
-  {
-    "objectID": "present-description-2.html#proposal",
-    "href": "present-description-2.html#proposal",
-    "title": "Midterm Presentation II - Classification",
-    "section": "Proposal",
-    "text": "Proposal\n\nEach one of you loses 5 points of your project grade if you don’t meet the requirement or miss the deadline.\n\nYour proposal (in PDF) should include three parts:\n\nProject title\n\nThe goal of your project. For example, what is the research question you’d like to answer? What machine learning method/model/algorithm you’d like to introduce? What data you’d like to use for analysis or demonstration? etc.\n\n\nAlthough it is risky, you can change your project topic after you submit your proposal if you decide to do something else."
-  },
-  {
-    "objectID": "present-description-2.html#presentation",
-    "href": "present-description-2.html#presentation",
-    "title": "Midterm Presentation II - Classification",
-    "section": "Presentation",
-    "text": "Presentation\n\nEach group presentation should be between 10 and 11 minute long, followed by 1 to 2 minute Q&A. If your presentation is too short or too long, every one of you loses 5 points of your project grade.\nEvery group member has to present some part of the group work. The one who does not present receives no point.\nQuestions are REQUIRED during Q&A. Each group is required to ask as least one question. More questions are welcome. If you, as a group, don’t ask a question when you should, every one of you loses 5 points of your project grade.\n\n\n\n\nTeam Presenting\nTeam Asking Questions\n\n\n\nTeam 1\nTeam 6\n\n\nTeam 2\nTeam 1\n\n\nTeam 3\nTeam 2\n\n\nTeam 4\nTeam 3\n\n\nTeam 5\nTeam 4\n\n\nTeam 6\nTeam 5"
-  },
-  {
-    "objectID": "present-description-2.html#materials",
-    "href": "present-description-2.html#materials",
-    "title": "Midterm Presentation II - Classification",
-    "section": "Materials",
-    "text": "Materials\n\nEach one of you loses 5 points of your project grade if you don’t meet the requirement or miss the deadline.\nYou need to share your entire work, including slides, code, and data if applicable.\nYour code should be able to reproduce all the numerical results, outputs, tables, and figures shown in the slides, including the source of the raw data (where you find and load the data) if the project is about data analysis."
-  },
-  {
-    "objectID": "present-description-2.html#data-analytics",
-    "href": "present-description-2.html#data-analytics",
-    "title": "Midterm Presentation II - Classification",
-    "section": "Data Analytics",
-    "text": "Data Analytics\nFor your DA project, you need to\n\nDescribe the selected data set.\nExplain and show why the chosen model(s) is appropriate for answering your research questions and better than others.\nInterpret your analysis result.\n\nBelow are some data repositories you can start with, but you are encouraged to explore more and find your favorite one.\n\nTidyTuesday\nKaggle\nAwesome Public Datasets\nHarvard Dataverse\nUCI Machine Learning Repository\nFiveThirtyEight"
-  },
-  {
-    "objectID": "present-description-2.html#modelalgorithm",
-    "href": "present-description-2.html#modelalgorithm",
-    "title": "Midterm Presentation II - Classification",
-    "section": "Model/Algorithm",
-    "text": "Model/Algorithm\nFor your MA project, you need to\n\nDescribe the intuition and idea of the method. What are the pros and cons of the method?\nProvide the mathematical expression of the model/algorithm. Explain the model and its properties, and how we do supervised learning with the model/algorithm.\nCompare the chosen method with other methods learned in class. Determine which method performs better under what conditions.\nDemo how to implement the method using a programming language for supervised learning."
-  },
-  {
-    "objectID": "present-description-2.html#group-performance-evaluation",
-    "href": "present-description-2.html#group-performance-evaluation",
-    "title": "Midterm Presentation II - Classification",
-    "section": "Group Performance Evaluation",
-    "text": "Group Performance Evaluation\n\nYou will need to evaluate all group projects except the one you work on.\n\nYou evaluate group performance based on the rubric attached. Four evaluation criteria are considered:\n\nProject Content and Organization (8 pts)\nPresentation Material (Slides) Quality (4 pts)\nOral Presentation Skill and Delivery (4 pts)\nInteractions and Q&A (4 pts)\n\n\nThe total points of a project presentation is 20 points.\nEvaluation sheets will be provided on the presentation day.\n\nHow do you get the full points for each category? Check the rubric below. \n\n\nContent and Organization (DA)\n\nBeautiful visualization helps find out relationship of variables and specification of models\nAll questions are answered accurately by the models\nDiscuss how and why the models are chosen\nApply sophisticated models and detailed analysis\nAll ideas are presented in logical order\n\n\n\nContent and Organization (MA)\n\nExplain the method clearly and accuratly\nShow the pros and cons of the method, and compare with the methods learned in class.\nShow how the method can be implemednted for supervised learning.\nAll ideas are presented in logical order\n\n\n\nPresentation Material Quality\n\nPresentation material show code and output beautifully\nPresentation material clearly aid the speaker in telling a coherent story\nAll tables and graphics are informative and related to the topic and make it easier to understand\nAttractive design, layout, and neatness.\n\n\n\nOral Presentation Skill\n\nGood volume and energy\nProper pace and diction\nAvoidance of distracting gestures\n\n\n\nInteractions and Q&A\n\nGood eye contact with audience\nExcellent listening skills\nAnswers audience questions with authority and accuracy\n\n\nAfter you evaluate all group project presentations, you rank them from 1st to last based on their earned points.\nNo two groups receive the same ranking. If you give two or more groups some points, you still need to give them a different ranking, deciding which team deserves a higher ranking according to your preference."
+    "objectID": "activity/act_sampling_clt.html#discussion",
+    "href": "activity/act_sampling_clt.html#discussion",
+    "title": "Activity: Sampling Distribution and Central Limit Theorem",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat happened to the variability of the sample means as sample size increased?\nHow did the shape of the distribution change?\nHow does this illustrate the Central Limit Theorem?"
   },
   {
     "objectID": "activity/act_distribution.html",
@@ -4210,7 +4245,7 @@
     "href": "course-overview.html",
     "title": "MATH 4720/5720 Spring 2026",
     "section": "",
-    "text": "This course introduces the ideas of data summary and visualization, probability, and statistics with applications to natural and social sciences and daily life. Topics include but not limited to: random variables, discrete and continuous probability distributions, sampling distributions, confidence intervals, hypothesis testing, analysis of variance, and linear regression. This course builds a foundation for statistical inference, machine learning, and data modeling.\nThe course will assume facility with using the internet and a personal computer. A portion of the course involves  programming using RStudio or Posit Cloud, but prior coding experience is not required.",
+    "text": "This course introduces the ideas of data summary and visualization, probability, and statistics with applications to natural and social sciences and daily life. Topics include but not limited to: random variables, discrete and continuous probability distributions, sampling distributions, confidence intervals, hypothesis testing, analysis of variance, and linear regression. This course builds a foundation for statistical inference, machine learning, and data modeling.\nThe course will assume facility with using the internet and a personal computer. A portion of the course involves  programming using RStudio or Posit Cloud, but prior coding experience is not required.\n\nLearning outcomes\nBy the end of the course, students will be able to:\n\nStatistical reasoning and communication Students will be able to interpret data and statistical results in context, clearly communicating conclusions, uncertainty, and practical significance.\nCore probability and sampling foundations Students will be able to use basic probability concepts and sampling distribution ideas (including the central limit theorem) to justify and explain common statistical methods.\nStatistical inference for common parameters Students will be able to construct and interpret confidence intervals and hypothesis tests for key parameters (including means, proportions, and comparisons across groups), stating assumptions and limitations.\nModeling and analysis using R* Students will be able to use R to perform reproducible statistical analyses, including visualization, regression modeling, and model assessment, and to document work appropriately (including responsible AI support when permitted).",
     "crumbs": [
       "Course Information",
       "Overview"
@@ -5383,14 +5418,14 @@
     "href": "slides/01-syllabus.html#my-journey",
     "title": "Welcome Aboard 🙌",
     "section": "My Journey",
-    "text": "My Journey\n\nAssistant Professor (2020/08 - )\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\nPhD in Statistics\n\n\n\n\n\n\n\n\n\n\nMA in Economics/PhD program in Statistics"
+    "text": "My Journey\n\nAssistant Professor (2020/08 - )\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\nPhD in Statistics\n\n\n\n\n\n\n\n\n\n\nMA in Economics/PhD program in Statistics\n\n\n\n\n\n\n\n\n\n\nAfter college, working and doing military service for several years, I came to the US for my PhD degree. Originally I would like to study economics, but then I switched my major to statistics. - I got my master degree in economics from Indiana University Bloomington, then I transferred to UC Santa Cruz to finish my PhD studies. - Then I spent two years doing my postdoctoral research at Rice University in Houston, Texas. - Finally, in fall 2020, I came to Marquette being an assistant professor. - Midwest/Indiana-West/California-South/Texas-Midwest/Wisconsin - Been to any one of these universities/cities? - The most beautiful campus. - Who are international students? I can totally understand how hard studying and living in another country. Feel free to share your stories or difficulties, and I am more than happy to help you if you have any questions. - Poor listening and speaking skills. I was shy. - Usually if it is a class less than 30 students, I’d like to ask students to briefly introduce themselves, but this semester we have a big class, bear with me if I can’t recognize you."
   },
   {
     "objectID": "slides/01-syllabus.html#how-to-reach-me",
     "href": "slides/01-syllabus.html#how-to-reach-me",
     "title": "Welcome Aboard 🙌",
     "section": "How to Reach Me",
-    "text": "How to Reach Me\n\nOffice hours MoWe 4:50 - 5:50 PM and Tu 1 - 2 PM in Cudahy Hall 353.\n\n📧 cheng-han.yu@marquette.edu\n\nAnswer your question within 24 hours.\nExpect a reply on Monday if shoot me a message on weekends.\nStart your subject line with [math4720] or [mssc5720] followed by a clear description of your question.\n\n\n\n\n\n\n\n\n\n\n\n\nI will NOT reply your e-mail if … Check the email policy in the syllabus!"
+    "text": "How to Reach Me\n\nOffice hours TuTh 3:20 - 4:20 PM and We 2 - 3 PM in Cudahy Hall 353.\n\n📧 cheng-han.yu@marquette.edu\n\nAnswer your question within 24 hours.\nExpect a reply on Monday if shoot me a message on weekends.\nStart your subject line with [math4720] or [mssc5720] followed by a clear description of your question.\n\n\n\n\n\n\n\n\n\n\n\n\nI will NOT reply your e-mail if … Check the email policy in the syllabus!"
   },
   {
     "objectID": "slides/01-syllabus.html#ta-information",
@@ -5404,14 +5439,14 @@
     "href": "slides/01-syllabus.html#help-desk-hours",
     "title": "Welcome Aboard 🙌",
     "section": "Help Desk Hours",
-    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😿\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
+    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😭\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
   },
   {
     "objectID": "slides/01-syllabus.html#course-materials",
     "href": "slides/01-syllabus.html#course-materials",
     "title": "Welcome Aboard 🙌",
     "section": "Course Materials",
-    "text": "Course Materials\n\nCourse Website - https://math4720-f25.github.io/website/\n\n\n\n\n\n\n\n\n\n\n\n\nAll course materials and information can be found on this website. Bookmark it!"
+    "text": "Course Materials\n\nCourse Website - https://math4720-s26.github.io/website/\n\n\n\n\n\n\n\n\n\n\n\n\nAll course materials and information can be found on this website. Bookmark it!"
   },
   {
     "objectID": "slides/01-syllabus.html#textbook-really",
@@ -5425,7 +5460,7 @@
     "href": "slides/01-syllabus.html#textbook-dr.-yus-online-book",
     "title": "Welcome Aboard 🙌",
     "section": "Textbook (Dr. Yu’s Online Book)",
-    "text": "Textbook (Dr. Yu’s Online Book)\n\nIntroduction to Statistics, by Cheng-Han Yu\nFull detailed explanation of course slides 😎"
+    "text": "Textbook (Dr. Yu’s Online Book)\n\nIntroduction to Statistics, by Cheng-Han Yu\nFull detailed explanation of course slides 😎\n\n\n\n\n\n\n\n\n\n\n\nNowadays, students don’t read books!\nFor this course, I don’t think you need to buy any textbook.\nOne book you may be interested is my online book.Introduction to Statistics that provide full detailed explanation of course slides, and other topics that re not covered in this course.\nSo if you find it difficult to understand the course slides, you are welcome to read the book."
   },
   {
     "objectID": "slides/01-syllabus.html#learning-management-system-d2l",
@@ -5439,7 +5474,7 @@
     "href": "slides/01-syllabus.html#grading-policy",
     "title": "Welcome Aboard 🙌",
     "section": "Grading Policy ✨",
-    "text": "Grading Policy ✨\n\n\nYour final grade is earned out of 1000 total points distributed as follows:\n\nHomework 1 to 8: 175 pts (25 pts each)\nQuiz 1 to 4: 200 pts (50 pts each)\nExam 1 and 2: 300 pts (150 pts each)\nFinal exam: 150 pts\nAI Project: 150 pts\nClass participation: 25 pts\n\n\n❌ No extra credit projects/homework/exam to compensate for a poor grade.\nIndividual grade will NOT be curved."
+    "text": "Grading Policy ✨\n\n\n\n\n\n\n\n\n\n\nCategory\nWeight\n\n\n\n8 Homework sets\n10%\n\n\n4 Quizzes\n20%\n\n\n2 Exams\n40%\n\n\n~10 Worksheets\n10%\n\n\n~3 Group Activities\n10%\n\n\n1 Final Project\n10%\n\n\n\n\n❌ No extra credit projects/homework/exam to compensate for a poor grade.\nIndividual grade will NOT be curved."
   },
   {
     "objectID": "slides/01-syllabus.html#grade-percentage-conversion",
@@ -5495,7 +5530,7 @@
     "href": "slides/01-syllabus.html#document-generative-ai-use-1",
     "title": "Welcome Aboard 🙌",
     "section": "Document Generative AI Use",
-    "text": "Document Generative AI Use\n\n\nWhy/How I used AI (prompts and questions)\n\nI asked ChatGPT to generate a histogram using R.\n\n\nGenerated output (screenshot or copy-paste excerpt)\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow I used the output\n\nI reviewed the suggestions, but I did not use the exact code. Instead, I change the code format and breaks value to 50."
+    "text": "Document Generative AI Use\n\n\n\n\nWhy/How I used AI (prompts and questions)\n\nI asked ChatGPT to generate a histogram using R.\n\n\nGenerated output (screenshot or copy-paste excerpt)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow I used the output\n\nI reviewed the suggestions, but I did not use the exact code. Instead, I change the code format and breaks value to 50."
   },
   {
     "objectID": "slides/01-syllabus.html#academic-integrity",
@@ -5516,28 +5551,28 @@
     "href": "slides/01-syllabus-slides.html#my-journey",
     "title": "Welcome Aboard 🙌",
     "section": "My Journey",
-    "text": "My Journey\n\nAssistant Professor (2020/08 - )\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\nPhD in Statistics\n\n\n\n\n\n\n\n\n\n\nMA in Economics/PhD program in Statistics"
+    "text": "My Journey\n\nAssistant Professor (2020/08 - )\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\nPhD in Statistics\n\n\n\n\n\n\n\n\n\n\nMA in Economics/PhD program in Statistics\n\n\n\n\n\n\n\n\n\nAfter college, working and doing military service for several years, I came to the US for my PhD degree. Originally I would like to study economics, but then I switched my major to statistics. - I got my master degree in economics from Indiana University Bloomington, then I transferred to UC Santa Cruz to finish my PhD studies. - Then I spent two years doing my postdoctoral research at Rice University in Houston, Texas. - Finally, in fall 2020, I came to Marquette being an assistant professor. - Midwest/Indiana-West/California-South/Texas-Midwest/Wisconsin - Been to any one of these universities/cities? - The most beautiful campus. - Who are international students? I can totally understand how hard studying and living in another country. Feel free to share your stories or difficulties, and I am more than happy to help you if you have any questions. - Poor listening and speaking skills. I was shy. - Usually if it is a class less than 30 students, I’d like to ask students to briefly introduce themselves, but this semester we have a big class, bear with me if I can’t recognize you."
   },
   {
     "objectID": "slides/01-syllabus-slides.html#how-to-reach-me",
     "href": "slides/01-syllabus-slides.html#how-to-reach-me",
     "title": "Welcome Aboard 🙌",
     "section": "How to Reach Me",
-    "text": "How to Reach Me\n\nOffice hours MoWe 4:50 - 5:50 PM and Tu 1 - 2 PM in Cudahy Hall 353.\n\n📧 cheng-han.yu@marquette.edu\n\nAnswer your question within 24 hours.\nExpect a reply on Monday if shoot me a message on weekends.\nStart your subject line with [math4720] or [mssc5720] followed by a clear description of your question.\n\n\n\n\n\nI will NOT reply your e-mail if … Check the email policy in the syllabus!"
+    "text": "How to Reach Me\n\nOffice hours TuTh 3:20 - 4:20 PM and We 2 - 3 PM in Cudahy Hall 353.\n\n📧 cheng-han.yu@marquette.edu\n\nAnswer your question within 24 hours.\nExpect a reply on Monday if shoot me a message on weekends.\nStart your subject line with [math4720] or [mssc5720] followed by a clear description of your question.\n\n\n\n\n\nI will NOT reply your e-mail if … Check the email policy in the syllabus!"
   },
   {
     "objectID": "slides/01-syllabus-slides.html#help-desk-hours",
     "href": "slides/01-syllabus-slides.html#help-desk-hours",
     "title": "Welcome Aboard 🙌",
     "section": "Help Desk Hours",
-    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😿\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
+    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😢\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
   },
   {
     "objectID": "slides/01-syllabus-slides.html#course-materials",
     "href": "slides/01-syllabus-slides.html#course-materials",
     "title": "Welcome Aboard 🙌",
     "section": "Course Materials",
-    "text": "Course Materials\n\nCourse Website - https://math4720-f25.github.io/website/\n\n\n\n\n\n\n\n\n\n\n\n\nAll course materials and information can be found on this website. Bookmark it!"
+    "text": "Course Materials\n\nCourse Website - https://math4720-s26.github.io/website/\n\n\n\n\n\n\n\n\n\n\n\n\nAll course materials and information can be found on this website. Bookmark it!"
   },
   {
     "objectID": "slides/01-syllabus-slides.html#textbook-really",
@@ -5551,21 +5586,21 @@
     "href": "slides/01-syllabus-slides.html#textbook-dr.-yus-online-book",
     "title": "Welcome Aboard 🙌",
     "section": "Textbook (Dr. Yu’s Online Book)",
-    "text": "Textbook (Dr. Yu’s Online Book)\n\nIntroduction to Statistics, by Cheng-Han Yu\nFull detailed explanation of course slides 😎"
+    "text": "Textbook (Dr. Yu’s Online Book)\n\nIntroduction to Statistics, by Cheng-Han Yu\nFull detailed explanation of course slides 😎\n\n\n\n\n\n\n\n\n\n\nNowadays, students don’t read books!\nFor this course, I don’t think you need to buy any textbook.\nOne book you may be interested is my online book.Introduction to Statistics that provide full detailed explanation of course slides, and other topics that re not covered in this course.\nSo if you find it difficult to understand the course slides, you are welcome to read the book."
   },
   {
     "objectID": "slides/01-syllabus-slides.html#learning-management-system-d2l",
     "href": "slides/01-syllabus-slides.html#learning-management-system-d2l",
     "title": "Welcome Aboard 🙌",
     "section": "Learning Management System (D2L)",
-    "text": "Learning Management System (D2L)\n\n\nSubmit your work: Assessments &gt; Dropbox\nCheck your grade: Assessments &gt; Grades\nNew announcement: News"
+    "text": "Learning Management System (D2L)\n\n\n\n\n\n\n\n\n\nSubmit your work: Assessments &gt; Dropbox\nCheck your grade: Assessments &gt; Grades\nNew announcement: News"
   },
   {
     "objectID": "slides/01-syllabus-slides.html#grading-policy",
     "href": "slides/01-syllabus-slides.html#grading-policy",
     "title": "Welcome Aboard 🙌",
     "section": "Grading Policy ✨",
-    "text": "Grading Policy ✨\n\n\nYour final grade is earned out of 1000 total points distributed as follows:\n\nHomework 1 to 8: 175 pts (25 pts each)\nQuiz 1 to 4: 200 pts (50 pts each)\nExam 1 and 2: 300 pts (150 pts each)\nFinal exam: 150 pts\nAI Project: 150 pts\nClass participation: 25 pts\n\n\n❌ No extra credit projects/homework/exam to compensate for a poor grade.\nIndividual grade will NOT be curved."
+    "text": "Grading Policy ✨\n\n\n\n\n\n\n\n\n\n\nCategory\nWeight\n\n\n\n8 Homework sets\n10%\n\n\n4 Quizzes\n20%\n\n\n2 Exams\n40%\n\n\n~10 Worksheets\n10%\n\n\n~3 Group Activities\n10%\n\n\n1 Final Project\n10%\n\n\n\n\n❌ No extra credit projects/homework/exam to compensate for a poor grade.\nIndividual grade will NOT be curved."
   },
   {
     "objectID": "slides/01-syllabus-slides.html#grade-percentage-conversion",
@@ -5621,7 +5656,7 @@
     "href": "slides/01-syllabus-slides.html#document-generative-ai-use-1",
     "title": "Welcome Aboard 🙌",
     "section": "Document Generative AI Use",
-    "text": "Document Generative AI Use\n\n\nWhy/How I used AI (prompts and questions)\n\nI asked ChatGPT to generate a histogram using R.\n\n\nGenerated output (screenshot or copy-paste excerpt)\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow I used the output\n\nI reviewed the suggestions, but I did not use the exact code. Instead, I change the code format and breaks value to 50."
+    "text": "Document Generative AI Use\n\n\n\n\nWhy/How I used AI (prompts and questions)\n\nI asked ChatGPT to generate a histogram using R.\n\n\nGenerated output (screenshot or copy-paste excerpt)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow I used the output\n\nI reviewed the suggestions, but I did not use the exact code. Instead, I change the code format and breaks value to 50."
   },
   {
     "objectID": "slides/01-syllabus-slides.html#academic-integrity",
@@ -6842,59 +6877,101 @@
     "text": "More extra exercises to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\n\n\n\n\n\nExercise 1\n\n\nExercises for Exam 1\n\n\n\n\n\n\nExercise 2\n\n\nExercises for Exam 2\n\n\n\n\n\n\nExercise 3\n\n\nExercises for Final Exam\n\n\n\n\n\n\nKey Topics of Multiple Linear Regression\n\n\nMultiple Linear Regression for Final Exam\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "activity/act_descriptive.html",
-    "href": "activity/act_descriptive.html",
-    "title": "Activity: Descriptive statistics",
-    "section": "",
-    "text": "Create and interpret distribution graphics.\nCompute mean, median, IQR, and range in base R, including handling missing values.\nIdentify outliers and decide which summaries best describe typical and variability."
+    "objectID": "slides/01-syllabus.html#homework-10",
+    "href": "slides/01-syllabus.html#homework-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Homework (10%)",
+    "text": "Homework (10%)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\n❌ No make-up homework.\n\n\nUsing generative AI (GenAI) tools is allowed, but you must carefully disclose your usage."
   },
   {
-    "objectID": "activity/act_descriptive.html#objective",
-    "href": "activity/act_descriptive.html#objective",
-    "title": "Activity: Descriptive statistics",
-    "section": "",
-    "text": "Create and interpret distribution graphics.\nCompute mean, median, IQR, and range in base R, including handling missing values.\nIdentify outliers and decide which summaries best describe typical and variability."
+    "objectID": "slides/01-syllabus.html#quizzes-20",
+    "href": "slides/01-syllabus.html#quizzes-20",
+    "title": "Welcome Aboard 🙌",
+    "section": "Quizzes (20%)",
+    "text": "Quizzes (20%)\n\nThere are 4 in-class 15-min quizzes.\nEach quiz is worth 5% of your overall grade.\n\n\n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
   },
   {
-    "objectID": "activity/act_descriptive.html#instructions",
-    "href": "activity/act_descriptive.html#instructions",
-    "title": "Activity: Descriptive statistics",
-    "section": "Instructions",
-    "text": "Instructions\nForm a group of four or five.\nLoad airquality data\n\ndata(airquality)\nhead(airquality)\n\n  Ozone Solar.R Wind Temp Month Day\n1    41     190  7.4   67     5   1\n2    36     118  8.0   72     5   2\n3    12     149 12.6   74     5   3\n4    18     313 11.5   62     5   4\n5    NA      NA 14.3   56     5   5\n6    28      NA 14.9   66     5   6\n\nstr(airquality)\n\n'data.frame':   153 obs. of  6 variables:\n $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...\n $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...\n $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...\n $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...\n $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...\n $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...\n\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhat does the function head() do?\nWhat does NA mean?\nDiscuss the data type of the variables in the airquality data.\n\n\n\nCreate the histogram and the boxplot of the variable Ozone\n\n\n____(_________________, breaks = 15, main = \"Histogram of Ozone\")\n\n\n_______(_________________, main = \"Boxplot of Ozone\")\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nIs the distribution symmetric, left-skewed or right-skewed?\nIs the distribution unimodal or bimodal?\nAre there outliers?\n\n\n\nBoxplot of ozone by month\n\n\nboxplot(_____ ~ _____, data = airquality)\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich month has the highest typical ozone?\nWhich month looks most variable?"
+    "objectID": "slides/01-syllabus.html#exams-40",
+    "href": "slides/01-syllabus.html#exams-40",
+    "title": "Welcome Aboard 🙌",
+    "section": "Exams (40%)",
+    "text": "Exams (40%)\n\nThere will be two exams.\nThe exams have in-class and take-home parts.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully disclose your AI usage.\n\n. . .\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 7.\nExam 2 covers Week 8 to 14.\n\n\n❌ No make-up exams for any reason unless you got an excused absence."
   },
   {
-    "objectID": "activity/act_descriptive.html#scenarios",
-    "href": "activity/act_descriptive.html#scenarios",
-    "title": "Activity: Descriptive statistics",
-    "section": "Scenarios",
-    "text": "Scenarios\n\nA quality inspector checks 20 light bulbs, each having a 5 percent chance of being defective. What distribution models the number of defective bulbs?\nThe number of emails arriving in Dr. Yu’s inbox between 2 and 3 pm.\nThe distribution of households income in 2010 in the USA.\n\n\n\n\n\n\n\n\n\n\nThe number of students who show up to class without doing their homework, out of 30 students.\nTime between buses arriving at a stop The Commons.\nThe number of cars passing through a toll booth in a 10 minute interval.\nThe heights of adult women in the United States.\n\n\n\n\n\n\n\n\n\n\nStudents’ letter grades in Dr. Yu’s MATH 4720 class (A, B, C, D, F).\nThe distribution of blood pressure of adults in Milwaukee.\n\n\n\n\n\n\n\n\n\n\nSurvival time of cancer patients after chemotherapy."
+    "objectID": "slides/01-syllabus.html#worksheets-10",
+    "href": "slides/01-syllabus.html#worksheets-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Worksheets (10%)",
+    "text": "Worksheets (10%)\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade."
   },
   {
-    "objectID": "activity/act_descriptive.html#quick-reference-key-features",
-    "href": "activity/act_descriptive.html#quick-reference-key-features",
-    "title": "Activity: Descriptive statistics",
-    "section": "Quick Reference: Key Features",
-    "text": "Quick Reference: Key Features\n\n\n\n\n\n\n\nDistribution\nWhen to use\nCommon parameters\n\n\n\nBinomial\nFixed number of trials, two outcomes per trial, constant probability, independent trials\n\n\\((n)\\) number of trials, \\((\\pi)\\) probability of success\n\n\nPoisson\nCounting events in a fixed interval of time or space, events occur independently at a constant average rate\n\n\\((\\lambda)\\) average rate per interval\n\n\nNormal\nContinuous measurements that are symmetric around a center with bell shape\n\n\\((\\mu)\\) mean, \\((\\sigma)\\) standard deviation\n\n\n\n\n  \n    −\n    +\n \n 10:00"
+    "objectID": "slides/01-syllabus.html#group-activities-10",
+    "href": "slides/01-syllabus.html#group-activities-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Group Activities (10%)",
+    "text": "Group Activities (10%)\n\nThere are several in-class group activities\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade."
   },
   {
-    "objectID": "activity/act_descriptive.html#question",
-    "href": "activity/act_descriptive.html#question",
-    "title": "Activity: Descriptive statistics",
-    "section": "Question",
-    "text": "Question\nfawfg"
+    "objectID": "slides/01-syllabus.html#final-project-10",
+    "href": "slides/01-syllabus.html#final-project-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Final Project (10%)",
+    "text": "Final Project (10%)\n\nThe project will be released after Exam 2.\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
   },
   {
-    "objectID": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
-    "href": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
-    "title": "Activity: Descriptive statistics",
-    "section": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n",
-    "text": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich is larger, the mean or the median?\nWhat does that suggest about skewness and outliers?"
+    "objectID": "slides/01-syllabus.html#what-computing-language-we-use",
+    "href": "slides/01-syllabus.html#what-computing-language-we-use",
+    "title": "Welcome Aboard 🙌",
+    "section": "What Computing Language We Use?",
+    "text": "What Computing Language We Use?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 1/20/2026. Don’t miss it!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn this course, we will be using programming language R to learn statistics.\nTo me, R is the best language for statistical computing!\nR is actually created by two statisticians for statistics.\nThe R syntax for doing statistics is very clean and intuitive.\nNow, R becomes one of the main languages for doing data science and machine learning.\nSo I think it’s worth learning it.\nBut still that’s your choice.\n❌ If you do NOT want to learn R, choose another section!\nAlthough I teach R in this course, you may use other tools or software to do your work, but I will NOT teach any of them."
   },
   {
-    "objectID": "activity/act_descriptive.html#conclusion",
-    "href": "activity/act_descriptive.html#conclusion",
-    "title": "Activity: Descriptive statistics",
-    "section": "Conclusion",
-    "text": "Conclusion\nFill in the blanks using your results.\n\n\nTypical ozone: Month __ has the highest typical ozone because its boxplot median is highest, and the median ozone is __ (ppb).\n\n\n\n\nVariability: Month __ is most variable because its boxplot is widest, and its IQR is __ (ppb).\n\n\n\n\nSummary choice: Because the plots show outliers and skewness, we trust __ more than __ for describing a typical day and variability.\n\n\n\n  \n    −\n    +\n \n 10:00"
+    "objectID": "slides/01-syllabus-slides.html#homework-10",
+    "href": "slides/01-syllabus-slides.html#homework-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Homework (10%)",
+    "text": "Homework (10%)\n\nAssessments &gt; Dropbox and upload your homework in PDF format.\nThere are 8 homework sets.\nYou must submit YOUR OWN work. 🙏\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline❗).\nMSSC 5720 students may have more or different homework questions.\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\n❌ No make-up homework.\n\n\nUsing generative AI (GenAI) tools is allowed, but you must carefully disclose your usage."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#quizzes-20",
+    "href": "slides/01-syllabus-slides.html#quizzes-20",
+    "title": "Welcome Aboard 🙌",
+    "section": "Quizzes (20%)",
+    "text": "Quizzes (20%)\n\nThere are 4 in-class 15-min quizzes.\nEach quiz is worth 5% of your overall grade.\n\n\n📚 Quizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\n❌ No make-up quizzes for any reason unless you got an excused absence. Check the syllabus for more details."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#exams-40",
+    "href": "slides/01-syllabus-slides.html#exams-40",
+    "title": "Welcome Aboard 🙌",
+    "section": "Exams (40%)",
+    "text": "Exams (40%)\n\nThere will be two exams.\nThe exams have in-class and take-home parts.\n\n\n📄 For the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully disclose your AI usage.\n\n\n\nAssessments &gt; Dropbox to submit your take-home exams in PDF format. \nExam 1 covers Week 1 to 7.\nExam 2 covers Week 8 to 14.\n\n\n❌ No make-up exams for any reason unless you got an excused absence."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#worksheets-10",
+    "href": "slides/01-syllabus-slides.html#worksheets-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Worksheets (10%)",
+    "text": "Worksheets (10%)\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#group-activities-10",
+    "href": "slides/01-syllabus-slides.html#group-activities-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Group Activities (10%)",
+    "text": "Group Activities (10%)\n\nThere are several in-class group activities\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#final-project-10",
+    "href": "slides/01-syllabus-slides.html#final-project-10",
+    "title": "Welcome Aboard 🙌",
+    "section": "Final Project (10%)",
+    "text": "Final Project (10%)\n\nThe project will be released after Exam 2.\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\nThe project topic will also be tested in the final exam.\nYou must carefully cite your GenAI tool or reveal your use of AI."
+  },
+  {
+    "objectID": "slides/01-syllabus-slides.html#what-computing-language-we-use",
+    "href": "slides/01-syllabus-slides.html#what-computing-language-we-use",
+    "title": "Welcome Aboard 🙌",
+    "section": "What Computing Language We Use?",
+    "text": "What Computing Language We Use?\n\n\n\n📈 The best language for statistical computing! \n\n✅ You may use other tools or software such as Excel, Python, Minitab, etc to do your work, but I will NOT teach any of them.\n❌ Drop/Swap deadline: 1/20/2026. Don’t miss it!\n\n\n\n\n\n\n\n\n\n\n\n\nIn this course, we will be using programming language R to learn statistics.\nTo me, R is the best language for statistical computing!\nR is actually created by two statisticians for statistics.\nThe R syntax for doing statistics is very clean and intuitive.\nNow, R becomes one of the main languages for doing data science and machine learning.\nSo I think it’s worth learning it.\nBut still that’s your choice.\n❌ If you do NOT want to learn R, choose another section!\nAlthough I teach R in this course, you may use other tools or software to do your work, but I will NOT teach any of them."
   }
 ]

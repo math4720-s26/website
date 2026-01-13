@@ -17,4 +17,21 @@ This course introduces the ideas of data summary and visualization, probability,
 
 The course will assume facility with using the internet and a personal computer. A portion of the course involves [\textsf{R}](https://www.r-project.org/about.html) programming using [RStudio or Posit Cloud](https://rstudio.com/), but prior coding experience is not required.
 
+### Learning outcomes
+
+By the end of the course, students will be able to:
+
+- **Statistical reasoning and communication**
+Students will be able to interpret data and statistical results in context, clearly communicating conclusions, uncertainty, and practical significance.
+
+- **Core probability and sampling foundations**
+Students will be able to use basic probability concepts and sampling distribution ideas (including the central limit theorem) to justify and explain common statistical methods.
+
+- **Statistical inference for common parameters**
+Students will be able to construct and interpret confidence intervals and hypothesis tests for key parameters (including means, proportions, and comparisons across groups), stating assumptions and limitations.
+
+- **Modeling and analysis using R***
+Students will be able to use R to perform reproducible statistical analyses, including visualization, regression modeling, and model assessment, and to document work appropriately (including responsible AI support when permitted).
+
+
 ![](images/background-bikeshare.png){fig-alt="A series of six, generic data visualizations: a scatterplot, a density plot, a contour plot, a line plot, a box plot, and another scatterplot." width="700"}
