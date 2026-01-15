@@ -869,7 +869,7 @@ text(cex = 1, x = my_bar - 0.25, y = 3, xpd = TRUE,
 . . .
 
 - **Experimental Study**: Apply some **treatment(s)** and then proceed to observe its responses or effects on the individuals (experimental units).
-  + <span style="color:blue">Assign volunteers to one of several diets with different levels of dietary fat (treatments). Then compare the treatments with respect to the incidence of hear disease after a period of time. </span> 
+  + <span style="color:blue">Assign volunteers to one of several diets with different levels of dietary fat (treatments). Then compare the treatments with respect to the incidence of heart disease after a period of time. </span> 
 
 . . .
   
