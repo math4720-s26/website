@@ -818,7 +818,7 @@
     "href": "slides/02-overview-slides.html#two-types-of-studies-to-collect-sample-data",
     "title": "Overview of Statistics and Data 📖",
     "section": "Two Types of Studies to Collect Sample Data",
-    "text": "Two Types of Studies to Collect Sample Data\n\n\nObservational Study: Observe and measure characteristics/variables, and do NOT attempt to modify or intervene with the subjects being studied.\n\n\n Sample from 1️⃣ the heart disease and 2️⃣ heart disease-free populations. Then record the fat content of the diets for the two groups. \n\n\n\n\n\n\nExperimental Study: Apply some treatment(s) and then proceed to observe its responses or effects on the individuals (experimental units).\n\nAssign volunteers to one of several diets with different levels of dietary fat (treatments). Then compare the treatments with respect to the incidence of hear disease after a period of time. \n\n\n\n\n\n\nObservational or Experimental?\n\nRandomly select 40 males and 40 females to see the difference in blood pressure levels between male and female. \n Test the effects of a new drug by randomly dividing patients into 3 groups (high dosage, low dosage, placebo)."
+    "text": "Two Types of Studies to Collect Sample Data\n\n\nObservational Study: Observe and measure characteristics/variables, and do NOT attempt to modify or intervene with the subjects being studied.\n\n\n Sample from 1️⃣ the heart disease and 2️⃣ heart disease-free populations. Then record the fat content of the diets for the two groups. \n\n\n\n\n\n\nExperimental Study: Apply some treatment(s) and then proceed to observe its responses or effects on the individuals (experimental units).\n\nAssign volunteers to one of several diets with different levels of dietary fat (treatments). Then compare the treatments with respect to the incidence of heart disease after a period of time. \n\n\n\n\n\n\nObservational or Experimental?\n\nRandomly select 40 males and 40 females to see the difference in blood pressure levels between male and female. \n Test the effects of a new drug by randomly dividing patients into 3 groups (high dosage, low dosage, placebo)."
   },
   {
     "objectID": "slides/02-overview-slides.html#limitation-of-observational-studies-confounding",
@@ -1056,7 +1056,7 @@
     "href": "slides/02-overview.html#two-types-of-studies-to-collect-sample-data",
     "title": "Overview of Statistics and Data 📖",
     "section": "Two Types of Studies to Collect Sample Data",
-    "text": "Two Types of Studies to Collect Sample Data\n\n\nObservational Study: Observe and measure characteristics/variables, and do NOT attempt to modify or intervene with the subjects being studied.\n\n\n Sample from 1️⃣ the heart disease and 2️⃣ heart disease-free populations. Then record the fat content of the diets for the two groups. \n\n\n\n. . .\n\n\nExperimental Study: Apply some treatment(s) and then proceed to observe its responses or effects on the individuals (experimental units).\n\nAssign volunteers to one of several diets with different levels of dietary fat (treatments). Then compare the treatments with respect to the incidence of hear disease after a period of time. \n\n\n\n. . .\n\nObservational or Experimental?\n\nRandomly select 40 males and 40 females to see the difference in blood pressure levels between male and female. \n Test the effects of a new drug by randomly dividing patients into 3 groups (high dosage, low dosage, placebo)."
+    "text": "Two Types of Studies to Collect Sample Data\n\n\nObservational Study: Observe and measure characteristics/variables, and do NOT attempt to modify or intervene with the subjects being studied.\n\n\n Sample from 1️⃣ the heart disease and 2️⃣ heart disease-free populations. Then record the fat content of the diets for the two groups. \n\n\n\n. . .\n\n\nExperimental Study: Apply some treatment(s) and then proceed to observe its responses or effects on the individuals (experimental units).\n\nAssign volunteers to one of several diets with different levels of dietary fat (treatments). Then compare the treatments with respect to the incidence of heart disease after a period of time. \n\n\n\n. . .\n\nObservational or Experimental?\n\nRandomly select 40 males and 40 females to see the difference in blood pressure levels between male and female. \n Test the effects of a new drug by randomly dividing patients into 3 groups (high dosage, low dosage, placebo)."
   },
   {
     "objectID": "slides/02-overview.html#limitation-of-observational-studies-confounding",
@@ -3951,14 +3951,14 @@
     "href": "activity/act_descriptive.html#instructions",
     "title": "Activity: Descriptive statistics",
     "section": "Instructions",
-    "text": "Instructions\nForm a group of four or five.\nLoad airquality data\n\ndata(airquality)\nhead(airquality)\n\n  Ozone Solar.R Wind Temp Month Day\n1    41     190  7.4   67     5   1\n2    36     118  8.0   72     5   2\n3    12     149 12.6   74     5   3\n4    18     313 11.5   62     5   4\n5    NA      NA 14.3   56     5   5\n6    28      NA 14.9   66     5   6\n\nstr(airquality)\n\n'data.frame':   153 obs. of  6 variables:\n $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...\n $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...\n $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...\n $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...\n $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...\n $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...\n\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nWhat does the function head() do?\nWhat does NA mean?\nDiscuss the data type of the variables in the airquality data.\n\n\n\nCreate the histogram and the boxplot of the variable Ozone\n\n\n____(_________________, breaks = 15, main = \"Histogram of Ozone\")\n\n\n_______(_________________, main = \"Boxplot of Ozone\")\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nIs the distribution symmetric, left-skewed or right-skewed?\nIs the distribution unimodal or bimodal?\nAre there outliers?\n\n\n\nBoxplot of ozone by month\n\n\nboxplot(_____ ~ _____, data = airquality)\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nWhich month has the highest typical ozone?\nWhich month looks most variable?"
+    "text": "Instructions\nForm a group of four or five.\nLoad airquality data\n\ndata(airquality)\nhead(airquality)\n\n  Ozone Solar.R Wind Temp Month Day\n1    41     190  7.4   67     5   1\n2    36     118  8.0   72     5   2\n3    12     149 12.6   74     5   3\n4    18     313 11.5   62     5   4\n5    NA      NA 14.3   56     5   5\n6    28      NA 14.9   66     5   6\n\nstr(airquality)\n\n'data.frame':   153 obs. of  6 variables:\n $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...\n $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...\n $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...\n $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...\n $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...\n $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...\n\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhat does the function head() do?\nWhat does NA mean?\nDiscuss the data type of the variables in the airquality data.\n\n\n\nCreate the histogram and the boxplot of the variable Ozone\n\n\n____(_________________, breaks = 15, main = \"Histogram of Ozone\")\n\n\n_______(_________________, main = \"Boxplot of Ozone\")\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nIs the distribution symmetric, left-skewed or right-skewed?\nIs the distribution unimodal or bimodal?\nAre there outliers?\n\n\n\nBoxplot of ozone by month\n\n\nboxplot(_____ ~ _____, data = airquality)\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich month has the highest typical ozone?\nWhich month looks most variable?"
   },
   {
     "objectID": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
     "href": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
     "title": "Activity: Descriptive statistics",
     "section": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n",
-    "text": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nWhich is larger, the mean or the median?\nWhat does that suggest about skewness and outliers?"
+    "text": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich is larger, the mean or the median?\nWhat does that suggest about skewness and outliers?"
   },
   {
     "objectID": "activity/act_descriptive.html#conclusion",
@@ -5439,7 +5439,7 @@
     "href": "slides/01-syllabus.html#help-desk-hours",
     "title": "Welcome Aboard 🙌",
     "section": "Help Desk Hours",
-    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😞\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
+    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😢\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
   },
   {
     "objectID": "slides/01-syllabus.html#course-materials",
@@ -5579,7 +5579,7 @@
     "href": "slides/01-syllabus-slides.html#help-desk-hours",
     "title": "Welcome Aboard 🙌",
     "section": "Help Desk Hours",
-    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😞\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
+    "text": "Help Desk Hours\n\n\n\nUnfortunately, no TA for this course. 😢\nHelp desk hours on the 4th floor of Cudahy Hall.\nThe hours will be released later."
   },
   {
     "objectID": "slides/01-syllabus-slides.html#course-materials",
