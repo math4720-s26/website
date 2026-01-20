@@ -1,8 +1,8 @@
 {
-  "hash": "890ccec6503ee70b382b15b804cc3f35",
+  "hash": "04c0dd10594b2d1bda3a184c6f5a2ca1",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Help Desk Hours\"\n---\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](./images/help_hours.png){width=100%}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Help Desk Hours\"\n---\n\n<!-- To be announced. -->\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](./images/help_hours_s26.png){width=100%}\n:::\n:::\n\n\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

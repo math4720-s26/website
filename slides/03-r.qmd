@@ -162,7 +162,7 @@ knitr::include_graphics("./images/03-r/pkg_map_usa.png")
 
 [^2]: [CRAN contributed packages](https://cran.r-project.org/web/packages/).
 
-<!-- [^3]: Mitchell O'Hara-Wild, [useR! 2018 feature wall](https://www.mitchelloharawild.com/blog/user-2018-feature-wall/). -->
+[^3]: Mitchell O'Hara-Wild, [useR! 2018 feature wall](https://www.mitchelloharawild.com/blog/user-2018-feature-wall/).
 
 
 ## `r emo::ji('cloud')` Posit Cloud - Statistics w/o hardware hassles
@@ -322,9 +322,9 @@ knitr::include_graphics("./images/03-r/script.png")
 
 - <span style="color:blue"> **Run** </span>: run the **current line** or **selection of code**.
 
-- <span style="color:blue"> **Icon right to the Run** </span>: re-run the **previous** selected code.
-
 - <span style="color:blue"> **Source** </span>: run **all** the code in the R script.
+
+<!-- - <span style="color:blue"> **Icon right to the Run** </span>: re-run the **previous** selected code. -->
 
 ```{r}
 knitr::include_graphics("./images/03-r/script.png")

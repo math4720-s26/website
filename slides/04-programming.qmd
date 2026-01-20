@@ -466,7 +466,7 @@ is.double(5L)
 - ### Vector
 - ### Factor
 <!-- - ### List -->
-- ### Matrix
+<!-- - ### Matrix -->
 - ### Data Frame
 <!-- - ### Data Frame -->
 
@@ -478,14 +478,17 @@ is.double(5L)
 
 ::::: columns
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ```{r vector}
 (dbl_vec <- c(1, 2.5, 4.5)) 
 (chr_vec <- c("pretty", "girl"))
 ```
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
+
+::: fragment
+
 ```{r}
 ## check how many elements in a vector
 length(dbl_vec) 
@@ -493,7 +496,10 @@ length(dbl_vec)
 ## any R data structure
 str(dbl_vec) 
 ```
+
 :::
+
+::::
 
 :::::
 
@@ -519,6 +525,8 @@ v1 - v2
 :::
 
 ::: {.column width="50%"}
+
+::: fragment
 ```{r}
 # Vector multiplication
 v1 * v2
@@ -526,6 +534,8 @@ v1 * v2
 v1 / v2
 sqrt(v2)
 ```
+:::
+
 :::
 
 :::::
@@ -755,7 +765,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/hadley/adv-r/master/d
 ```
 
 
-## Matrix
+## Matrix {visibility="hidden"}
 
 - A matrix is a *two-dimensional analog of a vector* with **attribute** `dim`.
 - Use command `matrix()` to create a matrix.
@@ -785,7 +795,7 @@ attributes(mat)
 :::
 
 
-## Subsetting a Matrix 
+## Subsetting a Matrix  {visibility="hidden"}
 
 - Use the same indexing approach as vectors on rows and columns.
 - Use comma `,` to separate row and column index.
@@ -936,25 +946,32 @@ df_c <-
 df
 
 ## Subset rows
-df[c(1, 3), ]
+df[3, ]
 
 ## Subset columns
-df[, c("age", "col")]
+df[, "age"]
+df$age
 ```
 
 :::
 
 ::: {.column width="50%"}
-
+::: fragment
 ```{r}
 #| label: df-subset2
 #| echo: true
 #| code-line-numbers: false
 
+## Subset rows
+df[c(1, 3), ]
+
+## Subset columns
+df[, c("age", "col")]
+
 ## select the row where age == 21
 df[df$age == 21, ]
 ```
-
+:::
 :::
 
 ::::

@@ -6,7 +6,7 @@ title-slide-attributes:
   # data-slide-number: none
 format: 
   live-revealjs: 
-    output-file: 05-data-discription-slides.html
+    output-file: 05-data-description-slides.html
 webr:
   cell-options:
     autorun: false
@@ -163,6 +163,11 @@ arrows(1.05, 0.73, 0.9, 0.61, length = 0.08)
 - As of August 2025, there are about 22510 R packages available on [**CRAN**](https://cran.r-project.org/) (the Comprehensive R Archive Network)!
 
 ```{r}
+#| eval: false
+install.packages("palmerpenguins")
+```
+
+```{r}
 #| out-width: 100%
 #| echo: false
 knitr::include_graphics("./images/03-r/pkg_map_usa.png")
@@ -288,6 +293,33 @@ pie(x = table(x), main = "Pie Chart")
 ```
 
 
+##
+
+
+::: {.your-turn}
+
+
+- Create a frequency table and a bar chart for the variable `island` of the penguins.
+
+```{r}
+library(palmerpenguins)
+```
+
+```{webr}
+#| exercise: ex_cat
+______(penguins$______)
+barplot(____)
+```
+
+
+
+::: {.content-visible when-format="revealjs"}
+{{< countdown minutes=1 font-size="3rem" >}}
+:::
+
+:::
+
+
 ## Frequency Distribution for Numerical Variables
 
 - Divide the data into $k$ **non-overlapping groups of intervals** (**classes**).
@@ -305,6 +337,9 @@ pie(x = table(x), main = "Pie Chart")
 
 
 - $(a_2 - a_1) = (a_3 - a_2) = \cdots = (a_{k+1} - a_k)$. **All class widths are the same**!
+
+
+
 
 
 ## Frequency Distribution for Numerical Variables
@@ -369,10 +404,11 @@ knitr::include_graphics("./images/05-data-description/lter_penguins.png")
 ::::: columns
 
 
-::: {.column width="40%"}
-::: small
+::: {.column width="50%"}
 ```{r}
 #| echo: false
+#| code-line-numbers: false
+#| class-output: my_class500
 k <- 12
 class_width <- 300
 lower_limit <- 2700
@@ -389,38 +425,49 @@ freq_dist <- data.frame("Class" = as.character(1:k),
                         "Class_Intvl" = class_int, 
                         "Freq" = freq_info$counts, 
                         "Rel_Freq" = round(freq_info$counts / length(body_mass), 2))
-print(freq_dist, row.names = FALSE)
+# print(freq_dist, row.names = FALSE)
+kable(freq_dist)
 ```
+
 :::
+
+::: {.column width="50%"}
 
 ```{r}
 #| code-line-numbers: false
 range(body_mass)
 ```
-:::
-
-::: {.column width="60%"}
 
 - All class widths are the same!
+
 - Number of classes should not be too big or too small.
+
 - The *lower* limit of the 1st class **should not be greater** than the *minimum* value of the data.
+
 - The *upper* limit of the last class **should not be smaller** than the *maximum* value of the data.
 
-:::
 
-:::::
-
-. . .
+::: fragment
 
 ::: question
 Wonder how we choose the number of classes or the class width?
 :::
 
-. . .
+:::
+
+::: fragment
 
 ::: alert
 R decide the number for us when we visualize the frequency distribution by a **histogram**.
 :::
+
+:::
+
+:::
+
+:::::
+
+
 
 
 ## Visualizing Frequency Distribution by a Histogram
@@ -467,10 +514,11 @@ hist(x = body_mass,
 
 
 
-<!-- ## Histogram Applet -->
+<!-- ## [Histogram Applet](https://math4720-f25.github.io/website/ojs/data-hist-ojs.html) -->
 
+<!-- ## -->
 
-<!-- {{< include data-hist-ojs.qmd >}} -->
+<!-- {{< include ../ojs/data-hist-ojs.qmd >}} -->
 
 
 ## Skewness
@@ -557,7 +605,8 @@ knitr::include_graphics("./images/05-data-description/skew.png")
 #| code-line-numbers: false
 #| out-width: 80%
 par(mar = c(4, 4, 0, 0))
-plot(x = penguins$bill_length_mm, y = penguins$bill_depth_mm,
+plot(x = penguins$bill_length_mm, 
+     y = penguins$bill_depth_mm,
      xlab = "Bill Length", ylab = "Bill Depth",
      pch = 16, col = 4)
 ```
@@ -583,7 +632,7 @@ knitr::include_graphics("./images/05-data-description/culmen_depth.png")
 <br>
 For the `penguins` data, do
 
-- Pie chart for variable `island`.
+<!-- - Pie chart for variable `island`. -->
 - Histogram for variable `flipper_length_mm`. Discuss its shape.
 - Scatter plot for variables `flipper_length_mm` and `bill_length_mm`.
 
@@ -594,10 +643,10 @@ For the `penguins` data, do
 library(palmerpenguins)
 ```
 
-
 ::: {.content-visible when-format="revealjs"}
 {{< countdown minutes=2 font-size="2rem" >}}
 :::
+
 
 
 ## Numerical Summaries of Data
@@ -912,7 +961,7 @@ axis(1, labels = FALSE, tick = TRUE)
 
 
 
-<!-- ## Outliers Applet -->
+<!-- ## [Outliers Applet](https://math4720-f25.github.io/website/ojs/data-extremes-ojs.html) -->
 
 
 <!-- {{< include data-extremes-ojs.qmd >}} -->
@@ -1065,6 +1114,7 @@ The range of the middle 50% of the data.
 
 - SD is the **root mean squared deviation** from the mean. It measures, on average, **how far the data spread out around the average**.
 
+## {background-iframe="https://019b86e1-a4fd-0742-2647-47cb207b4813.share.connect.posit.cloud" background-interactive="true"}
 
 ## Compute Variance and SD
 
