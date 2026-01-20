@@ -162,7 +162,7 @@ knitr::include_graphics("./images/03-r/pkg_map_usa.png")
 
 [^2]: [CRAN contributed packages](https://cran.r-project.org/web/packages/).
 
-[^3]: Mitchell O'Hara-Wild, [useR! 2018 feature wall](https://www.mitchelloharawild.com/blog/user-2018-feature-wall/).
+<!-- [^3]: Mitchell O'Hara-Wild, [useR! 2018 feature wall](https://www.mitchelloharawild.com/blog/user-2018-feature-wall/). -->
 
 
 ## `r emo::ji('cloud')` Posit Cloud - Statistics w/o hardware hassles

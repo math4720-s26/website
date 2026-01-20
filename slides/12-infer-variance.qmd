@@ -745,8 +745,7 @@ f_two_tail(U=2.5,L=0.3, df1=3, df2=100, xlim = c(0, 6), col = 4, axes = FALSE,
            lwd = 3)
 axis(1, at = c(0.3, 2.5), labels = c(expression(F[1-frac(alpha, 2)]),
                                      expression(F[frac(alpha, 2)])), 
-     font = 3, cex.axis = 2.5,
-     tick = FALSE)
+     font = 3, cex.axis = 2.5, tick = FALSE)
 text(1, 0.2, expression(1-alpha), cex = 3)
 text(2.7, 0.05, expression(frac(alpha, 2)), cex = 2.5)
 text(0.15, 0.05, expression(frac(alpha, 2)), cex = 2.5)
@@ -856,6 +855,7 @@ knitr::include_graphics("./images/12-infer-variance/weight.jpeg")
 - **Step 3**: $F_{test} = \frac{s_1^2}{s_2^2} = \frac{0.5^2}{0.7^2} = 0.51$.
 
 - **Step 4-c**: Two-tailed test. The critical value is $F_{0.05/2, \, 10-1, \, 10-1} = 4.03$ or $F_{1-0.05/2, \, 10-1, \, 10-1} = 0.25$.
+
 :::
 
 ::: {.column width="55%"}
@@ -894,15 +894,15 @@ text(2.5, 0.2, expression(F[paste(9, ",", 9)]), cex = 2.5)
 
 ::: {.column width="35%"}
 
+- The 95% CI for $\sigma_1^2 / \sigma_2^2$ is 
+$$\small \begin{align} &\left( \frac{s_1^2/s_2^2}{F_{\alpha/2, \, df_1, \, df_2}}, \frac{s_1^2/s_2^2}{F_{1-\alpha/2, \, df_1, \, df_2}} \right) \\ &= \left( \frac{0.51}{4.03}, \frac{0.51}{0.25} \right) = \left(0.13, 2.04\right)\end{align}$$
+- We are 95% confident that the ratio $\sigma_1^2 / \sigma_2^2$ is between 0.13 and 2.04.
+
 <!-- - $\small F_{\alpha/2, \, df_1, \, df_2} = F_{0.05/2, \, 10-1, \, 10-1} = 4.03$  -->
 
 <!-- - $\small F_{1-\alpha/2, \, df_1, \, df_2} = F_{1-0.05/2, \, 10-1, \, 10-1} = 0.25$ -->
 
 <!-- - $\small \frac{s_1^2}{s_2^2} = \frac{0.5^2}{0.7^2} = 0.51$ -->
-
-- The 95% CI for $\sigma_1^2 / \sigma_2^2$ is 
-$$\small \begin{align} &\left( \frac{s_1^2/s_2^2}{F_{\alpha/2, \, df_1, \, df_2}}, \frac{s_1^2/s_2^2}{F_{1-\alpha/2, \, df_1, \, df_2}} \right) \\ &= \left( \frac{0.51}{4.03}, \frac{0.51}{0.25} \right) = \left(0.13, 2.04\right)\end{align}$$
-- We are 95% confident that the ratio $\sigma_1^2 / \sigma_2^2$ is between 0.13 and 2.04.
 
 :::
 
