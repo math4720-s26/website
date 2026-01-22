@@ -757,16 +757,16 @@ text(2, 0.4, expression(F[paste("n1-1", ",", "n2-1")]), cex = 2.5)
 ::::
 
 
-::: alert
+:::: alert
 
 `r emo::ji('exclamation')` The CI for $\sigma_1^2 / \sigma_2^2$ **cannot** be expressed as $\left(\frac{s_1^2}{s_2^2}-m, \frac{s_1^2}{s_2^2} + m\right)$ anymore!
 
-:::
+::::
 
 
 ## F test for comparing $\sigma_1^2$ and $\sigma_2^2$
 
-::: {.midi}
+:::: {.midi}
 
 - **Step 1**: right-tailed <span style="color:blue"> $\small \begin{align} &H_0: \sigma_1 \le \sigma_2 \\ &H_1: \sigma_1 > \sigma_2 \end{align}$ </span>
   and two-tailed <span style="color:green"> $\small \begin{align} &H_0: \sigma_1 = \sigma_2 \\ &H_1: \sigma_1 \ne \sigma_2 \end{align}$ </span>
@@ -786,6 +786,7 @@ $$\small F_{test} = \frac{s_1^2/s_2^2}{\sigma_1^2/\sigma_2^2} = \frac{s_1^2}{s_2
 :::
 
 ::: fragment
+
 - **Step 4-c**: 
   + Right-tailed: <span style="color:blue"> $F_{\alpha, \, n_1-1, \, n_2-1}$ </span>. 
   + Two-tailed: <span style="color:green"> $F_{\alpha/2, \, n_1-1, \, n_2-1}$ or $F_{1-\alpha/2, \, n_1-1, \, n_2-1}$ </span>
@@ -800,7 +801,7 @@ $$\small F_{test} = \frac{s_1^2/s_2^2}{\sigma_1^2/\sigma_2^2} = \frac{s_1^2}{s_2
 
 :::
 
-:::
+::::
 
 
 ## Back to the Weight Loss Example
@@ -808,11 +809,13 @@ $$\small F_{test} = \frac{s_1^2/s_2^2}{\sigma_1^2/\sigma_2^2} = \frac{s_1^2}{s_2
 :::: columns
 
 ::: {.column width="80%"}
+
 A study was conducted to see the effectiveness of a weight loss program.
 
 - Two groups (Control and Experimental) of 10 subjects were selected.
 
 - The two populations are normally distributed and have the same SD.
+
 :::
 
 ::: {.column width="20%"}
