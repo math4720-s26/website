@@ -102,7 +102,7 @@ rings <- c(FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
     (d) From `planets_df`, select all data on Mars (the fourth row). Simply print out the result.
     (e) Select and print out the first 5 values in the `diameter` column of `planets_df`.
     (f) Use `$` to select the `rings` variable from `planets_df`.
-    (g) Use (f) to select all columns for planets that have rings.
+    <!-- (g) Use (f) to select all columns for planets that have rings. -->
 
 
 ```{r}

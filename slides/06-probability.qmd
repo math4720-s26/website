@@ -84,13 +84,13 @@ library(countdown)
 ::: {.column width="50%"}
 
 ::: center
-**Sep 13, 2025**
+**Jan 23, 2026**
 :::
 
 ```{r}
 #| echo: false
-#| out-width: 75%
-knitr::include_graphics("./images/06-probability/chance_09_13_2025.png") 
+#| out-width: 100%
+knitr::include_graphics("./images/06-probability/chance_01_23_2026.png") 
 ```
 :::
 
@@ -100,13 +100,13 @@ knitr::include_graphics("./images/06-probability/chance_09_13_2025.png")
 ::: {.column width="50%"}
 
 ::: center
-**Sep 19, 2022**
+**Sep 13, 2025**
 :::
 
 ```{r}
 #| echo: false
 #| out-width: 75%
-knitr::include_graphics("./images/06-probability/chance_09_19_2022.png") 
+knitr::include_graphics("./images/06-probability/chance_09_13_2025.png") 
 ```
 
 :::
@@ -525,27 +525,68 @@ Denote the probability of an event $A$ on a sample space $\mathcal{S}$ as $P(A)$
 Treat the probability of an event as the **area** of the event in the Venn diagram.
 :::
 
-::: midi
+::::: columns
 
-- **Axioms**
+
+
+::: {.column width="50%"}
+
+**Rules**
+
   + $P(\mathcal{S}) = 1$
+  
+::: fragment
+  
   + For any event $A$, $P(A) \ge 0$
-  + If $A$ and $B$ are **disjoint**, $P(A \cup B) = P(A) + P(B)$
   
 :::
+  
+::: fragment
 
-. . .
-
-::: midi
-
-- **Properties**
-  + $P(\emptyset) = 0$. 
-  + $0 \le P(A) \le 1$
-  + $P(A^c) = 1 - P(A)$
-  + $P(A \cup B) = P(A) + P(B) - P(A \cap B)$  (Addition Rule)
-  + If $A \subset B$, then $P(A) \le P(B)$ 
+  + If $A$ and $B$ are **disjoint**, $P(A \cup B) = P(A) + P(B)$
 
 :::
+
+:::
+
+::: {.column width="50%"}
+
+::: fragment
+
+**Properties**
+
+  + $P(\emptyset) = 0$
+
+::: fragment
+
+  + $0 \le P(A) \le 1$
+
+:::
+
+::: fragment
+
+  + $P(A^c) = 1 - P(A)$
+
+:::
+
+::: fragment
+
+  + **Addition Rule:** $P(A \cup B) = P(A) + P(B) - P(A \cap B)$  
+
+:::
+
+::: fragment
+
+  + If $A \subset B$, then $P(A) \le P(B)$
+
+:::
+
+:::
+
+:::
+
+::::
+
 
 
 ::: notes
@@ -556,15 +597,6 @@ Treat the probability of an event as the **area** of the event in the Venn diagr
 
 ## Venn Diagram Illustration
 
-- **Addition Rule**: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
-
-```{r}
-#| out-width: 100%
-knitr::include_graphics("./images/06-probability/addition_rule.png")
-```
-
-. . .
-
 - **Disjoint case**: $P(A \cup B) = P(A) + P(B)$ because $P(A \cap B) = 0$!
 
 
@@ -572,6 +604,16 @@ knitr::include_graphics("./images/06-probability/addition_rule.png")
 #| out-width: 70%
 knitr::include_graphics("./images/06-probability/disjoint_sex.png")
 ```
+
+. . .
+
+- **Addition Rule**: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+```{r}
+#| out-width: 100%
+knitr::include_graphics("./images/06-probability/addition_rule.png")
+```
+
 
 
 
@@ -679,6 +721,19 @@ knitr::include_graphics("./images/06-probability/conditional.jpg")
 
 <!-- At this moment $P(B)$ is 1. -->
 <!-- - $P(B)$ is scaled up by $1 / P(B)$ so that $P(B) \times \frac{1}{P(B)} = 1$. -->
+
+::: notes
+- Read $A | B$ as "$A$ given $B$"
+- When we compute the probability of A, the information about B have been given, and the probability of A is adjusted, according to this information.
+- The probability of A may depend on whether B happens or not.
+- $P(A | B)$ computes the probability of A given that B has been occurred. At this moment $P(B)$ is 1. 
+- $P(B)$ is scaled up by $1 / P(B)$ so that $P(B) \times \frac{1}{P(B)} = 1$.
+- $P(A) \ne P(A|B)$ in general. 
+- The conditional probability is the ratio of $P(A \cap B)$ to $P(B)$.
+- The proportion of area of (A and B) to the area of B.
+- The probability is the area of $A \cap B$ / area of B
+:::
+
 . . .
 
 - **Multiplication Rule**: $P(A \cap B) = P(A \mid  B)P(B) = P(B \mid  A)P(A)$
@@ -688,17 +743,7 @@ knitr::include_graphics("./images/06-probability/conditional.jpg")
 
 
 
-::: notes
-- Read $A | B$ as "$A$ given $B$"
-- When we compute the probability of A, the information about B have been given, and the probability of A is adjusted, according to this information.
-- The probability of A may depend on whether B happens or not.
-- $P(A | B)$ computes the probability of A given that B has been occurred. At this moment $P(B)$ is 1. 
-- $P(B)$ is scaled up by $1 / P(B)$ so that $P(B) \times \frac{1}{P(B)} = 1$.
-- $P(A) \ne P(A|B)$ in general. 
-- The conditional probability is the ratio of $P(A \cap B)$ and $P(B)$.
-- The proportion of area of A to the area of B.
-- The probability is the area of $A \cap B$ / area of B
-:::
+
 
 
 
