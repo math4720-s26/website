@@ -175,24 +175,24 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="center">
-<p><strong>Sep 13, 2025</strong></p>
+<p><strong>Jan 23, 2026</strong></p>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="./images/06-probability/chance_09_13_2025.png" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
+<figure><p><img data-src="./images/06-probability/chance_01_23_2026.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="center">
-<p><strong>Sep 19, 2022</strong></p>
+<p><strong>Sep 13, 2025</strong></p>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="./images/06-probability/chance_09_19_2022.png" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
+<figure><p><img data-src="./images/06-probability/chance_09_13_2025.png" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
 </figure>
 </div>
 </div>
@@ -295,26 +295,26 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>      Frequency Relative Frequency
-Heads         1                0.1
-Tails         9                0.9
+Heads         5                0.5
+Tails         5                0.5
 Total        10                1.0
 ---------------------
       Frequency Relative Frequency
-Heads       515              0.515
-Tails       485              0.485
-Total      1000              1.000
+Heads       490               0.49
+Tails       510               0.51
+Total      1000               1.00
 ---------------------</code></pre>
 </div>
 </div>
 <ul>
-<li><p>If we repeat tossing the coin 10 times, the probability of obtaining heads is 10%.</p></li>
-<li><p>If 1000 times, the probability is 51.5%.</p></li>
+<li><p>If we repeat tossing the coin 10 times, the probability of obtaining heads is 50%.</p></li>
+<li><p>If 1000 times, the probability is 49%.</p></li>
 </ul>
 <aside class="notes"><ul>
 <li>Suppose we toss a coin.
 <ul>
-<li>If we repeat tossing the coin 10 times, the probability of obtaining heads is 10%.</li>
-<li>If 1000 times, the probability is 51.5%.</li>
+<li>If we repeat tossing the coin 10 times, the probability of obtaining heads is 50%.</li>
+<li>If 1000 times, the probability is 49%.</li>
 </ul>
 </li>
 </ul><style type="text/css">
@@ -725,38 +725,55 @@ Total      1000              1.000
 <div class="tip">
 <p>Treat the probability of an event as the <strong>area</strong> of the event in the Venn diagram.</p>
 </div>
-<div class="midi">
-<ul>
-<li>
-<strong>Axioms</strong>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Rules</strong></p>
 <ul>
 <li><span class="math inline">\(P(\mathcal{S}) = 1\)</span></li>
-<li>For any event <span class="math inline">\(A\)</span>, <span class="math inline">\(P(A) \ge 0\)</span>
-</li>
-<li>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are <strong>disjoint</strong>, <span class="math inline">\(P(A \cup B) = P(A) + P(B)\)</span>
-</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>For any event <span class="math inline">\(A\)</span>, <span class="math inline">\(P(A) \ge 0\)</span>
 </li>
 </ul>
 </div>
 <div class="fragment">
-<div class="midi">
 <ul>
-<li>
-<strong>Properties</strong>
-<ul>
-<li>
-<span class="math inline">\(P(\emptyset) = 0\)</span>.</li>
-<li><span class="math inline">\(0 \le P(A) \le 1\)</span></li>
-<li><span class="math inline">\(P(A^c) = 1 - P(A)\)</span></li>
-<li>
-<span class="math inline">\(P(A \cup B) = P(A) + P(B) - P(A \cap B)\)</span> (Addition Rule)</li>
-<li>If <span class="math inline">\(A \subset B\)</span>, then <span class="math inline">\(P(A) \le P(B)\)</span>
-</li>
-</ul>
+<li>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are <strong>disjoint</strong>, <span class="math inline">\(P(A \cup B) = P(A) + P(B)\)</span>
 </li>
 </ul>
 </div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><strong>Properties</strong></p>
+<ul>
+<li><span class="math inline">\(P(\emptyset) = 0\)</span></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><span class="math inline">\(0 \le P(A) \le 1\)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="math inline">\(P(A^c) = 1 - P(A)\)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>
+<strong>Addition Rule:</strong> <span class="math inline">\(P(A \cup B) = P(A) + P(B) - P(A \cap B)\)</span>
+</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>If <span class="math inline">\(A \subset B\)</span>, then <span class="math inline">\(P(A) \le P(B)\)</span>
+</li>
+</ul>
+</div>
+</div>
+</div></div>
 <aside class="notes"><ul>
 <li>Now we are ready to formally define a probability and it’s rules.</li>
 <li>Treat probability as the area in the Venn diagram. For example, <span class="math inline">\(P(\mathcal{S})\)</span> is the area of the sample space, or the area of the rectangle, which is normalized to be 1.</li>
@@ -770,9 +787,20 @@ Total      1000              1.000
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside>
+      }</style></aside></section><section id="venn-diagram-illustration" class="slide level2"><h2>Venn Diagram Illustration</h2>
+<ul>
+<li>
+<strong>Disjoint case</strong>: <span class="math inline">\(P(A \cup B) = P(A) + P(B)\)</span> because <span class="math inline">\(P(A \cap B) = 0\)</span>!</li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="./images/06-probability/disjoint_sex.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
 </div>
-</section><section id="venn-diagram-illustration" class="slide level2"><h2>Venn Diagram Illustration</h2>
+</div>
+</div>
+<div class="fragment">
 <ul>
 <li>
 <strong>Addition Rule</strong>: <span class="math inline">\(P(A \cup B) = P(A) + P(B) - P(A \cap B)\)</span>
@@ -782,19 +810,6 @@ Total      1000              1.000
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure><p><img data-src="./images/06-probability/addition_rule.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="fragment">
-<ul>
-<li>
-<strong>Disjoint case</strong>: <span class="math inline">\(P(A \cup B) = P(A) + P(B)\)</span> because <span class="math inline">\(P(A \cap B) = 0\)</span>!</li>
-</ul>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="./images/06-probability/disjoint_sex.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
 </figure>
 </div>
 </div>
@@ -834,7 +849,7 @@ Total      1000              1.000
 </ul>
 </div>
 </div></div>
-<div id="timer_50f43c1df44fa6717188a1929979b33b36605574" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 0;bottom: 0;">
+<div id="timer_c6002f8e48457aa2d6bb912acd88de24a9468edb" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 0;bottom: 0;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
@@ -910,12 +925,6 @@ Total      1000              1.000
 </div>
 <!-- At this moment $P(B)$ is 1. -->
 <!-- - $P(B)$ is scaled up by $1 / P(B)$ so that $P(B) \times \frac{1}{P(B)} = 1$. -->
-</div>
-<div class="fragment">
-<ul>
-<li><p><strong>Multiplication Rule</strong>: <span class="math inline">\(P(A \cap B) = P(A \mid  B)P(B) = P(B \mid  A)P(A)\)</span></p></li>
-<li><p><span class="math inline">\(P(A)\)</span> and <span class="math inline">\(P(B)\)</span> are <strong>unconditional</strong> or <strong>marginal probabilities</strong>.</p></li>
-</ul>
 <aside class="notes"><ul>
 <li>Read <span class="math inline">\(A | B\)</span> as “<span class="math inline">\(A\)</span> given <span class="math inline">\(B\)</span>”</li>
 <li>When we compute the probability of A, the information about B have been given, and the probability of A is adjusted, according to this information.</li>
@@ -926,8 +935,8 @@ Total      1000              1.000
 <span class="math inline">\(P(B)\)</span> is scaled up by <span class="math inline">\(1 / P(B)\)</span> so that <span class="math inline">\(P(B) \times \frac{1}{P(B)} = 1\)</span>.</li>
 <li>
 <span class="math inline">\(P(A) \ne P(A|B)\)</span> in general.</li>
-<li>The conditional probability is the ratio of <span class="math inline">\(P(A \cap B)\)</span> and <span class="math inline">\(P(B)\)</span>.</li>
-<li>The proportion of area of A to the area of B.</li>
+<li>The conditional probability is the ratio of <span class="math inline">\(P(A \cap B)\)</span> to <span class="math inline">\(P(B)\)</span>.</li>
+<li>The proportion of area of (A and B) to the area of B.</li>
 <li>The probability is the area of <span class="math inline">\(A \cap B\)</span> / area of B</li>
 </ul><style type="text/css">
         span.MJX_Assistive_MathML {
@@ -940,6 +949,12 @@ Total      1000              1.000
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</div>
+<div class="fragment">
+<ul>
+<li><p><strong>Multiplication Rule</strong>: <span class="math inline">\(P(A \cap B) = P(A \mid  B)P(B) = P(B \mid  A)P(A)\)</span></p></li>
+<li><p><span class="math inline">\(P(A)\)</span> and <span class="math inline">\(P(B)\)</span> are <strong>unconditional</strong> or <strong>marginal probabilities</strong>.</p></li>
+</ul>
 </div>
 </section><section id="difference-between-pa-and-pa-mid-b" class="slide level2"><h2>Difference Between <span class="math inline">\(P(A)\)</span> and <span class="math inline">\(P(A \mid B)\)</span>
 </h2>
@@ -1074,7 +1089,7 @@ Total      1000              1.000
 </ul>
 </li>
 </ul>
-<!-- - If $P(A \cap B)= 0.1$, are $A$ and $B$ independent? --><!-- - If $P(A \cap B)= 0.1$, what is $P(A \mid B)$? --><div id="timer_50f43c1df44fa6717188a1929979b33b36605574" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 0;bottom: 0;">
+<!-- - If $P(A \cap B)= 0.1$, are $A$ and $B$ independent? --><!-- - If $P(A \cap B)= 0.1$, what is $P(A \mid B)$? --><div id="timer_c6002f8e48457aa2d6bb912acd88de24a9468edb" class="countdown" data-warn-when="0" data-update-every="1" data-play-sound="false" data-blink-colon="false" data-start-immediately="false" tabindex="0" style="right: 0;bottom: 0;">
   <div class="countdown-controls">
     <button class="countdown-bump-down">−</button>
     <button class="countdown-bump-up">+</button>
