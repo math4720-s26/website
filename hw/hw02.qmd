@@ -128,10 +128,11 @@ planets_df[1:5, "diameter"]
 
 ## (f)
 planets_df$rings
+```
 
+```{r}
 ## (g)
 planets_df[planets_df$rings, ]
-
 ```
 
 <br>   
@@ -142,7 +143,7 @@ planets_df[planets_df$rings, ]
     (c) Use the function `hist()` to generate a histogram of the gross horsepower (`hp`). Show the plot. Is it right or left-skewed?
     (d) Use the function `boxplot()` to generate a boxplot of car weight (`wt`). Show the plot. Are there any outliers?
     (e) Use the function `plot()` to create a scatter plot of displacement (`disp`) vs. miles per gallon (`mpg`). Show the plot. As the displacement increases, the miles per gallon tends to increase or decrease?
-    (f) Compute the mean, median and standard deviation of the miles per gallon (`mpg`).
+    <!-- (f) Compute the mean, median and standard deviation of the miles per gallon (`mpg`). -->
     <!-- (a) Use the function `pie()` to create a pie chart for the number of cylinders (`cyl`). What the number of cylinders has the most frequencies in the data? -->
     <!-- (b) Use the function `barplot()` to create a bar chart for the number of gears (`gear`). What the number of gears has the most frequencies in the data? -->
     <!-- (c) Use the function `hist()` to generate a histogram of the gross horsepower (`hp`). Is it right or left-skewed? -->
@@ -167,13 +168,16 @@ boxplot(mtcars$wt)
 ## (e)
 ## As the displacement increases, the miles per gallon tends to decrease.
 plot(x = mtcars$disp, y = mtcars$mpg)
+```
+
+To save your figures, in RStudio you go to tab **Plots > Export > Save as Image > choose Image format (PNG is good), choose where the image is saved (Directory), type the File name, decide Width and Height > Click Save**. To download an image file to your local computer, select the file, go to **More > Export > Download**. You could take screenshots of plots or code to show your work too.
+
+```{r}
 ## (f)
 mean(mtcars$mpg)
 median(mtcars$mpg)
 sd(mtcars$mpg)
 ```
-
-To save your figures, in RStudio you go to tab **Plots > Export > Save as Image > choose Image format (PNG is good), choose where the image is saved (Directory), type the File name, decide Width and Height > Click Save**. To download an image file to your local computer, select the file, go to **More > Export > Download**. You could take screenshots of plots or code to show your work too.
 
 <br>
 

@@ -4,7 +4,7 @@ subtitle: "Data Collection and Data Type"
 categories: "Homework"
 editor: source
 params:
-  show_sol: false
+  show_sol: true
 execute:
   echo: false
 ---
@@ -38,6 +38,7 @@ execute:
     (c) The weights of aspirin tablets
 
 ```{r}
+#| echo: true
   # (a) Categorical
   # (b) Categorical
   # (c) Numerical
@@ -53,6 +54,7 @@ execute:
     (d) Bob measures time in days, with 0 corresponding to his birth date. The day before his birth is -1, the day after his birth is +1, and so on. Bib has converted the dates of major historical events to his numbering system. What is the level of measurement of these numbers?
 
 ```{r}
+#| echo: true
   # (a) Ratio
   # (b) Ordinal
   # (c) Nominal
@@ -71,6 +73,7 @@ execute:
     (d) A sample of married couples is randomly selected and the number of children in each family is recorded.
  
 ```{r}
+#| echo: true
   # (a) Discrete
   # (b) Continuous
   # (c) Continuous
@@ -91,6 +94,7 @@ execute:
 
 
 ```{r}
+#| echo: true
   # (a) Stratified
   # (b) Cluster
   # (c) Random
@@ -112,6 +116,7 @@ execute:
 
 
 ```{r}
+#| echo: true
   # (a) Observational: self-reported voluntary sample may not be representative and may be biased. The question is posted in E-newsletter, so the sample is biased from the begining.
   # (b) Experiment: Male physicians only. Better to include male and female who are not physicians.
 ```
@@ -132,6 +137,7 @@ knitr::include_graphics("./hw01-fiona.png")
 
 
 ```{r}
+#| echo: true
   # (a) Year, number of baby girls named Fiona born in that year, nation. 
   # (b) Year (numerical, discrete), number of baby girls named Fiona born in that year (numerical, discrete), nation (categorical, nominal).
 ```
