@@ -200,7 +200,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../images/bg.png" class="quarto-title-block center"><h1 class="title">Probability Distributions <svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z"></path></svg>
+<section id="title-slide" data-background-image="./images/bg.png" class="quarto-title-block center"><h1 class="title">Probability Distributions <svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z"></path></svg>
 </h1>
   <p class="subtitle">MATH 4720/MSSC 5720 Introduction to Statistics</p>
 
@@ -409,6 +409,11 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="question">
 <p>What is the mean of <span class="math inline">\(X\)</span> (the number of heads) in the previous example?</p>
 </div>
+</div>
+<div class="fragment">
+<div class="question">
+<p>What about variance of <span class="math inline">\(X\)</span>?</p>
+</div>
 <aside class="notes"><ul>
 <li>On average, we will see one heads comes up when we toss a fair coin twice.</li>
 </ul><style type="text/css">
@@ -423,32 +428,16 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
           display:block!important;
       }</style></aside>
 </div>
-</section><section id="variance-of-a-discrete-random-variable" class="slide level2"><h2>Variance of a Discrete Random Variable</h2>
-<ul>
-<li><p>Suppose <span class="math inline">\(X\)</span> takes values <span class="math inline">\(x_1, \dots , x_k\)</span> with probabilities <span class="math inline">\(P(X = x_1), \dots, P(X = x_k)\)</span> and expected value <span class="math inline">\(\mu = E(X)\)</span>.</p></li>
-<li><p>The variance of <span class="math inline">\(X\)</span>, denoted by <span class="math inline">\(\mathrm{Var}(X)\)</span> or <span class="math inline">\(\sigma^2\)</span>, is <span class="math display">\[\small \mathrm{Var}(X) := (x_1 - \mu)^2 \times P(X = x_1) + \dots + (x_k - \mu)^2 \times P(X = x_k) = \sum_{i=1}^k(x_i - \mu)^2P(X=x_i)\]</span></p></li>
-<li><p>The standard deviation of <span class="math inline">\(X\)</span>, <span class="math inline">\(\sigma\)</span>, is the square root of the variance.</p></li>
-</ul>
-<div class="fragment">
-<div class="alert">
-<p>👉 The variance of a discrete random variable <span class="math inline">\(X\)</span> is the <em>weighted sum of squared deviation</em> from the mean weighted by probability values.</p>
-</div>
-</div>
-<div class="fragment">
-<div class="question">
-<p>What is the variance of <span class="math inline">\(X\)</span> (the number of heads) in the previous example?</p>
-</div>
-</div>
 </section></section><section><section id="binomial-distribution-1" class="title-slide slide level1 center"><h1>Binomial Distribution</h1>
 
 </section><section id="binomial-experiment-and-random-variable" class="slide level2"><h2>Binomial Experiment and Random Variable</h2>
 <ul>
 <li>A <strong>binomial experiment</strong> is the one having the following properties:
 <ol type="1">
-<li>👉 The experiment consists of a <strong>fixed</strong> number of <strong>identical</strong> trials <span class="math inline">\(n\)</span>.</li>
-<li>👉 Each trial results in one of <strong>exactly two</strong> outcomes (<em>success</em> (S) and <em>failure</em> (F)).</li>
-<li>👉 Trials are <strong>independent</strong>, meaning that the outcome of any trial does not affect the outcome of any other trial.</li>
-<li>👉 The probability of success is <strong>constant</strong> for all trials.</li>
+<li><p>👉 The experiment consists of a <strong>fixed</strong> number of <strong>identical</strong> trials <span class="math inline">\(n\)</span>.</p></li>
+<li><p>👉 Each trial results in one of <strong>exactly two</strong> outcomes (<em>success</em> (S) and <em>failure</em> (F)).</p></li>
+<li><p>👉 Trials are <strong>independent</strong>, meaning that the outcome of any trial does not affect the outcome of any other trial.</p></li>
+<li><p>👉 The probability of success is <strong>constant</strong> for all trials.</p></li>
 </ol>
 </li>
 <li>If <span class="math inline">\(X\)</span> is defined as <span style="color:blue"> the number of successes observed in <span class="math inline">\(n\)</span> trials </span>, <span class="math inline">\(X\)</span> is a binomial random variable.</li>
@@ -487,7 +476,10 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </li>
 <li><p>Different <span class="math inline">\((n, \pi)\)</span> pairs generate different binomial probability distributions.</p></li>
 <li><p><span class="math inline">\(X\)</span> is said to follow a binomial distribution with <strong>parameters</strong> <span class="math inline">\(n\)</span> and <span class="math inline">\(\pi\)</span>, written as <span class="math inline">\(\color{blue}{X \sim binomial(n, \pi)}\)</span>.</p></li>
-<li><p>The binomial probability function is <span class="math display">\[ \color{blue}{P(X = x \mid n, \pi) = \frac{n!}{x!(n-x)!}\pi^x(1-\pi)^{n-x}, \quad x = 0, 1, 2, \dots, n}\]</span> with mean <span class="math inline">\(\mu = E(X) = n\pi\)</span> and variance <span class="math inline">\(\sigma^2 = \mathrm{Var}(X) = n\pi(1-\pi)\)</span>.</p></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>The binomial probability function is <span class="math display">\[ \color{blue}{P(X = x \mid n, \pi) = \frac{n!}{x!(n-x)!}\pi^x(1-\pi)^{n-x}, \quad x = 0, 1, 2, \dots, n}\]</span> with mean <span class="math inline">\(\mu = E(X) = n\pi\)</span> and variance <span class="math inline">\(\sigma^2 = \mathrm{Var}(X) = n\pi(1-\pi)\)</span>.</li>
 </ul>
 <aside class="notes"><ul>
 <li>Once <span class="math inline">\((n, \pi)\)</span> is fixed, we know exactly what the distribution looks like, and we can form a table, graph, and provide a mathematical formula of the binomial distribution.</li>
@@ -501,7 +493,9 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside><div class="fragment">
+      }</style></aside>
+</div>
+<div class="fragment">
 <div class="question">
 <p>Tossing a fair coin two times independently. Let <span class="math inline">\(X =\)</span> # of heads. Is <span class="math inline">\(X\)</span> a binomial r.v.?</p>
 </div>
@@ -530,8 +524,8 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="column" style="width:90%;">
 <p>Assume that 20% of all drivers have a blood alcohol level above the legal limit. For a random sample of 15 vehicles, compute the probability that:</p>
 <ol type="1">
-<li><p>Exactly 6 of the 15 drivers will <em>exceed</em> the legal limit.</p></li>
-<li><p>Of the 15 drivers, 6 or more will <em>exceed</em> the legal limit.</p></li>
+<li><p><strong>Exactly 6</strong> of the 15 drivers will <em>exceed</em> the legal limit.</p></li>
+<li><p>Of the 15 drivers, <strong>6 or more</strong> will <em>exceed</em> the legal limit.</p></li>
 </ol>
 </div><div class="column" style="width:10%;">
 <div class="cell" data-layout-align="center">
@@ -702,7 +696,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 
 </section><section id="poisson-random-variables" class="slide level2"><h2>Poisson Random Variables</h2>
 <ul>
-<li>If we’d like to count <strong>the number of occurrences of some event over a unit of time period or space (region)</strong> and calculate its associated probability, we could consider the <strong>Poisson distribution</strong>.
+<li>If we’d like to count <strong>the number of occurrences of some event over a unit of time period or space (region)</strong> and calculate its probability, we could consider the <strong>Poisson distribution</strong>.
 <ul>
 <li>Number of COVID patients arriving at ICU in one hour</li>
 <li>Number of Marquette students logging onto D2L in one day</li>
@@ -877,9 +871,8 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <ul>
 <li><p>A continuous r.v. can take on <strong>any</strong> values from <em>an interval of the real line</em>.</p></li>
 <li><p>Instead of probability functions, a continuous r.v. <span class="math inline">\(X\)</span> has the <strong>probability density function (pdf)</strong> <span class="math inline">\(f(x)\)</span> such that for any real value <span class="math inline">\(a &lt; b\)</span>, <span class="math display">\[P(a &lt; X &lt; b) = \int_{a}^b f(x) dx\]</span></p></li>
-<li><p>The <strong>cumulative distribution function (cdf)</strong> of <span class="math inline">\(X\)</span> is defined as <span class="math display">\[F(x) := P(X \le x) = \int_{-\infty}^x f(t)dt\]</span></p></li>
 </ul>
-<div class="fragment">
+<!-- - The **cumulative distribution function (cdf)** of $X$ is defined as --><!-- $$F(x) := P(X \le x) = \int_{-\infty}^x f(t)dt$$ --><div class="fragment">
 <ul>
 <li>Every pdf must satisfy <span style="color:blue"> (1) <span class="math inline">\(f(x) \ge 0\)</span> for all <span class="math inline">\(x\)</span>; (2) <span class="math inline">\(\int_{-\infty}^{\infty} f(x) dx = 1\)</span> </span>
 </li>
@@ -934,6 +927,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <li><p><strong>Standardization</strong>: Convert <span class="math inline">\(N(\mu, \sigma^2)\)</span> to <span class="math inline">\(N(0, 1)\)</span>.</p></li>
 <li><p><strong>Why standardization</strong>: Put data onto a <em>standardized scale</em>, making comparisons easier!</p></li>
 </ul>
+<div class="fragment">
 <div class="question">
 <table class="caption-top">
 <thead><tr class="header">
@@ -988,18 +982,27 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="standardization-and-z-scores-1" class="slide level2"><h2>Standardization and Z-Scores</h2>
+      }</style></aside>
+</div>
+</section><section id="standardization-and-z-scores-1" class="slide level2"><h2>Standardization and Z-Scores</h2>
 <ul>
-<li><p>If <span class="math inline">\(x\)</span> is an observation from a distribution with mean <span class="math inline">\(\mu\)</span> and standard deviation <span class="math inline">\(\sigma\)</span>, the standardized value of <span class="math inline">\(x\)</span> is so-called <strong><span class="math inline">\(z\)</span>-score</strong>: <span class="math display">\[z = \frac{x - \mu}{\sigma}\]</span></p></li>
-<li>
-<p>A <span class="math inline">\(z\)</span>-score tells us how many standard deviations <span class="math inline">\(x\)</span> falls away from the mean, and in which direction.</p>
+<li>If <span class="math inline">\(x\)</span> is an observation from a distribution with mean <span class="math inline">\(\mu\)</span> and standard deviation <span class="math inline">\(\sigma\)</span>, the standardized value of <span class="math inline">\(x\)</span> is so-called <strong><span class="math inline">\(z\)</span>-score</strong>: <span class="math display">\[z = \frac{x - \mu}{\sigma}\]</span>
+</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>A <span class="math inline">\(z\)</span>-score tells us how many standard deviations <span class="math inline">\(x\)</span> falls away from the mean, and in which direction.
 <ul>
 <li>Observations <strong>larger (smaller)</strong> than the mean have <strong>positive (negative)</strong> <span class="math inline">\(z\)</span>-scores.</li>
 <li>A <span class="math inline">\(z\)</span>-score -1.2 means that <span class="math inline">\(x\)</span> is 1.2 standard deviations to the <strong>left</strong> of (<strong>below</strong>) the mean.</li>
 <li>A <span class="math inline">\(z\)</span>-score 1.8 means that <span class="math inline">\(x\)</span> is 1.8 standard deviations to the <strong>right</strong> of (<strong>above</strong>) the mean.</li>
 </ul>
 </li>
-<li><p><span style="color:blue"> If <span class="math inline">\(X \sim N(\mu, \sigma^2)\)</span>, <span class="math inline">\(Z = \frac{X - \mu}{\sigma}\)</span> follows the standard normal distribution, i.e., <span class="math inline">\(Z \sim N(0, 1)\)</span>. </span></p></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span style="color:blue"> If <span class="math inline">\(X \sim N(\mu, \sigma^2)\)</span>, <span class="math inline">\(Z = \frac{X - \mu}{\sigma}\)</span> follows the standard normal distribution, i.e., <span class="math inline">\(Z \sim N(0, 1)\)</span>. </span></li>
 </ul>
 <aside class="notes"><ul>
 <li>If z-score is positive, it means that the original x is greater the mean.</li>
@@ -1022,7 +1025,9 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="standardization-illustration" class="slide level2"><h2>Standardization Illustration</h2>
+      }</style></aside>
+</div>
+</section><section id="standardization-illustration" class="slide level2"><h2>Standardization Illustration</h2>
 <ul>
 <li>
 <span class="math inline">\(X - \mu\)</span> shifts the mean from <span class="math inline">\(\mu\)</span> to 0</li>
