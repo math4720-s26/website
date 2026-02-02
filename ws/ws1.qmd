@@ -10,8 +10,7 @@ execute:
   include: true
 ---
 
-**Marathon winners.** The histogram and box plots below show the distribution of finishing times for
-male and female winners of the New York Marathon between 1970 and 1999
+**Marathon winners.** The histogram and box plots below show the distribution of finishing times for male and female winners of the New York Marathon between 1970 and 1999
 
 ```{r}
 #| echo: false

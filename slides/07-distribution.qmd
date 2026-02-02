@@ -1,7 +1,7 @@
 ---
 title: 'Probability Distributions `r fontawesome::fa("chart-simple")`'
 title-slide-attributes:
-  data-background-image: ../images/bg.png
+  data-background-image: ./images/bg.png
   # data-background-size: stretch
   # data-slide-number: none
 format: 
@@ -237,12 +237,18 @@ $$E(X) := x_1 \times P(X = x_1) + \dots + x_k \times P(X = x_k) = \sum_{i=1}^kx_
 What is the mean of $X$ (the number of heads) in the previous example?
 :::
 
+. . .
+
+::: question
+What about variance of $X$?
+:::
+
 ::: notes
 - On average, we will see one heads comes up when we toss a fair coin twice.
 :::
 
 
-## Variance of a Discrete Random Variable
+## Variance of a Discrete Random Variable {visibility="hidden"}
 
 - Suppose $X$ takes values $x_1, \dots , x_k$ with probabilities $P(X = x_1), \dots, P(X = x_k)$ and expected value $\mu = E(X)$.
 
@@ -268,8 +274,11 @@ What is the variance of $X$ (the number of heads) in the previous example?
 
 - A **binomial experiment** is the one having the following properties:
   1. `r emo::ji('point_right')` The experiment consists of a **fixed** number of **identical** trials $n$.
+  
   2. `r emo::ji('point_right')` Each trial results in one of **exactly two** outcomes (*success* (S) and *failure* (F)).
+  
   3. `r emo::ji('point_right')` Trials are **independent**, meaning that the outcome of any trial does not affect the outcome of any other trial.
+  
   4. `r emo::ji('point_right')` The probability of success is **constant** for all trials.
   
 - If $X$ is defined as  <span style="color:blue"> the number of successes observed in $n$ trials </span>, $X$ is a binomial random variable.
@@ -297,6 +306,8 @@ if *smoking* and *non-smoking* are the only two outcomes of some binomial experi
 - Different $(n, \pi)$ pairs generate different binomial probability distributions.
 
 - $X$ is said to follow a binomial distribution with **parameters** $n$ and $\pi$, written as $\color{blue}{X \sim binomial(n, \pi)}$.
+
+. . .
 
 - The binomial probability function is 
 $$ \color{blue}{P(X = x \mid n, \pi) = \frac{n!}{x!(n-x)!}\pi^x(1-\pi)^{n-x}, \quad x = 0, 1, 2, \dots, n}$$ with mean $\mu = E(X) = n\pi$ and variance $\sigma^2 = \var(X) = n\pi(1-\pi)$.
@@ -336,9 +347,9 @@ Tossing a fair coin two times independently. Let $X =$ # of heads. Is $X$ a bino
 
 Assume that 20% of all drivers have a blood alcohol level above the legal limit. For a random sample of 15 vehicles, compute the probability that:
 
-  1. Exactly 6 of the 15 drivers will *exceed* the legal limit.
+  1. **Exactly 6** of the 15 drivers will *exceed* the legal limit.
   
-  2. Of the 15 drivers, 6 or more will *exceed* the legal limit.
+  2. Of the 15 drivers, **6 or more** will *exceed* the legal limit.
   
 :::
 
@@ -492,7 +503,7 @@ plot(x = 0:15, y = dbinom(0:15, size = 15, prob = 0.2), type = 'h', xlab = "x",
 
 ## Poisson Random Variables
 
-- If we'd like to count **the number of occurrences of some event over a unit of time period or space (region)** and calculate its associated probability, we could consider the **Poisson distribution**.
+- If we'd like to count **the number of occurrences of some event over a unit of time period or space (region)** and calculate its probability, we could consider the **Poisson distribution**.
   + Number of COVID patients arriving at ICU in one hour
   + Number of Marquette students logging onto D2L in one day
   + Number of dandelions per square meter in Marquette campus
@@ -645,8 +656,8 @@ plot(0:24, dpois(0:24, lambda = lam), type = 'h', lwd = 5, las = 1,
 - Instead of probability functions, a continuous r.v. $X$ has the **probability density function (pdf)** $f(x)$ such that for any real value $a < b$,
 $$P(a < X < b) = \int_{a}^b f(x) dx$$
 
-- The **cumulative distribution function (cdf)** of $X$ is defined as
-$$F(x) := P(X \le x) = \int_{-\infty}^x f(t)dt$$
+<!-- - The **cumulative distribution function (cdf)** of $X$ is defined as -->
+<!-- $$F(x) := P(X \le x) = \int_{-\infty}^x f(t)dt$$ -->
 
 . . .
 
@@ -769,6 +780,8 @@ legend("topright", c(expression(N(100, 10^2)),
 
 - **Why standardization**: Put data onto a *standardized scale*, making comparisons easier!
 
+. . .
+
 ::: question
 
 |Measure         | SAT               | ACT         |
@@ -806,11 +819,15 @@ knitr::include_graphics("./images/07-distribution/sat_act.jpeg")
 -  If $x$ is an observation from a distribution with mean $\mu$ and standard deviation $\sigma$, the standardized value of $x$ is so-called **$z$-score**:
 $$z = \frac{x - \mu}{\sigma}$$
 
+. . .
+
 - A $z$-score tells us how many standard deviations $x$ falls away from the mean, and in which direction.
   + Observations **larger (smaller)** than the mean have **positive (negative)** $z$-scores.
   + A $z$-score -1.2 means that $x$ is 1.2 standard deviations to the **left** of (**below**) the mean.
   + A $z$-score 1.8 means that $x$ is 1.8 standard deviations to the **right** of (**above**) the mean.
-  
+
+. . .
+
 - <span style="color:blue">  If $X \sim N(\mu, \sigma^2)$, $Z = \frac{X - \mu}{\sigma}$ follows the standard normal distribution, i.e., $Z \sim N(0, 1)$. </span>
 
 
@@ -980,7 +997,6 @@ An observation x1 is said to be more unusual than another observation x2 if the 
 :::
 
 
-
 ## Finding Tail Areas $P(X < x)$
 
 ::: question
@@ -1010,6 +1026,7 @@ a tail area like the curve and shading shown in Figure 4.6.
 lower than Anna.
 
 :::
+
 
 
 
@@ -1338,4 +1355,5 @@ hist(right_skewed_sample, col = 6, main = "Right-skewed data", breaks = 20, bord
 qqnorm(right_skewed_sample, main = "Right-skewed data", col = 6)
 qqline(right_skewed_sample)
 ```
+
 
