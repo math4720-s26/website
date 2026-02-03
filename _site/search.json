@@ -21,167 +21,60 @@
     "text": "Project Materials\n\nGroup 1 (Rakesh, Daniel, Jeremy): proposal\nGroup 2 (Violet, Vanessa, Michele): proposal\nGroup 3 (Sai, Rohith, Shristi) : proposal\nGroup 4 (Sajjad, Tanjina, Dewan): proposal\nGroup 5 (John, Jeremy, Praful): proposal\nGroup 6 (Ethan, Navid, Sylvester): proposal"
   },
   {
-    "objectID": "course-syllabus.html",
-    "href": "course-syllabus.html",
-    "title": "Syllabus",
+    "objectID": "exercise.html",
+    "href": "exercise.html",
+    "title": "Exercise",
     "section": "",
-    "text": "Download syllabus at",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
+    "text": "More extra exercises to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\n\n\n\n\n\nExercise 1\n\n\nExercises for Exam 1\n\n\n\n\n\n\nExercise 2\n\n\nExercises for Exam 2\n\n\n\n\n\n\nExercise 3\n\n\nExercises for Final Exam\n\n\n\n\n\n\nKey Topics of Multiple Linear Regression\n\n\nMultiple Linear Regression for Final Exam\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "course-syllabus.html#time-and-location",
-    "href": "course-syllabus.html#time-and-location",
-    "title": "Syllabus",
-    "section": "Time and location",
-    "text": "Time and location\n\n\n\nDay\nTime\nLocation\n\n\nSec 103\nTu & Th\n11 AM - 12:15 PM\nWehr Physics 209",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#office-hours",
-    "href": "course-syllabus.html#office-hours",
-    "title": "Syllabus",
-    "section": "Office Hours",
-    "text": "Office Hours\n\nMy in-person office hours are TuTh 3:20 – 4:20 PM and We 1 - 2 PM in Cudahy Hall room 353.\nWe can schedule an online meeting via Microsoft Teams if you need/prefer.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#prerequisites",
-    "href": "course-syllabus.html#prerequisites",
-    "title": "Syllabus",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nMATH 1400, 1410, or 1450.\nBasic computer and internet use expected. The course will also assume facility with using the internet and a personal computer.\nA portion of the course involves programming in  using RStudio, but prior programming experience is not required.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#e-mail-policy",
-    "href": "course-syllabus.html#e-mail-policy",
-    "title": "Syllabus",
-    "section": "E-mail Policy",
-    "text": "E-mail Policy\n\nI will attempt to reply your email quickly, at least within 24 hours.\nExpect a reply on Monday if you send a question during weekends. If you do not receive a response from me within two days, re-send your question/comment in case there was a “mix-up” with email communication (Hope this won’t happen!).\nPlease start your e-mail subject line with [math4720] or [mssc5720] followed by a clear description of your question. See an example below.\n\n\n\n\n\nEmail Subject Line Example\n\n\n\n\nEmail etiquette is important. Please read this article to learn more about email etiquette.\n\nI am more than happy to answer your questions about this course or statistics in general. However, due to time constraint, I may choose NOT to respond to students’ e-mail if\n\nThe student could answer his/her own inquiry by reading the syllabus or information on the course website or D2L.\nThe student is asking for an extra credit opportunity. The answer is “no”.\nThe student is requesting an extension on homework. The answer is “no”.\nThe student is asking for a grade to be raised for no legitimate reason. The answer is “no”.\nThe student is sending an email with no etiquette.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#required-textbook",
-    "href": "course-syllabus.html#required-textbook",
-    "title": "Syllabus",
-    "section": "Required Textbook",
-    "text": "Required Textbook\n\n\n[IS] Introduction to Statistics, by Dr. Cheng-Han Yu. (My online book)",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#optional-references",
-    "href": "course-syllabus.html#optional-references",
-    "title": "Syllabus",
-    "section": "Optional References",
-    "text": "Optional References\n\n\n[IMS] (optional) Introduction to Modern Statistics, 2nd edition, by Mine Çetinkaya-Rundel and Johanna Hardin. Publisher: OpenIntro. (computation and data-oriented)",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#grading-policy",
-    "href": "course-syllabus.html#grading-policy",
-    "title": "Syllabus",
-    "section": "Grading Policy",
-    "text": "Grading Policy\n\n\nCategory\nWeight\n\n\n\n8 Homework sets\n10%\n\n\n4 Quizzes\n20%\n\n\n2 Exams\n40%\n\n\nsome Worksheets\n10%\n\n\nsome Group Activities\n10%\n\n\nFinal Project\n10%\n\n\n\n\nYou will NOT be allowed any extra credit projects/homework/exam to compensate for a poor average. Everyone must be given the same opportunity to do well in this class. Individual exam will NOT be curved. \nThe final grade is based on your earned percentage and the grade-percentage conversion Table. \\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.1 is in \\([94, 100]\\) and the grade is A and 92.8 is in \\([90, 94)\\) and the grade is A-.\n\n\n\n\nGrade-Percentage Conversion\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[83, 87)\n\n\nB-\n[80, 83)\n\n\nC+\n[77, 80)\n\n\nC\n[73, 77)\n\n\nC-\n[70, 73)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)\n\n\n\n\n\n\nThis is not a course that gives most of students grade A. If you want to obtain a good grade, study hard. No pain, no gain.\n\nHomework\n\nHomework will be assigned through the course website.\nTo submit your homework, please go to D2L &gt; Assessments &gt; Dropbox and upload your homework in PDF format.\nThere will be 8 homework sets.\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline. No late submission).\nMSSC 5720 students may have more or different homework questions.\n\n\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\nGenerative AI (GenAI) is allowed, but you must carefully cite it or reveal your use of AI. See Section 8 for more details.\n\nQuizzes\n\nThere will be 4 in-class 15-min quizzes on Thursdays.\nQuiz questions are similar to the questions in the homework assignments.\nQuizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\nNo make-up quizzes unless you got an excused absence.\nEach quiz is worth 5% of your overall grade.\nOption: If you miss a quiz due to an excused absence as defined in Attendance in Academic Regulations, the 5% allocated to that quiz will be transferred to either Exam 1 or Exam 2, whichever is closest in time and not yet graded. For example, if you miss Quiz 2 and Exam 1 has not yet taken place, then Exam 1 will be worth 25% instead of 20%.\nIf you miss more than one quiz, only one missed quiz can be replaced by transferring its weight to an exam. Any additional missed quizzes will receive a score of 0%.\nExams\n\nThere will be 2 exams.\nThe exams have a in-class part and a take-home part. The in-class part tests your understanding of mathematical and statistical intuitions. The take-home part tests your ability to do statistical data analysis using statistical software such as R.\nFor the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully cite it or reveal your use of AI. See Section 8 for more details. No late submission is allowed.\nPlease go to Assessments &gt; Dropbox to submit your take-home exam in PDF format.\nExam 1 covers Week 1 to 7. Exam 2 covers Week 8 to 14.\nNo make-up exams for any reason unless you got an excused absence\nOption: If you miss Exam 1 due to an excused absence defined in Attendance in Academic Regulations, its 20% will be added to your Exam 2, i.e., (20% + 20% = 40%).\nIn-Class Worksheets\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade.\nIn-Class Group Activities\n\nThere are several in-class group activities.\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade.\nFinal Project\n\n\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\n\n\nYou must carefully cite your GenAI tool or reveal your use of AI. See Section 8 for more details.\nNo late submission is allowed.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#sec-genai",
-    "href": "course-syllabus.html#sec-genai",
-    "title": "Syllabus",
-    "section": "Generative Artificial Intelligence (GenAI) Policy",
-    "text": "Generative Artificial Intelligence (GenAI) Policy\n\nYou are responsible for the content of all work submitted for this course.\nFor your homework, take-home exams, and project, you are allowed to use generative AI tools such as ChatGPT to generate a draft of text of your work.\n\nTo avoid any academic integrity issue, you must cite your AI usage, or screenshot your entire AI usage history. Check the followings on how to cite it.\n\nHow to cite ChatGPT\nHow to Cite AI-Generated Content\n\n\n\nIf you use GenAI, please include the followings in your submitted work:\n\nWhy/How I used AI (prompts or questions)\nGenerated output (screenshot or copy-paste excerpt)\nHow I used the output\n\n\n\nHere is an example.\n\n\nWhy/How I used AI (prompts and questions)\n\nI asked ChatGPT to generate a histogram using R.\n\n\nGenerated output (screenshot or copy-paste excerpt)\n\n\n\n\n\n\n\n\n\n\n\nHow I used the output\n\nI reviewed the suggestions, but I did not use the exact code. Instead, I change the code format and breaks value to 50.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#academic-integrity",
-    "href": "course-syllabus.html#academic-integrity",
-    "title": "Syllabus",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\n\nWatch the video below to learn the importance of using GenAI properly.\n\n\n  \n\n\nThis course expects all students to follow University and College statements on academic integrity.\nHonor Pledge and Honor Code: I recognize the importance of personal integrity in all aspects of life and work. I commit myself to truthfulness, honor, and responsibility, by which I earn the respect of others. I support the development of good character, and commit myself to uphold the highest standards of academic integrity as an important aspect of personal integrity. My commitment obliges me to conduct myself according to the Marquette University Honor Code.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#accommodation",
-    "href": "course-syllabus.html#accommodation",
-    "title": "Syllabus",
-    "section": "Accommodation",
-    "text": "Accommodation\nIf you need to request accommodations, or modify existing accommodations that address disability-related needs, please contact Disability Service.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#important-dates",
-    "href": "course-syllabus.html#important-dates",
-    "title": "Syllabus",
-    "section": "Important dates",
-    "text": "Important dates\n\n\nJan 19: Martin Luther King Jr. Day\n\nJan 20: Last day to add/swap/drop\n\nMar 3: In-class Exam 1\n\nMar 8-14: Spring break\n\nMar 10: Midterm grade submission\n\nApr 2 - 6: Easter break\n\nApr 10: Withdrawal deadline\n\nApr 21: In-class Exam 2\n\nMay 2: Last day of class\n\nMay 8: Final project\n\nMay 12: Final grade submission\n\nClick here for the full Marquette academic calendar.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "hw.html",
-    "href": "hw.html",
-    "title": "Homework",
+    "objectID": "project-description.html",
+    "href": "project-description.html",
+    "title": "Final Project Report Guidelines",
     "section": "",
-    "text": "More homework sets to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\nDue date\n\n\n\n\n\n\n\n\nHomework 1\n\n\nData Collection and Data Type\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\nBasic R, Data Description and Graphics\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Homework"
-    ]
+    "text": "Please send me your entire work (written report, code, data, etc) by May 8, 2025 10 AM.\nYou receive 0 point if you miss the deadline."
   },
   {
-    "objectID": "ws_new/ws9.html",
-    "href": "ws_new/ws9.html",
-    "title": "Worksheet 9",
+    "objectID": "project-description.html#deadline",
+    "href": "project-description.html#deadline",
+    "title": "Final Project Report Guidelines",
     "section": "",
-    "text": "You have 4 groups and a total sample size 40. Find \\(df_T\\), \\(df_B\\) and \\(df_W\\).\nWe run one way ANOVA with \\(p\\)-value \\(&lt; \\alpha\\). What can we conclude, and what can we not conclude?"
+    "text": "Please send me your entire work (written report, code, data, etc) by May 8, 2025 10 AM.\nYou receive 0 point if you miss the deadline."
   },
   {
-    "objectID": "ws_new/ws3.html",
-    "href": "ws_new/ws3.html",
-    "title": "Worksheet 3",
-    "section": "",
-    "text": "Pick the correct model. Choose binomial, Poisson, or normal. Give one reason.\n\n\nNumber of heads in 20 coin flips.\nNumber of typos on a page of a long book.\nHeights of adult women.\n\n\n\nNormal symmetry facts. If \\(X \\sim N(\\mu, \\sigma^2)\\), decide without calculating:\n\n\n\n\\(P(X&gt;\\mu)\\) is 0.5, less than 0.5, or greater than 0.5?\nWhich is larger: \\(P(X&gt;μ+σ)\\) or \\(P(X&lt;μ−σ)\\)? Why?"
+    "objectID": "project-description.html#project-writing",
+    "href": "project-description.html#project-writing",
+    "title": "Final Project Report Guidelines",
+    "section": "Project Writing",
+    "text": "Project Writing\nYour project can be in either of the following categories:\n\nData Analysis (DA) using one or more machine learning methods learned in class.\nIntroduce a new machine learning model/method/algorithm (ML) and compare it with the model/method/algorithms learned in class.\n\n\nStructure\nIf you choose to do DA, your paper should include the following sections:\n\nIntroduction: State why you think the questions you would like to answer are important or interesting, and why you think the method(s) you consider is an appropriate one to answer your questions.\nData: Describe the selected data set. Perform a thorough exploratory data analysis.\nAnalysis:\n\nExplain the chosen model/method.\nShow why the chosen model(s) is appropriate and better than others.\nAnswer your research questions by the analysis result.\n\nConclusion: Restate your research question, and summarize how you learn from data to answer your questions. What is the contribution of this project? Discuss any limitation of your model/method, and how it could be improved for better inference or prediction results.\nReferences/Bibliography: Include a detailed list of references, including papers, books, websites, code, and any idea/work that is not produced by yourself.\n\nIf you choose to do ML, your paper should include the following sections:\n\nIntroduction: State why you choose to learn this new method. Provide an overview and little history of the method. Describe the intuition and idea of the method. What are the pros and cons of the method?\nModel/Method: Provide the mathematical expression of the model. Explain the model and its properties, and how we do the supervised or unsupervised learning with the model.\nSimulation: Do a simulation study, and compare the chosen method with other methods learned in class. Determine which method performs better under what conditions.\nDiscussion: Based on the simulation results, discuss the advantages and disadvantages of the chosen method. Discuss any variants of the chosen method.\nReferences/Bibliography: Include a detailed list of references, including papers, books, websites, code, and any idea/work that is not produced by yourself.\n\n\n\nFormat and Layout\n\nYour project paper is saved as one PDF.\nYour paper should have your project title and your name on the first page. Date, Abstract, Keywords are optional.\nExcept the first title page, the margins should be no larger than one inch.\nExcept the project title and section title, the font size is 12 pt.\nPlease use 1.5 or double line spacing.\nYour report, including everything, should be at least 12 pages long, but no more than 15 pages.\nYour code should NOT be printed in the paper.\n\n\n\nCode\n\nYour code should be able to reproduce all the numerical results, outputs, tables, and figures shown in the report, including the source of the raw data (where you find and load the data) if the project is about data analysis."
   },
   {
-    "objectID": "ws_new/ws1.html",
-    "href": "ws_new/ws1.html",
-    "title": "Worksheet 1",
+    "objectID": "project-description.html#project-evaluation",
+    "href": "project-description.html#project-evaluation",
+    "title": "Final Project Report Guidelines",
+    "section": "Project Evaluation",
+    "text": "Project Evaluation\nYour project will be evaluated soley by Dr. Yu based on\n\nContent:\n\nThe quality of research question and relevancy of data to those questions? For example, the relationship between human height and weight is a BAD question. An elementary-school height and weight data set is a BAD data set.\nThe quality of the chosen model. For example, one-way ANOVA is a BAD model.\n\nCorrectness, Completeness and Complexity:\n\nAre machine learning methods carried out and explained correctly?\nDoes project include rigorous analysis and models? Simple linear regression model lacks complexity.\n\nWriting: What is the quality of the machine learning model/method presentation, visualization, writing, and explanations.\nFormat: Does the report follow the required format?\nCreativity and Critical Thought: Is the project carefully thought out? Are the limitations carefully considered? Does it appear that time and effort went into the planning and implementation of the project?\nReproducibility: Can your code reproduce what you show in the paper?\nReference: Do you cite others work properly?"
+  },
+  {
+    "objectID": "ws_new/ws10.html",
+    "href": "ws_new/ws10.html",
+    "title": "Worksheet 10",
     "section": "",
-    "text": "Marathon winners. The histogram and box plots below show the distribution of finishing times for male and female winners of the New York Marathon between 1970 and 1999\n\n\n\n\n\n\n\n\n\nWhat features of the distribution are apparent in the histogram and not the box plot? What features are apparent in the box plot but not in the histogram?\nWhat may be the reason for the bimodal distribution? Explain.\nCompare the distribution of marathon times for men and women based on the box plot shown below."
+    "text": "A researcher studies how weekly study hours predict exam score. What is the explanatory variable? What is the response variable?\nA fitted regression line is \\(\\hat{y} = 50 + 3x\\), where \\(x\\) is study hours per week and \\(y\\) is exam score.\n\n\nInterpret the slope 3 in context.\nInterpret the intercept 50 in context."
+  },
+  {
+    "objectID": "ws_new/ws8.html",
+    "href": "ws_new/ws8.html",
+    "title": "Worksheet 8",
+    "section": "",
+    "text": "What condition is especially important for chi square and F procedures for variances?\nA random sample has \\(n=10\\) and \\(s^2 = 16\\). Find a 95 percent confidence interval for \\(\\sigma^2\\). Use \\(df = 9\\) and \\(\\chi^2_{0.975,9} = 2.7\\) and \\(\\chi^2_{0.025,9} = 19.02\\)"
+  },
+  {
+    "objectID": "ws_new/ws2.html",
+    "href": "ws_new/ws2.html",
+    "title": "Worksheet 2",
+    "section": "",
+    "text": "Global warming. A Pew Research poll asked 1,306 Americans “From what you’ve read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades, or not?”. The table below shows the distribution of responses by party and ideology, where the counts have been replaced with relative frequencies.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResponse\n\nTotal\n\n\n\n\n\nEarth is warming\nNot warming\n\n\n\nParty and Ideology\nRepublican\n0.20\n0.26\n0.46\n\n\n\nDemocrat\n0.45\n0.09\n0.54\n\n\n\nTotal\n0.65\n0.35\n1.00\n\n\n\n\nAre believing that the earth is warming and being a Democrat mutually exclusive?\nWhat is the probability that a randomly chosen respondent believes the earth is warming or is a Democrat?\nWhat is the probability that a randomly chosen respondent believes the earth is warming given that he is a Republican?"
   },
   {
     "objectID": "ws_new/ws4.html",
@@ -1526,13 +1419,6 @@
     "title": "Probability Distributions \n",
     "section": "Mean of a Discrete Random Variable",
     "text": "Mean of a Discrete Random Variable\n\nSuppose \\(X\\) takes values \\(x_1, \\dots, x_k\\) with probabilities \\(P(X = x_1), \\dots, P(X = x_k)\\).\nThe mean or expected value of \\(X\\) is the sum of each outcome multiplied by its corresponding probability: \\[E(X) := x_1 \\times P(X = x_1) + \\dots + x_k \\times P(X = x_k) = \\sum_{i=1}^kx_iP(X=x_i)\\]\nThe Greek letter \\(\\mu\\) may be used in place of the notation \\(E(X)\\).\n\n\nGive an example\n\n\n👉 The mean of a discrete random variable \\(X\\) is the weighted average of possible values \\(x\\) weighted by their corresponding probability.\n\n\n\n\nWhat is the mean of \\(X\\) (the number of heads) in the previous example?\n\n\n\n\nWhat about variance of \\(X\\)?\n\n\nOn average, we will see one heads comes up when we toss a fair coin twice."
-  },
-  {
-    "objectID": "slides/07-distribution-slides.html#variance-of-a-discrete-random-variable",
-    "href": "slides/07-distribution-slides.html#variance-of-a-discrete-random-variable",
-    "title": "Probability Distributions \n",
-    "section": "Variance of a Discrete Random Variable",
-    "text": "Variance of a Discrete Random Variable\n\nSuppose \\(X\\) takes values \\(x_1, \\dots , x_k\\) with probabilities \\(P(X = x_1), \\dots, P(X = x_k)\\) and expected value \\(\\mu = E(X)\\).\nThe variance of \\(X\\), denoted by \\(\\mathrm{Var}(X)\\) or \\(\\sigma^2\\), is \\[\\small \\mathrm{Var}(X) := (x_1 - \\mu)^2 \\times P(X = x_1) + \\dots + (x_k - \\mu)^2 \\times P(X = x_k) = \\sum_{i=1}^k(x_i - \\mu)^2P(X=x_i)\\]\nThe standard deviation of \\(X\\), \\(\\sigma\\), is the square root of the variance.\n\n\n\n👉 The variance of a discrete random variable \\(X\\) is the weighted sum of squared deviation from the mean weighted by probability values.\n\n\n\n\nWhat is the variance of \\(X\\) (the number of heads) in the previous example?"
   },
   {
     "objectID": "slides/07-distribution-slides.html#binomial-experiment-and-random-variable",
@@ -6838,60 +6724,160 @@
     "text": "A student says, “My confidence interval for \\(\\mu\\) is \\(\\overline{x} \\pm 2s\\).” What is the main problem with this, conceptually?\nA sample mean is \\(\\overline{x} = 50\\). The standard error of \\(\\overline{x}\\) is \\(SE = 2\\). Give an approximate 95 percent confidence interval for μ. Let’s assume the critical value is 2."
   },
   {
-    "objectID": "ws_new/ws2.html",
-    "href": "ws_new/ws2.html",
-    "title": "Worksheet 2",
+    "objectID": "ws_new/ws3.html",
+    "href": "ws_new/ws3.html",
+    "title": "Worksheet 3",
     "section": "",
-    "text": "Global warming. A Pew Research poll asked 1,306 Americans “From what you’ve read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades, or not?”. The table below shows the distribution of responses by party and ideology, where the counts have been replaced with relative frequencies.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResponse\n\nTotal\n\n\n\n\n\nEarth is warming\nNot warming\n\n\n\nParty and Ideology\nRepublican\n0.20\n0.26\n0.46\n\n\n\nDemocrat\n0.45\n0.09\n0.54\n\n\n\nTotal\n0.65\n0.35\n1.00\n\n\n\n\nAre believing that the earth is warming and being a Democrat mutually exclusive?\nWhat is the probability that a randomly chosen respondent believes the earth is warming or is a Democrat?\nWhat is the probability that a randomly chosen respondent believes the earth is warming given that he is a Republican?"
+    "text": "Pick the correct model. Choose binomial, Poisson, or normal. Give one reason.\n\n\nNumber of heads in 20 coin flips.\nNumber of typos on a page of a long book.\nHeights of adult women.\n\n\n\nNormal symmetry facts. If \\(X \\sim N(\\mu, \\sigma^2)\\), decide without calculating:\n\n\n\n\\(P(X&gt;\\mu)\\) is 0.5, less than 0.5, or greater than 0.5?\nWhich is larger: \\(P(X&gt;μ+σ)\\) or \\(P(X&lt;μ−σ)\\)? Why?"
   },
   {
-    "objectID": "ws_new/ws8.html",
-    "href": "ws_new/ws8.html",
-    "title": "Worksheet 8",
+    "objectID": "ws_new/ws9.html",
+    "href": "ws_new/ws9.html",
+    "title": "Worksheet 9",
     "section": "",
-    "text": "What condition is especially important for chi square and F procedures for variances?\nA random sample has \\(n=10\\) and \\(s^2 = 16\\). Find a 95 percent confidence interval for \\(\\sigma^2\\). Use \\(df = 9\\) and \\(\\chi^2_{0.975,9} = 2.7\\) and \\(\\chi^2_{0.025,9} = 19.02\\)"
+    "text": "You have 4 groups and a total sample size 40. Find \\(df_T\\), \\(df_B\\) and \\(df_W\\).\nWe run one way ANOVA with \\(p\\)-value \\(&lt; \\alpha\\). What can we conclude, and what can we not conclude?"
   },
   {
-    "objectID": "ws_new/ws10.html",
-    "href": "ws_new/ws10.html",
-    "title": "Worksheet 10",
+    "objectID": "hw.html",
+    "href": "hw.html",
+    "title": "Homework",
     "section": "",
-    "text": "A researcher studies how weekly study hours predict exam score. What is the explanatory variable? What is the response variable?\nA fitted regression line is \\(\\hat{y} = 50 + 3x\\), where \\(x\\) is study hours per week and \\(y\\) is exam score.\n\n\nInterpret the slope 3 in context.\nInterpret the intercept 50 in context."
+    "text": "More homework sets to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\nDue date\n\n\n\n\n\n\n\n\nHomework 1\n\n\nData Collection and Data Type\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\nBasic R, Data Description and Graphics\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Homework"
+    ]
   },
   {
-    "objectID": "project-description.html",
-    "href": "project-description.html",
-    "title": "Final Project Report Guidelines",
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "Please send me your entire work (written report, code, data, etc) by May 8, 2025 10 AM.\nYou receive 0 point if you miss the deadline."
+    "text": "Download syllabus at",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
   },
   {
-    "objectID": "project-description.html#deadline",
-    "href": "project-description.html#deadline",
-    "title": "Final Project Report Guidelines",
-    "section": "",
-    "text": "Please send me your entire work (written report, code, data, etc) by May 8, 2025 10 AM.\nYou receive 0 point if you miss the deadline."
+    "objectID": "course-syllabus.html#time-and-location",
+    "href": "course-syllabus.html#time-and-location",
+    "title": "Syllabus",
+    "section": "Time and location",
+    "text": "Time and location\n\n\n\nDay\nTime\nLocation\n\n\nSec 103\nTu & Th\n11 AM - 12:15 PM\nWehr Physics 209",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
   },
   {
-    "objectID": "project-description.html#project-writing",
-    "href": "project-description.html#project-writing",
-    "title": "Final Project Report Guidelines",
-    "section": "Project Writing",
-    "text": "Project Writing\nYour project can be in either of the following categories:\n\nData Analysis (DA) using one or more machine learning methods learned in class.\nIntroduce a new machine learning model/method/algorithm (ML) and compare it with the model/method/algorithms learned in class.\n\n\nStructure\nIf you choose to do DA, your paper should include the following sections:\n\nIntroduction: State why you think the questions you would like to answer are important or interesting, and why you think the method(s) you consider is an appropriate one to answer your questions.\nData: Describe the selected data set. Perform a thorough exploratory data analysis.\nAnalysis:\n\nExplain the chosen model/method.\nShow why the chosen model(s) is appropriate and better than others.\nAnswer your research questions by the analysis result.\n\nConclusion: Restate your research question, and summarize how you learn from data to answer your questions. What is the contribution of this project? Discuss any limitation of your model/method, and how it could be improved for better inference or prediction results.\nReferences/Bibliography: Include a detailed list of references, including papers, books, websites, code, and any idea/work that is not produced by yourself.\n\nIf you choose to do ML, your paper should include the following sections:\n\nIntroduction: State why you choose to learn this new method. Provide an overview and little history of the method. Describe the intuition and idea of the method. What are the pros and cons of the method?\nModel/Method: Provide the mathematical expression of the model. Explain the model and its properties, and how we do the supervised or unsupervised learning with the model.\nSimulation: Do a simulation study, and compare the chosen method with other methods learned in class. Determine which method performs better under what conditions.\nDiscussion: Based on the simulation results, discuss the advantages and disadvantages of the chosen method. Discuss any variants of the chosen method.\nReferences/Bibliography: Include a detailed list of references, including papers, books, websites, code, and any idea/work that is not produced by yourself.\n\n\n\nFormat and Layout\n\nYour project paper is saved as one PDF.\nYour paper should have your project title and your name on the first page. Date, Abstract, Keywords are optional.\nExcept the first title page, the margins should be no larger than one inch.\nExcept the project title and section title, the font size is 12 pt.\nPlease use 1.5 or double line spacing.\nYour report, including everything, should be at least 12 pages long, but no more than 15 pages.\nYour code should NOT be printed in the paper.\n\n\n\nCode\n\nYour code should be able to reproduce all the numerical results, outputs, tables, and figures shown in the report, including the source of the raw data (where you find and load the data) if the project is about data analysis."
+    "objectID": "course-syllabus.html#office-hours",
+    "href": "course-syllabus.html#office-hours",
+    "title": "Syllabus",
+    "section": "Office Hours",
+    "text": "Office Hours\n\nMy in-person office hours are TuTh 3:20 – 4:20 PM and We 1 - 2 PM in Cudahy Hall room 353.\nWe can schedule an online meeting via Microsoft Teams if you need/prefer.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
   },
   {
-    "objectID": "project-description.html#project-evaluation",
-    "href": "project-description.html#project-evaluation",
-    "title": "Final Project Report Guidelines",
-    "section": "Project Evaluation",
-    "text": "Project Evaluation\nYour project will be evaluated soley by Dr. Yu based on\n\nContent:\n\nThe quality of research question and relevancy of data to those questions? For example, the relationship between human height and weight is a BAD question. An elementary-school height and weight data set is a BAD data set.\nThe quality of the chosen model. For example, one-way ANOVA is a BAD model.\n\nCorrectness, Completeness and Complexity:\n\nAre machine learning methods carried out and explained correctly?\nDoes project include rigorous analysis and models? Simple linear regression model lacks complexity.\n\nWriting: What is the quality of the machine learning model/method presentation, visualization, writing, and explanations.\nFormat: Does the report follow the required format?\nCreativity and Critical Thought: Is the project carefully thought out? Are the limitations carefully considered? Does it appear that time and effort went into the planning and implementation of the project?\nReproducibility: Can your code reproduce what you show in the paper?\nReference: Do you cite others work properly?"
+    "objectID": "course-syllabus.html#prerequisites",
+    "href": "course-syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nMATH 1400, 1410, or 1450.\nBasic computer and internet use expected. The course will also assume facility with using the internet and a personal computer.\nA portion of the course involves programming in  using RStudio, but prior programming experience is not required.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
   },
   {
-    "objectID": "exercise.html",
-    "href": "exercise.html",
-    "title": "Exercise",
-    "section": "",
-    "text": "More extra exercises to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\n\n\n\n\n\nExercise 1\n\n\nExercises for Exam 1\n\n\n\n\n\n\nExercise 2\n\n\nExercises for Exam 2\n\n\n\n\n\n\nExercise 3\n\n\nExercises for Final Exam\n\n\n\n\n\n\nKey Topics of Multiple Linear Regression\n\n\nMultiple Linear Regression for Final Exam\n\n\n\n\n\n\nNo matching items"
+    "objectID": "course-syllabus.html#e-mail-policy",
+    "href": "course-syllabus.html#e-mail-policy",
+    "title": "Syllabus",
+    "section": "E-mail Policy",
+    "text": "E-mail Policy\n\nI will attempt to reply your email quickly, at least within 24 hours.\nExpect a reply on Monday if you send a question during weekends. If you do not receive a response from me within two days, re-send your question/comment in case there was a “mix-up” with email communication (Hope this won’t happen!).\nPlease start your e-mail subject line with [math4720] or [mssc5720] followed by a clear description of your question. See an example below.\n\n\n\n\n\nEmail Subject Line Example\n\n\n\n\nEmail etiquette is important. Please read this article to learn more about email etiquette.\n\nI am more than happy to answer your questions about this course or statistics in general. However, due to time constraint, I may choose NOT to respond to students’ e-mail if\n\nThe student could answer his/her own inquiry by reading the syllabus or information on the course website or D2L.\nThe student is asking for an extra credit opportunity. The answer is “no”.\nThe student is requesting an extension on homework. The answer is “no”.\nThe student is asking for a grade to be raised for no legitimate reason. The answer is “no”.\nThe student is sending an email with no etiquette.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#required-textbook",
+    "href": "course-syllabus.html#required-textbook",
+    "title": "Syllabus",
+    "section": "Required Textbook",
+    "text": "Required Textbook\n\n\n[IS] Introduction to Statistics, by Dr. Cheng-Han Yu. (My online book)",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#optional-references",
+    "href": "course-syllabus.html#optional-references",
+    "title": "Syllabus",
+    "section": "Optional References",
+    "text": "Optional References\n\n\n[IMS] (optional) Introduction to Modern Statistics, 2nd edition, by Mine Çetinkaya-Rundel and Johanna Hardin. Publisher: OpenIntro. (computation and data-oriented)",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#grading-policy",
+    "href": "course-syllabus.html#grading-policy",
+    "title": "Syllabus",
+    "section": "Grading Policy",
+    "text": "Grading Policy\n\n\nCategory\nWeight\n\n\n\n8 Homework sets\n10%\n\n\n4 Quizzes\n20%\n\n\n2 Exams\n40%\n\n\nsome Worksheets\n10%\n\n\nsome Group Activities\n10%\n\n\nFinal Project\n10%\n\n\n\n\nYou will NOT be allowed any extra credit projects/homework/exam to compensate for a poor average. Everyone must be given the same opportunity to do well in this class. Individual exam will NOT be curved. \nThe final grade is based on your earned percentage and the grade-percentage conversion Table. \\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.1 is in \\([94, 100]\\) and the grade is A and 92.8 is in \\([90, 94)\\) and the grade is A-.\n\n\n\n\nGrade-Percentage Conversion\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[83, 87)\n\n\nB-\n[80, 83)\n\n\nC+\n[77, 80)\n\n\nC\n[73, 77)\n\n\nC-\n[70, 73)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)\n\n\n\n\n\n\nThis is not a course that gives most of students grade A. If you want to obtain a good grade, study hard. No pain, no gain.\n\nHomework\n\nHomework will be assigned through the course website.\nTo submit your homework, please go to D2L &gt; Assessments &gt; Dropbox and upload your homework in PDF format.\nThere will be 8 homework sets.\nEvery homework is due by Friday 11:59 PM  (Don’t miss it. This is a hard deadline. No late submission).\nMSSC 5720 students may have more or different homework questions.\n\n\nHomework is graded as complete or incomplete. Each incomplete set results in a 2% deduction from your overall grade.\nGenerative AI (GenAI) is allowed, but you must carefully cite it or reveal your use of AI. See Section 8 for more details.\n\nQuizzes\n\nThere will be 4 in-class 15-min quizzes on Thursdays.\nQuiz questions are similar to the questions in the homework assignments.\nQuizzes are individual and in closed-book and no-tech format, except a calculator.\n❌ No cheat sheet or GenAI is allowed.\nNo make-up quizzes unless you got an excused absence.\nEach quiz is worth 5% of your overall grade.\nOption: If you miss a quiz due to an excused absence as defined in Attendance in Academic Regulations, the 5% allocated to that quiz will be transferred to either Exam 1 or Exam 2, whichever is closest in time and not yet graded. For example, if you miss Quiz 2 and Exam 1 has not yet taken place, then Exam 1 will be worth 25% instead of 20%.\nIf you miss more than one quiz, only one missed quiz can be replaced by transferring its weight to an exam. Any additional missed quizzes will receive a score of 0%.\nExams\n\nThere will be 2 exams.\nThe exams have a in-class part and a take-home part. The in-class part tests your understanding of mathematical and statistical intuitions. The take-home part tests your ability to do statistical data analysis using statistical software such as R.\nFor the in-class parts, one piece of letter size cheat sheet is allowed. It has to be turned-in with your exam.\nFor the take-home parts, you are allowed to use GenAI tools. However, you must carefully cite it or reveal your use of AI. See Section 8 for more details. No late submission is allowed.\nPlease go to Assessments &gt; Dropbox to submit your take-home exam in PDF format.\nExam 1 covers Week 1 to 7. Exam 2 covers Week 8 to 14.\nNo make-up exams for any reason unless you got an excused absence\nOption: If you miss Exam 1 due to an excused absence defined in Attendance in Academic Regulations, its 20% will be added to your Exam 2, i.e., (20% + 20% = 40%).\nIn-Class Worksheets\n\nSeveral worksheets will be distributed and completed during class sessions.\nThe worksheets are graded as complete or incomplete.\nEach incomplete sheet results in a 1% deduction from your overall grade.\nIn-Class Group Activities\n\nThere are several in-class group activities.\nThe group activities are graded as complete or incomplete.\nEach incomplete activity results in a 2% deduction from your overall grade.\nFinal Project\n\n\nYou are required to use GenAI to explore a topic not addressed in class, and apply both your self-learning and course knowledge to create a data analysis report.\n\n\nYou must carefully cite your GenAI tool or reveal your use of AI. See Section 8 for more details.\nNo late submission is allowed.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#sec-genai",
+    "href": "course-syllabus.html#sec-genai",
+    "title": "Syllabus",
+    "section": "Generative Artificial Intelligence (GenAI) Policy",
+    "text": "Generative Artificial Intelligence (GenAI) Policy\n\nYou are responsible for the content of all work submitted for this course.\nFor your homework, take-home exams, and project, you are allowed to use generative AI tools such as ChatGPT to generate a draft of text of your work.\n\nTo avoid any academic integrity issue, you must cite your AI usage, or screenshot your entire AI usage history. Check the followings on how to cite it.\n\nHow to cite ChatGPT\nHow to Cite AI-Generated Content\n\n\n\nIf you use GenAI, please include the followings in your submitted work:\n\nWhy/How I used AI (prompts or questions)\nGenerated output (screenshot or copy-paste excerpt)\nHow I used the output\n\n\n\nHere is an example.\n\n\nWhy/How I used AI (prompts and questions)\n\nI asked ChatGPT to generate a histogram using R.\n\n\nGenerated output (screenshot or copy-paste excerpt)\n\n\n\n\n\n\n\n\n\n\n\nHow I used the output\n\nI reviewed the suggestions, but I did not use the exact code. Instead, I change the code format and breaks value to 50.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#academic-integrity",
+    "href": "course-syllabus.html#academic-integrity",
+    "title": "Syllabus",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\n\nWatch the video below to learn the importance of using GenAI properly.\n\n\n  \n\n\nThis course expects all students to follow University and College statements on academic integrity.\nHonor Pledge and Honor Code: I recognize the importance of personal integrity in all aspects of life and work. I commit myself to truthfulness, honor, and responsibility, by which I earn the respect of others. I support the development of good character, and commit myself to uphold the highest standards of academic integrity as an important aspect of personal integrity. My commitment obliges me to conduct myself according to the Marquette University Honor Code.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#accommodation",
+    "href": "course-syllabus.html#accommodation",
+    "title": "Syllabus",
+    "section": "Accommodation",
+    "text": "Accommodation\nIf you need to request accommodations, or modify existing accommodations that address disability-related needs, please contact Disability Service.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#important-dates",
+    "href": "course-syllabus.html#important-dates",
+    "title": "Syllabus",
+    "section": "Important dates",
+    "text": "Important dates\n\n\nJan 19: Martin Luther King Jr. Day\n\nJan 20: Last day to add/swap/drop\n\nMar 3: In-class Exam 1\n\nMar 8-14: Spring break\n\nMar 10: Midterm grade submission\n\nApr 2 - 6: Easter break\n\nApr 10: Withdrawal deadline\n\nApr 21: In-class Exam 2\n\nMay 2: Last day of class\n\nMay 8: Final project\n\nMay 12: Final grade submission\n\nClick here for the full Marquette academic calendar.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
   },
   {
     "objectID": "ws/ws1.html",
