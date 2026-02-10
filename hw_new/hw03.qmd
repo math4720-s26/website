@@ -73,21 +73,24 @@ execute:
 ## OpenIntro 3.15
 ```
 
-(a) Are believing that the earth is warming and being a liberal Democrat mutually exclusive?
-(b) What is the probability that a randomly chosen respondent believes the earth is warming or is a liberal Democrat?
-(c) What is the probability that a randomly chosen respondent believes the earth is warming given that he is a liberal Democrat?
-(d) What is the probability that a randomly chosen respondent believes the earth is warming given that he is a conservative Republican?
-(e) Does it appear that whether or not a respondent believes the earth is warming is independent of their party and ideology? Explain your reasoning. <!-- (f) What is the probability that a randomly chosen respondent is a moderate/liberal Republican given that he does not believe that the earth is warming?   -->
+<!-- (a) Are believing that the earth is warming and being a liberal Democrat mutually exclusive? -->
+<!-- (b) What is the probability that a randomly chosen respondent believes the earth is warming or is a liberal Democrat? -->
+<!-- (c) What is the probability that a randomly chosen respondent believes the earth is warming given that he is a liberal Democrat? -->
+(a) What is the probability that a randomly chosen respondent believes the earth is warming given that he is a conservative Republican?
+(b) Does it appear that whether or not a respondent believes the earth is warming is independent of their party and ideology? Explain your reasoning. 
+(c) What is the probability that a randomly chosen respondent is a moderate/liberal Republican given that he does not believe that the earth is warming?
 
 
-
+<!-- # (a) No. -->
+<!-- # (b) 62% -->
+<!-- # (c) 0.9 -->
 
 ```{r}
-# (a) No.
-# (b) 62%
-# (c) 0.9
-# (d) 0.33
-# (e) No.
+# (a) 0.33
+# (b) No. the two appear to be dependent. The percentages of conservative Republicans and liberal
+# Democrats who believe that there is solid evidence that the average temperature on earth has
+# been getting warmer over the past few decades are very different.
+# (c) 0.06/0.34 = 0.18
 ```
 
 
