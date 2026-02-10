@@ -18,7 +18,9 @@
   {
     "listing": "/ws.html",
     "items": [
-      "/ws/ws1.html"
+      "/ws/ws1.html",
+      "/ws/ws2.html",
+      "/ws/ws3.html"
     ]
   },
   {
