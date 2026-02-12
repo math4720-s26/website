@@ -381,16 +381,15 @@ window.Quarto = {
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="images/08-sampling-dist-clt/sampling_dist_mean.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Biostatistics for the Biological and Health Sciences p.241</figcaption></figure>
+<figure class="figure"><p><img src="images/08-sampling-dist-clt/sampling_dist_mean_new.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
 </div>
 </div>
 </div>
 </div>
+</section><section id="section-1" class="level2" data-background-iframe="https://019c3b03-bf01-f652-13e9-700961ff712a.share.connect.posit.cloud/" data-background-interactive="true"><h2 data-background-iframe="https://019c3b03-bf01-f652-13e9-700961ff712a.share.connect.posit.cloud/" data-background-interactive="true" class="anchored" data-anchor-id="section-1"></h2>
 </section><section id="sampling-distribution-3" class="level2"><h2 class="anchored" data-anchor-id="sampling-distribution-3">Sampling Distribution</h2>
-<ul>
-<li><a href="https://www.statcrunch.com/applets/type3&amp;samplingdist">Sampling Distribution Applet</a></li>
-</ul>
+<!-- - [Sampling Distribution Applet](https://www.statcrunch.com/applets/type3&samplingdist) -->
 <div class="question">
 <p>What are the differences between the sampling distribution of <span class="math inline">\(\overline{X}\)</span> and the population distribution each individual r.v. <span class="math inline">\(X_i\)</span> is drawn from?</p>
 </div>
@@ -430,9 +429,10 @@ window.Quarto = {
 </div>
 </div>
 </div>
-</section><section id="section-1" class="level2"><h2 class="anchored" data-anchor-id="section-1"></h2>
-<iframe src="https://cheyu.shinyapps.io/rolling-die/" width="100%" height="90%" style="border:none;">
-</iframe>
+<!-- ## -->
+<!-- <iframe src="https://cheyu.shinyapps.io/rolling-die/" -->
+<!--         width="100%" height="90%" style="border:none;"> -->
+<!-- </iframe> -->
 </section><section id="sampling-distribution-of-sample-mean" class="level2"><h2 class="anchored" data-anchor-id="sampling-distribution-of-sample-mean">Sampling Distribution of Sample Mean</h2>
 <!-- - Assume that the population distribution has mean $\mu$ and standard deviation $\sigma$. -->
 <ul>
@@ -581,6 +581,7 @@ P(900 &lt; \overline{X} &lt; 960) &amp;= P\left( \frac{900-930}{130/\sqrt{20}} &
 <li><p>Since the sample size is fairly large <span class="math inline">\((n = 100)\)</span>, by CLT, the sampling distribution of the average selling price is approximately normal with mean 382,000 and SD <span class="math inline">\(150,000 / \sqrt{100}\)</span>.</p></li>
 <li><p><span class="math inline">\(P(\overline{X} &gt; 400000) = P\left(\frac{\overline{X} - 382000}{150000/\sqrt{100}}  &gt; \frac{400000 - 382000}{150000/\sqrt{100}}\right) \approx P(Z &gt; 1.2)\)</span> where <span class="math inline">\(Z \sim N(0, 1)\)</span>.</p></li>
 </ul>
+<p>. . .</p>
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">1.2</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -591,6 +592,7 @@ P(900 &lt; \overline{X} &lt; 960) &amp;= P\left( \frac{900-930}{130/\sqrt{20}} &
 <pre><code>[1] 0.115</code></pre>
 </div>
 </div>
+<!-- https://cheyu.shinyapps.io/rolling-die/ -->
 
 
 <script type="ojs-module-contents">
