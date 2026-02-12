@@ -32,6 +32,7 @@ execute:
 
 ```{r}
 #| echo: true
+#| eval: true
 # ==============================================================================
 ## Vector
 # ==============================================================================
@@ -47,6 +48,8 @@ names(roulette_vec) <- days_vec
     (b) Calculate the winnings overall `total_week`. Print it out.
 
 ```{r}
+#| echo: true
+#| eval: true
 ## (a)
 total_daily <- poker_vec + roulette_vec
 total_daily
@@ -60,6 +63,7 @@ total_week
 
 ```{r}
 #| echo: true
+#| eval: true
 # ==============================================================================
 ## Factor
 # ==============================================================================
@@ -73,6 +77,8 @@ speed_vec <- c("medium", "slow", "slow", "medium", "fast")
 
 
 ```{r}
+#| echo: true
+#| eval: true
 ## (a)
 (speed_fac <- factor(speed_vec, ordered = TRUE, 
                     levels = c("slow", "medium", "fast")))
@@ -82,6 +88,7 @@ speed_vec <- c("medium", "slow", "slow", "medium", "fast")
 
 ```{r}
 #| echo: true
+#| eval: true
 # ==============================================================================
 ## Data frame
 # ==============================================================================
@@ -106,6 +113,8 @@ rings <- c(FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
 
 
 ```{r}
+#| eval: true
+#| echo: true
 ## (a)
 planets_df <- data.frame(name, type, diameter, rotation, rings)
 planets_df
@@ -153,6 +162,8 @@ planets_df[planets_df$rings, ]
 
 
 ```{r}
+#| echo: true
+#| eval: true
 ## (a)
 ## most cars have 8 cylinders
 pie(table(mtcars$cyl))
@@ -189,6 +200,8 @@ sd(mtcars$mpg)
 
 
 ```{r}
+#| echo: true
+#| eval: true
 ## (a)
 employee <- list(name = "Joe", salary = 55000, union = TRUE)
 employee
