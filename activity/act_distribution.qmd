@@ -47,7 +47,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/0/0d/Dis
 
 (@) The number of students who show up to class without doing their homework, out of 30 students.
 
-(@) Time between buses arriving at a stop The Commons.
+<!-- (@) Time between buses arriving at a stop The Commons. -->
 
 (@) The number of cars passing through a toll booth in a 10 minute interval.
 
@@ -74,7 +74,7 @@ knitr::include_graphics("../images/women_height.png")
 knitr::include_graphics("../images/blood_pressure.png")
 ```
 
-(@) Survival time of cancer patients after chemotherapy.
+<!-- (@) Survival time of cancer patients after chemotherapy. -->
 
 
 ## Quick Reference: Key Features
