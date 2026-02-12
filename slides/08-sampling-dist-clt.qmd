@@ -229,20 +229,26 @@ Does the sample mean $\overline{X} = \frac{1}{n}\sum_{i=1}^n X_i$ have a samplin
 
 
 
+
 ## Sampling Distribution
 
 - It is the probability distribution of that statistic if we *__were to repeatedly__ draw samples of the same size from the population*.
 
 ::: tiny
 ```{r}
-#| fig-cap: "Biostatistics for the Biological and Health Sciences p.241"
-knitr::include_graphics("images/08-sampling-dist-clt/sampling_dist_mean.png")
+# <!-- #| fig-cap: "Biostatistics for the Biological and Health Sciences p.241" -->
+knitr::include_graphics("images/08-sampling-dist-clt/sampling_dist_mean_new.png")
 ```
 :::
 
+
+
+## {background-iframe="https://019c3b03-bf01-f652-13e9-700961ff712a.share.connect.posit.cloud/" background-interactive="true"}
+
+
 ## Sampling Distribution
 
-- [Sampling Distribution Applet](https://www.statcrunch.com/applets/type3&samplingdist)
+<!-- - [Sampling Distribution Applet](https://www.statcrunch.com/applets/type3&samplingdist) -->
 
 ::: question
 What are the differences between the sampling distribution of $\overline{X}$ and the population distribution each individual r.v. $X_i$ is drawn from?
@@ -295,11 +301,14 @@ legend("topright", c("population mean"), col = "#FFCC00", lwd = 5, bty = "n")
 :::::
 
 
-##
 
-<iframe src="https://cheyu.shinyapps.io/rolling-die/"
-        width="100%" height="90%" style="border:none;">
-</iframe>
+<!-- ## -->
+
+<!-- <iframe src="https://cheyu.shinyapps.io/rolling-die/" -->
+<!--         width="100%" height="90%" style="border:none;"> -->
+<!-- </iframe> -->
+
+
 
 
 ## Sampling Distribution of Sample Mean
@@ -590,13 +599,15 @@ knitr::include_graphics("./images/08-sampling-dist-clt/house.jpeg")
 
 - $P(\overline{X} > 400000) = P\left(\frac{\overline{X} - 382000}{150000/\sqrt{100}}  > \frac{400000 - 382000}{150000/\sqrt{100}}\right) \approx P(Z > 1.2)$ where $Z \sim N(0, 1)$.
 
+. . .
+
 ```{r}
 #| echo: true
 pnorm(1.2, lower.tail = FALSE)
 pnorm(400000, mean = 382000, sd = 150000/sqrt(100), lower.tail = FALSE)
 ```
 
-
+<!-- https://cheyu.shinyapps.io/rolling-die/ -->
 
 
 
