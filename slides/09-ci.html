@@ -253,14 +253,14 @@ window.Quarto = {
 </ul>
 <section id="inference-framework" class="level2"><h2 class="anchored" data-anchor-id="inference-framework">Inference Framework</h2>
 <ul>
-<li><p><strong>Inferential statistics uses sample data to learn about an unknown population</strong>.</p></li>
+<li><p><strong>Inferential statistics uses data to learn about properties of unknown population</strong>.</p></li>
 <li>
-<p>Idea: Assume the target population follows some distribution but with <strong>unknown</strong> parameters.</p>
+<p>Assume the population attribute follows some distribution but with <strong>unknown</strong> parameters.</p>
 <ul>
-<li><span style="color:blue"> Assume the population is normally distributed, but don’t know its mean and/or variance. Marquette students’ mean GPA for example. </span></li>
+<li><span style="color:blue"> Assume normally distributed, but don’t know its mean and/or variance. Marquette students’ mean GPA for example. </span></li>
 </ul>
 </li>
-<li><p>Goal: <strong>Learning the unknown parameters</strong> of the assumed population distribution.</p></li>
+<li><p><strong>Goal:</strong> <strong>Learning the unknown parameters</strong> of the assumed population distribution.</p></li>
 <li><p>Two approaches in parameter learning: <strong>Estimation</strong> and <strong>Hypothesis testing</strong>.</p></li>
 </ul>
 <div class="columns">
@@ -268,7 +268,7 @@ window.Quarto = {
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="09-ci_files/figure-revealjs/unnamed-chunk-2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<figure class="figure"><p><img src="09-ci_files/figure-revealjs/unnamed-chunk-2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
 </figure>
 </div>
 </div>
@@ -277,7 +277,7 @@ window.Quarto = {
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="09-ci_files/figure-revealjs/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<figure class="figure"><p><img src="09-ci_files/figure-revealjs/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
 </figure>
 </div>
 </div>
@@ -347,19 +347,19 @@ window.Quarto = {
 <th style="text-align: center;">sample mean</th>
 </tr></thead>
 <tbody><tr class="odd">
-<td style="text-align: center;">2.88</td>
-<td style="text-align: center;">2.94</td>
-<td style="text-align: center;">3.09</td>
-<td style="text-align: center;">2.66</td>
-<td style="text-align: center;">2.38</td>
-<td style="text-align: center;">2.79</td>
+<td style="text-align: center;">3.41</td>
+<td style="text-align: center;">3.43</td>
+<td style="text-align: center;">3.57</td>
+<td style="text-align: center;">3.13</td>
+<td style="text-align: center;">3.89</td>
+<td style="text-align: center;">3.49</td>
 </tr></tbody>
 </table>
 </div>
 </div>
 <ul>
 <li>
-<span class="math inline">\(\mu = 3.2\)</span>, and we use the point estimate <span class="math inline">\(\overline{x}=\)</span> 2.79 to estimate it.</li>
+<span class="math inline">\(\mu = 3.2\)</span>, and we use the point estimate <span class="math inline">\(\overline{x}=\)</span> 3.49 to estimate it.</li>
 </ul>
 <div class="question">
 <p>Why <span class="math inline">\(\overline{x}\)</span> is not equal to <span class="math inline">\(\mu\)</span>?</p>
@@ -465,18 +465,17 @@ window.Quarto = {
 <li>the estimate <span class="math inline">\(\overline{x}\)</span> may <em>not</em> be <em>precise</em> or <em>reliable</em>.</li>
 </ul>
 </div>
-</section><section id="confidence-intervals" class="level2"><h2 class="anchored" data-anchor-id="confidence-intervals">Confidence Intervals</h2>
+</section><section id="interval-estimation" class="level2"><h2 class="anchored" data-anchor-id="interval-estimation">Interval Estimation</h2>
 <p>A plausible range of values for <span class="math inline">\(\mu\)</span> is called a <strong>confidence interval (CI)</strong>.</p>
 <ul>
-<li><p>To construct a CI we need to quantify the variability of our sample mean. <!-- - For example, if we want to construct a confidence interval for a population mean, we need to come up with a plausible range of values around our observed sample mean. --> <!-- - This range depends on how *precise* and *reliable* our $\overline{X}$ is as an estimate of $\mu$. --></p></li>
-<li>
-<p>Quantifying this uncertainty requires a measurement of how much we would expect the sample statistic to vary from sample to sample.</p>
+<li>To construct a CI we need to consider the variability of our sample mean.
 <ul>
-<li>That is the <em>variance</em> of the sampling distribution of the sample mean!</li>
+<li>If <span class="math inline">\(\overline{X}\)</span> varies a lot, this time huge, next time tiny, we are more uncertain about what <span class="math inline">\(\mu\)</span> really is.</li>
+<li>The range or interval should be wider to catch <span class="math inline">\(\mu\)</span>.</li>
 </ul>
 </li>
 </ul>
-<div class="notes">
+<!-- - For example, if we want to construct a confidence interval for a population mean, we need to come up with a plausible range of values around our observed sample mean. --><!-- - This range depends on how *precise* and *reliable* our $\overline{X}$ is as an estimate of $\mu$. --><!-- - Quantifying this uncertainty requires a measurement of how much we would expect the sample statistic to vary from sample to sample.  --><!--   + That is the *variance* of the sampling distribution of the sample mean! --><div class="notes">
 <ul>
 <li>To construct a CI we need to quantify the variability of our sample mean because the variability determines the upper and lower bound of the range of the plausible values.</li>
 <li>The variability of the sample mean determines the size of CI.</li>
@@ -510,8 +509,8 @@ window.Quarto = {
 <li>Use the sample mean to form a confidence interval for the population mean.</li>
 </ul>
 </li>
-<li><p>We <strong>never say</strong> <em>“The confidence interval of the sample mean <span class="math inline">\(\overline{X}\)</span> is …”</em></p></li>
-<li><p>We <strong>say</strong> <em>“The confidence interval for the true population mean <span class="math inline">\(\mu\)</span> is …”</em></p></li>
+<li><p>❌ We <span class="red"><strong>never say</strong></span> <em>“The confidence interval of the sample mean <span class="math inline">\(\overline{X}\)</span> is …”</em></p></li>
+<li><p>✅ We <strong>say</strong> <em>“The confidence interval for the true population mean <span class="math inline">\(\mu\)</span> is …”</em></p></li>
 </ul>
 <p>. . .</p>
 <ul>
@@ -628,6 +627,11 @@ window.Quarto = {
 <p>Is the interval <span class="math inline">\(\left(\mu-1.96\frac{\sigma}{\sqrt{n}}, \mu+1.96\frac{\sigma}{\sqrt{n}} \right)\)</span> our confidence interval?</p>
 </div>
 <div class="fragment">
+<div class="question">
+<p>Do we know the value of <span class="math inline">\(\mu\)</span>?</p>
+</div>
+</div>
+<div class="fragment">
 <p>❌ <strong>No! We don’t know <span class="math inline">\(\mu\)</span>, the quantity we like to estimate!</strong></p>
 <p>But we’re almost there!</p>
 </div>
@@ -701,6 +705,7 @@ P\left( \boxed{\overline{X}-1.96\frac{\sigma}{\sqrt{n}} &lt; \mu &lt; \overline{
 <p><span style="color:blue"> <span class="math inline">\(\left(\overline{x}-1.96\frac{\sigma}{\sqrt{n}},  \overline{x} + 1.96\frac{\sigma}{\sqrt{n}}\right)\)</span> </span> <span style="color:blue"> <span class="math inline">\(\left(\overline{x}-z_{0.025}\frac{\sigma}{\sqrt{n}},  \overline{x} + z_{0.025}\frac{\sigma}{\sqrt{n}}\right)\)</span> </span></p>
 </div>
 </div><div class="column" style="width:50%;">
+<div class="fragment">
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -711,6 +716,7 @@ P\left( \boxed{\overline{X}-1.96\frac{\sigma}{\sqrt{n}} &lt; \mu &lt; \overline{
 </div>
 <div class="center">
 <p><span style="color:red"> <span class="math inline">\(\left(\overline{x}-z_{\alpha/2}\frac{\sigma}{\sqrt{n}},  \overline{x} + z_{\alpha/2}\frac{\sigma}{\sqrt{n}}\right)\)</span> </span></p>
+</div>
 </div>
 </div>
 </div>
@@ -849,9 +855,9 @@ P\left( \boxed{\overline{X}-1.96\frac{\sigma}{\sqrt{n}} &lt; \mu &lt; \overline{
 </ul></section></section><section id="confidence-intervals-for-population-mean-mu-unknown-variance-case" class="level1" data-background-image="https://upload.wikimedia.org/wikipedia/commons/4/42/William_Sealy_Gosset.jpg" data-background-size="cover" data-background-position="50% 50%" data-background-color="#447099"><h1 data-background-image="https://upload.wikimedia.org/wikipedia/commons/4/42/William_Sealy_Gosset.jpg" data-background-size="cover" data-background-position="50% 50%" data-background-color="#447099"><span class="orange">Confidence Intervals for population Mean <span class="math inline">\(\mu\)</span>: Unknown Variance Case</span></h1>
 <section id="confidence-intervals-for-mu-when-sigma-is-unknown" class="level2"><h2 class="anchored" data-anchor-id="confidence-intervals-for-mu-when-sigma-is-unknown">Confidence Intervals for <span class="math inline">\(\mu\)</span> When <span class="math inline">\(\sigma\)</span> is Unknown</h2>
 <!-- - So far we estimate unknown mean $\mu$ with known standard deviation $\sigma$. -->
+<!-- - $\sigma^2 = \frac{\sum_{i=1}^{N}(x_i - \mu)^2}{N}$, $N$ is the population size. -->
 <ul>
-<li><p><span class="math inline">\(\sigma^2 = \frac{\sum_{i=1}^{N}(x_i - \mu)^2}{N}\)</span>, <span class="math inline">\(N\)</span> is the population size.</p></li>
-<li><p>It’s rare that we do not know <span class="math inline">\(\mu\)</span>, but know <span class="math inline">\(\sigma\)</span>.</p></li>
+<li><p>It’s rare that we do not know <span class="math inline">\(\mu\)</span>, but know <span class="math inline">\(\sigma\)</span>!</p></li>
 <li><p>We use the <strong>Student t</strong> distribution to construct a confidence interval for <span class="math inline">\(\mu\)</span> when <span class="math inline">\(\sigma\)</span> is <strong>unknown</strong>.</p></li>
 <li>
 <p>Still need</p>
