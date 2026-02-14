@@ -65,13 +65,12 @@ options(digits = 4)
 
 ## Inference Framework
 
-- **Inferential statistics uses sample data to learn about an unknown population**.
+- **Inferential statistics uses data to learn about properties of unknown population**.
 
-- Idea: Assume the target population follows some distribution but with **unknown** parameters.
-  + <span style="color:blue"> Assume the population is normally distributed, but don't know its mean and/or variance. Marquette students' mean GPA for example. </span>
+- Assume the population attribute follows some distribution but with **unknown** parameters.
+  + <span style="color:blue"> Assume normally distributed, but don't know its mean and/or variance. Marquette students' mean GPA for example. </span>
   
-- Goal: **Learning the unknown parameters** of the assumed population distribution.
-
+- **Goal:** **Learning the unknown parameters** of the assumed population distribution.
 
 - Two approaches in parameter learning: **Estimation** and **Hypothesis testing**.
 
@@ -79,7 +78,7 @@ options(digits = 4)
 
 ::: {.column width="50%"}
 ```{r}
-#| out-width: 100%
+#| out-width: 85%
 par(mar = 0*c(1,1,1,1))
 plot(c(0, 2),
      c(0, 1.1),
@@ -125,7 +124,7 @@ for (i in these) {
 
 ::: {.column width="50%"}
 ```{r}
-#| out-width: 100%
+#| out-width: 90%
 # knitr::include_graphics("./images/09-ci/data_generating.png")
 # fig.cap="Figure 1.1 in All of Statistics (Wasserman 2003)"
 par(mar = c(0, 0, 0, 0))
@@ -234,7 +233,7 @@ par(mar = c(2, 0, 1, 0), mgp = c(2, 0.5, 0))
 z <- 3.2 + seq(-3, 3, by = 0.001)
 hz <- dnorm(z, mean = 3.2, sd = sqrt(0.5))
 plot(z, hz, type = "n", xlab = "", ylab = "", ylim = c(0, dnorm(0, 0, sqrt(0.5))),
-    axes = FALSE, main = "Population")
+    axes = FALSE, main = "Population", cex.main = 2)
 lines(z, hz, col = 4, lwd = 4)
 axis(1)
 points(x_data_1, y = rep(0, length(x_data_1)), col = "red", pch = 16, cex = 2)
@@ -277,7 +276,8 @@ par(mar = c(3, 0, 2, 0), mgp = c(2, 0.5, 0))
 z <- 3.2 + seq(-3, 3, by = 0.001)
 hz <- dnorm(z, mean = 3.2, sd = sqrt(0.5)/sqrt(5))
 plot(z, hz, type = "n", xlab = "", ylab = "", ylim = c(0, dnorm(0, 0, sqrt(0.5)/sqrt(5))),
-    axes = FALSE, main = expression(paste("Sampling Distribution of ", bar(X))))
+    axes = FALSE, main = expression(paste("Sampling Distribution of ", bar(X))),
+    cex.main = 2)
 lines(z, hz, col = 4, lwd = 4)
 axis(1)
 points(c(mean(x_data_1), mean(x_data_2)),
@@ -339,16 +339,19 @@ knitr::include_graphics("images/09-ci/net.png")
 
 
 
-## Confidence Intervals
+## Interval Estimation
 
 A plausible range of values for $\mu$ is called a **confidence interval (CI)**.
 
-- To construct a CI we need to quantify the variability of our sample mean.
+- To construct a CI we need to consider the variability of our sample mean.
+  + If $\overline{X}$ varies a lot, this time huge, next time tiny, we are more uncertain about what $\mu$ really is. 
+  + The range or interval should be wider to catch $\mu$.
+  
 <!-- - For example, if we want to construct a confidence interval for a population mean, we need to come up with a plausible range of values around our observed sample mean. -->
 <!-- - This range depends on how *precise* and *reliable* our $\overline{X}$ is as an estimate of $\mu$. -->
 
-- Quantifying this uncertainty requires a measurement of how much we would expect the sample statistic to vary from sample to sample. 
-  + That is the *variance* of the sampling distribution of the sample mean!
+<!-- - Quantifying this uncertainty requires a measurement of how much we would expect the sample statistic to vary from sample to sample.  -->
+<!--   + That is the *variance* of the sampling distribution of the sample mean! -->
 
 
 ::: notes
@@ -395,9 +398,9 @@ Do we know the variance of $\overline{X}$?
 - A confidence interval is **for a parameter, NOT a statistic.**
   + Use the sample mean to form a confidence interval for the population mean.
 
-- We **never say** *"The confidence interval of the sample mean $\overline{X}$ is ..."*
+- ❌ We [**never say**]{.red} *"The confidence interval of the sample mean $\overline{X}$ is ..."*
 
-- We **say** *"The confidence interval for the true population mean $\mu$ is ..."*
+- ✅ We **say** *"The confidence interval for the true population mean $\mu$ is ..."*
 
 . . .
 
@@ -529,11 +532,11 @@ How can we get best of both worlds -- high precision and high reliability/accura
 ::: {.column width="65%"}
 ```{r}
 #| label: ci_95
-par(mar = c(6, 0, 1.5, 0), mgp = c(3, 2, 0), las = 1)
+par(mar = c(6, 0, 2, 0), mgp = c(3, 2, 0), las = 1)
 z <- seq(-3, 3, by = 0.001)
 hz <- dnorm(z)
 plot(z, hz, type = "n", xlab = "", ylab = "", ylim = c(0, dnorm(0, 0, 1)),
-    axes = FALSE, main = expression(paste("Sampling distribution of ", bar(X))))
+    axes = FALSE, main = expression(paste("Sampling distribution of ", bar(X))), cex.main = 2, )
 lines(z, hz, col = 4, lwd = 4)
 these <- (qnorm(0.025) <= z & z <= qnorm(0.975))
 polygon(c(qnorm(0.025), z[these], qnorm(0.975)),
@@ -553,17 +556,17 @@ segments(x0 = -z_cri, y0 = 0, y1 = dnorm(-z_cri, 0, 1), col = 4, lwd = 2, lty = 
 # axis(1, at = seq(-3, 3, 1), pos = 0, line = 1)
 
 
-text(0, 0.3*dnorm(0), "95%", cex = 3, col = "#003366")
-text(2.2, 0.5*dnorm(2.2), "2.5%", cex = 1.2, col = "#003366")
-text(-2.2, 0.5*dnorm(-2.2), "2.5%", cex = 1.2, col = "#003366")
+text(0, 0.3*dnorm(0), "95%", cex = 4, col = "#003366")
+text(2.2, 0.5*dnorm(2.2), "2.5%", cex = 1.5, col = "#003366")
+text(-2.2, 0.5*dnorm(-2.2), "2.5%", cex = 1.5, col = "#003366")
 labels <- c("", expression(mu - 1.96 * frac(sigma, sqrt(n)),
                      # mu - sigma,
                      mu,
                      # mu + sigma,
                      mu + 1.96 * frac(sigma, sqrt(n)), bar(X)))
-axis(1, at = c(-3, -z_cri,0, z_cri, 3), labels, pos = 0, line = 1, cex.axis = 1.5)
+axis(1, at = c(-3, -z_cri,0, z_cri, 3), labels, pos = 0, line = 1, cex.axis = 2)
 par(mgp = c(3, 1, 0))
-axis(1, at = c(-3, -z_cri,0, z_cri, 3), cex.axis = 1.5,
+axis(1, at = c(-3, -z_cri,0, z_cri, 3), cex.axis = 2,
      labels = c("", -1.96, 0, 1.96, "Z"), tck = 0.01, line = 3)
 ```
 :::
@@ -591,6 +594,14 @@ $$P\left(\mu-1.96\frac{\sigma}{\sqrt{n}} < \overline{X} < \mu + 1.96\frac{\sigma
 
 ::: question
 Is the interval $\left(\mu-1.96\frac{\sigma}{\sqrt{n}}, \mu+1.96\frac{\sigma}{\sqrt{n}} \right)$ our confidence interval?
+:::
+
+::: fragment
+
+::: question
+Do we know the value of $\mu$?
+:::
+
 :::
 
 ::: fragment
@@ -682,43 +693,48 @@ P\left( \boxed{\overline{X}-1.96\frac{\sigma}{\sqrt{n}} < \mu < \overline{X} + 1
 
 :::
 
+
 ::: {.column width="50%"}
+
+::: fragment
 
 ```{r}
 #| label: ci_alpha
 #| out-width: 100%
-par(mar = c(6, 0, 1.5, 0), mgp = c(3, 2, 0), las = 1)
+par(mar = c(6, 0, 2, 0), mgp = c(3, 2, 0), las = 1)
 z <- seq(-3, 3, by = 0.001)
 hz <- dnorm(z)
 plot(z, hz, type = "n", xlab = "", ylab = "", ylim = c(0, dnorm(0, 0, 1)),
-     main = expression(paste("Sampling distribution of ", bar(X))), axes = FALSE)
+     main = expression(paste("Sampling distribution of ", bar(X))), axes = FALSE, cex.main = 2)
 lines(z, hz, col = 2, lwd = 2)
-these <- (qnorm(0.025) <= z & z <= qnorm(0.975))
-polygon(c(qnorm(0.025), z[these], qnorm(0.975)),
+these <- (qnorm(0.05) <= z & z <= qnorm(0.95))
+polygon(c(qnorm(0.05), z[these], qnorm(0.95)),
           c(0, hz[these], 0),
           col = "pink",
           border = 2)
-z_cri <- qnorm(0.975)
+z_cri <- qnorm(0.95)
 segments(x0 = z_cri, y0 = 0, y1 = dnorm(z_cri, 0, 1), col = 2, lwd = 2, lty = 2)
 segments(x0 = -z_cri, y0 = 0, y1 = dnorm(-z_cri, 0, 1), col = 2, lwd = 2, lty = 2)
 
 
-text(0, 0.3*dnorm(0), expression(1 - alpha), cex = 3, col = "#003366")
-text(2.2, 0.5*dnorm(2.2), expression(alpha/2), cex = 1.2, col = "#003366")
-text(-2.2, 0.5*dnorm(-2.2), expression(alpha/2), cex = 1.2, col = "#003366")
+text(0, 0.3*dnorm(0), expression(1 - alpha), cex = 4, col = "#003366")
+text(2.2, 0.5*dnorm(2.2), expression(alpha/2), cex = 2, col = "#003366")
+text(-2.2, 0.5*dnorm(-2.2), expression(alpha/2), cex = 2, col = "#003366")
 labels <- c("", expression(mu - z[frac(alpha, 2)] * frac(sigma, sqrt(n)),
                      mu,
                      mu + z[frac(alpha, 2)] * frac(sigma, sqrt(n)), bar(X)))
 axis(1, at = c(-3, -z_cri,0, z_cri, 3), labels, pos = 0, line = 1, 
-     cex.axis = 1.5)
+     cex.axis = 2)
 par(mgp = c(3, 1, 0))
-axis(1, at = c(-3, -z_cri,0, z_cri, 3), cex.axis = 1.5,
+axis(1, at = c(-3, -z_cri,0, z_cri, 3), cex.axis = 2,
      labels = c("", expression(-z[frac(alpha, 2)]), 0, expression(z[frac(alpha, 2)]), "Z"), tck = 0.01, line = 3)
 
 ```
 
 ::: center
 <span style="color:red"> $\left(\overline{x}-z_{\alpha/2}\frac{\sigma}{\sqrt{n}},  \overline{x} + z_{\alpha/2}\frac{\sigma}{\sqrt{n}}\right)$ </span>
+:::
+
 :::
 
 :::
@@ -894,9 +910,9 @@ abline(v = mu, col = "#FFCC00", lwd = 2)
 
 ## Confidence Intervals for $\mu$ When $\sigma$ is Unknown
 <!-- - So far we estimate unknown mean $\mu$ with known standard deviation $\sigma$. -->
-- $\sigma^2 = \frac{\sum_{i=1}^{N}(x_i - \mu)^2}{N}$, $N$ is the population size.
+<!-- - $\sigma^2 = \frac{\sum_{i=1}^{N}(x_i - \mu)^2}{N}$, $N$ is the population size. -->
 
-- It's rare that we do not know $\mu$, but know $\sigma$.
+- It's rare that we do not know $\mu$, but know $\sigma$!
 
 - We use the **Student t** distribution to construct a confidence interval for $\mu$ when $\sigma$ is **unknown**.
 

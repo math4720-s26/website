@@ -7,7 +7,7 @@ format:
     html-math-method: mathjax
 editor: source
 execute:
-  echo: false
+  echo: true
   eval: false
 ---
 
@@ -37,6 +37,7 @@ execute:
 
 ```{r, echo=FALSE}
 ## OpenIntro 3.7
+# (a) No.
 ```
 
 (a) What percent of voters are Independent but not swing voters?
@@ -45,12 +46,12 @@ execute:
 (d) Is the event that someone is a swing voter independent of the event that someone is a political Independent?
 
 
+
 ```{r}
-# (a) No.
-# (b) 24%
-# (c) 47%
-# (d) 53%
-# (e) No. P(Ind)*P(Swing) is not equal to P(Ind and Swing)
+# (a) 24%
+# (b) 47%
+# (c) 53%
+# (d) No. P(Ind)*P(Swing) is not equal to P(Ind and Swing)
 ```
 
 <br>
@@ -87,9 +88,7 @@ execute:
 
 ```{r}
 # (a) 0.33
-# (b) No. the two appear to be dependent. The percentages of conservative Republicans and liberal
-# Democrats who believe that there is solid evidence that the average temperature on earth has
-# been getting warmer over the past few decades are very different.
+# (b) The two appear to be dependent. The percentages of conservative Republicans and liberal Democrats who believe that there is solid evidence that the average temperature on earth has been getting warmer over the past few decades are very different.
 # (c) 0.06/0.34 = 0.18
 ```
 

@@ -65,7 +65,7 @@ qnorm(0.1, mean = 77, sd = 5)
 (@) Data collected by the Substance Abuse and Mental Health Services Administration (SAMSHA) suggests that 70\% of 18-20 year olds consumed alcoholic beverages in any given year.
     (a) Suppose a random sample of ten 18-20 year olds is taken. When does it make sense to use binomial distribution for calculating the probability that exactly six consumed alcoholic beverages?
 <!-- (b) Calculate the probability that exactly 6 out of 10 randomly sampled 18-20 year olds consumed an alcoholic drink. -->
-    (b) What is the probability that exactly four out of ten 18-20 year olds have \textit{not} consumed an alcoholic beverage?
+    (b) What is the probability that exactly four out of ten 18-20 year olds have \textit{NOT} consumed an alcoholic beverage?
     (c) What is the probability that at most 2 out of 5 randomly sampled 18-20 year olds have consumed alcoholic beverages?
 
 ```{r}
