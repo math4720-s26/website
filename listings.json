@@ -1,11 +1,21 @@
 [
   {
-    "listing": "/exercise.html",
+    "listing": "/hw.html",
     "items": [
-      "/exercise/exercise1.html",
-      "/exercise/exercise2.html",
-      "/exercise/exercise3.html",
-      "/exercise/exercise_mlr.html"
+      "/hw/hw03-extra.html",
+      "/hw/hw01.html",
+      "/hw/hw02.html",
+      "/hw/hw03.html",
+      "/hw/hw04.html"
+    ]
+  },
+  {
+    "listing": "/ws.html",
+    "items": [
+      "/ws/ws1.html",
+      "/ws/ws2.html",
+      "/ws/ws3.html",
+      "/ws/ws4.html"
     ]
   },
   {
@@ -16,21 +26,12 @@
     ]
   },
   {
-    "listing": "/ws.html",
+    "listing": "/exercise.html",
     "items": [
-      "/ws/ws1.html",
-      "/ws/ws2.html",
-      "/ws/ws3.html"
-    ]
-  },
-  {
-    "listing": "/hw.html",
-    "items": [
-      "/hw/hw03-extra.html",
-      "/hw/hw01.html",
-      "/hw/hw02.html",
-      "/hw/hw03.html",
-      "/hw/hw04.html"
+      "/exercise/exercise1.html",
+      "/exercise/exercise2.html",
+      "/exercise/exercise3.html",
+      "/exercise/exercise_mlr.html"
     ]
   }
 ]

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.19">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -66,19 +66,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-311c866fdd058187a59d486837a94991.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2c9d57f40c98f3370ab025cbbe6ad21c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -300,8 +299,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/math4720-s26/website" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -398,10 +396,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="column" style="width:40%;">
 <div class="midi">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="16" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 15;"><span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>viewof params_binom <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">form</span>([</span>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="16" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 15;"><span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>viewof params_binom <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">form</span>([</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>      Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">200</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">10</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="fu">tex</span><span class="vs">`n`</span>})<span class="op">,</span></span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>      Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">1</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="fl">0.5</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.01</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="fu">tex</span><span class="vs">`</span><span class="sc">\p</span><span class="vs">i`</span>})<span class="op">,</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    ])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    ])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="declaration">
 
@@ -409,7 +407,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="25" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 24;"><span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>viewof kvantil <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">1</span><span class="op">,</span> params_binom[<span class="dv">0</span>]]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">3</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"quantile"</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="25" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 24;"><span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>viewof kvantil <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">1</span><span class="op">,</span> params_binom[<span class="dv">0</span>]]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">3</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"quantile"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-2" data-nodetype="declaration">
 
@@ -417,7 +415,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="31" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 30;"><span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>viewof approx <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">toggle</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"show normal approximation"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="kw">false</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="31" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 30;"><span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>viewof approx <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">toggle</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"show normal approximation"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="kw">false</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-3" data-nodetype="declaration">
 
@@ -425,7 +423,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb4" data-startfrom="37" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 36;"><span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>jstat <span class="op">=</span> <span class="pp">require</span>(<span class="st">'jstat'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="37" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 36;"><span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>jstat <span class="op">=</span> <span class="pp">require</span>(<span class="st">'jstat'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-4" data-nodetype="declaration">
 
@@ -433,7 +431,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb5" data-startfrom="43" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 42;"><span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>binomcdf <span class="op">=</span> jstat<span class="op">.</span><span class="at">binomial</span><span class="op">.</span><span class="fu">cdf</span>(kvantil<span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">,</span> params_binom[<span class="dv">1</span>])<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="43" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 42;"><span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>binomcdf <span class="op">=</span> jstat<span class="op">.</span><span class="at">binomial</span><span class="op">.</span><span class="fu">cdf</span>(kvantil<span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">,</span> params_binom[<span class="dv">1</span>])<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-5" data-nodetype="declaration">
 
@@ -441,11 +439,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb6" data-startfrom="49" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 48;"><span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>normalapproxpdf <span class="op">=</span> {</span>
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="49" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 48;"><span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>normalapproxpdf <span class="op">=</span> {</span>
 <span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> x <span class="op">=</span> d3<span class="op">.</span><span class="fu">range</span>(<span class="dv">0</span><span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">,</span> <span class="dv">1</span>)<span class="op">;</span></span>
 <span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> normalapproxpdf <span class="op">=</span> x<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> ({<span class="dt">x</span><span class="op">:</span> x<span class="op">,</span> <span class="dt">pdf</span><span class="op">:</span> jstat<span class="op">.</span><span class="at">normal</span><span class="op">.</span><span class="fu">pdf</span>(x<span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sqrt</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>params_binom[<span class="dv">1</span>])))}))<span class="op">;</span></span>
 <span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> normalapproxpdf</span>
-<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-6" data-nodetype="declaration">
 
@@ -453,7 +451,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb7" data-startfrom="58" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 57;"><span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>normalapproxcdf <span class="op">=</span> jstat<span class="op">.</span><span class="at">normal</span><span class="op">.</span><span class="fu">cdf</span>(kvantil<span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sqrt</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>params_binom[<span class="dv">1</span>])))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="58" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 57;"><span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>normalapproxcdf <span class="op">=</span> jstat<span class="op">.</span><span class="at">normal</span><span class="op">.</span><span class="fu">cdf</span>(kvantil<span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sqrt</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>params_binom[<span class="dv">1</span>])))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-7" data-nodetype="declaration">
 
@@ -461,7 +459,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb8" data-startfrom="65" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 64;"><span id="cb8-65"><a href="#cb8-65" aria-hidden="true" tabindex="-1"></a>normalapproxcdf_corrected <span class="op">=</span> jstat<span class="op">.</span><span class="at">normal</span><span class="op">.</span><span class="fu">cdf</span>(kvantil<span class="op">+</span><span class="fl">0.5</span><span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sqrt</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>params_binom[<span class="dv">1</span>])))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="65" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 64;"><span id="cb8-65"><a href="#cb8-65" aria-hidden="true" tabindex="-1"></a>normalapproxcdf_corrected <span class="op">=</span> jstat<span class="op">.</span><span class="at">normal</span><span class="op">.</span><span class="fu">cdf</span>(kvantil<span class="op">+</span><span class="fl">0.5</span><span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sqrt</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>params_binom[<span class="dv">1</span>])))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-8" data-nodetype="declaration">
 
@@ -469,13 +467,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb9" data-startfrom="70" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 69;"><span id="cb9-70"><a href="#cb9-70" aria-hidden="true" tabindex="-1"></a>binompdf <span class="op">=</span> {</span>
+<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="70" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 69;"><span id="cb9-70"><a href="#cb9-70" aria-hidden="true" tabindex="-1"></a>binompdf <span class="op">=</span> {</span>
 <span id="cb9-71"><a href="#cb9-71" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> x <span class="op">=</span> d3<span class="op">.</span><span class="fu">range</span>(<span class="dv">0</span><span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">+</span><span class="dv">1</span><span class="op">,</span> <span class="dv">1</span>)<span class="op">;</span></span>
 <span id="cb9-72"><a href="#cb9-72" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> binompdf <span class="op">=</span> x<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> ({<span class="dt">x</span><span class="op">:</span> x<span class="op">,</span> <span class="dt">pdf</span><span class="op">:</span> jstat<span class="op">.</span><span class="at">binomial</span><span class="op">.</span><span class="fu">pdf</span>(x<span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">,</span> params_binom[<span class="dv">1</span>])<span class="op">,</span> <span class="dt">type</span><span class="op">:</span> <span class="st">"exact"</span>}))<span class="op">;</span></span>
 <span id="cb9-73"><a href="#cb9-73" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> normalapproxpdf <span class="op">=</span> x<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> ({<span class="dt">x</span><span class="op">:</span> x<span class="op">,</span> <span class="dt">pdf</span><span class="op">:</span> jstat<span class="op">.</span><span class="at">normal</span><span class="op">.</span><span class="fu">pdf</span>(x<span class="op">,</span> params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">sqrt</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>params_binom[<span class="dv">1</span>])))<span class="op">,</span><span class="dt">type</span><span class="op">:</span> <span class="st">"approx"</span>}))<span class="op">;</span></span>
 <span id="cb9-74"><a href="#cb9-74" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> data <span class="op">=</span> binompdf<span class="op">.</span><span class="fu">concat</span>(normalapproxpdf)</span>
 <span id="cb9-75"><a href="#cb9-75" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> data</span>
-<span id="cb9-76"><a href="#cb9-76" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb9-76"><a href="#cb9-76" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-9" data-nodetype="declaration">
 
@@ -483,13 +481,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb10" data-startfrom="80" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 79;"><span id="cb10-80"><a href="#cb10-80" aria-hidden="true" tabindex="-1"></a>moments_binom <span class="op">=</span> <span class="fu">tex</span><span class="vs">`</span></span>
+<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="80" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 79;"><span id="cb10-80"><a href="#cb10-80" aria-hidden="true" tabindex="-1"></a>moments_binom <span class="op">=</span> <span class="fu">tex</span><span class="vs">`</span></span>
 <span id="cb10-81"><a href="#cb10-81" aria-hidden="true" tabindex="-1"></a><span class="sc">\t</span><span class="vs">ext{If } X </span><span class="sc">\s</span><span class="vs">im </span><span class="sc">\o</span><span class="vs">peratorname{Binom}(</span><span class="sc">${</span>params_binom[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>params_binom[<span class="dv">1</span>]<span class="sc">}</span><span class="vs">) </span><span class="sc">\t</span><span class="vs">ext{ then }</span><span class="sc">\\</span><span class="vs">[0.5em]</span></span>
 <span id="cb10-82"><a href="#cb10-82" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-83"><a href="#cb10-83" aria-hidden="true" tabindex="-1"></a><span class="vs">E( X) =n  </span><span class="sc">\p</span><span class="vs">i = </span><span class="sc">${</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>])<span class="op">.</span><span class="fu">toPrecision</span>(<span class="dv">3</span>)<span class="sc">}</span><span class="vs"> </span><span class="sc">\\</span><span class="vs">[0.5em]</span></span>
 <span id="cb10-84"><a href="#cb10-84" aria-hidden="true" tabindex="-1"></a><span class="vs">Var( X) =n  </span><span class="sc">\p</span><span class="vs">i (1-</span><span class="sc">\p</span><span class="vs">i) =</span><span class="sc">${</span>(params_binom[<span class="dv">0</span>]<span class="op">*</span>params_binom[<span class="dv">1</span>]<span class="op">*</span>(<span class="dv">1</span><span class="op">-</span>params_binom[<span class="dv">1</span>]))<span class="op">.</span><span class="fu">toPrecision</span>(<span class="dv">3</span>)<span class="sc">}</span><span class="vs"> </span><span class="sc">\\</span><span class="vs">[0.5em]</span></span>
 <span id="cb10-85"><a href="#cb10-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-86"><a href="#cb10-86" aria-hidden="true" tabindex="-1"></a><span class="vs">`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb10-86"><a href="#cb10-86" aria-hidden="true" tabindex="-1"></a><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-10" data-nodetype="declaration">
 
@@ -497,7 +495,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb11" data-startfrom="93" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 92;"><span id="cb11-93"><a href="#cb11-93" aria-hidden="true" tabindex="-1"></a>cdfs <span class="op">=</span> </span>
+<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="93" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 92;"><span id="cb11-93"><a href="#cb11-93" aria-hidden="true" tabindex="-1"></a>cdfs <span class="op">=</span> </span>
 <span id="cb11-94"><a href="#cb11-94" aria-hidden="true" tabindex="-1"></a>{</span>
 <span id="cb11-95"><a href="#cb11-95" aria-hidden="true" tabindex="-1"></a>  <span class="kw">var</span> cdf<span class="op">;</span></span>
 <span id="cb11-96"><a href="#cb11-96" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (approx){</span>
@@ -516,7 +514,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-109"><a href="#cb11-109" aria-hidden="true" tabindex="-1"></a><span class="vs">  `</span> </span>
 <span id="cb11-110"><a href="#cb11-110" aria-hidden="true" tabindex="-1"></a>  }</span>
 <span id="cb11-111"><a href="#cb11-111" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> cdf<span class="op">;</span></span>
-<span id="cb11-112"><a href="#cb11-112" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb11-112"><a href="#cb11-112" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-11" data-nodetype="declaration">
 
@@ -527,7 +525,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div><div class="column" style="width:60%;">
 <div class="tiny">
 <div class="cell" data-out-width="100%">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb12" data-startfrom="124" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 123;"><span id="cb12-124"><a href="#cb12-124" aria-hidden="true" tabindex="-1"></a>plt_binom <span class="op">=</span> Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<div class="sourceCode cell-code hidden" id="cb12" data-startfrom="124" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 123;"><span id="cb12-124"><a href="#cb12-124" aria-hidden="true" tabindex="-1"></a>plt_binom <span class="op">=</span> Plot<span class="op">.</span><span class="fu">plot</span>({</span>
 <span id="cb12-125"><a href="#cb12-125" aria-hidden="true" tabindex="-1"></a>    <span class="dt">width</span><span class="op">:</span> <span class="dv">700</span><span class="op">,</span> <span class="co">// or a dynamic value based on `width` variable</span></span>
 <span id="cb12-126"><a href="#cb12-126" aria-hidden="true" tabindex="-1"></a>    <span class="dt">height</span><span class="op">:</span> <span class="dv">400</span><span class="op">,</span></span>
 <span id="cb12-127"><a href="#cb12-127" aria-hidden="true" tabindex="-1"></a>    <span class="dt">color</span><span class="op">:</span> { </span>
@@ -560,7 +558,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb12-154"><a href="#cb12-154" aria-hidden="true" tabindex="-1"></a>        <span class="dt">title</span><span class="op">:</span> (d) <span class="kw">=&gt;</span> <span class="vs">`P(X=</span><span class="sc">${</span>d<span class="op">.</span><span class="at">x</span><span class="sc">}</span><span class="vs">) = </span><span class="sc">${</span>(d<span class="op">.</span><span class="at">pdf</span>)<span class="op">.</span><span class="fu">toPrecision</span>(<span class="dv">4</span>)<span class="sc">}</span><span class="vs">`</span>})<span class="op">,</span></span>
 <span id="cb12-155"><a href="#cb12-155" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(normalapproxpdf<span class="op">,</span> {<span class="dt">filter</span><span class="op">:</span> d <span class="kw">=&gt;</span> approx<span class="op">,</span> <span class="dt">x</span><span class="op">:</span> <span class="st">"x"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"pdf"</span><span class="op">,</span> <span class="dt">stroke</span> <span class="op">:</span> <span class="st">"steelblue"</span><span class="op">,</span> <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">2</span>})</span>
 <span id="cb12-156"><a href="#cb12-156" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb12-157"><a href="#cb12-157" aria-hidden="true" tabindex="-1"></a>  })</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb12-157"><a href="#cb12-157" aria-hidden="true" tabindex="-1"></a>  })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-ojs-cell-12" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ojs-cell-12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
