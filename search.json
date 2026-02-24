@@ -6742,7 +6742,7 @@
     "href": "ws_new/ws5.html",
     "title": "Worksheet 5",
     "section": "",
-    "text": "A student says, “My confidence interval for \\(\\mu\\) is \\(\\overline{x} \\pm 2s\\).” What is the main problem with this, conceptually?\nA sample mean is \\(\\overline{x} = 50\\). The standard error of \\(\\overline{x}\\) is \\(SE = 2\\). Give an approximate 95 percent confidence interval for \\(\\mu\\). Let’s assume the critical value is 2."
+    "text": "A student says, “My confidence interval for \\(\\mu\\) is \\(\\overline{x} \\pm 2\\sigma\\).” What is the main problem with this, conceptually?\nA sample mean is \\(\\overline{x} = 50\\). The standard error of \\(\\overline{x}\\) is \\(SE = 3\\). Give an approximate 95 percent confidence interval for \\(\\mu\\). Let’s assume the critical value is 2."
   },
   {
     "objectID": "ws_new/ws3.html",
