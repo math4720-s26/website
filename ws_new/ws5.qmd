@@ -11,7 +11,7 @@ execute:
 ---
 
 
-(@) A student says, “My confidence interval for $\mu$ is $\overline{x} \pm 2s$.” What is the main problem with this, conceptually?
+(@) A student says, “My confidence interval for $\mu$ is $\overline{x} \pm 2\sigma$.” What is the main problem with this, conceptually?
 
 
 
@@ -22,9 +22,9 @@ execute:
 
 
 
-(@) A sample mean is $\overline{x} = 50$. The standard error of $\overline{x}$ is $SE = 2$. Give an approximate 95 percent confidence interval for $\mu$. Let's assume the critical value is 2.
+(@) A sample mean is $\overline{x} = 50$. The standard error of $\overline{x}$ is $SE = 3$. Give an approximate 95 percent confidence interval for $\mu$. Let's assume the critical value is 2.
 
 ```{r}
 #| include: false
-# (46, 54)
+# (44, 56)
 ```
