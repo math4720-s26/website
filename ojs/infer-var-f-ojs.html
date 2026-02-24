@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -66,18 +66,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-2c9d57f40c98f3370ab025cbbe6ad21c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-311c866fdd058187a59d486837a94991.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -299,7 +300,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/math4720-s26/website" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -399,11 +401,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="tiny">
 <div class="column" style="width:38%;">
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="19" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 18;"><span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>viewof params_f <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">form</span>([</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="19" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 18;"><span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>viewof params_f <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">form</span>([</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="fu">tex</span><span class="vs">`</span><span class="sc">\n</span><span class="vs">u_1`</span>})<span class="op">,</span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="fu">tex</span><span class="vs">`</span><span class="sc">\n</span><span class="vs">u_2`</span>})<span class="op">,</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>      Inputs<span class="op">.</span><span class="fu">range</span>([<span class="fl">0.01</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.01</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"quantile:"</span>})</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    ])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    ])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="declaration">
 
@@ -411,7 +413,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="28" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 27;"><span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>dist_quantile_f <span class="op">=</span> <span class="fu">tex</span><span class="vs">`</span><span class="sc">\t</span><span class="vs">ext{If } X </span><span class="sc">\s</span><span class="vs">im F(</span><span class="sc">${</span>nu1<span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>nu2<span class="sc">}</span><span class="vs">) </span><span class="sc">\t</span><span class="vs">ext{ then } `</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="28" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 27;"><span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>dist_quantile_f <span class="op">=</span> <span class="fu">tex</span><span class="vs">`</span><span class="sc">\t</span><span class="vs">ext{If } X </span><span class="sc">\s</span><span class="vs">im F(</span><span class="sc">${</span>nu1<span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>nu2<span class="sc">}</span><span class="vs">) </span><span class="sc">\t</span><span class="vs">ext{ then } `</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-2" data-nodetype="declaration">
 
@@ -419,7 +421,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="33" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 32;"><span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>moments_f <span class="op">=</span> {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="33" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 32;"><span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>moments_f <span class="op">=</span> {</span>
 <span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (nu2<span class="op">&gt;</span><span class="dv">4</span>){</span>
 <span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="fu">tex</span><span class="vs">`</span></span>
 <span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="vs">      </span><span class="sc">\b</span><span class="vs">egin{aligned}</span></span>
@@ -451,7 +453,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>    }</span>
 <span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>  }</span>
 <span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-3" data-nodetype="declaration">
 
@@ -464,7 +466,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="column" style="width:59%;">
 <div class="cell" data-out-width="100%">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="83" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 82;"><span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>plt_pdf_f <span class="op">=</span> Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb4" data-startfrom="83" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 82;"><span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>plt_pdf_f <span class="op">=</span> Plot<span class="op">.</span><span class="fu">plot</span>({</span>
 <span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>    <span class="dt">width</span><span class="op">:</span> <span class="dv">800</span><span class="op">,</span> <span class="co">// or a dynamic value based on `width` variable</span></span>
 <span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>    <span class="dt">height</span><span class="op">:</span> <span class="dv">600</span><span class="op">,</span></span>
 <span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>    <span class="dt">style</span><span class="op">:</span> {<span class="dt">fontSize</span><span class="op">:</span> <span class="st">"15px"</span>}<span class="op">,</span></span>
@@ -486,7 +488,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">line</span>(fpdf<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"x"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"pdf"</span><span class="op">,</span> <span class="dt">stroke</span> <span class="op">:</span> <span class="st">"purple"</span><span class="op">,</span> <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">2</span>})<span class="op">,</span></span>
 <span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a>      Plot<span class="op">.</span><span class="fu">areaY</span>(fpdf<span class="op">,</span> {<span class="dt">filter</span><span class="op">:</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">x</span> <span class="op">&lt;=</span> quantile<span class="op">,</span> <span class="dt">x</span><span class="op">:</span> <span class="st">"x"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"pdf"</span><span class="op">,</span> <span class="dt">fill</span><span class="op">:</span> <span class="st">"purple"</span><span class="op">,</span> <span class="dt">opacity</span><span class="op">:</span> <span class="fl">0.2</span>})</span>
 <span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>  })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>  })</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div id="fig-ojs-cell-4" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ojs-cell-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -501,9 +503,9 @@ Figure&nbsp;1: <a href="https://observablehq.com/@mattiasvillani/f-distribution"
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="111" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 110;"><span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a>nu1 <span class="op">=</span> params_f[<span class="dv">0</span>]</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb5" data-startfrom="111" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 110;"><span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a>nu1 <span class="op">=</span> params_f[<span class="dv">0</span>]</span>
 <span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a>nu2 <span class="op">=</span> params_f[<span class="dv">1</span>]</span>
-<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a>quantile <span class="op">=</span> params_f[<span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a>quantile <span class="op">=</span> params_f[<span class="dv">2</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-5-1" data-nodetype="declaration">
@@ -527,11 +529,11 @@ Figure&nbsp;1: <a href="https://observablehq.com/@mattiasvillani/f-distribution"
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="117" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 116;"><span id="cb6-117"><a href="#cb6-117" aria-hidden="true" tabindex="-1"></a>fpdf <span class="op">=</span> {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb6" data-startfrom="117" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 116;"><span id="cb6-117"><a href="#cb6-117" aria-hidden="true" tabindex="-1"></a>fpdf <span class="op">=</span> {</span>
 <span id="cb6-118"><a href="#cb6-118" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> x <span class="op">=</span> d3<span class="op">.</span><span class="fu">range</span>(<span class="fl">0.01</span><span class="op">,</span> jstat<span class="op">.</span><span class="at">centralF</span><span class="op">.</span><span class="fu">inv</span>( <span class="fl">0.99</span><span class="op">,</span> nu1<span class="op">,</span> nu2 )<span class="op">,</span> <span class="fl">0.01</span>)<span class="op">;</span></span>
 <span id="cb6-119"><a href="#cb6-119" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> pdf <span class="op">=</span> x<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> ({<span class="dt">x</span><span class="op">:</span> x<span class="op">,</span> <span class="dt">pdf</span><span class="op">:</span> jstat<span class="op">.</span><span class="at">centralF</span><span class="op">.</span><span class="fu">pdf</span>(x<span class="op">,</span> nu1<span class="op">,</span> nu2 )}))<span class="op">;</span></span>
 <span id="cb6-120"><a href="#cb6-120" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> pdf</span>
-<span id="cb6-121"><a href="#cb6-121" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-121"><a href="#cb6-121" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-6" data-nodetype="declaration">
 
@@ -539,7 +541,7 @@ Figure&nbsp;1: <a href="https://observablehq.com/@mattiasvillani/f-distribution"
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="126" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 125;"><span id="cb7-126"><a href="#cb7-126" aria-hidden="true" tabindex="-1"></a>fcdf <span class="op">=</span> jstat<span class="op">.</span><span class="at">centralF</span><span class="op">.</span><span class="fu">cdf</span>(quantile<span class="op">,</span> nu1<span class="op">,</span> nu2)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb7" data-startfrom="126" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 125;"><span id="cb7-126"><a href="#cb7-126" aria-hidden="true" tabindex="-1"></a>fcdf <span class="op">=</span> jstat<span class="op">.</span><span class="at">centralF</span><span class="op">.</span><span class="fu">cdf</span>(quantile<span class="op">,</span> nu1<span class="op">,</span> nu2)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-7" data-nodetype="declaration">
 
@@ -547,7 +549,7 @@ Figure&nbsp;1: <a href="https://observablehq.com/@mattiasvillani/f-distribution"
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="131" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 130;"><span id="cb8-131"><a href="#cb8-131" aria-hidden="true" tabindex="-1"></a>jstat <span class="op">=</span> <span class="pp">require</span>(<span class="st">'jstat'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb8" data-startfrom="131" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 130;"><span id="cb8-131"><a href="#cb8-131" aria-hidden="true" tabindex="-1"></a>jstat <span class="op">=</span> <span class="pp">require</span>(<span class="st">'jstat'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-8" data-nodetype="declaration">
 

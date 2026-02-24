@@ -6,11 +6,11 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/quarto-contrib/live-runtime/live-runtime.js" type="module"></script>
 <link href="../site_libs/quarto-contrib/live-runtime/live-runtime.css" rel="stylesheet"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.19">
 <meta name="author" content="Dr.&nbsp;Cheng-Han Yu   Department of Mathematical and Statistical Sciences   Marquette University">
 <title>MATH 4720 (MSSC 5720) - Spring 2026 – Regression </title>
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -97,7 +97,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-<link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-b16913156a8fd57ac3b7f1f05d2e3c62.css">
+<link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-54281ac7c2b23c7d08d80cd04c072199.css">
 <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
 <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
 <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -629,10 +629,10 @@ y_i = \beta_0 + \beta_1~x_{i} + \epsilon_i,
 </section><section id="r-lab-mpg-data" class="slide level2"><h2>
 <span class="pink">R Lab</span>: <code>mpg</code> Data</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span>  <span class="co">## use data mpg in ggplot2 package</span></span>
-<span><span class="va">mpg</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span>  <span class="co">## use data mpg in ggplot2 package</span></span>
+<span><span class="va">mpg</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource my_class600 number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a># A tibble: 234 × 11</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource my_class600 number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a># A tibble: 234 × 11</span>
 <span id="cb2-2"><a></a>   manufacturer model      displ  year   cyl trans drv     cty   hwy fl    class</span>
 <span id="cb2-3"><a></a>   &lt;chr&gt;        &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;</span>
 <span id="cb2-4"><a></a> 1 audi         a4           1.8  1999     4 auto… f        18    29 p     comp…</span>
@@ -645,17 +645,17 @@ y_i = \beta_0 + \beta_1~x_{i} + \epsilon_i,
 <span id="cb2-11"><a></a> 8 audi         a4 quattro   1.8  1999     4 manu… 4        18    26 p     comp…</span>
 <span id="cb2-12"><a></a> 9 audi         a4 quattro   1.8  1999     4 auto… 4        16    25 p     comp…</span>
 <span id="cb2-13"><a></a>10 audi         a4 quattro   2    2008     4 manu… 4        20    28 p     comp…</span>
-<span id="cb2-14"><a></a># ℹ 224 more rows</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-14"><a></a># ℹ 224 more rows</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </section><section id="r-lab-highway-mpg-hwy-vs.-displacement-displ" class="slide level2"><h2>
 <span class="pink">R Lab</span>: Highway MPG <code>hwy</code> vs.&nbsp;Displacement <code>displ</code>
 </h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">displ</span>, y <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">hwy</span>,</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">displ</span>, y <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">hwy</span>,</span>
 <span>     las <span class="op">=</span> <span class="fl">1</span>, pch <span class="op">=</span> <span class="fl">19</span>, col <span class="op">=</span> <span class="st">"navy"</span>, cex <span class="op">=</span> <span class="fl">0.5</span>,</span>
 <span>     xlab <span class="op">=</span> <span class="st">"Displacement (litres)"</span>, ylab <span class="op">=</span> <span class="st">"Highway MPG"</span>,</span>
-<span>     main <span class="op">=</span> <span class="st">"Highway MPG vs. Engine Displacement (litres)"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>     main <span class="op">=</span> <span class="st">"Highway MPG vs. Engine Displacement (litres)"</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="15-regression_files/figure-revealjs/unnamed-chunk-20-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><aside class="notes"><ul>
@@ -680,9 +680,9 @@ y_i = \beta_0 + \beta_1~x_{i} + \epsilon_i,
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">reg_fit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/lm.html">lm</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="va">hwy</span> <span class="op">~</span> <span class="va">displ</span>, </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">reg_fit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/lm.html">lm</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="va">hwy</span> <span class="op">~</span> <span class="va">displ</span>, </span>
 <span>              data <span class="op">=</span> <span class="va">mpg</span><span class="op">)</span></span>
-<span><span class="va">reg_fit</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="va">reg_fit</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -692,22 +692,22 @@ Coefficients:
 (Intercept)        displ  
       35.70        -3.53  </code></pre>
 </div>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/typeof.html">typeof</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/typeof.html">typeof</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "list"</code></pre>
 </div>
 </div>
 </div><div class="column" style="width:60%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## all elements in reg_fit</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## all elements in reg_fit</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] "coefficients"  "residuals"     "effects"       "rank"         
  [5] "fitted.values" "assign"        "qr"            "df.residual"  
  [9] "xlevels"       "call"          "terms"         "model"        </code></pre>
 </div>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## use $ to extract an element of a list</span></span>
-<span><span class="va">reg_fit</span><span class="op">$</span><span class="va">coefficients</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## use $ to extract an element of a list</span></span>
+<span><span class="va">reg_fit</span><span class="op">$</span><span class="va">coefficients</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>(Intercept)       displ 
       35.70       -3.53 </code></pre>
@@ -743,23 +743,23 @@ Coefficients:
 <span class="pink">R Lab</span> Fitted Values of <span class="math inline">\(y\)</span>
 </h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## the first 5 observed response value y</span></span>
-<span><span class="va">mpg</span><span class="op">$</span><span class="va">hwy</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## the first 5 observed response value y</span></span>
+<span><span class="va">mpg</span><span class="op">$</span><span class="va">hwy</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 29 29 31 30 26</code></pre>
 </div>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## the first 5 fitted value y_hat</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">$</span><span class="va">fitted.values</span>, <span class="fl">5</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## the first 5 fitted value y_hat</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">$</span><span class="va">fitted.values</span>, <span class="fl">5</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   1    2    3    4    5 
 29.3 29.3 28.6 28.6 25.8 </code></pre>
 </div>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## the first 5 predictor value x</span></span>
-<span><span class="va">mpg</span><span class="op">$</span><span class="va">displ</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## the first 5 predictor value x</span></span>
+<span><span class="va">mpg</span><span class="op">$</span><span class="va">displ</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.8 1.8 2.0 2.0 2.8</code></pre>
 </div>
-<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">$</span><span class="va">fitted.values</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">$</span><span class="va">fitted.values</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 234</code></pre>
 </div>
@@ -767,10 +767,10 @@ Coefficients:
 </section><section id="r-lab-add-a-regression-line" class="slide level2"><h2>
 <span class="pink">R Lab</span> Add a Regression Line</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">displ</span>, y <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">hwy</span>, las <span class="op">=</span> <span class="fl">1</span>, pch <span class="op">=</span> <span class="fl">19</span>, col <span class="op">=</span> <span class="st">"navy"</span>, cex <span class="op">=</span> <span class="fl">0.5</span>,</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">displ</span>, y <span class="op">=</span> <span class="va">mpg</span><span class="op">$</span><span class="va">hwy</span>, las <span class="op">=</span> <span class="fl">1</span>, pch <span class="op">=</span> <span class="fl">19</span>, col <span class="op">=</span> <span class="st">"navy"</span>, cex <span class="op">=</span> <span class="fl">0.5</span>,</span>
 <span>     xlab <span class="op">=</span> <span class="st">"Displacement (litres)"</span>, ylab <span class="op">=</span> <span class="st">"Highway MPG"</span>,</span>
 <span>     main <span class="op">=</span> <span class="st">"Highway MPG vs. Engine Displacement (litres)"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html">abline</a></span><span class="op">(</span><span class="va">reg_fit</span>, col <span class="op">=</span> <span class="st">"#FFCC00"</span>, lwd <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html">abline</a></span><span class="op">(</span><span class="va">reg_fit</span>, col <span class="op">=</span> <span class="st">"#FFCC00"</span>, lwd <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="15-regression_files/figure-revealjs/unnamed-chunk-24-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="estimation-for-sigma2" class="slide level2"><h2>Estimation for <span class="math inline">\(\sigma^2\)</span>
@@ -814,9 +814,9 @@ Coefficients:
       }</style></aside></section><section id="r-lab-standard-error-of-regression" class="slide level2"><h2>
 <span class="pink">R Lab</span> Standard Error of Regression</h2>
 <div class="cell" data-layout-align="center" data-highlight.output="16">
-<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">summ_reg_fit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">summ_reg_fit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<div class="sourceCode" id="cb22"><pre class="sourceCode numberSource my_classfull number-lines code-with-copy"><code class="sourceCode"><span id="cb22-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode numberSource my_classfull number-lines code-with-copy"><code class="sourceCode"><span id="cb22-1"><a></a></span>
 <span id="cb22-2"><a></a>Call:</span>
 <span id="cb22-3"><a></a>lm(formula = hwy ~ displ, data = mpg)</span>
 <span id="cb22-4"><a></a></span>
@@ -833,7 +833,7 @@ Coefficients:
 <span id="cb22-15"><a></a></span>
 <span id="cb22-16"><a></a>Residual standard error: 3.84 on 232 degrees of freedom</span>
 <span id="cb22-17"><a></a>Multiple R-squared:  0.587, Adjusted R-squared:  0.585 </span>
-<span id="cb22-18"><a></a>F-statistic:  329 on 1 and 232 DF,  p-value: &lt;2e-16</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb22-18"><a></a>F-statistic:  329 on 1 and 232 DF,  p-value: &lt;2e-16</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 <aside class="notes"><ul>
@@ -854,20 +854,20 @@ Coefficients:
       }</style></aside></section><section id="r-lab-standard-error-of-regression-1" class="slide level2"><h2>
 <span class="pink">R Lab</span> Standard Error of Regression</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb23"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># lots of fitted information saved in summary(reg_fit)!</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">summ_reg_fit</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># lots of fitted information saved in summary(reg_fit)!</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">summ_reg_fit</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] "call"          "terms"         "residuals"     "coefficients" 
  [5] "aliased"       "sigma"         "df"            "r.squared"    
  [9] "adj.r.squared" "fstatistic"    "cov.unscaled" </code></pre>
 </div>
-<div class="sourceCode" id="cb25"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># residual standard error (sigma_hat)</span></span>
-<span><span class="va">summ_reg_fit</span><span class="op">$</span><span class="va">sigma</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># residual standard error (sigma_hat)</span></span>
+<span><span class="va">summ_reg_fit</span><span class="op">$</span><span class="va">sigma</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3.84</code></pre>
 </div>
-<div class="sourceCode" id="cb27"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># from reg_fit</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">$</span><span class="va">residuals</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span> <span class="op">/</span> <span class="va">reg_fit</span><span class="op">$</span><span class="va">df.residual</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># from reg_fit</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">$</span><span class="va">residuals</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span> <span class="op">/</span> <span class="va">reg_fit</span><span class="op">$</span><span class="va">df.residual</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3.84</code></pre>
 </div>
@@ -899,7 +899,7 @@ Coefficients:
 </div>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb29"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/confint.html">confint</a></span><span class="op">(</span><span class="va">reg_fit</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/confint.html">confint</a></span><span class="op">(</span><span class="va">reg_fit</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>            2.5 % 97.5 %
 (Intercept) 34.28  37.12
@@ -944,7 +944,7 @@ displ       -3.91  -3.15</code></pre>
 <span class="pink">R Lab</span> Testing on <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span>
 </h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb31"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">summ_reg_fit</span><span class="op">$</span><span class="va">coefficients</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">summ_reg_fit</span><span class="op">$</span><span class="va">coefficients</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>            Estimate Std. Error t value  Pr(&gt;|t|)
 (Intercept)    35.70      0.720    49.6 2.12e-125
@@ -1203,7 +1203,7 @@ displ          -3.53      0.195   -18.2  2.04e-46</code></pre>
       }</style></aside></section><section id="r-lab-anova-table" class="slide level2"><h2>
 <span class="pink">R Lab</span> ANOVA Table</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb33"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/anova.html">anova</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb33"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/anova.html">anova</a></span><span class="op">(</span><span class="va">reg_fit</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Analysis of Variance Table
 
@@ -1273,9 +1273,9 @@ displ          -3.53      0.195   -18.2  2.04e-46</code></pre>
 </h2>
 <div class="midi">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a></a>summ_reg_fit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a></a>summ_reg_fit</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<div class="sourceCode" id="cb38"><pre class="sourceCode numberSource my_class600 number-lines code-with-copy"><code class="sourceCode"><span id="cb38-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb38"><pre class="sourceCode numberSource my_class600 number-lines code-with-copy"><code class="sourceCode"><span id="cb38-1"><a></a></span>
 <span id="cb38-2"><a></a>Call:</span>
 <span id="cb38-3"><a></a>lm(formula = hwy ~ displ, data = mpg)</span>
 <span id="cb38-4"><a></a></span>
@@ -1292,12 +1292,12 @@ displ          -3.53      0.195   -18.2  2.04e-46</code></pre>
 <span id="cb38-15"><a></a></span>
 <span id="cb38-16"><a></a>Residual standard error: 3.84 on 232 degrees of freedom</span>
 <span id="cb38-17"><a></a>Multiple R-squared:  0.587, Adjusted R-squared:  0.585 </span>
-<span id="cb38-18"><a></a>F-statistic:  329 on 1 and 232 DF,  p-value: &lt;2e-16</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb38-18"><a></a>F-statistic:  329 on 1 and 232 DF,  p-value: &lt;2e-16</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb39"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">summ_reg_fit</span><span class="op">$</span><span class="va">r.squared</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb39"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">summ_reg_fit</span><span class="op">$</span><span class="va">r.squared</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.587</code></pre>
 </div>
@@ -1370,8 +1370,8 @@ displ          -3.53      0.195   -18.2  2.04e-46</code></pre>
 </section><section id="section-4" class="slide level2"><h2></h2>
 <div class="midi">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb41"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## CI for the mean response</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">reg_fit</span>, newdata <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>displ <span class="op">=</span> <span class="fl">5.5</span><span class="op">)</span>, interval <span class="op">=</span> <span class="st">"confidence"</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb41"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## CI for the mean response</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">reg_fit</span>, newdata <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>displ <span class="op">=</span> <span class="fl">5.5</span><span class="op">)</span>, interval <span class="op">=</span> <span class="st">"confidence"</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   fit  lwr  upr
 1 16.3 15.4 17.2</code></pre>
@@ -1432,14 +1432,14 @@ displ          -3.53      0.195   -18.2  2.04e-46</code></pre>
 <span class="pink">R Lab</span> Prediction</h2>
 <div class="midi">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb43"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## CI for the mean response</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">reg_fit</span>, newdata <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>displ <span class="op">=</span> <span class="fl">5.5</span><span class="op">)</span>, interval <span class="op">=</span> <span class="st">"confidence"</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb43"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## CI for the mean response</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">reg_fit</span>, newdata <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>displ <span class="op">=</span> <span class="fl">5.5</span><span class="op">)</span>, interval <span class="op">=</span> <span class="st">"confidence"</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   fit  lwr  upr
 1 16.3 15.4 17.2</code></pre>
 </div>
-<div class="sourceCode" id="cb45"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## PI for the new observation</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">reg_fit</span>, newdata <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>displ <span class="op">=</span> <span class="fl">5.5</span><span class="op">)</span>, interval <span class="op">=</span> <span class="st">"predict"</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb45"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## PI for the new observation</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">reg_fit</span>, newdata <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>displ <span class="op">=</span> <span class="fl">5.5</span><span class="op">)</span>, interval <span class="op">=</span> <span class="st">"predict"</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   fit  lwr  upr
 1 16.3 8.67 23.9</code></pre>

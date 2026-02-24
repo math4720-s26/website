@@ -6,11 +6,11 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/quarto-contrib/live-runtime/live-runtime.js" type="module"></script>
 <link href="../site_libs/quarto-contrib/live-runtime/live-runtime.css" rel="stylesheet"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.19">
 <meta name="author" content="Dr.&nbsp;Cheng-Han Yu   Department of Mathematical and Statistical Sciences   Marquette University">
 <title>MATH 4720 (MSSC 5720) - Spring 2026 – Statistical Inference: Hypothesis Testing </title>
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -97,7 +97,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-<link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-b16913156a8fd57ac3b7f1f05d2e3c62.css">
+<link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-54281ac7c2b23c7d08d80cd04c072199.css">
 <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
 <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
 <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -227,17 +227,22 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <!-- - A **hypothesis testing** <sup>1</sup> is a procedure for testing a hypothesis. --><div class="fragment">
 <ul>
 <li>
-<strong>Null hypothesis</strong> <span class="math inline">\((H_0)\)</span>: a statement that the value of a parameter is
+<strong>Null hypothesis</strong> <span class="math inline">\((H_0)\)</span>: a statement that the value of a parameter is <strong>equal</strong> to some claim value
 <ul>
-<li>
-<strong>equal</strong> to some claim value</li>
-<li>the <strong>negation</strong> of the alternative hypothesis</li>
+<li>No difference, no effects, no change</li>
+<li>status quo</li>
 <li>often represents a skeptical perspective to be tested</li>
+<li>the <strong>negation</strong> of the alternative hypothesis</li>
 </ul>
 </li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>
 <strong>Alternative hypothesis</strong> <span class="math inline">\((H_1\)</span> or <span class="math inline">\(H_a)\)</span>: a claim that the parameter is <strong>less than</strong>, <strong>greater than</strong> or <strong>not equal</strong> to some value.
 <ul>
+<li>have difference, have effects, have changes</li>
 <li>usually our <strong>research hypothesis</strong> of some new scientific theory or finding</li>
 </ul>
 </li>
@@ -428,7 +433,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div></div>
 </section><section id="step-1-set-the-h_0-and-h_1-from-a-claim" class="slide level2"><h2>Step 1: Set the <span class="math inline">\(H_0\)</span> and <span class="math inline">\(H_1\)</span> from a Claim</h2>
 <ul>
-<li>👩‍🏫 The <em>mean</em> IQ score of statistics professors is <strong>higher than</strong> 120.</li>
+<li>👨‍🏫 The <em>mean</em> IQ score of statistics professors is <strong>higher than</strong> 120.</li>
 </ul>
 <div class="fragment">
 <ul>
@@ -491,23 +496,32 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </section><section id="step-2-set-the-significance-level-alpha" class="slide level2"><h2>Step 2: Set the Significance Level <span class="math inline">\(\alpha\)</span>
 </h2>
 <ul>
-<li><p>The significant level <span class="math inline">\(\alpha\)</span> determines <em>how rare or unlikely our evidence must be</em> in order to represent sufficient evidence against <span class="math inline">\(H_0\)</span>.</p></li>
-<li><p>An <span class="math inline">\(\alpha\)</span> level of 0.05 implies that evidence occurring with probability lower than 5% will be considered sufficient evidence against <span class="math inline">\(H_0\)</span> (Reject <span class="math inline">\(H_0\)</span>).</p></li>
-<li><p><span class="math inline">\(\alpha = P(\text{Reject } H_0 \mid H_0 \text{ is true})\)</span></p></li>
+<li>The significant level <span class="math inline">\(\alpha\)</span> determines <span class="blue"><em>how rare or unlikely our evidence must be</em></span> in order to represent sufficient evidence against <span class="math inline">\(H_0\)</span>.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>
+<span class="math inline">\(\alpha\)</span> is the <span class="blue">maximum chance you are willing to take of a false alarm</span>, saying <em>there is an effect when in reality there is no effect</em>: <span class="math inline">\(\alpha = P(\text{Reject } H_0 \mid H_0 \text{ is true})\)</span>
+</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>An <span class="math inline">\(\alpha\)</span> level of 0.05 implies that evidence occurring with probability lower than 5% will be considered sufficient evidence against <span class="math inline">\(H_0\)</span> (Reject <span class="math inline">\(H_0\)</span>).</li>
 </ul>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="10-ht_files/figure-revealjs/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="10-ht_files/figure-html/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
 </figure>
 </div>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="alert">
-<p><strong>Rare Event Rule</strong>: If, under a given assumption, the probability of a particular observed event is exceptional small, we conclude that the assumption is probably not correct.</p>
+<p><strong>Rare Event Rule</strong>: If, under a given assumption, <span class="math inline">\(H_0\)</span>, the probability of a particular observed event is exceptional small, we conclude that the assumption is probably not correct (Reject <span class="math inline">\(H_0\)</span>).</p>
 </div>
 </div></div>
 <aside class="notes"><ul>
@@ -528,7 +542,9 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="the-new-treatment-is-effective-3" class="slide level2"><h2>The New Treatment is Effective?</h2>
+      }</style></aside>
+</div>
+</section><section id="the-new-treatment-is-effective-3" class="slide level2"><h2>The New Treatment is Effective?</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><br></p>
@@ -603,6 +619,8 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </ul>
 </div>
 </section><section id="step-4-c-find-the-critical-value" class="slide level2"><h2>Step 4-c: Find the Critical Value</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>The <strong>critical value(s)</strong> separates the <strong>rejection region</strong> or critical region (where we reject <span class="math inline">\(H_0\)</span>) from the values of the test statistic that do not lead to rejection of <span class="math inline">\(H_0\)</span>.
 <ul>
@@ -610,8 +628,17 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </ul>
 </li>
 </ul>
-
-<img data-src="./images/10-ht/test_type.jpeg" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><aside class="notes"><p>In the absence of prior evidence that people typically wish to be lighter (or heavier), it is reasonable to begin with an alternative hypothesis that allows for differences in either direction. A one-sided alternative could be used if, for example, an investigator felt there was prior evidence that people typically wish to weigh less than they currently do:</p>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="./images/10-ht/test-type.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+<aside class="notes"><p>In the absence of prior evidence that people typically wish to be lighter (or heavier), it is reasonable to begin with an alternative hypothesis that allows for differences in either direction. A one-sided alternative could be used if, for example, an investigator felt there was prior evidence that people typically wish to weigh less than they currently do:</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -744,7 +771,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </table>
 </div>
 
-<img data-src="./images/10-ht/rejection_region.gif" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><aside class="notes"><p><span class="math inline">\(|z_{test}| &gt; z_{\alpha/2}\)</span><br><span class="math inline">\(|t_{test}| &gt; t_{\alpha/2, n-1}\)</span></p>
+<img data-src="./images/10-ht/rejection.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><aside class="notes"><p><span class="math inline">\(|z_{test}| &gt; z_{\alpha/2}\)</span><br><span class="math inline">\(|t_{test}| &gt; t_{\alpha/2, n-1}\)</span></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -809,7 +836,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
           display:block!important;
       }</style></aside></section><section id="p-value-illustration" class="slide level2"><h2>P-Value Illustration</h2>
 
-<img data-src="10-ht_files/figure-revealjs/unnamed-chunk-14-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="the-new-treatment-is-effective-7" class="slide level2"><h2>The New Treatment is Effective?</h2>
+<img data-src="10-ht_files/figure-html/unnamed-chunk-14-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="the-new-treatment-is-effective-7" class="slide level2"><h2>The New Treatment is Effective?</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><br></p>
@@ -877,14 +904,14 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <span class="math inline">\(\sigma\)</span> known</td>
 <td style="text-align: center;"><span class="math inline">\(P(Z &gt; z_{test} \mid H_0)\)</span></td>
 <td style="text-align: center;"><span class="math inline">\(P(Z &lt; z_{test} \mid H_0)\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(2P(Z &gt; \,\mid z_{test} \mid \, \mid H_0)\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(2P(Z &gt; |z_{test}| \mid H_0)\)</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">
 <span class="math inline">\(\sigma\)</span> unknown</td>
 <td style="text-align: center;"><span class="math inline">\(P(T &gt; t_{test} \mid H_0)\)</span></td>
 <td style="text-align: center;"><span class="math inline">\(P(T &lt; t_{test} \mid H_0)\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(2P(T &gt; \, \mid t_{test} \mid  \, \mid H_0)\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(2P(T &gt; |t_{test}|   \mid H_0)\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -943,11 +970,11 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div>
 </section><section id="both-methods-lead-to-the-same-conclusion" class="slide level2"><h2>Both Methods Lead to the Same Conclusion</h2>
 
-<img data-src="10-ht_files/figure-revealjs/unnamed-chunk-17-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="section-1" class="slide level2"><h2></h2>
+<img data-src="10-ht_files/figure-html/unnamed-chunk-17-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="section-1" class="slide level2"><h2></h2>
 
 <!-- ## Testing Applet -->
 <!-- {{< include infer-ht-ojs.qmd >}} -->
-<img data-src="10-ht_files/figure-revealjs/unnamed-chunk-18-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="step-6-restate-the-conclusion-in-nontechnical-terms-and-address-the-original-claim" class="slide level2"><h2>Step 6: Restate the Conclusion in Nontechnical Terms, and Address the Original Claim</h2>
+<img data-src="10-ht_files/figure-html/unnamed-chunk-18-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="step-6-restate-the-conclusion-in-nontechnical-terms-and-address-the-original-claim" class="slide level2"><h2>Step 6: Restate the Conclusion in Nontechnical Terms, and Address the Original Claim</h2>
 <div class="tiny">
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -1004,22 +1031,22 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <li><p><span style="color:blue"> <strong>There is sufficient evidence to support the claim that the new treatment is effective</strong>. </span></p></li>
 </ul></section><section id="example-calculation-in-r" class="slide level2"><h2>Example Calculation in R</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## create objects for any information we have</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## create objects for any information we have</span></span>
 <span><span class="va">alpha</span> <span class="op">&lt;-</span> <span class="fl">0.05</span>; <span class="va">mu_0</span> <span class="op">&lt;-</span> <span class="fl">150</span>; </span>
 <span><span class="va">x_bar</span> <span class="op">&lt;-</span> <span class="fl">147.2</span>; <span class="va">s</span> <span class="op">&lt;-</span> <span class="fl">5.5</span>; <span class="va">n</span> <span class="op">&lt;-</span> <span class="fl">25</span></span>
 <span></span>
 <span><span class="co">## Test statistic</span></span>
-<span><span class="op">(</span><span class="va">t_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">x_bar</span> <span class="op">-</span> <span class="va">mu_0</span><span class="op">)</span> <span class="op">/</span> <span class="op">(</span><span class="va">s</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="va">n</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="op">(</span><span class="va">t_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">x_bar</span> <span class="op">-</span> <span class="va">mu_0</span><span class="op">)</span> <span class="op">/</span> <span class="op">(</span><span class="va">s</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="va">n</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] -2.545</code></pre>
 </div>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Critical value</span></span>
-<span><span class="op">(</span><span class="va">t_cri</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span><span class="va">alpha</span>, df <span class="op">=</span> <span class="va">n</span> <span class="op">-</span> <span class="fl">1</span>, lower.tail <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Critical value</span></span>
+<span><span class="op">(</span><span class="va">t_cri</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span><span class="va">alpha</span>, df <span class="op">=</span> <span class="va">n</span> <span class="op">-</span> <span class="fl">1</span>, lower.tail <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] -1.711</code></pre>
 </div>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
-<span><span class="op">(</span><span class="va">p_val</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">pt</a></span><span class="op">(</span><span class="va">t_test</span>, df <span class="op">=</span> <span class="va">n</span> <span class="op">-</span> <span class="fl">1</span>, lower.tail <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
+<span><span class="op">(</span><span class="va">p_val</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">pt</a></span><span class="op">(</span><span class="va">t_test</span>, df <span class="op">=</span> <span class="va">n</span> <span class="op">-</span> <span class="fl">1</span>, lower.tail <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.008878</code></pre>
 </div>
@@ -1109,7 +1136,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="10-ht_files/figure-revealjs/unnamed-chunk-25-1.png" class="quarto-figure quarto-figure-center" style="width:45.0%"></p>
+<figure><p><img data-src="10-ht_files/figure-html/unnamed-chunk-25-1.png" class="quarto-figure quarto-figure-center" style="width:45.0%"></p>
 </figure>
 </div>
 </div>
@@ -1117,22 +1144,22 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div>
 </section><section id="example-2-calculation-in-r" class="slide level2"><h2>Example 2 Calculation in R</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## create objects to be used</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## create objects to be used</span></span>
 <span><span class="va">alpha</span> <span class="op">&lt;-</span> <span class="fl">0.05</span>; <span class="va">mu_0</span> <span class="op">&lt;-</span> <span class="fl">2.78</span>; </span>
 <span><span class="va">x_bar</span> <span class="op">&lt;-</span> <span class="fl">2.8</span>; <span class="va">sigma</span> <span class="op">&lt;-</span> <span class="fl">0.1</span>; <span class="va">n</span> <span class="op">&lt;-</span> <span class="fl">25</span></span>
 <span></span>
 <span><span class="co">## Test statistic</span></span>
-<span><span class="op">(</span><span class="va">z_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">x_bar</span> <span class="op">-</span> <span class="va">mu_0</span><span class="op">)</span> <span class="op">/</span> <span class="op">(</span><span class="va">sigma</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="va">n</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="op">(</span><span class="va">z_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">x_bar</span> <span class="op">-</span> <span class="va">mu_0</span><span class="op">)</span> <span class="op">/</span> <span class="op">(</span><span class="va">sigma</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="va">n</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1</code></pre>
 </div>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Critical value</span></span>
-<span><span class="op">(</span><span class="va">z_crit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">qnorm</a></span><span class="op">(</span><span class="va">alpha</span><span class="op">/</span><span class="fl">2</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Critical value</span></span>
+<span><span class="op">(</span><span class="va">z_crit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">qnorm</a></span><span class="op">(</span><span class="va">alpha</span><span class="op">/</span><span class="fl">2</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span><span class="op">)</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.96</code></pre>
 </div>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
-<span><span class="op">(</span><span class="va">p_val</span> <span class="op">&lt;-</span> <span class="fl">2</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="va">z_test</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
+<span><span class="op">(</span><span class="va">p_val</span> <span class="op">&lt;-</span> <span class="fl">2</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="va">z_test</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span><span class="op">)</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.3173</code></pre>
 </div>
@@ -1196,28 +1223,28 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <tr class="odd">
 <td style="text-align: center;"><strong><span class="math inline">\(p\)</span>-value under <span class="math inline">\(H_0\)</span></strong></td>
 <td style="text-align: center;">
-<span class="math inline">\(H_1: \mu &lt; \mu_0\)</span> <br><span class="math inline">\(p\)</span>-value <span class="math inline">\(=P(Z \le z_{test})\)</span>
+<span class="math inline">\(H_1: \mu &lt; \mu_0\)</span> <br><span class="math inline">\(P(Z \le z_{test} \mid H_0)\)</span>
 </td>
 <td style="text-align: center;">
-<span class="math inline">\(H_1: \mu &lt; \mu_0\)</span> <br><span class="math inline">\(p\)</span>-value <span class="math inline">\(=P(T_{n-1} \le t_{test})\)</span>
+<span class="math inline">\(H_1: \mu &lt; \mu_0\)</span> <br><span class="math inline">\(P(T_{n-1} \le t_{test} \mid H_0)\)</span>
 </td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: center;">
-<span class="math inline">\(H_1: \mu &gt; \mu_0\)</span> <br><span class="math inline">\(p\)</span>-value <span class="math inline">\(=P(Z \ge z_{test})\)</span>
+<span class="math inline">\(H_1: \mu &gt; \mu_0\)</span> <br><span class="math inline">\(P(Z \ge z_{test} \mid H_0)\)</span>
 </td>
 <td style="text-align: center;">
-<span class="math inline">\(H_1: \mu &lt; \mu_0\)</span> <br><span class="math inline">\(p\)</span>-value <span class="math inline">\(=P(T_{n-1} \ge t_{test})\)</span>
+<span class="math inline">\(H_1: \mu &gt; \mu_0\)</span> <br><span class="math inline">\(P(T_{n-1} \ge t_{test} \mid H_0)\)</span>
 </td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"></td>
 <td style="text-align: center;">
-<span class="math inline">\(H_1: \mu \ne \mu_0\)</span> <br><span class="math inline">\(p\)</span>-value <span class="math inline">\(=2P(Z \ge \, \mid z_{test}\mid)\)</span>
+<span class="math inline">\(H_1: \mu \ne \mu_0\)</span> <br><span class="math inline">\(2P(Z \ge \, |z_{test}| \mid H_0)\)</span>
 </td>
 <td style="text-align: center;">
-<span class="math inline">\(H_1: \mu \ne \mu_0\)</span> <br><span class="math inline">\(p\)</span>-value <span class="math inline">\(=2P(T_{n-1} \ge  \, \mid t_{test} \mid)\)</span>
+<span class="math inline">\(H_1: \mu \ne \mu_0\)</span> <br><span class="math inline">\(2P(T_{n-1} \ge  \, |t_{test}| \mid H_0)\)</span>
 </td>
 </tr>
 </tbody>
@@ -1526,41 +1553,6 @@ W10=
     window._ojs.paths.docToRoot = "..";
     window._ojs.selfContained = false;
     window._ojs.runtime.interpretFromScriptTags();
-    </script><script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
     </script><script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
