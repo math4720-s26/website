@@ -398,7 +398,7 @@ Do we know the variance of $\overline{X}$?
 - A confidence interval is **for a parameter, NOT a statistic.**
   + Use the sample mean to form a confidence interval for the population mean.
 
-- ❌ We [**never say**]{.red} *"The confidence interval of the sample mean $\overline{X}$ is ..."*
+- ❌ We [**never say**]{.red} *"The confidence interval for the sample mean $\overline{X}$ is ..."*
 
 - ✅ We **say** *"The confidence interval for the true population mean $\mu$ is ..."*
 

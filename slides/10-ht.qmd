@@ -72,12 +72,16 @@ options(digits = 4)
 
 . . .
 
-- **Null hypothesis** $(H_0)$: a statement that the value of a parameter is
-  + **equal** to some claim value
-  + the **negation** of the alternative hypothesis
+- **Null hypothesis** $(H_0)$: a statement that the value of a parameter is **equal** to some claim value
+  + No difference, no effects, no change
+  + status quo
   + often represents a skeptical perspective to be tested
+  + the **negation** of the alternative hypothesis
+
+. . .
 
 - **Alternative hypothesis** $(H_1$ or $H_a)$: a claim that the parameter is **less than**, **greater than** or **not equal** to some value. 
+  + have difference, have effects, have changes
   + usually our **research hypothesis** of some new scientific theory or finding
 
 
@@ -377,11 +381,17 @@ knitr::include_graphics("./images/10-ht/blood_pressure.jpeg")
 
 ## Step 2: Set the Significance Level $\alpha$
 
-- The significant level $\alpha$ determines *how rare or unlikely our evidence must be* in order to represent sufficient evidence against $H_0$.
+- The significant level $\alpha$ determines [*how rare or unlikely our evidence must be*]{.blue} in order to represent sufficient evidence against $H_0$.
+
+. . .
+
+- $\alpha$ is the [maximum chance you are willing to take of a false alarm]{.blue}, saying *there is an effect when in reality there is no effect*: $\alpha = P(\text{Reject } H_0 \mid H_0 \text{ is true})$
+
+. . .
 
 - An $\alpha$ level of 0.05 implies that evidence occurring with probability lower than 5% will be considered sufficient evidence against $H_0$ (Reject $H_0$).
 
-- $\alpha = P(\text{Reject } H_0 \mid H_0 \text{ is true})$
+
 
 
 
@@ -391,11 +401,12 @@ knitr::include_graphics("./images/10-ht/blood_pressure.jpeg")
 ::: {.column width="50%"}
 
 ```{r}
+#| out-width: 85%
 par(mar = c(2, 0, 1, 0), mgp = c(1, .5, 0))
 mu <- 150
 x <- seq(-10, 10, length=100) + mu
 hx <- dnorm(x, mean = mu, sd = 3)
-plot(x, hx, type="l", lty = 1, xlab = "", lwd = 4, las = 1, cex.main = 1.2,
+plot(x, hx, type="l", lty = 1, xlab = "", lwd = 4, las = 1, cex.main = 1.5,
   ylab = "", main = "Distribution when H0 is true (mu = 150)", axes = F, 
   ylim = c(0.005, dnorm(0, sd = 3)))
 z_cri <- qnorm(0.05, mean = mu, sd = 3)
@@ -404,7 +415,7 @@ z_cri <- qnorm(0.05, mean = mu, sd = 3)
 # text(-0.2, 0.3*dnorm(0), expression(1 - alpha/2), cex = 2, col = "#003366")
 text(mu-6, 0.5*dnorm(6, sd = 3), expression(alpha), cex = 3, col = "#003366")
 segments(x0 = z_cri, y0 = 0, y1 = dnorm(z_cri, mean = mu, sd = 3), col = 2, lwd = 3, lty = 2)
-axis(1)
+axis(1, cex.axis = 1.5)
 abline(v = mu, col = 2, lwd = 0.3)
 # axis(1, at = c(-4, -z_cri,0, z_cri, 4), cex.axis = 1.5, pos = 0,
 #      labels = c("", "", "", expression(t[frac(alpha, 2)]), expression(T[n-1])),
@@ -418,7 +429,7 @@ abline(v = mu, col = 2, lwd = 0.3)
 
 ::: alert
 
-**Rare Event Rule**: If, under a given assumption, the probability of a particular observed event is exceptional small, we conclude that the assumption is probably not correct.
+**Rare Event Rule**: If, under a given assumption, $H_0$, the probability of a particular observed event is exceptional small, we conclude that the assumption is probably not correct (Reject $H_0$).
 
 :::
 
@@ -540,13 +551,28 @@ knitr::include_graphics("./images/10-ht/blood_pressure.jpeg")
 
 ## Step 4-c: Find the Critical Value 
 
+
+:::: columns
+
+::: {.column width="50%"}
+
+
 - The **critical value(s)** separates the **rejection region** or critical region (where we reject $H_0$) from the values of the test statistic that do not lead to rejection of $H_0$.
   + They depends on whether the test is **right-tailed**, **left-tailed** or **two-tailed**.
-  
+
+:::
+
+
+
+::: {.column width="50%"}
+
 ```{r}
-knitr::include_graphics("./images/10-ht/test_type.jpeg")
+knitr::include_graphics("./images/10-ht/test-type.png")
 ```
 
+:::
+
+::::
 
 ::: notes
 In the absence of prior evidence that people typically wish to be lighter (or heavier), it is reasonable to begin with an alternative hypothesis that allows for differences in either direction.
@@ -634,7 +660,7 @@ If the test statistic is
 
 
 ```{r}
-knitr::include_graphics("./images/10-ht/rejection_region.gif")
+knitr::include_graphics("./images/10-ht/rejection.png")
 ```
 
 
@@ -855,8 +881,8 @@ knitr::include_graphics("./images/10-ht/blood_pressure.jpeg")
 
 |         Condition   &nbsp; &nbsp;        | **Right**-tailed $(H_1: \mu > \mu_0)$  | **Left**-tailed  $(H_1: \mu < \mu_0)$  | **Two-tailed** $(H_1: \mu \ne \mu_0)$|
 |:-----------:|:------------:|:-----------:|:-----------:|
-| $\sigma$ known   | $P(Z > z_{test} \mid H_0)$   | $P(Z < z_{test} \mid H_0)$   | $2P(Z > \,\mid z_{test} \mid \, \mid H_0)$ |
-| $\sigma$ unknown | $P(T > t_{test} \mid H_0)$  | $P(T < t_{test} \mid H_0)$ | $2P(T > \, \mid t_{test} \mid  \, \mid H_0)$ |
+| $\sigma$ known   | $P(Z > z_{test} \mid H_0)$   | $P(Z < z_{test} \mid H_0)$   | $2P(Z > |z_{test}| \mid H_0)$ |
+| $\sigma$ unknown | $P(T > t_{test} \mid H_0)$  | $P(T < t_{test} \mid H_0)$ | $2P(T > |t_{test}|   \mid H_0)$ |
 
 
 <!-- - Notation $\text{abs}(a)$ means absolute value of $a$, i.e. $|a|$. -->
@@ -1295,9 +1321,9 @@ ifelse(p_val <= alpha, "Reject H0 by p-value method", "Do not reject H0 by p-val
 | **Test Type**   | One sample $\color{blue}{z}$ test $H_0: \mu = \mu_0$ |  One sample $\color{blue}{t}$ test $H_0: \mu = \mu_0$  |
 | **Confidence Interval**   | $\bar{x} \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$ | $\bar{x} \pm t_{\alpha/2, n-1} \frac{\color{blue}{s}}{\sqrt{n}}$           |
 | **Test Stat under $H_0$**   | $z_{test} = \frac{\overline{x} - \mu_0}{\frac{\sigma}{\sqrt{n}}}$ |  $t_{test} = \frac{\overline{x} - \mu_0}{\frac{\color{blue}{s}}{\sqrt{n}}}$  |
-| **$p$-value under $H_0$**  | $H_1: \mu < \mu_0$ <br> $p$-value $=P(Z \le z_{test})$ | $H_1: \mu < \mu_0$ <br> $p$-value $=P(T_{n-1} \le t_{test})$ |
-|    | $H_1: \mu > \mu_0$ <br> $p$-value $=P(Z \ge z_{test})$ | $H_1: \mu < \mu_0$ <br> $p$-value $=P(T_{n-1} \ge t_{test})$ |
-|   | $H_1: \mu \ne \mu_0$ <br> $p$-value $=2P(Z \ge \, \mid z_{test}\mid)$ | $H_1: \mu \ne \mu_0$ <br> $p$-value $=2P(T_{n-1} \ge  \, \mid t_{test} \mid)$ |
+| **$p$-value under $H_0$**  | $H_1: \mu < \mu_0$ <br> $P(Z \le z_{test} \mid H_0)$ | $H_1: \mu < \mu_0$ <br> $P(T_{n-1} \le t_{test} \mid H_0)$ |
+|    | $H_1: \mu > \mu_0$ <br> $P(Z \ge z_{test} \mid H_0)$ | $H_1: \mu > \mu_0$ <br> $P(T_{n-1} \ge t_{test} \mid H_0)$ |
+|   | $H_1: \mu \ne \mu_0$ <br> $2P(Z \ge \, |z_{test}| \mid H_0)$ | $H_1: \mu \ne \mu_0$ <br> $2P(T_{n-1} \ge  \, |t_{test}| \mid H_0)$ |
 
 
 ## Type I and Type II Errors

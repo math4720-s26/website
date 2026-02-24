@@ -23,9 +23,9 @@ format:
 | 6 | Tue, Feb 17 | Central Limit Theorem (CLT) | 👉[CLT](ojs/prob-clt-ojs.html)<br> 👉[Rolling dice](https://019b5202-4521-e665-b54e-580b72438130.share.connect.posit.cloud/) | [IS Ch 13](https://chenghanyu-introstatsbook.netlify.app/prob-llnclt#central-limit-theorem) |  |  |  |  |  |
 |  | Thu, Feb 19 | Confidence Intervals | [🖥️ confidence interval](/slides/09-ci-slides.html) <br> 👉[CI](ojs/infer-ci-ojs.html) | [IS Ch 14](https://chenghanyu-introstatsbook.netlify.app/infer-ci) | [`r fontawesome::fa("file-code")`](/code/13-infer-ci.R) (confidence interval) | ✍️ [HW 4 (due 2/27)](hw/hw04.html) | [Worksheet 4](ws/ws4.html) |  |  |
 | 7 | Tue, Feb 24 | Confidence Intervals | 👉[Student-t](ojs/infer-ci-t-ojs.html) |  |  |  |  |  |  |
-|  | Thu, Feb 26 | Hypothesis Testing | 🖥️ testing<br> 👉testing | [IS Ch 16](https://chenghanyu-introstatsbook.netlify.app/infer-ht) |  |  |  | ✅ Quiz 2 |  |
+|  | Thu, Feb 26 | Exam 1 Review [**Activity:** **How Much Do Students Sleep?**](/activity/act_ci.html) |  |  |  |  | [Worksheet 5](ws/ws5.html) | ✅ Quiz 2 |  |
 | 8 | Tue, Mar 3 | **In-class Exam 1** |  |  |  |  |  |  | ✅ Take-home Exam 1 |
-|  | Thu, Mar 5 | Hypothesis Testing |  |  | `r fontawesome::fa("file-code")` (testing) |  |  |  |  |
+|  | Thu, Mar 5 | Hypothesis Testing | 🖥️ testing<br> 👉testing | [IS Ch 16](https://chenghanyu-introstatsbook.netlify.app/infer-ht) | `r fontawesome::fa("file-code")` (testing) |  |  |  |  |
 | 9 | Tue, Mar 10 | ***NO CLASS: Spring break*** |  |  |  |  |  |  |  |
 |  | Thu, Mar 12 | ***NO CLASS: Spring break*** |  |  |  |  |  |  |  |
 | 10 | Tue, Mar 17 | Hypothesis Testing |  |  |  |  |  |  |  |

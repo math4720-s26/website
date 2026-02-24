@@ -9,7 +9,7 @@ You will create your own confidence interval for estimating on average how much 
 
 ## Instructions
 
-(1) Form a group of **three** or **four**. (This is your sample size!)
+(1) Form a group of **four** or **five**. (This is your sample size!)
 
 (2) Record how many hours of sleep each one of you got last night. No need to be integers. Sleeping 7.6 hours totally works! So please use decimal hours as your data. Don't know decimal hours for 7 hours 20 minutes? Use the app below for the answer!
 
