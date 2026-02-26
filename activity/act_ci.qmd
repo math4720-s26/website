@@ -25,9 +25,16 @@ $$ \left[ \bar{x} - t_{0.025, n-1} \frac{s}{\sqrt{n}}, \, \bar{x} + t_{0.025, n-
 where $\bar{x}$ is the sample mean, $s$ is the sample standard deviation, $n$ is the sample size, and $t_{0.025, n-1}$ is the $t$ critical value such that $P(T > t_{0.025, n-1}) = 2.5\%$.
 
 
-(4) Let's create a larger sample by considering all of your sleeping hours. Construct its 95\% confidence interval. Note that you need to obtain new $\bar{x}$, $s$, $n$, and $t_{0.025, n-1}$.
+<!-- (4) Let's create a larger sample by considering all of your sleeping hours. Construct its 95\% confidence interval. Note that you need to obtain new $\bar{x}$, $s$, $n$, and $t_{0.025, n-1}$. -->
 
+Go to <https://forms.office.com/r/XP8gyxNadf> to fill out your result!
 
+```{r}
+#| echo: false
+#| column: body
+#| out-width: 30%
+knitr::include_graphics("../images/QRCode_ci.png")
+```
 
 ## Discussion
 

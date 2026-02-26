@@ -1,6 +1,6 @@
 ---
 title: "Take-home Exam 1"
-subtitle: "Take-home Exam for Week 1 to 6"
+subtitle: "Take-home Exam for Week 1 to 7"
 categories: "Exam"
 format:
   html:
@@ -11,7 +11,7 @@ execute:
 ---
 
 ::: callout-important
-[Due **Wednesday, Oct 8, 11:59 PM**]{.red}
+[Due **Friday, March 6, 11:59 PM**]{.red}
 :::
 
 - Please submit your work in *one* **PDF** file to **D2L > Assessments > Dropbox**. Multiple files or a file that is not in pdf format is not allowed. 
@@ -30,57 +30,57 @@ execute:
 
 <!-- - You do not need to attach your code of any language you use in the homework. However, if you fail to complete your calculations or produce your table or figure, you receive partial credits if your code is attached. -->
 
-- Questions started with **(MSSC)** are required for MSSC 5720 students, and optional for MATH 4720 students.
+<!-- - Questions started with **(MSSC)** are required for MSSC 5720 students, and optional for MATH 4720 students. -->
 
-# Exam Problems (50 points)
+# Exam Problems (20 points)
 
-(@) **Normal Approximation to Binomial**. Suppose that 60\% of Americans have had chickenpox by the time they reach adulthood.
-  (a) Suppose we take a random sample of 6 American adults.  Let $X$ be the number of people out of the 6 who had chickenpox during childhood. If $X \sim binomial(n, \pi)$, determine the value of $n$ and $\pi$.
-    
-  (b) With (a), compute the probability that **at least** 3 adults have had chickenpox.
-    
-  (c) With (a), what is the value of the mean $\mu$ and variance $\sigma^2$ of $X \sim binomial(n, \pi)$?
-  
-  (d) Now treat $X$ as a normal random variable, i.e., $X \sim N(\mu, \sigma^2)$, where $\mu$ and $\sigma^2$ are the values obtained in (c). Compute the probability that **at least** 3 adults have had chickenpox.
-  
-  (e) Suppose now we take a random sample of 60 American adults. Using $binomial(n, \pi)$ and $N(\mu, \sigma^2)$ with new parameter values $n$, $\mu$, and $\sigma^2$ to compute the probability that **at least** 30 adults have had chickenpox.
-  
-  (f) Compare binomial and normal probabilities when sample size are 6 and 60. In which case,  binomial and normal probabilities are closer?
-  
-  (g) **(MSSC)** Is there any issue when we use a normal distribution to approximate a binomial distribution? Use [*continuity correction*](https://chenghanyu-introstatsbook.netlify.app/prob-cont#normal-approximation-to-binomial-distribution) on (e). Do you get a better approximation result?
+<!-- (@) **Normal Approximation to Binomial**. Suppose that 60\% of Americans have had chickenpox by the time they reach adulthood. -->
+<!--   (a) Suppose we take a random sample of 6 American adults.  Let $X$ be the number of people out of the 6 who had chickenpox during childhood. If $X \sim binomial(n, \pi)$, determine the value of $n$ and $\pi$. -->
 
-```{r}
-## 1
-# (a)
-n <- 6; p <- 0.6
+<!--   (b) With (a), compute the probability that **at least** 3 adults have had chickenpox. -->
 
-## (b)
-1 - pbinom(q = 2, size = n, prob = p)
+<!--   (c) With (a), what is the value of the mean $\mu$ and variance $\sigma^2$ of $X \sim binomial(n, \pi)$? -->
 
-## (c)
-(mu <- n*p)
-(var <- n*p*(1-p))
+<!--   (d) Now treat $X$ as a normal random variable, i.e., $X \sim N(\mu, \sigma^2)$, where $\mu$ and $\sigma^2$ are the values obtained in (c). Compute the probability that **at least** 3 adults have had chickenpox. -->
 
-## (d)
-1 - pnorm(q = 3, mean = mu, sd = sqrt(var))
+<!--   (e) Suppose now we take a random sample of 60 American adults. Using $binomial(n, \pi)$ and $N(\mu, \sigma^2)$ with new parameter values $n$, $\mu$, and $\sigma^2$ to compute the probability that **at least** 30 adults have had chickenpox. -->
 
-## (e)
-n <- 60
-(mu <- n*p)
-(var <- n*p*(1-p))
-1 - pbinom(q = 29, size = n, prob = p)
-1 - pnorm(q = 30, mean = mu, sd = sqrt(var))
+<!--   (f) Compare binomial and normal probabilities when sample size are 6 and 60. In which case,  binomial and normal probabilities are closer? -->
 
-## (f)
-# When n = 60
+<!--   (g) **(MSSC)** Is there any issue when we use a normal distribution to approximate a binomial distribution? Use [*continuity correction*](https://chenghanyu-introstatsbook.netlify.app/prob-cont#normal-approximation-to-binomial-distribution) on (e). Do you get a better approximation result? -->
 
-## (g)
-1 - pnorm(q = 29.5, mean = mu, sd = sqrt(var))
-```
+<!-- ```{r} -->
+<!-- ## 1 -->
+<!-- # (a) -->
+<!-- n <- 6; p <- 0.6 -->
 
-<br>
+<!-- ## (b) -->
+<!-- 1 - pbinom(q = 2, size = n, prob = p) -->
 
-(@) As part of a study to determine factors that may explain differences in animal species relative to their size, the following body masses (in grams) of 50 different bird species were reported in the paper ``*Temperature and the Northern Distributions of Wintering Birds*,'' by Richard Repasky (1991). The data are provided in [exam1data.csv](./exam1data.csv). First download and upload the data to your RStudio. Then import the data using the following command like
+<!-- ## (c) -->
+<!-- (mu <- n*p) -->
+<!-- (var <- n*p*(1-p)) -->
+
+<!-- ## (d) -->
+<!-- 1 - pnorm(q = 3, mean = mu, sd = sqrt(var)) -->
+
+<!-- ## (e) -->
+<!-- n <- 60 -->
+<!-- (mu <- n*p) -->
+<!-- (var <- n*p*(1-p)) -->
+<!-- 1 - pbinom(q = 29, size = n, prob = p) -->
+<!-- 1 - pnorm(q = 30, mean = mu, sd = sqrt(var)) -->
+
+<!-- ## (f) -->
+<!-- # When n = 60 -->
+
+<!-- ## (g) -->
+<!-- 1 - pnorm(q = 29.5, mean = mu, sd = sqrt(var)) -->
+<!-- ``` -->
+
+<!-- <br> -->
+
+(@) The following body masses (in grams) of 50 wintering birds were reported in the paper ``*Temperature and the Northern Distributions of Wintering Birds*,'' by Richard Repasky (1991). The data are provided in [exam1data.csv](./exam1data.csv). First download and upload the data to your Posit Cloud (RStudio). Then import the data using the command
 
 >  `data <- read.csv("./exam1data.csv")`
 
@@ -90,16 +90,27 @@ where `"./exam1data.csv"` is the file path and `./` means your current working d
 
   (a) Make a histogram of `bodymass`.
     
-  (b) Construct a boxplot with label X-axis or Y-axis (depending on whether the plot is horizontal or vertical) as `Body Mass (in grams)` with a title `Boxplot of Body Mass (g)`. Are there any outliers in the data set? If yes, identify them.
-    
-  (c) Find 30-th, 60-th and 90-th percentiles (or 0.3, 0.6 and 0.9 quantiles) as wells as the sample mean and median. Based on (a), (b),  and (c), comment the skewness of the data, and which should be a better measure of center.
-
-Many statistical methods assume data are normally distributed, and the [*Quantile-Quantile plot* or *QQ plot*](https://chenghanyu-introstatsbook.netlify.app/prob-cont#checking-normality) helps us check the normality assumption. If the data are approximately normally distributed, the points on the QQ plot will lie close to a straight line.
-
-  (d) Remove the outliers you identified in (b) and construct a QQ-plot for the data by using the functions `qqnorm()` and `qqline()`. Does the distribution without outliers look like normal? Please comment.
+  (b) Construct a boxplot with label X-axis or Y-axis (depending on whether the plot is horizontal or vertical) as `Body Mass (in grams)` with a title `Boxplot of Body Mass (g)`. 
   
-  (e) Transform the data with outliers removed by taking the natural log with base $e = 2.71828...$. Construct a QQ-plot for the transformed data and comment on its normality.
+  * Are there any outliers in the data set? If yes, identify them.
+  * Comment the skewness of the data, and which should be a better measure of center.
+  
+  (c) In context, state what population parameter $\mu$ you are estimating.
+  
+  (d) Construct a 95\% Student-$t$ confidence interval for the population mean body mass $\mu$. Report the interval and interpret it in context.
+  
+  (e) Remove the outliers you identified earlier in the descriptive statistics problem and recompute the 95\% Student-$t$ confidence interval for $\mu$. Compare the two intervals (center and width). Briefly explain why they differ.
+  
+  <!-- (c) Find 30-th, 60-th and 90-th percentiles (or 0.3, 0.6 and 0.9 quantiles) as wells as the sample mean and median. Based on (a), (b),  and (c), comment the skewness of the data, and which should be a better measure of center. -->
+
+<!-- Many statistical methods assume data are normally distributed, and the [*Quantile-Quantile plot* or *QQ plot*](https://chenghanyu-introstatsbook.netlify.app/prob-cont#checking-normality) helps us check the normality assumption. If the data are approximately normally distributed, the points on the QQ plot will lie close to a straight line. -->
+
+<!--   (d) Remove the outliers you identified in (b) and construct a QQ-plot for the data by using the functions `qqnorm()` and `qqline()`. Does the distribution without outliers look like normal? Please comment. -->
+
+<!--   (e) Transform the data with outliers removed by taking the natural log with base $e = 2.71828...$. Construct a QQ-plot for the transformed data and comment on its normality. -->
 	
+
+
 
 <br>
 
