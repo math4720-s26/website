@@ -92,7 +92,7 @@ window.Quarto = {
 };
 </script>
 <meta property="og:title" content="Take-home Exam 1 – MATH 4720 (MSSC 5720) - Spring 2026">
-<meta property="og:description" content="Take-home Exam for Week 1 to 6">
+<meta property="og:description" content="Take-home Exam for Week 1 to 7">
 <meta property="og:site_name" content="MATH 4720 (MSSC 5720) - Spring 2026">
 </head>
 <body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -344,13 +344,13 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-<li><a href="#exam-problems-50-points" id="toc-exam-problems-50-points" class="nav-link active" data-scroll-target="#exam-problems-50-points">Exam Problems (50 points)</a></li>
+<li><a href="#exam-problems-20-points" id="toc-exam-problems-20-points" class="nav-link active" data-scroll-target="#exam-problems-20-points">Exam Problems (20 points)</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/exam/take_home_exam1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Take-home Exam 1</h1>
-<p class="subtitle lead">Take-home Exam for Week 1 to 6</p>
+<p class="subtitle lead">Take-home Exam for Week 1 to 7</p>
   <div class="quarto-categories">
     <div class="quarto-category">Exam</div>
   </div>
@@ -377,7 +377,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><span class="red">Due <strong>Wednesday, Oct 8, 11:59 PM</strong></span></p>
+<p><span class="red">Due <strong>Friday, March 6, 11:59 PM</strong></span></p>
 </div>
 </div>
 <ul>
@@ -393,26 +393,40 @@ Important
 <li><p>Even if you use R to compute your final answer, you must show your calculation steps and/or explain your reasoning in order to receive full credit.</p></li>
 <li><p><strong>Handwritten tables and figures receive no credits</strong>.</p></li>
 </ul>
-<!-- - You do not need to attach your code of any language you use in the homework. However, if you fail to complete your calculations or produce your table or figure, you receive partial credits if your code is attached. --><ul>
-<li>Questions started with <strong>(MSSC)</strong> are required for MSSC 5720 students, and optional for MATH 4720 students.</li>
-</ul>
-<section id="exam-problems-50-points" class="level1"><h1>Exam Problems (50 points)</h1>
+<!-- - You do not need to attach your code of any language you use in the homework. However, if you fail to complete your calculations or produce your table or figure, you receive partial credits if your code is attached. --><!-- - Questions started with **(MSSC)** are required for MSSC 5720 students, and optional for MATH 4720 students. --><section id="exam-problems-20-points" class="level1"><h1>Exam Problems (20 points)</h1>
+<!-- (@) **Normal Approximation to Binomial**. Suppose that 60\% of Americans have had chickenpox by the time they reach adulthood. -->
+<!--   (a) Suppose we take a random sample of 6 American adults.  Let $X$ be the number of people out of the 6 who had chickenpox during childhood. If $X \sim binomial(n, \pi)$, determine the value of $n$ and $\pi$. -->
+<!--   (b) With (a), compute the probability that **at least** 3 adults have had chickenpox. -->
+<!--   (c) With (a), what is the value of the mean $\mu$ and variance $\sigma^2$ of $X \sim binomial(n, \pi)$? -->
+<!--   (d) Now treat $X$ as a normal random variable, i.e., $X \sim N(\mu, \sigma^2)$, where $\mu$ and $\sigma^2$ are the values obtained in (c). Compute the probability that **at least** 3 adults have had chickenpox. -->
+<!--   (e) Suppose now we take a random sample of 60 American adults. Using $binomial(n, \pi)$ and $N(\mu, \sigma^2)$ with new parameter values $n$, $\mu$, and $\sigma^2$ to compute the probability that **at least** 30 adults have had chickenpox. -->
+<!--   (f) Compare binomial and normal probabilities when sample size are 6 and 60. In which case,  binomial and normal probabilities are closer? -->
+<!--   (g) **(MSSC)** Is there any issue when we use a normal distribution to approximate a binomial distribution? Use [*continuity correction*](https://chenghanyu-introstatsbook.netlify.app/prob-cont#normal-approximation-to-binomial-distribution) on (e). Do you get a better approximation result? -->
+<!-- ```{r} -->
+<!-- ## 1 -->
+<!-- # (a) -->
+<!-- n <- 6; p <- 0.6 -->
+<!-- ## (b) -->
+<!-- 1 - pbinom(q = 2, size = n, prob = p) -->
+<!-- ## (c) -->
+<!-- (mu <- n*p) -->
+<!-- (var <- n*p*(1-p)) -->
+<!-- ## (d) -->
+<!-- 1 - pnorm(q = 3, mean = mu, sd = sqrt(var)) -->
+<!-- ## (e) -->
+<!-- n <- 60 -->
+<!-- (mu <- n*p) -->
+<!-- (var <- n*p*(1-p)) -->
+<!-- 1 - pbinom(q = 29, size = n, prob = p) -->
+<!-- 1 - pnorm(q = 30, mean = mu, sd = sqrt(var)) -->
+<!-- ## (f) -->
+<!-- # When n = 60 -->
+<!-- ## (g) -->
+<!-- 1 - pnorm(q = 29.5, mean = mu, sd = sqrt(var)) -->
+<!-- ``` -->
+<!-- <br> -->
 <ol class="example" type="1">
-<li>
-<strong>Normal Approximation to Binomial</strong>. Suppose that 60% of Americans have had chickenpox by the time they reach adulthood.</li>
-</ol>
-<ol type="a">
-<li><p>Suppose we take a random sample of 6 American adults. Let <span class="math inline">\(X\)</span> be the number of people out of the 6 who had chickenpox during childhood. If <span class="math inline">\(X \sim binomial(n, \pi)\)</span>, determine the value of <span class="math inline">\(n\)</span> and <span class="math inline">\(\pi\)</span>.</p></li>
-<li><p>With (a), compute the probability that <strong>at least</strong> 3 adults have had chickenpox.</p></li>
-<li><p>With (a), what is the value of the mean <span class="math inline">\(\mu\)</span> and variance <span class="math inline">\(\sigma^2\)</span> of <span class="math inline">\(X \sim binomial(n, \pi)\)</span>?</p></li>
-<li><p>Now treat <span class="math inline">\(X\)</span> as a normal random variable, i.e., <span class="math inline">\(X \sim N(\mu, \sigma^2)\)</span>, where <span class="math inline">\(\mu\)</span> and <span class="math inline">\(\sigma^2\)</span> are the values obtained in (c). Compute the probability that <strong>at least</strong> 3 adults have had chickenpox.</p></li>
-<li><p>Suppose now we take a random sample of 60 American adults. Using <span class="math inline">\(binomial(n, \pi)\)</span> and <span class="math inline">\(N(\mu, \sigma^2)\)</span> with new parameter values <span class="math inline">\(n\)</span>, <span class="math inline">\(\mu\)</span>, and <span class="math inline">\(\sigma^2\)</span> to compute the probability that <strong>at least</strong> 30 adults have had chickenpox.</p></li>
-<li><p>Compare binomial and normal probabilities when sample size are 6 and 60. In which case, binomial and normal probabilities are closer?</p></li>
-<li><p><strong>(MSSC)</strong> Is there any issue when we use a normal distribution to approximate a binomial distribution? Use <a href="https://chenghanyu-introstatsbook.netlify.app/prob-cont#normal-approximation-to-binomial-distribution"><em>continuity correction</em></a> on (e). Do you get a better approximation result?</p></li>
-</ol>
-<p><br></p>
-<ol start="2" class="example" type="1">
-<li>As part of a study to determine factors that may explain differences in animal species relative to their size, the following body masses (in grams) of 50 different bird species were reported in the paper ``<em>Temperature and the Northern Distributions of Wintering Birds</em>,’’ by Richard Repasky (1991). The data are provided in <a href="./exam1data.csv">exam1data.csv</a>. First download and upload the data to your RStudio. Then import the data using the following command like</li>
+<li>The following body masses (in grams) of 50 wintering birds were reported in the paper ``<em>Temperature and the Northern Distributions of Wintering Birds</em>,’’ by Richard Repasky (1991). The data are provided in <a href="./exam1data.csv">exam1data.csv</a>. First download and upload the data to your Posit Cloud (RStudio). Then import the data using the command</li>
 </ol>
 <blockquote class="blockquote">
 <p><code>data &lt;- read.csv("./exam1data.csv")</code></p>
@@ -420,16 +434,23 @@ Important
 <p>where <code>"./exam1data.csv"</code> is the file path and <code>./</code> means your current working directory.</p>
 <ol type="a">
 <li><p>Make a histogram of <code>bodymass</code>.</p></li>
-<li><p>Construct a boxplot with label X-axis or Y-axis (depending on whether the plot is horizontal or vertical) as <code>Body Mass (in grams)</code> with a title <code>Boxplot of Body Mass (g)</code>. Are there any outliers in the data set? If yes, identify them.</p></li>
-<li><p>Find 30-th, 60-th and 90-th percentiles (or 0.3, 0.6 and 0.9 quantiles) as wells as the sample mean and median. Based on (a), (b), and (c), comment the skewness of the data, and which should be a better measure of center.</p></li>
+<li><p>Construct a boxplot with label X-axis or Y-axis (depending on whether the plot is horizontal or vertical) as <code>Body Mass (in grams)</code> with a title <code>Boxplot of Body Mass (g)</code>.</p></li>
 </ol>
-<p>Many statistical methods assume data are normally distributed, and the <a href="https://chenghanyu-introstatsbook.netlify.app/prob-cont#checking-normality"><em>Quantile-Quantile plot</em> or <em>QQ plot</em></a> helps us check the normality assumption. If the data are approximately normally distributed, the points on the QQ plot will lie close to a straight line.</p>
-<ol start="4" type="a">
-<li><p>Remove the outliers you identified in (b) and construct a QQ-plot for the data by using the functions <code><a href="https://rdrr.io/r/stats/qqnorm.html">qqnorm()</a></code> and <code><a href="https://rdrr.io/r/stats/qqnorm.html">qqline()</a></code>. Does the distribution without outliers look like normal? Please comment.</p></li>
-<li><p>Transform the data with outliers removed by taking the natural log with base <span class="math inline">\(e = 2.71828...\)</span>. Construct a QQ-plot for the transformed data and comment on its normality.</p></li>
+<ul>
+<li>Are there any outliers in the data set? If yes, identify them.</li>
+<li>Comment the skewness of the data, and which should be a better measure of center.</li>
+</ul>
+<ol start="3" type="a">
+<li><p>In context, state what population parameter <span class="math inline">\(\mu\)</span> you are estimating.</p></li>
+<li><p>Construct a 95% Student-<span class="math inline">\(t\)</span> confidence interval for the population mean body mass <span class="math inline">\(\mu\)</span>. Report the interval and interpret it in context.</p></li>
+<li><p>Remove the outliers you identified earlier in the descriptive statistics problem and recompute the 95% Student-<span class="math inline">\(t\)</span> confidence interval for <span class="math inline">\(\mu\)</span>. Compare the two intervals (center and width). Briefly explain why they differ.</p></li>
 </ol>
+<p><!-- (c) Find 30-th, 60-th and 90-th percentiles (or 0.3, 0.6 and 0.9 quantiles) as wells as the sample mean and median. Based on (a), (b),  and (c), comment the skewness of the data, and which should be a better measure of center. --></p>
+<!-- Many statistical methods assume data are normally distributed, and the [*Quantile-Quantile plot* or *QQ plot*](https://chenghanyu-introstatsbook.netlify.app/prob-cont#checking-normality) helps us check the normality assumption. If the data are approximately normally distributed, the points on the QQ plot will lie close to a straight line. -->
+<!--   (d) Remove the outliers you identified in (b) and construct a QQ-plot for the data by using the functions `qqnorm()` and `qqline()`. Does the distribution without outliers look like normal? Please comment. -->
+<!--   (e) Transform the data with outliers removed by taking the natural log with base $e = 2.71828...$. Construct a QQ-plot for the transformed data and comment on its normality. -->
 <p><br></p>
-<ol start="3" class="example" type="1">
+<ol start="2" class="example" type="1">
 <li>
 <strong>AI Usage Declaration.</strong> Using GenAI is permitted for this course. If you choose to use GenAI to assist with your exam, you must include a brief statement documenting your use. Please provide the following information:</li>
 </ol>
