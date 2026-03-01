@@ -620,6 +620,27 @@ window.Quarto = {
 <span><span class="co"># sample mean, we can consider that value to be one value in a normally</span></span>
 <span><span class="co"># distributed population.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+<ol start="14" class="example" type="1">
+<li>A factory claims the mean fill volume is <span class="math inline">\(\mu\)</span> mL. A random sample of <span class="math inline">\(n=36\)</span> bottles has <span class="math inline">\(\bar{x} = 502\)</span> mL.
+<ol type="a">
+<li>The population standard deviation is known to be <span class="math inline">\(\sigma=8\)</span> mL. Compute a 90% CI for <span class="math inline">\(\mu\)</span>.</li>
+<li>
+<span class="math inline">\(\sigma\)</span> is unknown and the sample standard deviation is <span class="math inline">\(s = 6\)</span>. Compute a 90% CI for <span class="math inline">\(\mu\)</span>.</li>
+</ol>
+</li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># (a)</span></span>
+<span><span class="fl">502</span> <span class="op">+</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">qnorm</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span> <span class="op">*</span> <span class="fl">8</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">36</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 499.8069 504.1931</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># (b)</span></span>
+<span><span class="fl">502</span> <span class="op">+</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.95</span>, df <span class="op">=</span> <span class="fl">35</span><span class="op">)</span> <span class="op">*</span> <span class="fl">6</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">36</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 500.3104 503.6896</code></pre>
+</div>
+</div>
 
 
 
