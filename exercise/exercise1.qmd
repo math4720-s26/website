@@ -284,3 +284,16 @@ pnorm(q = 50, mean = 45, sd = 3.2, lower.tail = FALSE)
 # distributed population.
 ```
 
+(@) A factory claims the mean fill volume is $\mu$ mL. A random sample of $n=36$ bottles has $\bar{x} = 502$ mL. 
+    (a) The population standard deviation is known to be $\sigma=8$ mL. Compute a 90% CI for $\mu$.
+    (b) $\sigma$ is unknown and the sample standard deviation is $s = 6$. Compute a 90% CI for $\mu$.
+    
+```{r}
+#| echo: true
+#| eval: true
+
+# (a)
+502 + c(-1, 1) * qnorm(p = 0.95) * 8 / sqrt(36)
+# (b)
+502 + c(-1, 1) * qt(p = 0.95, df = 35) * 6 / sqrt(36)
+```

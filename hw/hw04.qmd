@@ -37,11 +37,10 @@ execute:
     (a) $-0.4 < Z < 1.5$
     (b) $|Z| > 2$
 
-
+<!-- ## OpenIntro 4.1 -->
 ```{r}
-#| echo: false
-#| eval: false
-## OpenIntro 4.1
+#| echo: true
+#| eval: true
 pnorm(1.5) - pnorm(-0.4)
 2*pnorm(-2)
 ```
@@ -52,10 +51,11 @@ pnorm(1.5) - pnorm(-0.4)
     (a) What is the probability of observing an 83$^{\circ}$ F temperature or higher in Milwaukee during a randomly chosen day in June?
     (b) How cool are the coldest 10\% of the days (days with lowest average high temperature) during June in Milwaukee?
 
+
+<!-- ## OpenIntro 4.7 -->
 ```{r}
-#| echo: false
-#| eval: false
-## OpenIntro 4.7
+#| echo: true
+#| eval: true
 pnorm(83, mean = 77, sd = 5, lower.tail = FALSE)
 qnorm(0.1, mean = 77, sd = 5)
 ```
@@ -68,10 +68,10 @@ qnorm(0.1, mean = 77, sd = 5)
     (b) What is the probability that exactly four out of ten 18-20 year olds have \textit{NOT} consumed an alcoholic beverage?
     (c) What is the probability that at most 2 out of 5 randomly sampled 18-20 year olds have consumed alcoholic beverages?
 
+<!-- ## OpenIntro 4.17 -->
 ```{r}
-#| echo: false
-#| eval: false
-## OpenIntro 4.17
+#| echo: true
+#| eval: true
 dbinom(6, size = 10, prob = 0.7)
 pbinom(2, size = 5, prob = 0.7)
 ```
@@ -83,10 +83,10 @@ pbinom(2, size = 5, prob = 0.7)
     (b) Calculate the probability that this Starbucks serves 70 customers in 
 one hour during this time of day.
 
+<!-- ## OpenIntro 4.31 -->
 ```{r}
-#| echo: false
-#| eval: false
-## OpenIntro 4.31
+#| echo: true
+#| eval: true
 dpois(70, lambda = 75)
 ```
 
@@ -97,11 +97,12 @@ dpois(70, lambda = 75)
     (a) Use binomial distribution to Compute the probability that none of a random sample of $n = 1,000$ patients administered the drug experiences a particular side effect.
     (b) Use Poisson distribution to Compute the probability that none of a random sample of $n = 1,000$ patients administered the drug experiences a particular side effect. [Hint:] The parameter $\lambda = n\pi$. 
     (c) When $n$ is large and $\pi$ is small, Poisson$(\lambda)$ looks pretty similar to binomial$(n, \pi)$. Plot the two distributions for $x = 0, 1, \dots, 8$. Are they similar?
-    
+
+
+<!-- ## Ott example 4.13 -->
 ```{r}
-#| echo: false
-#| eval: false
-## Ott example 4.13
+#| echo: true
+#| eval: true
 n <- 1000
 p <- 0.001
 dbinom(x = 0, size = n, prob = p)
@@ -110,15 +111,15 @@ dpois(x = 0, lambda = n*p)
 
 
 ```{r}
-#| echo: false
-#| eval: false
+#| echo: true
+#| eval: true
 plot(x = 0:8, y = dbinom(0:8, size = n, prob = p), type = 'h', xlab = "x", 
      las = 1, ylab = "P(X = x)", lwd = 5, main = "Binomial(1000, 0.001)")
 ```
 
 ```{r}
-#| echo: false
-#| eval: false
+#| echo: true
+#| eval: true
 plot(0:8, dpois(0:8, lambda = n*p), type = 'h', lwd = 5, las = 1,
      ylab = "P(X = x)", xlab = "x", main = "Poisson(1)")
 ```
