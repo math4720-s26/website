@@ -514,7 +514,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="10-ht_files/figure-html/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+<figure><p><img data-src="10-ht_files/figure-revealjs/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
 </figure>
 </div>
 </div>
@@ -836,7 +836,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
           display:block!important;
       }</style></aside></section><section id="p-value-illustration" class="slide level2"><h2>P-Value Illustration</h2>
 
-<img data-src="10-ht_files/figure-html/unnamed-chunk-14-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="the-new-treatment-is-effective-7" class="slide level2"><h2>The New Treatment is Effective?</h2>
+<img data-src="10-ht_files/figure-revealjs/unnamed-chunk-14-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="the-new-treatment-is-effective-7" class="slide level2"><h2>The New Treatment is Effective?</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><br></p>
@@ -970,11 +970,11 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div>
 </section><section id="both-methods-lead-to-the-same-conclusion" class="slide level2"><h2>Both Methods Lead to the Same Conclusion</h2>
 
-<img data-src="10-ht_files/figure-html/unnamed-chunk-17-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="section-1" class="slide level2"><h2></h2>
+<img data-src="10-ht_files/figure-revealjs/unnamed-chunk-17-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="section-1" class="slide level2"><h2></h2>
 
 <!-- ## Testing Applet -->
 <!-- {{< include infer-ht-ojs.qmd >}} -->
-<img data-src="10-ht_files/figure-html/unnamed-chunk-18-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="step-6-restate-the-conclusion-in-nontechnical-terms-and-address-the-original-claim" class="slide level2"><h2>Step 6: Restate the Conclusion in Nontechnical Terms, and Address the Original Claim</h2>
+<img data-src="10-ht_files/figure-revealjs/unnamed-chunk-18-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="step-6-restate-the-conclusion-in-nontechnical-terms-and-address-the-original-claim" class="slide level2"><h2>Step 6: Restate the Conclusion in Nontechnical Terms, and Address the Original Claim</h2>
 <div class="tiny">
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -1136,7 +1136,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="10-ht_files/figure-html/unnamed-chunk-25-1.png" class="quarto-figure quarto-figure-center" style="width:45.0%"></p>
+<figure><p><img data-src="10-ht_files/figure-revealjs/unnamed-chunk-25-1.png" class="quarto-figure quarto-figure-center" style="width:45.0%"></p>
 </figure>
 </div>
 </div>
@@ -1553,6 +1553,41 @@ W10=
     window._ojs.paths.docToRoot = "..";
     window._ojs.selfContained = false;
     window._ojs.runtime.interpretFromScriptTags();
+    </script><script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
     </script><script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
