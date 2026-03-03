@@ -25,7 +25,7 @@ format:
 | 7 | Tue, Feb 24 | Confidence Intervals | 👉[Student-t](ojs/infer-ci-t-ojs.html) |  |  |  |  |  |  |
 |  | Thu, Feb 26 | Exam 1 Review [**Activity:** **How Much Do Students Sleep?**](/activity/act_ci.html) |  |  |  |  | [Worksheet 5](ws/ws5.html) | ✅ [Quiz 2](/documents/quiz2.pdf) | [Exercise 1](exercise/exercise1.html) |
 | 8 | Tue, Mar 3 | **In-class Exam 1** |  |  |  |  |  |  | ✅ [Take-home Exam 1](/exam/take_home_exam1.html) |
-|  | Thu, Mar 5 | Hypothesis Testing | 🖥️ testing<br> 👉testing | [IS Ch 16](https://chenghanyu-introstatsbook.netlify.app/infer-ht) | `r fontawesome::fa("file-code")` (testing) |  |  |  |  |
+|  | Thu, Mar 5 | Hypothesis Testing | [🖥️ testing](/slides/10-ht-slides.html)<br> 👉[testing](ojs/infer-ht-ojs.html) | [IS Ch 16](https://chenghanyu-introstatsbook.netlify.app/infer-ht) | [`r fontawesome::fa("file-code")`](/code/15-infer-ht.R) (testing) |  |  |  |  |
 | 9 | Tue, Mar 10 | ***NO CLASS: Spring break*** |  |  |  |  |  |  |  |
 |  | Thu, Mar 12 | ***NO CLASS: Spring break*** |  |  |  |  |  |  |  |
 | 10 | Tue, Mar 17 | Hypothesis Testing |  |  |  |  |  |  |  |
