@@ -16,7 +16,7 @@ execute:
 
 - Please submit your work in *one* **PDF** file to **D2L > Assessments > Dropbox**. Multiple files or a file that is not in pdf format is not allowed. 
 
-- With your submission, you commit to academic integrity through the following honor pledge:
+- By writing your name and student ID on this exam, you commit to academic integrity through the following honor pledge:
 
 > I recognize the importance of personal integrity in all aspects of life and work. I commit myself to truthfulness, honor and responsibility, by which I earn the respect of others. I support the development of good character and commit myself to uphold the highest standards of academic integrity as an important aspect of personal integrity. My commitment obliges me to conduct myself according to the Marquette University Honor Code.
 
