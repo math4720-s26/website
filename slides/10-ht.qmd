@@ -567,7 +567,123 @@ knitr::include_graphics("./images/10-ht/blood_pressure.jpeg")
 ::: {.column width="50%"}
 
 ```{r}
-knitr::include_graphics("./images/10-ht/test-type.png")
+#| fig-asp: 1
+
+# knitr::include_graphics("./images/10-ht/test-type.png")
+# ---------- Global settings ----------
+par(
+  mfrow = c(3, 1),
+  mar = c(0.3, 0.6, 0.3, 0.6),
+  oma = c(1.5, 0, 0, 0)
+)
+
+# ---------- Normal curve ----------
+x <- seq(-3.2, 3.2, length.out = 1000)
+y <- dnorm(x)
+y <- y / max(y) * 0.92
+
+# Critical value
+cval <- 1.28
+
+# ---------- Helper functions ----------
+draw_base_panel <- function() {
+  plot(NA,
+       xlim = c(-3.35, 3.35),
+       ylim = c(-0.16, 1.02),
+       axes = FALSE,
+       xlab = "",
+       ylab = "",
+       bty = "n")
+  
+  # blue density curve
+  lines(x, y, col = "#1f77b4", lwd = 2)
+  
+  # blue horizontal baseline
+  segments(-3.35, 0, 3.35, 0, col = "#1f77b4", lwd = 1.2)
+  
+  # black separator line near bottom
+  segments(-3.35, -0.13, 3.35, -0.13, col = "black", lwd = 1)
+}
+
+draw_hypothesis <- function(title_text, op_text) {
+  
+  # Title
+  text(-3.15, 0.96, labels = title_text, adj = c(0, 1),
+       cex = 2.55, font = 2)
+  
+  # Hypothesis pieces
+  text(-3.15, 0.78, labels = expression(paste(H[a], ":", " ")), adj = c(0, 0.5), cex = 2.5)
+  text(-2.80, 0.78, labels = expression(mu),       adj = c(0, 0.5), cex = 2.5)
+  text(-2.6, 0.78, labels = op_text,              adj = c(0, 0.5), cex = 2.5)
+  text(-2.4, 0.78, labels = expression(mu[0]),    adj = c(0, 0.5), cex = 2.5)
+  
+  # Red circle around operator
+  # symbols(-2.59, 0.78, circles = 0.08, inches = FALSE,
+  #         add = TRUE, fg = "#ef3b0c", lwd = 2)
+}
+
+draw_vline <- function(x0) {
+  segments(x0, -0.02, x0, 1.02,
+           col = "#1f77b4", lwd = 2, lty = 2)
+}
+
+draw_bracket <- function(x1, x2, y = -0.085, col = "#ff7f0e") {
+  segments(x1, y, x2, y, col = col, lwd = 5)
+  segments(x1, y - 0.03, x1, y + 0.02, col = col, lwd = 2)
+  segments(x2, y - 0.03, x2, y + 0.02, col = col, lwd = 2)
+}
+
+# ---------- Panel 1: Right-tail ----------
+draw_base_panel()
+draw_hypothesis("Right-tailed test", ">")
+draw_vline(cval)
+
+text(-0.68, 0.40,
+     labels = expression(paste("Reject ", H[0], " if test statistic ", "\u2265", " c")),
+     adj = c(0, 0.5), cex = 2.5)
+
+draw_bracket(cval, 5)
+text(1.55, -0.045,
+     labels = "critical value  c",
+     cex = 2.5)
+
+# ---------- Panel 2: Left-tail ----------
+draw_base_panel()
+draw_hypothesis("Left-tailed test", "<")
+draw_vline(-cval)
+
+text(-1.02, 0.42,
+     labels = expression(paste("Reject ", H[0], " if test statistic ", "\u2264", " -c")),
+     adj = c(0, 0.5), cex = 2.5)
+
+draw_bracket(-5, -cval)
+text(-1.35, -0.045,
+     labels = "critical value  -c",
+     cex = 2.5)
+
+# ---------- Panel 3: Two-tail ----------
+draw_base_panel()
+draw_hypothesis("Two-tailed test", "\u2260")
+draw_vline(-1.96)
+draw_vline(1.96)
+
+text(-1.83, 0.52,
+     labels = expression(paste("Reject ", H[0], " if test statistic ",
+                               "\u2264", " -c", " or ", "\u2265", " c")),
+     adj = c(0, 0.5), cex = 2.5)
+
+draw_bracket(-5, -1.96)
+draw_bracket(1.96, 5)
+
+text(-2.20, -0.045,
+     labels = "critical value  -c",
+     cex = 2.5)
+text(1.85, -0.045,
+     labels = "critical value  c",
+     cex = 2.5)
+
+# Bottom x-axis label
+mtext("test statistic (z or t)", side = 1, line = 0.2, cex = 1.5)
 ```
 
 :::
@@ -757,6 +873,7 @@ i_test <- x < z_test
 # polygon(c(lb,x[i]), c(0, hx[i]), col="red")
 polygon(c(z_test, x[i_test]), c(0, hx[i_test]), col="#003366")
 text(lb, -0.01, "test statistic", cex = 1)
+text(0, -0.01, expression(mu[0]), cex = 1.5)
 text(-2, 0.11, "p-value = blue area", cex = 1)
 arrows(-2.8, 0.07, x1 = -2.5, y1 = 0.02, length = 0.1, angle = 20)
 segments(0, 0, 0, dnorm(x), lty = 2, lwd = 0.5)
@@ -773,6 +890,7 @@ i_test <- x > z_test
 # polygon(c(ub,x[i]), c(0,hx[i]), col="red")
 polygon(c(z_test,x[i_test]), c(0,hx[i_test]), col="#003366")
 text(ub, -0.01, "test statistic", cex = 1)
+text(0, -0.01, expression(mu[0]), cex = 1.5)
 text(2.5, 0.11, "p-value = blue area", cex = 1)
 arrows(3.3, 0.08, x1 = 2.5, y1 = 0.02, length = 0.1, angle = 20)
 segments(0, 0, 0, dnorm(x), lty = 2, lwd = 0.5)
@@ -796,6 +914,7 @@ polygon(c(z_test_l, x[i_test_l]), c(0, hx[i_test_l]), col="#003366")
 # polygon(c(z_test_u, x[i_test_u]), c(0, hx[i_test_u]), col="#003366")
 
 text(lb_2, -0.01, "test statistic", cex = 1)
+text(0, -0.01, expression(mu[0]), cex = 1.5)
 text(-2, 0.11, "p-value = blue area * 2", cex = 1)
 arrows(-2.8, 0.07, x1 = -2.5, y1 = 0.02, length = 0.1, angle = 20)
 segments(0, 0, 0, dnorm(x), lty = 2, lwd = 0.5)
@@ -819,6 +938,7 @@ i_test_u <- x > z_test_u
 polygon(c(z_test_u, x[i_test_u]), c(0, hx[i_test_u]), col="#003366")
 
 text(ub_2, -0.01, "test statistic", cex = 1)
+text(0, -0.01, expression(mu[0]), cex = 1.5)
 text(2.1, 0.1, "p-value = blue area * 2", cex = 1)
 arrows(3.5, 0.08, x1 = 2.5, y1 = 0.02, length = 0.1, angle = 20)
 segments(0, 0, 0, dnorm(x), lty = 2, lwd = 0.5)
@@ -929,7 +1049,7 @@ knitr::include_graphics("./images/10-ht/blood_pressure.jpeg")
 
 - <span style="color:blue"> $\small \begin{align} &H_0: \mu = 150 \\ &H_1: \mu < 150 \end{align}$ </span>
 
-- <span style="color:blue">This is a left-tailed test, so the $p$-value is $P(T < t_{test})=P(T < -2.55) =$ `r round(pt(-2.55,24), 2)` </span>
+- <span style="color:blue">This is a left-tailed test, so the $p$-value is $P(T < t_{test} \mid \mu = 150)=P(T < -2.55 \mid \mu = 150) =$ `r round(pt(-2.55,24), 2)` </span>
 
 . . .
 
