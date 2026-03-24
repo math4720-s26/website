@@ -35,6 +35,13 @@
     "text": "A student says, “My confidence interval for \\(\\mu\\) is \\(\\overline{x} \\pm 2s\\).” What is the main problem with this, conceptually?\nA sample mean is \\(\\overline{x} = 50\\). The standard error of \\(\\overline{x}\\) is \\(SE = 2\\). Give an approximate 95 percent confidence interval for \\(\\mu\\). Let’s assume the critical value is 2."
   },
   {
+    "objectID": "ws/ws6.html",
+    "href": "ws/ws6.html",
+    "title": "Worksheet 6",
+    "section": "",
+    "text": "For each alternative, say whether it is right-tailed, left-tailed or two-sided.\n\n\n\\(H_1: \\mu \\ne 50\\)\n\\(H_1: \\mu &gt; 50\\)\n\\(H_1: \\mu &lt; 50\\)\n\n\nWe are testing \\(H_0: \\mu = 100\\). A sample gives \\(\\bar{x} = 106\\) with standard error \\(SE = 2\\).\n\n\nCompute the test statistic \\(z\\).\nThe rejection rule is \\(|z| &gt; 2\\). Do you reject \\(H_0\\)?"
+  },
+  {
     "objectID": "exercise.html",
     "href": "exercise.html",
     "title": "Exercise",
@@ -6536,7 +6543,7 @@
     "href": "slides/11-infer-two-means-slides.html#two-sample-paired-test-in-r-1",
     "title": "Comparing Two Population Means \n",
     "section": "Two-Sample Paired Test in R",
-    "text": "Two-Sample Paired Test in R\n\n## CI\nd_bar + c(-1, 1) * qt(p = 0.975, df = length(d) - 1) * (s_d / sqrt(length(d))) \n\n[1]  4.6 22.4\n\n\n\n\n\n\n## t.test() function\nt.test(x = pair_data$before, y = pair_data$after, alternative = \"greater\", mu = 0, paired = TRUE)\n\n\n    Paired t-test\n\ndata:  pair_data$before and pair_data$after\nt = 3, df = 9, p-value = 0.004\nalternative hypothesis: true mean difference is greater than 0\n95 percent confidence interval:\n 6.3 Inf\nsample estimates:\nmean difference \n             14 \n\n\n\n\n\n\nBe careful about the one-sided CI! We should use the two-sided CI!"
+    "text": "Two-Sample Paired Test in R\n\n## CI\nd_bar + c(-1, 1) * qt(p = 0.975, df = length(d) - 1) * (s_d / sqrt(length(d))) \n\n[1]  4.6 22.4\n\n\n\n\n\n\n## t.test() function\nt.test(x = pair_data$before, y = pair_data$after, alternative = \"greater\", mu = 0, paired = TRUE)\n\n\n    Paired t-test\n\ndata:  pair_data$before and pair_data$after\nt = 3, df = 9, p-value = 0.004\nalternative hypothesis: true mean difference is greater than 0\n95 percent confidence interval:\n 6.3 Inf\nsample estimates:\nmean difference \n             14 \n\n\n\n\n\n\nBe careful about the one-sided CI!"
   },
   {
     "objectID": "slides/11-infer-two-means-slides.html#compare-population-means-independent-samples",
@@ -6901,6 +6908,13 @@
     ]
   },
   {
+    "objectID": "ws/ws7.html",
+    "href": "ws/ws7.html",
+    "title": "Worksheet 7",
+    "section": "",
+    "text": "For each scenario, decide whether a paired t procedure or an independent two sample t procedure is appropriate.\n\n\nBlood pressure before and after medication on the same 20 patients.\nMean GPA of students in two different sections taught by different instructors.\nComparing left and right hand grip strength for each person.\n\n\nA 95 percent confidence interval for \\(\\mu_1 - \\mu_2\\) is \\((-1, 5)\\). At α = 0.05, would you reject \\(H_0: \\mu_1 -\\mu_2 = 0\\) in a two sided test?"
+  },
+  {
     "objectID": "ws/ws4.html",
     "href": "ws/ws4.html",
     "title": "Worksheet 4",
@@ -6920,19 +6934,5 @@
     "title": "Worksheet 3",
     "section": "",
     "text": "Pick the correct model. Choose binomial, Poisson, or normal. Give one reason.\n\n\nNumber of heads in 20 coin flips.\nNumber of typos on a page of a long book.\nHeights of adult women.\n\n\n\nNormal symmetry facts. If \\(X \\sim N(\\mu, \\sigma^2)\\), decide without calculating:\n\n\n\n\\(P(X&gt;\\mu)\\) is 0.5, less than 0.5, or greater than 0.5?\nWhich is larger: \\(P(X&gt;μ+σ)\\) or \\(P(X&lt;μ−σ)\\)? Why?"
-  },
-  {
-    "objectID": "ws/ws7.html",
-    "href": "ws/ws7.html",
-    "title": "Worksheet 7",
-    "section": "",
-    "text": "For each scenario, decide whether a paired t procedure or an independent two sample t procedure is appropriate.\n\n\nBlood pressure before and after medication on the same 20 patients.\nMean GPA of students in two different sections taught by different instructors.\nComparing left and right hand grip strength for each person.\n\n\nA 95 percent confidence interval for \\(\\mu_1 - \\mu_2\\) is \\((-1, 5)\\). At α = 0.05, would you reject \\(H_0: \\mu_1 -\\mu_2 = 0\\) in a two sided test?"
-  },
-  {
-    "objectID": "ws/ws6.html",
-    "href": "ws/ws6.html",
-    "title": "Worksheet 6",
-    "section": "",
-    "text": "For each alternative, say whether it is right-tailed, left-tailed or two-sided.\n\n\n\\(H_1: \\mu \\ne 50\\)\n\\(H_1: \\mu &gt; 50\\)\n\\(H_1: \\mu &lt; 50\\)\n\n\nWe are testing \\(H_0: \\mu = 100\\). A sample gives \\(\\bar{x} = 106\\) with standard error \\(SE = 2\\).\n\n\nCompute the test statistic \\(z\\).\nThe rejection rule is \\(|z| &gt; 2\\). Do you reject \\(H_0\\)?"
   }
 ]

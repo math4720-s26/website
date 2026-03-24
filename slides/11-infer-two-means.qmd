@@ -547,7 +547,7 @@ t.test(x = pair_data$before, y = pair_data$after, alternative = "greater", mu = 
 
 . . .
 
-- Be careful about the one-sided CI! **We should use the two-sided CI!** 
+- Be careful about the **one-sided** CI!
 
 
 
