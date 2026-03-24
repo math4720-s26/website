@@ -6340,7 +6340,7 @@
     "href": "slides/11-infer-two-means.html#two-sample-paired-test-in-r-1",
     "title": "Comparing Two Population Means \n",
     "section": "Two-Sample Paired Test in R",
-    "text": "Two-Sample Paired Test in R\n\n## CI\nd_bar + c(-1, 1) * qt(p = 0.975, df = length(d) - 1) * (s_d / sqrt(length(d))) \n\n[1]  4.6 22.4\n\n\n. . .\n\n\n\n## t.test() function\nt.test(x = pair_data$before, y = pair_data$after, alternative = \"greater\", mu = 0, paired = TRUE)\n\n\n    Paired t-test\n\ndata:  pair_data$before and pair_data$after\nt = 3, df = 9, p-value = 0.004\nalternative hypothesis: true mean difference is greater than 0\n95 percent confidence interval:\n 6.3 Inf\nsample estimates:\nmean difference \n             14 \n\n\n\n. . .\n\nBe careful about the one-sided CI! We should use the two-sided CI!"
+    "text": "Two-Sample Paired Test in R\n\n## CI\nd_bar + c(-1, 1) * qt(p = 0.975, df = length(d) - 1) * (s_d / sqrt(length(d))) \n\n[1]  4.6 22.4\n\n\n. . .\n\n\n\n## t.test() function\nt.test(x = pair_data$before, y = pair_data$after, alternative = \"greater\", mu = 0, paired = TRUE)\n\n\n    Paired t-test\n\ndata:  pair_data$before and pair_data$after\nt = 3, df = 9, p-value = 0.004\nalternative hypothesis: true mean difference is greater than 0\n95 percent confidence interval:\n 6.3 Inf\nsample estimates:\nmean difference \n             14 \n\n\n\n. . .\n\nBe careful about the one-sided CI!"
   },
   {
     "objectID": "slides/11-infer-two-means.html#compare-population-means-independent-samples",
@@ -6543,7 +6543,7 @@
     "href": "slides/11-infer-two-means-slides.html#two-sample-paired-test-in-r-1",
     "title": "Comparing Two Population Means \n",
     "section": "Two-Sample Paired Test in R",
-    "text": "Two-Sample Paired Test in R\n\n## CI\nd_bar + c(-1, 1) * qt(p = 0.975, df = length(d) - 1) * (s_d / sqrt(length(d))) \n\n[1]  4.6 22.4\n\n\n\n\n\n\n## t.test() function\nt.test(x = pair_data$before, y = pair_data$after, alternative = \"greater\", mu = 0, paired = TRUE)\n\n\n    Paired t-test\n\ndata:  pair_data$before and pair_data$after\nt = 3, df = 9, p-value = 0.004\nalternative hypothesis: true mean difference is greater than 0\n95 percent confidence interval:\n 6.3 Inf\nsample estimates:\nmean difference \n             14 \n\n\n\n\n\n\nBe careful about the one-sided CI! We should use the two-sided CI!"
+    "text": "Two-Sample Paired Test in R\n\n## CI\nd_bar + c(-1, 1) * qt(p = 0.975, df = length(d) - 1) * (s_d / sqrt(length(d))) \n\n[1]  4.6 22.4\n\n\n\n\n\n\n## t.test() function\nt.test(x = pair_data$before, y = pair_data$after, alternative = \"greater\", mu = 0, paired = TRUE)\n\n\n    Paired t-test\n\ndata:  pair_data$before and pair_data$after\nt = 3, df = 9, p-value = 0.004\nalternative hypothesis: true mean difference is greater than 0\n95 percent confidence interval:\n 6.3 Inf\nsample estimates:\nmean difference \n             14 \n\n\n\n\n\n\nBe careful about the one-sided CI!"
   },
   {
     "objectID": "slides/11-infer-two-means-slides.html#compare-population-means-independent-samples",
