@@ -31,9 +31,9 @@ format:
 | 10 | Tue, Mar 17 | Hypothesis Testing |  |  |  |  |  |  |  |
 |  | Thu, Mar 19 | Two Population Means: Matched Pairs | [🖥️ two samples](/slides/11-infer-two-means-slides.html) | [IS Ch 17](https://chenghanyu-introstatsbook.netlify.app/infer-twomean) | [`r fontawesome::fa("file-code")`](/code/16-infer-twomean.R) (two samples) | ✍️ [HW 5 (due 3/27)](hw/hw05.html) | [Worksheet 6](ws/ws6.html) |  |  |
 | 11 | Tue, Mar 24 | Two Population Means: Independent Samples |  |  |  |  | [Worksheet 7](ws/ws7.html) |  |  |
-|  | Thu, Mar 26 | Inference for One Population Variance | [🖥️ variances](/slides/12-infer-variance-slides.html) <br> 👉[chi-squared](ojs/infer-var-chisq-ojs.html) | [IS Ch 18](https://chenghanyu-introstatsbook.netlify.app/infer-var) | [`r fontawesome::fa("file-code")`](/code/17-infer-var.R) (variances) | ✍️ [HW 6 (due 4/3)](hw/hw06.html) |  |  |  |
-| 12 | Tue, Mar 31 | Inference about Two Population Variances | 👉 f |  |  |  |  | ✅ Quiz 3 |  |
-|  | Thu, Apr 2 | ***NO CLASS: Easter break*** |  |  |  |  |  |  |  |
+|  | Thu, Mar 26 | Inference for One Population Variance | [🖥️ variances](/slides/12-infer-variance-slides.html) <br> 👉[chi-squared](ojs/infer-var-chisq-ojs.html) | [IS Ch 18](https://chenghanyu-introstatsbook.netlify.app/infer-var) | [`r fontawesome::fa("file-code")`](/code/17-infer-var.R) (variances) |  |  |  |  |
+| 12 | Tue, Mar 31 | Inference about Two Population Variances | 👉 [f](ojs/infer-var-f-ojs.html) |  |  | ✍️ [Extra Credit (due 4/3)](hw/hw06-extra.html) |  | ✅ Quiz 3 |  |
+|  | Thu, Apr 2 | ***NO CLASS: Easter break*** |  |  |  | ✍️ [HW 6 (due 4/10)](hw/hw06.html) |  |  |  |
 | 13 | Tue, Apr 7 | Analysis of Variance (ANOVA) Rationale | 🖥️ ANOVA | [IS Ch 24](https://chenghanyu-introstatsbook.netlify.app/model-anova) | `r fontawesome::fa("file-code")` (ANOVA data) |  |  |  |  |
 |  | Thu, Apr 9 | Analysis of Variance (ANOVA) Procedure |  |  |  | ✍️ HW 7 (due 4/17) |  |  |  |
 | 14 | Tue, Apr 14 | Correlation; Overview of Regression | 🖥️ correlation <br> 🖥️ regression <br> 👉 regression fitting | [IS Ch 27.1](https://chenghanyu-introstatsbook.netlify.app/model-reg#correlation); [IS Ch 27.2](https://chenghanyu-introstatsbook.netlify.app/model-reg#meaning-of-regression) | `r fontawesome::fa("file-code")` (correlation and regression) |  |  |  |  |

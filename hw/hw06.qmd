@@ -1,6 +1,6 @@
 ---
 title: "Homework 6"
-subtitle: "Comparing Two Population Means and Inference about Variances"
+subtitle: "Comparing Two Population Means"
 categories: "Homework"
 format:
   html:
@@ -12,7 +12,7 @@ execute:
 ---
 
 ::: callout-important
-[Due **Friday, Apr 3, 11:59 PM**]{.red}
+[Due **Friday, Apr 10, 11:59 PM**]{.red}
 :::
 
 - Homework 6 covers Week 9 and 10.
