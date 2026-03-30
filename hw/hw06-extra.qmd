@@ -19,6 +19,6 @@ execute:
 
 # Extra Credit Questions
 
-(@) Download the R script [bunny.R](../code/bunny.R), and run the code to generate your statistics bunny! Include the resulting image in your Homework 6.
+(@) Download the R script [bunny.R](../code/bunny.R), and run the code to generate your statistics bunny! Include the resulting image in your Homework Easter.
 
 (@) Look through the code and identify any probability distributions used to create the plot.
