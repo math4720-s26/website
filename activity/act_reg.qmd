@@ -57,9 +57,20 @@ abline(______)
 ```
 
 
+
+(5) Go to <https://forms.cloud.microsoft/r/b6cb3DxBbD> to fill out your result!
+
+```{r}
+#| echo: false
+#| column: body
+#| out-width: 30%
+knitr::include_graphics("../images/QRCode_reg.png")
+```
+
 ## Discussion
 
-- How does your group’s pattern compare to the overall line?
-- What does the slope mean in context?
-- Why might individual data vary around the line?
-- Would it make sense to predict shoe size for someone far outside our data range (e.g., 7'3" tall)? Why or why not?
+- Which variable is the predictor and which is the response?
+- Does your scatterplot show a positive, negative, or no clear linear relationship?
+- What is the estimated slope, and what does it mean in context?
+- What does the intercept mean here? Is it meaningful?
+- Why do points vary around the regression line instead of falling exactly on it?

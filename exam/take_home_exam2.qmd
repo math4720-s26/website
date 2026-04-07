@@ -32,19 +32,19 @@ editor: source
 
 # Exam Problems (50 points)
 
-(@) *[30 points]* A Marquette professor of College of Education believes that Marquette engineering students are talented and their mean ACT score is greater than 30. She would like to collect evidence of her claim and do a hypothesis testing. Marquette data center director said that the population of ACT score of engineering majors follows a normal distribution with the population variance of value 9.
-    (a) Is the claim a $H_0$ or $H_1$ claim? Write down $H_0$ and $H_1$ based on her claim. Is this a left-tailed, right-tailed, or two-tailed test? Please explain.
-    (b) Due to COVID-19, Marquette's research budget is cut. The professor's assistant can only collect a small random sample of size 16. Are one-sample $z$-test and/or $t$-test procedures appropriate with such a small size? If yes, why? If not, add conditions to make the procedures appropriate.
-    (c) The assistant never takes MATH 4720 and she only remembers that the professor said 31.7 is the threshold value to be compared with the observed sample mean $\overline{x}$. Should she reject $H_0$ when $\bar{x} > 31.7$ or when $\bar{x} < 31.7$? Please explain.
-    (d) Given the rejection region in (c), write down the definition of the Type I error rate in the problem and determine its value.
-    (e) If the $p$-value is 0.1, what is the value of observed sample mean $\overline{x}$?
-    (f) Based on (c), (d), (e), Is $H_0$ rejected?
+<!-- (@) *[30 points]* A Marquette professor of College of Education believes that Marquette engineering students are talented and their mean ACT score is greater than 30. She would like to collect evidence of her claim and do a hypothesis testing. Marquette data center director said that the population of ACT score of engineering majors follows a normal distribution with the population variance of value 9. -->
+<!--     (a) Is the claim a $H_0$ or $H_1$ claim? Write down $H_0$ and $H_1$ based on her claim. Is this a left-tailed, right-tailed, or two-tailed test? Please explain. -->
+<!--     (b) Due to COVID-19, Marquette's research budget is cut. The professor's assistant can only collect a small random sample of size 16. Are one-sample $z$-test and/or $t$-test procedures appropriate with such a small size? If yes, why? If not, add conditions to make the procedures appropriate. -->
+<!--     (c) The assistant never takes MATH 4720 and she only remembers that the professor said 31.7 is the threshold value to be compared with the observed sample mean $\overline{x}$. Should she reject $H_0$ when $\bar{x} > 31.7$ or when $\bar{x} < 31.7$? Please explain. -->
+<!--     (d) Given the rejection region in (c), write down the definition of the Type I error rate in the problem and determine its value. -->
+<!--     (e) If the $p$-value is 0.1, what is the value of observed sample mean $\overline{x}$? -->
+<!--     (f) Based on (c), (d), (e), Is $H_0$ rejected? -->
     <!-- (g) **(MSSC)** Write down the definition of the Type II error rate in the problem and determine its value if the true mean ACT score is 31 (the value of $\mu$ when $H_0$ is false) and the rejection region is $\{(x_1, x_2, \dots, x_{16}): \overline{x} \ge 31. 5\}$. -->
     <!-- (h) **(MSSC)** The [**statistical power**](https://chenghanyu-introstatsbook.netlify.app/infer-ht#statistical-power-and-choosing-sample-size), which is defined as 1 - type II error rate, or $1-\beta$, is a way to quantify the quality of a test. The power is the probability that the test correctly reject $H_0$ when $H_0$ is false. With the rejection region in (g), plot the power curve (power value vs. value of $\mu$) with mean values 30, 31, 32, 33, 34.  Explain your findings. -->
 
 ```{r}
-#| echo: true
-#| eval: true
+#| echo: false
+#| eval: false
 
 # ------------
 ## (a) 
@@ -101,7 +101,7 @@ pnorm((x_bar_cv_new - mu1) / sqrt(sig2 / n))
 #| label: tbl-anova
 #| tbl-cap: "Sampled data of the inside diameter of shields produced by machine A, B and C."
 #| echo: false
-#| eval: true
+#| eval: false
 library(knitr)
 
 tbl <- data.frame(
@@ -117,11 +117,11 @@ kable(tbl, align = c("r","r","r","r"))
 
 ```{r}
 #| echo: true
-#| eval: true
+#| eval: false
 # ------------
 ## (a)
 # ------------
-shield_machine <- read.csv("shield_machine.csv")
+shield_machine <- read.csv("./shield_machine.csv")
 shield_machine_new <- matrix(shield_machine[, 1], 15, 3)
 
 car::qqPlot(shield_machine_new[, 1])
