@@ -233,7 +233,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div>
 </section><section id="scatterplots" class="slide level2"><h2>Scatterplots</h2>
 
-<img data-src="14-correlation_files/figure-html/unnamed-chunk-3-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><ul>
+<img data-src="14-correlation_files/figure-revealjs/unnamed-chunk-3-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><ul>
 <li>Describe the overall pattern
 <ul>
 <li>Form: linear or clusters</li>
@@ -259,7 +259,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="14-correlation_files/figure-html/unnamed-chunk-4-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="14-correlation_files/figure-revealjs/unnamed-chunk-4-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -283,7 +283,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="14-correlation_files/figure-html/unnamed-chunk-5-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="14-correlation_files/figure-revealjs/unnamed-chunk-5-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -307,7 +307,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="14-correlation_files/figure-html/unnamed-chunk-6-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="14-correlation_files/figure-revealjs/unnamed-chunk-6-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -364,7 +364,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <span>     pch <span class="op">=</span> <span class="fl">16</span>, col <span class="op">=</span> <span class="fl">4</span>, las <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="14-correlation_files/figure-html/unnamed-chunk-8-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="14-correlation_files/figure-revealjs/unnamed-chunk-8-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -610,6 +610,41 @@ W10=
     window._ojs.paths.docToRoot = "..";
     window._ojs.selfContained = false;
     window._ojs.runtime.interpretFromScriptTags();
+    </script><script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
     </script><script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
