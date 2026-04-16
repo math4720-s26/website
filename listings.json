@@ -1,35 +1,5 @@
 [
   {
-    "listing": "/exercise.html",
-    "items": [
-      "/exercise/exercise1.html",
-      "/exercise/exercise2.html",
-      "/exercise/exercise3.html",
-      "/exercise/exercise_mlr.html"
-    ]
-  },
-  {
-    "listing": "/exam.html",
-    "items": [
-      "/exam/take_home_exam1.html",
-      "/exam/take_home_exam2.html"
-    ]
-  },
-  {
-    "listing": "/ws.html",
-    "items": [
-      "/ws/ws1.html",
-      "/ws/ws2.html",
-      "/ws/ws3.html",
-      "/ws/ws4.html",
-      "/ws/ws5.html",
-      "/ws/ws6.html",
-      "/ws/ws7.html",
-      "/ws/ws8.html",
-      "/ws/ws9.html"
-    ]
-  },
-  {
     "listing": "/hw.html",
     "items": [
       "/hw/hw03-extra.html",
@@ -41,6 +11,37 @@
       "/hw/hw05.html",
       "/hw/hw06.html",
       "/hw/hw07.html"
+    ]
+  },
+  {
+    "listing": "/ws.html",
+    "items": [
+      "/ws/ws1.html",
+      "/ws/ws10.html",
+      "/ws/ws2.html",
+      "/ws/ws3.html",
+      "/ws/ws4.html",
+      "/ws/ws5.html",
+      "/ws/ws6.html",
+      "/ws/ws7.html",
+      "/ws/ws8.html",
+      "/ws/ws9.html"
+    ]
+  },
+  {
+    "listing": "/exam.html",
+    "items": [
+      "/exam/take_home_exam1.html",
+      "/exam/take_home_exam2.html"
+    ]
+  },
+  {
+    "listing": "/exercise.html",
+    "items": [
+      "/exercise/exercise1.html",
+      "/exercise/exercise2.html",
+      "/exercise/exercise3.html",
+      "/exercise/exercise_mlr.html"
     ]
   }
 ]
