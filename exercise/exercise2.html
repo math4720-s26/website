@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.19">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <title>Exercise 2 – MATH 4720 (MSSC 5720) - Spring 2026</title>
 <style>
@@ -62,18 +62,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-2c9d57f40c98f3370ab025cbbe6ad21c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-311c866fdd058187a59d486837a94991.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -110,7 +111,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -309,7 +310,7 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none"></a>
+      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none"><img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none"></a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/math4720-s26/website" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
     <a href="https://d2l.mu.edu/d2l/home/630388" title="D2L" class="quarto-navigation-tool px-1" aria-label="D2L"><i class="bi bi-person-fill"></i></a>
@@ -428,23 +429,23 @@ window.Quarto = {
 </li>
 </ol>
 <div class="cell">
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## a) One sample t test with alpha 0.05</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## a) One sample t test with alpha 0.05</span></span>
 <span><span class="co">## H0: mu &gt;= 5; H1: mu &lt; 5</span></span>
-<span><span class="op">(</span><span class="va">t_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="fl">4.6</span> <span class="op">-</span> <span class="fl">5</span><span class="op">)</span> <span class="op">/</span> <span class="op">(</span><span class="fl">2.2</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">20</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="op">(</span><span class="va">t_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="fl">4.6</span> <span class="op">-</span> <span class="fl">5</span><span class="op">)</span> <span class="op">/</span> <span class="op">(</span><span class="fl">2.2</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">20</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] -0.8131156</code></pre>
 </div>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">t_cri</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.05</span>, df <span class="op">=</span> <span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span> <span class="co">## Do not reject H0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">t_cri</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.05</span>, df <span class="op">=</span> <span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span> <span class="co">## Do not reject H0</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] -1.729133</code></pre>
 </div>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## b) </span></span>
-<span><span class="fl">4.6</span> <span class="op">+</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.975</span>, df <span class="op">=</span> <span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span> <span class="op">*</span> <span class="op">(</span><span class="fl">2.2</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">20</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## b) </span></span>
+<span><span class="fl">4.6</span> <span class="op">+</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.975</span>, df <span class="op">=</span> <span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span> <span class="op">*</span> <span class="op">(</span><span class="fl">2.2</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fl">20</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3.570368 5.629632</code></pre>
 </div>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## c)</span></span>
-<span><span class="co"># Not agree. The test is one-sided, but the CI is two-sided.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## c)</span></span>
+<span><span class="co"># Not agree. The test is one-sided, but the CI is two-sided.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><br></p>
 <ol start="3" class="example" type="1">
@@ -478,23 +479,23 @@ window.Quarto = {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<div id="powujnngxo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#powujnngxo table {
+<div id="kxirpgubym" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#kxirpgubym table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#powujnngxo thead, #powujnngxo tbody, #powujnngxo tfoot, #powujnngxo tr, #powujnngxo td, #powujnngxo th {
+#kxirpgubym thead, #kxirpgubym tbody, #kxirpgubym tfoot, #kxirpgubym tr, #kxirpgubym td, #kxirpgubym th {
   border-style: none;
 }
 
-#powujnngxo p {
+#kxirpgubym p {
   margin: 0;
   padding: 0;
 }
 
-#powujnngxo .gt_table {
+#kxirpgubym .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -520,12 +521,12 @@ window.Quarto = {
   border-left-color: #D3D3D3;
 }
 
-#powujnngxo .gt_caption {
+#kxirpgubym .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#powujnngxo .gt_title {
+#kxirpgubym .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -537,7 +538,7 @@ window.Quarto = {
   border-bottom-width: 0;
 }
 
-#powujnngxo .gt_subtitle {
+#kxirpgubym .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -549,7 +550,7 @@ window.Quarto = {
   border-top-width: 0;
 }
 
-#powujnngxo .gt_heading {
+#kxirpgubym .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -561,13 +562,13 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#powujnngxo .gt_bottom_border {
+#kxirpgubym .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#powujnngxo .gt_col_headings {
+#kxirpgubym .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -582,7 +583,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#powujnngxo .gt_col_heading {
+#kxirpgubym .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -602,7 +603,7 @@ window.Quarto = {
   overflow-x: hidden;
 }
 
-#powujnngxo .gt_column_spanner_outer {
+#kxirpgubym .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -614,15 +615,15 @@ window.Quarto = {
   padding-right: 4px;
 }
 
-#powujnngxo .gt_column_spanner_outer:first-child {
+#kxirpgubym .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#powujnngxo .gt_column_spanner_outer:last-child {
+#kxirpgubym .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#powujnngxo .gt_column_spanner {
+#kxirpgubym .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -634,11 +635,11 @@ window.Quarto = {
   width: 100%;
 }
 
-#powujnngxo .gt_spanner_row {
+#kxirpgubym .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#powujnngxo .gt_group_heading {
+#kxirpgubym .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -664,7 +665,7 @@ window.Quarto = {
   text-align: left;
 }
 
-#powujnngxo .gt_empty_group_heading {
+#kxirpgubym .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -679,15 +680,15 @@ window.Quarto = {
   vertical-align: middle;
 }
 
-#powujnngxo .gt_from_md > :first-child {
+#kxirpgubym .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#powujnngxo .gt_from_md > :last-child {
+#kxirpgubym .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#powujnngxo .gt_row {
+#kxirpgubym .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -706,7 +707,7 @@ window.Quarto = {
   overflow-x: hidden;
 }
 
-#powujnngxo .gt_stub {
+#kxirpgubym .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -719,7 +720,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#powujnngxo .gt_stub_row_group {
+#kxirpgubym .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -733,15 +734,15 @@ window.Quarto = {
   vertical-align: top;
 }
 
-#powujnngxo .gt_row_group_first td {
+#kxirpgubym .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#powujnngxo .gt_row_group_first th {
+#kxirpgubym .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#powujnngxo .gt_summary_row {
+#kxirpgubym .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -751,16 +752,16 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#powujnngxo .gt_first_summary_row {
+#kxirpgubym .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#powujnngxo .gt_first_summary_row.thick {
+#kxirpgubym .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#powujnngxo .gt_last_summary_row {
+#kxirpgubym .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -770,7 +771,7 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#powujnngxo .gt_grand_summary_row {
+#kxirpgubym .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -780,7 +781,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#powujnngxo .gt_first_grand_summary_row {
+#kxirpgubym .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -790,7 +791,7 @@ window.Quarto = {
   border-top-color: #D3D3D3;
 }
 
-#powujnngxo .gt_last_grand_summary_row_top {
+#kxirpgubym .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -800,11 +801,11 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#powujnngxo .gt_striped {
+#kxirpgubym .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#powujnngxo .gt_table_body {
+#kxirpgubym .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -813,7 +814,7 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#powujnngxo .gt_footnotes {
+#kxirpgubym .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -827,7 +828,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#powujnngxo .gt_footnote {
+#kxirpgubym .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -836,7 +837,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#powujnngxo .gt_sourcenotes {
+#kxirpgubym .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -850,7 +851,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#powujnngxo .gt_sourcenote {
+#kxirpgubym .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -858,76 +859,76 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#powujnngxo .gt_left {
+#kxirpgubym .gt_left {
   text-align: left;
 }
 
-#powujnngxo .gt_center {
+#kxirpgubym .gt_center {
   text-align: center;
 }
 
-#powujnngxo .gt_right {
+#kxirpgubym .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#powujnngxo .gt_font_normal {
+#kxirpgubym .gt_font_normal {
   font-weight: normal;
 }
 
-#powujnngxo .gt_font_bold {
+#kxirpgubym .gt_font_bold {
   font-weight: bold;
 }
 
-#powujnngxo .gt_font_italic {
+#kxirpgubym .gt_font_italic {
   font-style: italic;
 }
 
-#powujnngxo .gt_super {
+#kxirpgubym .gt_super {
   font-size: 65%;
 }
 
-#powujnngxo .gt_footnote_marks {
+#kxirpgubym .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#powujnngxo .gt_asterisk {
+#kxirpgubym .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#powujnngxo .gt_indent_1 {
+#kxirpgubym .gt_indent_1 {
   text-indent: 5px;
 }
 
-#powujnngxo .gt_indent_2 {
+#kxirpgubym .gt_indent_2 {
   text-indent: 10px;
 }
 
-#powujnngxo .gt_indent_3 {
+#kxirpgubym .gt_indent_3 {
   text-indent: 15px;
 }
 
-#powujnngxo .gt_indent_4 {
+#kxirpgubym .gt_indent_4 {
   text-indent: 20px;
 }
 
-#powujnngxo .gt_indent_5 {
+#kxirpgubym .gt_indent_5 {
   text-indent: 25px;
 }
 
-#powujnngxo .katex-display {
+#kxirpgubym .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#powujnngxo div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#kxirpgubym div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead><tr class="gt_col_headings header">
 <th id="Version" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Version</th>
 <th id="n" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">\(n\)</th>
@@ -959,31 +960,31 @@ window.Quarto = {
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">n1</span> <span class="op">=</span> <span class="fl">30</span>; <span class="va">x1_bar</span> <span class="op">=</span> <span class="fl">79.4</span>; <span class="va">s1</span> <span class="op">=</span> <span class="fl">14</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">n1</span> <span class="op">=</span> <span class="fl">30</span>; <span class="va">x1_bar</span> <span class="op">=</span> <span class="fl">79.4</span>; <span class="va">s1</span> <span class="op">=</span> <span class="fl">14</span></span>
 <span><span class="va">n2</span> <span class="op">=</span> <span class="fl">27</span>; <span class="va">x2_bar</span> <span class="op">=</span> <span class="fl">74.1</span>; <span class="va">s2</span> <span class="op">=</span> <span class="fl">20</span></span>
 <span><span class="va">A</span> <span class="op">&lt;-</span> <span class="va">s1</span><span class="op">^</span><span class="fl">2</span> <span class="op">/</span> <span class="va">n1</span>; <span class="va">B</span> <span class="op">&lt;-</span> <span class="va">s2</span><span class="op">^</span><span class="fl">2</span> <span class="op">/</span> <span class="va">n2</span></span>
 <span><span class="va">df</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">A</span> <span class="op">+</span> <span class="va">B</span><span class="op">)</span><span class="op">^</span><span class="fl">2</span> <span class="op">/</span> <span class="op">(</span><span class="va">A</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="va">n1</span><span class="op">-</span><span class="fl">1</span><span class="op">)</span> <span class="op">+</span> <span class="va">B</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="va">n2</span><span class="op">-</span><span class="fl">1</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="op">(</span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">floor</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="op">(</span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">floor</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 45</code></pre>
 </div>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## t_test</span></span>
-<span><span class="op">(</span><span class="va">t_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">x1_bar</span> <span class="op">-</span> <span class="va">x2_bar</span><span class="op">)</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="va">s1</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="va">n1</span> <span class="op">+</span> <span class="va">s2</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="va">n2</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## t_test</span></span>
+<span><span class="op">(</span><span class="va">t_test</span> <span class="op">&lt;-</span> <span class="op">(</span><span class="va">x1_bar</span> <span class="op">-</span> <span class="va">x2_bar</span><span class="op">)</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="va">s1</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="va">n1</span> <span class="op">+</span> <span class="va">s2</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="va">n2</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.147085</code></pre>
 </div>
-<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## t_cv</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.01</span>, df <span class="op">=</span> <span class="va">df</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## t_cv</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">qt</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.01</span>, df <span class="op">=</span> <span class="va">df</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2.412116</code></pre>
 </div>
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p_value</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">pt</a></span><span class="op">(</span>q <span class="op">=</span> <span class="va">t_test</span>, df <span class="op">=</span> <span class="va">df</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p_value</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/TDist.html">pt</a></span><span class="op">(</span>q <span class="op">=</span> <span class="va">t_test</span>, df <span class="op">=</span> <span class="va">df</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.1287044</code></pre>
 </div>
-<div class="sourceCode" id="cb22"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># the data do not convincingly show that one exam</span></span>
-<span><span class="co"># version is more difficult than the other</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># the data do not convincingly show that one exam</span></span>
+<span><span class="co"># version is more difficult than the other</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><br><br><br></p>
 <ol start="5" class="example" type="1">
@@ -997,23 +998,23 @@ window.Quarto = {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<div id="ebdlfiinkp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ebdlfiinkp table {
+<div id="occuabwbrs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#occuabwbrs table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ebdlfiinkp thead, #ebdlfiinkp tbody, #ebdlfiinkp tfoot, #ebdlfiinkp tr, #ebdlfiinkp td, #ebdlfiinkp th {
+#occuabwbrs thead, #occuabwbrs tbody, #occuabwbrs tfoot, #occuabwbrs tr, #occuabwbrs td, #occuabwbrs th {
   border-style: none;
 }
 
-#ebdlfiinkp p {
+#occuabwbrs p {
   margin: 0;
   padding: 0;
 }
 
-#ebdlfiinkp .gt_table {
+#occuabwbrs .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1039,12 +1040,12 @@ window.Quarto = {
   border-left-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_caption {
+#occuabwbrs .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ebdlfiinkp .gt_title {
+#occuabwbrs .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1056,7 +1057,7 @@ window.Quarto = {
   border-bottom-width: 0;
 }
 
-#ebdlfiinkp .gt_subtitle {
+#occuabwbrs .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1068,7 +1069,7 @@ window.Quarto = {
   border-top-width: 0;
 }
 
-#ebdlfiinkp .gt_heading {
+#occuabwbrs .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1080,13 +1081,13 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_bottom_border {
+#occuabwbrs .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_col_headings {
+#occuabwbrs .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1101,7 +1102,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_col_heading {
+#occuabwbrs .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1121,7 +1122,7 @@ window.Quarto = {
   overflow-x: hidden;
 }
 
-#ebdlfiinkp .gt_column_spanner_outer {
+#occuabwbrs .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1133,15 +1134,15 @@ window.Quarto = {
   padding-right: 4px;
 }
 
-#ebdlfiinkp .gt_column_spanner_outer:first-child {
+#occuabwbrs .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ebdlfiinkp .gt_column_spanner_outer:last-child {
+#occuabwbrs .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ebdlfiinkp .gt_column_spanner {
+#occuabwbrs .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1153,11 +1154,11 @@ window.Quarto = {
   width: 100%;
 }
 
-#ebdlfiinkp .gt_spanner_row {
+#occuabwbrs .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ebdlfiinkp .gt_group_heading {
+#occuabwbrs .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1183,7 +1184,7 @@ window.Quarto = {
   text-align: left;
 }
 
-#ebdlfiinkp .gt_empty_group_heading {
+#occuabwbrs .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1198,15 +1199,15 @@ window.Quarto = {
   vertical-align: middle;
 }
 
-#ebdlfiinkp .gt_from_md > :first-child {
+#occuabwbrs .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ebdlfiinkp .gt_from_md > :last-child {
+#occuabwbrs .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ebdlfiinkp .gt_row {
+#occuabwbrs .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1225,7 +1226,7 @@ window.Quarto = {
   overflow-x: hidden;
 }
 
-#ebdlfiinkp .gt_stub {
+#occuabwbrs .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1238,7 +1239,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#ebdlfiinkp .gt_stub_row_group {
+#occuabwbrs .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1252,15 +1253,15 @@ window.Quarto = {
   vertical-align: top;
 }
 
-#ebdlfiinkp .gt_row_group_first td {
+#occuabwbrs .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ebdlfiinkp .gt_row_group_first th {
+#occuabwbrs .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ebdlfiinkp .gt_summary_row {
+#occuabwbrs .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1270,16 +1271,16 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#ebdlfiinkp .gt_first_summary_row {
+#occuabwbrs .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_first_summary_row.thick {
+#occuabwbrs .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ebdlfiinkp .gt_last_summary_row {
+#occuabwbrs .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1289,7 +1290,7 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_grand_summary_row {
+#occuabwbrs .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1299,7 +1300,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#ebdlfiinkp .gt_first_grand_summary_row {
+#occuabwbrs .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1309,7 +1310,7 @@ window.Quarto = {
   border-top-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_last_grand_summary_row_top {
+#occuabwbrs .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1319,11 +1320,11 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_striped {
+#occuabwbrs .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ebdlfiinkp .gt_table_body {
+#occuabwbrs .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1332,7 +1333,7 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_footnotes {
+#occuabwbrs .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1346,7 +1347,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_footnote {
+#occuabwbrs .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1355,7 +1356,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#ebdlfiinkp .gt_sourcenotes {
+#occuabwbrs .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1369,7 +1370,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#ebdlfiinkp .gt_sourcenote {
+#occuabwbrs .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1377,76 +1378,76 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#ebdlfiinkp .gt_left {
+#occuabwbrs .gt_left {
   text-align: left;
 }
 
-#ebdlfiinkp .gt_center {
+#occuabwbrs .gt_center {
   text-align: center;
 }
 
-#ebdlfiinkp .gt_right {
+#occuabwbrs .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ebdlfiinkp .gt_font_normal {
+#occuabwbrs .gt_font_normal {
   font-weight: normal;
 }
 
-#ebdlfiinkp .gt_font_bold {
+#occuabwbrs .gt_font_bold {
   font-weight: bold;
 }
 
-#ebdlfiinkp .gt_font_italic {
+#occuabwbrs .gt_font_italic {
   font-style: italic;
 }
 
-#ebdlfiinkp .gt_super {
+#occuabwbrs .gt_super {
   font-size: 65%;
 }
 
-#ebdlfiinkp .gt_footnote_marks {
+#occuabwbrs .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ebdlfiinkp .gt_asterisk {
+#occuabwbrs .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ebdlfiinkp .gt_indent_1 {
+#occuabwbrs .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ebdlfiinkp .gt_indent_2 {
+#occuabwbrs .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ebdlfiinkp .gt_indent_3 {
+#occuabwbrs .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ebdlfiinkp .gt_indent_4 {
+#occuabwbrs .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ebdlfiinkp .gt_indent_5 {
+#occuabwbrs .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ebdlfiinkp .katex-display {
+#occuabwbrs .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ebdlfiinkp div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#occuabwbrs div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead><tr class="gt_col_headings header">
 <th id="Source" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Source</th>
 <th id="Df" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Df</th>
@@ -1478,7 +1479,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode" id="cb23"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## (a) </span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## (a) </span></span>
 <span><span class="co"># H0: mu1 = mu2 = mu3; H1: not all mus are equal</span></span>
 <span></span>
 <span><span class="co">## (b)</span></span>
@@ -1486,7 +1487,7 @@ window.Quarto = {
 <span><span class="co"># difference between the average GPAs across three groups of majors.</span></span>
 <span></span>
 <span><span class="co">## (c)</span></span>
-<span><span class="co"># The total degrees of freedom is 195 + 2 = 197, so the sample size is 197 + 1 = 198.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="co"># The total degrees of freedom is 195 + 2 = 197, so the sample size is 197 + 1 = 198.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><br><br><br></p>
 <ol start="6" class="example" type="1">
@@ -1500,42 +1501,94 @@ window.Quarto = {
 </li>
 </ol>
 <div class="cell">
-<div class="sourceCode" id="cb24"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## (a)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## (a)</span></span>
 <span><span class="co">## test statistic</span></span>
-<span><span class="op">(</span><span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">10</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">15</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="op">(</span><span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">10</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">15</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 8.444444</code></pre>
 </div>
-<div class="sourceCode" id="cb26"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## critical values</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">qchisq</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.05</span><span class="op">/</span><span class="fl">2</span>, df <span class="op">=</span> <span class="fl">19</span>, lower.tail <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## critical values</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">qchisq</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.05</span><span class="op">/</span><span class="fl">2</span>, df <span class="op">=</span> <span class="fl">19</span>, lower.tail <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 8.906516</code></pre>
 </div>
-<div class="sourceCode" id="cb28"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">qchisq</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.05</span><span class="op">/</span><span class="fl">2</span>, df <span class="op">=</span> <span class="fl">19</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">qchisq</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.05</span><span class="op">/</span><span class="fl">2</span>, df <span class="op">=</span> <span class="fl">19</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 32.85233</code></pre>
 </div>
-<div class="sourceCode" id="cb30"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
-<span><span class="fl">2</span><span class="op">*</span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">pchisq</a></span><span class="op">(</span><span class="op">(</span><span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">10</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">15</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span>, df <span class="op">=</span> <span class="fl">19</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
+<span><span class="fl">2</span><span class="op">*</span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">pchisq</a></span><span class="op">(</span><span class="op">(</span><span class="fl">20</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">10</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">15</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span>, df <span class="op">=</span> <span class="fl">19</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.03677387</code></pre>
 </div>
-<div class="sourceCode" id="cb32"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## (b)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## (b)</span></span>
 <span><span class="co">## test statistic</span></span>
-<span><span class="op">(</span><span class="fl">5</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">18</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">12</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="op">(</span><span class="fl">5</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">18</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">12</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 9</code></pre>
 </div>
-<div class="sourceCode" id="cb34"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## critical value</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">qchisq</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.01</span>, df <span class="op">=</span> <span class="fl">4</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb34"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## critical value</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">qchisq</a></span><span class="op">(</span>p <span class="op">=</span> <span class="fl">0.01</span>, df <span class="op">=</span> <span class="fl">4</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 13.2767</code></pre>
 </div>
-<div class="sourceCode" id="cb36"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">pchisq</a></span><span class="op">(</span><span class="op">(</span><span class="fl">5</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">18</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">12</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span>, df <span class="op">=</span> <span class="fl">4</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb36"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## p-value</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/Chisquare.html">pchisq</a></span><span class="op">(</span><span class="op">(</span><span class="fl">5</span> <span class="op">-</span> <span class="fl">1</span><span class="op">)</span><span class="op">*</span><span class="fl">18</span><span class="op">^</span><span class="fl">2</span><span class="op">/</span><span class="op">(</span><span class="fl">12</span><span class="op">^</span><span class="fl">2</span><span class="op">)</span>, df <span class="op">=</span> <span class="fl">4</span>, lower.tail <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.06109948</code></pre>
 </div>
+</div>
+<ol start="7" class="example" type="1">
+<li>A patient named Diana was diagnosed with Fibromyalgia, a long-term syndrome of body pain, and was prescribed anti-depressants. Being the skeptic that she is, Diana didn’t initially believe that anti-depressants would help her symptoms. However after a couple months of being on the medication she decides that the anti-depressants are working, because she feels like her symptoms are in fact getting better.
+<ol type="a">
+<li>Write the hypotheses in words for Diana’s skeptical position when she started taking the anti-depressants.</li>
+<li>What is a Type 1 Error in this context?</li>
+<li>What is a Type 2 Error in this context?</li>
+</ol>
+</li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb38"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## (a)</span></span>
+<span><span class="co">## H0: Anti-depressants do not affect the symptoms of Fibromyalgia. </span></span>
+<span><span class="co">## HA: Anti-depressants do affect the symptoms of Fibromyalgia (either helping or harming).</span></span>
+<span><span class="co">## (b)</span></span>
+<span><span class="co">## Concluding that anti-depressants either help or worsen Fibromyalgia symptoms </span></span>
+<span><span class="co">## when they actually do neither.</span></span>
+<span><span class="co">## (c)</span></span>
+<span><span class="co">## Concluding that anti-depressants do not affect Fibromyalgia symptoms when they actually do.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ol start="8" class="example" type="1">
+<li>
+<strong>True or false</strong>.
+<ol type="a">
+<li>The chi-square distribution, just like the normal distribution, has two parameters, mean and standard deviation.</li>
+<li>Consider two sets of data that are paired with each other. Each observation in one data set has a natural correspondence with exactly one observation from the other data set.</li>
+<li>As the degrees of freedom increases, the <span class="math inline">\(t\)</span>-distribution approaches normality.</li>
+<li>A correlation coefficient of -0.90 indicates a stronger linear relationship than a correlation of 0.5.</li>
+</ol>
+</li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb39"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## F</span></span>
+<span><span class="co">## T</span></span>
+<span><span class="co">## T</span></span>
+<span><span class="co">## T</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ol start="9" class="example" type="1">
+<li>Consider a regression predicting weight (kg) from height (cm) for a sample of adult males. What are the units of the correlation coefficient, the intercept, and the slope?</li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb40"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Correlation: no units. Intercept: kg. Slope: kg/cm.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ol start="10" class="example" type="1">
+<li>Is the gestational age (time between conception and birth) of a low birth-weight baby useful in predicting head circumference at birth? Twenty-five low birth-weight babies were studied at a Harvard teaching hospital; the investigators calculated the regression of head circumference (measured in centimeters) against gestational age (measured in weeks). The estimated regression line is <span class="math display">\[\widehat{\text{head circumference}} = 3.91 + 0.78 \times \text{gestational age}\]</span>
+<ol type="a">
+<li>What is the predicted head circumference for a baby whose gestational age is 28 weeks?</li>
+</ol>
+</li>
+</ol>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb41"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># 3.91 + 0.78 * 28 = 25.75</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 

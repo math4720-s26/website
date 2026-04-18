@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.19">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Worksheet 1 – MATH 4720 (MSSC 5720) - Spring 2026</title>
+
+
+<title>AI Final Project – MATH 4720 (MSSC 5720) - Spring 2026</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,6 +21,7 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
+
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -39,7 +43,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-311c866fdd058187a59d486837a94991.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -66,13 +71,42 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta property="og:title" content="Worksheet 1 – MATH 4720 (MSSC 5720) - Spring 2026">
-<meta property="og:description" content="Summarizing data">
-<meta property="og:image" content="https://math4720-s26.github.io/website/ws/ws1-hist.png">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="AI Final Project – MATH 4720 (MSSC 5720) - Spring 2026">
+<meta property="og:description" content="Short Version for Intro Students">
 <meta property="og:site_name" content="MATH 4720 (MSSC 5720) - Spring 2026">
-<meta property="og:image:height" content="238">
-<meta property="og:image:width" content="702">
 </head>
+
 <body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
@@ -238,22 +272,30 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Worksheet 1</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">AI Final Project</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-center sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none"><img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none"></a>
+      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/math4720-s26/website" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
     <a href="https://d2l.mu.edu/d2l/home/630388" title="D2L" class="quarto-navigation-tool px-1" aria-label="D2L"><i class="bi bi-person-fill"></i></a>
@@ -267,7 +309,7 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-<li class="sidebar-item sidebar-item-section">
+        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Course Information</span></a>
@@ -275,8 +317,8 @@ ul.task-list li input[type="checkbox"] {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../course-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
@@ -301,7 +343,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../hw.html" class="sidebar-item-text sidebar-link">
@@ -315,18 +357,48 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
     </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#what-to-submit" id="toc-what-to-submit" class="nav-link" data-scroll-target="#what-to-submit">What to Submit</a>
+  <ul class="collapse">
+  <li><a href="#part-a.-short-data-analysis-report" id="toc-part-a.-short-data-analysis-report" class="nav-link" data-scroll-target="#part-a.-short-data-analysis-report">Part A. Short Data Analysis Report</a></li>
+  <li><a href="#part-b.-ai-learning-record" id="toc-part-b.-ai-learning-record" class="nav-link" data-scroll-target="#part-b.-ai-learning-record">Part B. AI Learning Record</a></li>
+  <li><a href="#part-c.-reflection-and-evidence" id="toc-part-c.-reflection-and-evidence" class="nav-link" data-scroll-target="#part-c.-reflection-and-evidence">Part C. Reflection and Evidence</a></li>
+  </ul></li>
+  <li><a href="#ai-rules" id="toc-ai-rules" class="nav-link" data-scroll-target="#ai-rules">AI Rules</a>
+  <ul class="collapse">
+  <li><a href="#you-may-use-ai-to" id="toc-you-may-use-ai-to" class="nav-link" data-scroll-target="#you-may-use-ai-to">You may use AI to</a></li>
+  <li><a href="#you-may-not-use-ai-to" id="toc-you-may-not-use-ai-to" class="nav-link" data-scroll-target="#you-may-not-use-ai-to">You may not use AI to</a></li>
+  </ul></li>
+  <li><a href="#starter-prompt-options" id="toc-starter-prompt-options" class="nav-link" data-scroll-target="#starter-prompt-options">Starter Prompt Options</a>
+  <ul class="collapse">
+  <li><a href="#option-1" id="toc-option-1" class="nav-link" data-scroll-target="#option-1">Option 1</a></li>
+  <li><a href="#option-2" id="toc-option-2" class="nav-link" data-scroll-target="#option-2">Option 2</a></li>
+  <li><a href="#option-3" id="toc-option-3" class="nav-link" data-scroll-target="#option-3">Option 3</a></li>
+  </ul></li>
+  <li><a href="#data-set" id="toc-data-set" class="nav-link" data-scroll-target="#data-set">Data Set</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/project/streamlined_final_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Worksheet 1</h1>
-<p class="subtitle lead">Summarizing data</p>
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI Final Project</h1>
+<p class="subtitle lead">Short Version for Intro Students</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Worksheet</div>
+    <div class="quarto-category">Project</div>
   </div>
   </div>
 
@@ -341,34 +413,237 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><p><strong>Marathon winners.</strong> The histogram and box plots below show the distribution of finishing times for male and female winners of the New York Marathon between 1970 and 1999</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="./ws1-hist.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
-</figure>
+</header>
+
+
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>This is an <strong>individual</strong> project <span class="red">due <strong>Friday, May 8, 5:30 PM.</strong></span></p>
+<p>Please submit your entire work in <em>one</em> <strong>PDF</strong> file to <strong>D2L &gt; Assessments &gt; Dropbox</strong>. Multiple files or a file that is not in pdf format is not allowed.</p>
 </div>
-<ol type="a">
-<li>What features of the distribution are apparent in the histogram and not the box plot? What features are apparent in the box plot but not in the histogram?</li>
-<li>What may be the reason for the bimodal distribution? Explain.</li>
-<li>Compare the distribution of marathon times for men and women based on the box plot shown below.</li>
+</div>
+<section id="goal" class="level1">
+<h1>Goal</h1>
+<p>In this project, you will use <strong>AI to help yourself learn</strong> multiple linear regression.</p>
+<p>The point is <strong>not</strong> to let AI do the project for you. The point is to use AI as a tutor, coach, or checker while <strong>you</strong> do the statistical thinking.</p>
+<p>A weak project uses AI to generate words.</p>
+<p>A strong project uses AI to improve understanding.</p>
+</section>
+<section id="what-to-submit" class="level1">
+<h1>What to Submit</h1>
+<p>Submit <strong>one PDF</strong> to <strong>D2L</strong>. Your PDF should include these parts:</p>
+<section id="part-a.-short-data-analysis-report" class="level2">
+<h2 class="anchored" data-anchor-id="part-a.-short-data-analysis-report">Part A. Short Data Analysis Report</h2>
+<p>Write a <strong>3-page</strong> report.</p>
+<p>Include:</p>
+<ol type="1">
+<li><p><strong>Introduction</strong><br>
+Briefly explain the question and define the variables.</p></li>
+<li><p><strong>Graphs</strong><br>
+Include scatterplots for:</p>
+<ul>
+<li>stress versus sleep</li>
+<li>stress versus caffeine</li>
+<li>sleep versus caffeine</li>
+</ul></li>
+<li><p><strong>Model</strong><br>
+Fit a multiple linear regression model predicting <code>stress</code> from <code>sleep</code> and <code>caffeine</code>.</p></li>
+<li><p><strong>Interpretation</strong><br>
+Interpret:</p>
+<ul>
+<li>the intercept</li>
+<li>the coefficient for sleep</li>
+<li>the coefficient for caffeine</li>
+<li><span class="math inline">\(R^2\)</span></li>
+</ul></li>
+<li><p><strong>Assumptions and Limitations</strong><br>
+Discuss at least <strong>two</strong> assumptions or diagnostic concerns and at least <strong>one</strong> limitation.</p></li>
+<li><p><strong>Conclusion</strong><br>
+Give a short conclusion in plain language.</p></li>
 </ol>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="./ws1-boxplot.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
-</figure>
+</section>
+<section id="part-b.-ai-learning-record" class="level2">
+<h2 class="anchored" data-anchor-id="part-b.-ai-learning-record">Part B. AI Learning Record</h2>
+<p>Use the <a href="./streamlined_ai_learning_record.docx"><strong>short AI learning record template</strong></a>.</p>
+<p>This should be about <strong>1 page</strong>.</p>
+<p>For your most important AI interactions, briefly record:</p>
+<ul>
+<li>what you were trying to learn</li>
+<li>what you asked</li>
+<li>what AI told you</li>
+<li>what you accepted, changed, or rejected</li>
+<li>how you checked it</li>
+</ul>
+</section>
+<section id="part-c.-reflection-and-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="part-c.-reflection-and-evidence">Part C. Reflection and Evidence</h2>
+<p>Write a short reflection of about <strong>250 to 300 words</strong>.</p>
+<p>Also include <strong>selected transcript excerpts or screenshots</strong> that show how you used AI.</p>
+<p>Your reflection must answer these questions:</p>
+<ul>
+<li>How did AI help you learn?</li>
+<li>What is one thing AI explained well?</li>
+<li>What is one place where AI was incomplete, vague, or wrong?</li>
+<li>How did you check or verify the AI output?</li>
+</ul>
+</section>
+</section>
+<section id="ai-rules" class="level1">
+<h1>AI Rules</h1>
+<p>You may use <strong>one text-based generative AI tool</strong> such as ChatGPT, Gemini, Copilot, Claude, or another approved tool.</p>
+<section id="you-may-use-ai-to" class="level2">
+<h2 class="anchored" data-anchor-id="you-may-use-ai-to">You may use AI to</h2>
+<ul>
+<li>ask for simple explanations</li>
+<li>ask AI to quiz you</li>
+<li>ask for help understanding regression ideas</li>
+<li>ask what assumptions you should check</li>
+<li>ask AI to critique your reasoning</li>
+</ul>
+</section>
+<section id="you-may-not-use-ai-to" class="level2">
+<h2 class="anchored" data-anchor-id="you-may-not-use-ai-to">You may not use AI to</h2>
+<ul>
+<li>write your final report for you</li>
+<li>give you final report-ready paragraphs to submit</li>
+<li>make your final conclusions for this dataset</li>
+<li>replace your own reasoning</li>
+</ul>
+<p>A simple rule:</p>
+<blockquote class="blockquote">
+<p>AI can help you learn, but it cannot replace your thinking.</p>
+</blockquote>
+</section>
+</section>
+<section id="starter-prompt-options" class="level1">
+<h1>Starter Prompt Options</h1>
+<p>Pick <strong>one</strong> of these to begin.</p>
+<section id="option-1" class="level2">
+<h2 class="anchored" data-anchor-id="option-1">Option 1</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>I am learning multiple linear regression for a class project. Please teach me in simple language. Do not write my report. Ask me questions one at a time so I have to think.</p>
 </div>
-<!-- <br> -->
-<!-- **Answer:** -->
+</div>
+</section>
+<section id="option-2" class="level2">
+<h2 class="anchored" data-anchor-id="option-2">Option 2</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I am working on a regression project with the variables sleep, caffeine, and stress. Please act like a tutor. Help me understand the model, coefficients, assumptions, and limitations, but do not give me final report text.</p>
+</div>
+</div>
+</section>
+<section id="option-3" class="level2">
+<h2 class="anchored" data-anchor-id="option-3">Option 3</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I am going to explain my reasoning about my regression project. Please tell me what is unclear, incomplete, or possibly wrong, and tell me what I should verify.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="data-set" class="level1">
+<h1>Data Set</h1>
+<p>The data file is <a href="./health_sleep_caffeine_stress.csv"><strong>here</strong></a>.</p>
+<p>Variables:</p>
+<ul>
+<li><code>sleep</code>: average hours of sleep per night</li>
+<li><code>caffeine</code>: average daily caffeine intake in milligrams</li>
+<li><code>stress</code>: perceived stress score</li>
+</ul>
+<p>Use a multiple linear regression model to study how <code>sleep</code> and <code>caffeine</code> are related to <code>stress</code>.</p>
+<!-- # Suggested Timeline -->
+<!-- ## Days 1 to 3 -->
+<!-- - open the data -->
+<!-- - start your AI conversation -->
+<!-- - review or learn the main regression ideas -->
+<!-- ## Days 4 to 6 -->
+<!-- - make the graphs -->
+<!-- - fit the model -->
+<!-- - write your first interpretations -->
+<!-- - ask AI to check your reasoning -->
+<!-- ## Days 7 to 10 -->
+<!-- - revise your report -->
+<!-- - complete the AI learning record -->
+<!-- - write the reflection -->
+<!-- - add transcript evidence -->
+<!-- - submit one PDF -->
+</section>
+<section id="grading" class="level1">
+<h1>Grading</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Category</th>
+<th style="text-align: right;">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Correct statistical work and interpretation</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr class="even">
+<td>Clear report with graphs and model discussion</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr class="odd">
+<td>AI learning record and transcript evidence</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="even">
+<td>Verification and critique of AI output</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td>Reflection</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total: 100 points</strong></p>
+<!-- # Final Reminder -->
+<!-- A weak project uses AI to generate words. -->
+<!-- A strong project uses AI to improve understanding. -->
 
 
+</section>
 
-</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -781,18 +1056,21 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>© Copyright 2026, Cheng-Han Yu</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/ws/ws1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/math4720-s26/website/edit/main/project/streamlined_final_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math4720-s26/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
   </div>
 </footer>
+
+
 
 
 </body></html>
