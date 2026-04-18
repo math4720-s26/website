@@ -36,23 +36,23 @@ df
 ```{r}
 #| eval: false
 # (a) Plot your data. Height on the x-axis, Shoe Size on the y-axis.
-plot(x = ______, y = _______)
+plot(x = df$height, y = df$size)
 ```
 
 
 ```{r}
 #| eval: false
 # (b) Fit the simple linear regression model
-model <- lm(____ ~ ____)
+model <- lm(df$size ~ df$height)
 
 # (c) Draw the fitted regression line.
-abline(______)
+abline(model)
 ```
 
 
 ```{r}
 #| eval: false
-
+#| echo: false
 # (d) Obtain the estimated slope. What does it mean in context? Is the effect statistically significant?
 ```
 
