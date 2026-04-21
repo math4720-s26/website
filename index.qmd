@@ -38,7 +38,7 @@ format:
 |  | Thu, Apr 9 | Analysis of Variance (ANOVA) Procedure |  |  |  | ✍️ [HW 7 (due 4/17)](hw/hw07.html) | [Worksheet 9](ws/ws9.html) |  |  |
 | 14 | Tue, Apr 14 | Correlation; Overview of Regression | [🖥️ correlation](/slides/14-correlation-slides.html) <br> 🖥️ [regression](/slides/15-regression-slides.html) <br> 👉 [regression fitting](ojs/model-reg-ojs.html) | [IS Ch 27.1](https://chenghanyu-introstatsbook.netlify.app/model-reg#correlation); [IS Ch 27.2](https://chenghanyu-introstatsbook.netlify.app/model-reg#meaning-of-regression) | [`r fontawesome::fa("file-code")`](/code/26-model-reg.R) (correlation and regression) |  |  |  |  |
 |  | Thu, Apr 16 | Simple Linear Regression: Model and Fitting [**Activity: Height vs. Shoe Size**](/activity/act_reg.html) | 👉 [sampling distribution of coefficients](ojs/model-reg-beta-ojs.html) | [IS Ch 27.3 - 27.5](https://chenghanyu-introstatsbook.netlify.app/model-reg#fitting-a-regression-line-haty-b_0-b_1x) |  |  | [Worksheet 10](ws/ws10.html) | ✅ [Quiz 4](/documents/quiz4_s26.pdf) | [Exercise 2](exercise/exercise2.html) |
-| 15 | Tue, Apr 21 | **In-class Exam 2** |  |  |  |  |  |  | ✅ Take-home Exam 2 |
+| 15 | Tue, Apr 21 | **In-class Exam 2** |  |  |  |  |  |  | ✅ [Take-home Exam 2](/exam/take_home_exam2.html) |
 |  | Thu, Apr 23 | Simple Linear Regression: Inference |  | [IS Ch 27.6](https://chenghanyu-introstatsbook.netlify.app/model-reg#prediction) |  | ✍️ HW 8 (due 5/1) |  |  |  |
 | 16 | Tue, Apr 28 | Simple Linear Regression: Prediction |  |  |  |  |  |  | 📂 Final Project Guideline |
 |  | Tue, Apr 30 | To Be Determined [SDSS Conference](https://ww2.amstat.org/meetings/sdss/2026/) |  |  |  |  |  |  |  |
