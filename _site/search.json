@@ -192,7 +192,7 @@
     "href": "hw.html",
     "title": "Homework",
     "section": "",
-    "text": "More homework sets to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\nDue date\n\n\n\n\n\n\n\n\nExtra credit opportunity I\n\n\nHappy Valentine’s Day!🩷💖\n\n\n\n\n\n\n\n\n\nExtra credit opportunity II\n\n\nHappy Easter!🐣🐰🥚\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\nData Collection and Data Type\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\nBasic R, Data Description and Graphics\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\nProbability Fundamentals\n\n\n\n\n\n\n\n\n\nHomework 4\n\n\nProbability Distributions\n\n\n\n\n\n\n\n\n\nHomework 5\n\n\nInferences about population means\n\n\n\n\n\n\n\n\n\nHomework 6\n\n\nComparing Two Population Means\n\n\n\n\n\n\n\n\n\nHomework 7\n\n\nInference about Variances\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "More homework sets to be added as the semester progresses.\n\n\n\n\n\n\n\n\n\n\nNo.\n\n\n\nTitle\n\n\n\nDue date\n\n\n\n\n\n\n\n\nExtra credit opportunity I\n\n\nHappy Valentine’s Day!🩷💖\n\n\n\n\n\n\n\n\n\nExtra credit opportunity II\n\n\nHappy Easter!🐣🐰🥚\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\nData Collection and Data Type\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\nBasic R, Data Description and Graphics\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\nProbability Fundamentals\n\n\n\n\n\n\n\n\n\nHomework 4\n\n\nProbability Distributions\n\n\n\n\n\n\n\n\n\nHomework 5\n\n\nInferences about population means\n\n\n\n\n\n\n\n\n\nHomework 6\n\n\nComparing Two Population Means\n\n\n\n\n\n\n\n\n\nHomework 7\n\n\nInference about Variances\n\n\n\n\n\n\n\n\n\nHomework 8\n\n\nCorrelation and Linear Regression\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Homework"
     ]
@@ -3366,14 +3366,14 @@
     "href": "activity/act_descriptive.html#instructions",
     "title": "Activity: Descriptive statistics",
     "section": "Instructions",
-    "text": "Instructions\nForm a group of four or five.\nLoad airquality data\n\ndata(airquality)\nhead(airquality)\n\n  Ozone Solar.R Wind Temp Month Day\n1    41     190  7.4   67     5   1\n2    36     118  8.0   72     5   2\n3    12     149 12.6   74     5   3\n4    18     313 11.5   62     5   4\n5    NA      NA 14.3   56     5   5\n6    28      NA 14.9   66     5   6\n\nstr(airquality)\n\n'data.frame':   153 obs. of  6 variables:\n $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...\n $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...\n $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...\n $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...\n $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...\n $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...\n\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhat does the function head() do?\nWhat does NA mean?\nDiscuss the data type of the variables in the airquality data.\n\n\n\nCreate the histogram and the boxplot of the variable Ozone\n\n\n____(_________________, breaks = 15, main = \"Histogram of Ozone\")\n\n\n_______(_________________, main = \"Boxplot of Ozone\")\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nIs the distribution symmetric, left-skewed or right-skewed?\nIs the distribution unimodal or bimodal?\nAre there outliers?\n\n\n\nBoxplot of ozone by month\n\n\nboxplot(_____ ~ _____, data = airquality)\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich month has the highest typical ozone?\nWhich month looks most variable?"
+    "text": "Instructions\nForm a group of four or five.\nLoad airquality data\n\ndata(airquality)\nhead(airquality)\n\n  Ozone Solar.R Wind Temp Month Day\n1    41     190  7.4   67     5   1\n2    36     118  8.0   72     5   2\n3    12     149 12.6   74     5   3\n4    18     313 11.5   62     5   4\n5    NA      NA 14.3   56     5   5\n6    28      NA 14.9   66     5   6\n\nstr(airquality)\n\n'data.frame':   153 obs. of  6 variables:\n $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...\n $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...\n $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...\n $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...\n $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...\n $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...\n\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nWhat does the function head() do?\nWhat does NA mean?\nDiscuss the data type of the variables in the airquality data.\n\n\n\nCreate the histogram and the boxplot of the variable Ozone\n\n\n____(_________________, breaks = 15, main = \"Histogram of Ozone\")\n\n\n_______(_________________, main = \"Boxplot of Ozone\")\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nIs the distribution symmetric, left-skewed or right-skewed?\nIs the distribution unimodal or bimodal?\nAre there outliers?\n\n\n\nBoxplot of ozone by month\n\n\nboxplot(_____ ~ _____, data = airquality)\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nWhich month has the highest typical ozone?\nWhich month looks most variable?"
   },
   {
     "objectID": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
     "href": "activity/act_descriptive.html#obtain-the-mean-median-iqr-minimum-and-maximum-of-ozone",
     "title": "Activity: Descriptive statistics",
     "section": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n",
-    "text": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n\n\n\n\n\n\n\nNoteDiscussion\n\n\n\n\nWhich is larger, the mean or the median?\nWhat does that suggest about skewness and outliers?"
+    "text": "Obtain the mean, median, IQR, minimum, and maximum of Ozone\n\n\n\n\n\n\n\nDiscussion\n\n\n\n\nWhich is larger, the mean or the median?\nWhat does that suggest about skewness and outliers?"
   },
   {
     "objectID": "activity/act_descriptive.html#conclusion",
@@ -3471,7 +3471,7 @@
     "href": "index.html",
     "title": "MATH 4720 (MSSC 5720) Statistical Methods Spring 2026",
     "section": "",
-    "text": "This schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nReading\nR Code\nHomework\nWorksheet\nQuiz\nExam/Project\n\n\n\n1\nTue, Jan 13\nSyllabus/Overview of Statistics\n\n🖥️ syllabus🖥️ statistics and data\n\n\nSyllabusIS Ch1GenAI Video\n\n\n\n\n\n\n\n\n\nThu, Jan 15\nStatistical Studies and Data Collection; Data Type\n\nIS Ch 2\n\n✍️ HW 1 (due 1/23)\n\n\n\n\n\n\n2\nTue, Jan 20\nR Software and Computation\n\n🖥️ R and RStudio🖥️ data type and structure\n\nIS Ch 3\n\n (data type and structure)\n\n\n\n\n\n\n\nThu, Jan 22\nSummarizing Data: Tables and Graphics\n\n🖥️ data summary👉histogram breaks👉data extremes\n\nIS Ch 5 - 6\n\n (data graphics)\n\n\n\n\n\n\n3\nTue, Jan 27\nSummarizing Data: Numerical measures\n\n\n\n (data numerics)\n\n\n\n\n\n\n\nThu, Jan 29\nProbability Fundamentals\n\n🖥️ probability👉Venn diagram\n\nIS Ch 7 - 8\n\n✍️ HW 2 (due 2/6)\n\nWorksheet 1\n\n\n\n\n4\nTue, Feb 3\nConditional Probability, Independence, Bayes Formula\n\n\n\n\nWorksheet 2\n\n\n\n\n\nThu, Feb 5\nRandom Variables, Discrete Probability Distributions\n\n🖥️ distribution 👉binomial👉poisson\n\nIS Ch 9 - 10\n\n (discrete distribution)\n✍️ HW 3 (due 2/13✍️Extra Credit (due 2/13)\n\n\n✅ Quiz 1\n\n\n\n\n5\nTue, Feb 10\nContinuous Probability Distributions\n👉normal\n\nIS Ch 11\n\n (continuous distribution)\n\nWorksheet 3\n\n\n\n\n\nThu, Feb 12\nSampling Distributions Activity: Match the Scenario to the Distribution\n\n🖥️ sampling-dist-clt\nIS Ch 12\n\n (sampling distribution and CLT)\n\n\n\n\n\n\n6\nTue, Feb 17\nCentral Limit Theorem (CLT)\n👉CLT 👉Rolling dice\n\nIS Ch 13\n\n\n\n\n\n\n\n\nThu, Feb 19\nConfidence Intervals\n\n🖥️ confidence interval  👉CI\n\nIS Ch 14\n\n (confidence interval)\n✍️ HW 4 (due 2/27)\n\nWorksheet 4\n\n\n\n\n7\nTue, Feb 24\nConfidence Intervals\n👉Student-t\n\n\n\n\n\n\n\n\n\n\nThu, Feb 26\nExam 1 Review Activity: How Much Do Students Sleep?\n\n\n\n\n\nWorksheet 5\n✅ Quiz 2\n\nExercise 1\n\n\n8\nTue, Mar 3\nIn-class Exam 1\n\n\n\n\n\n\n✅ Take-home Exam 1\n\n\n\nThu, Mar 5\nHypothesis Testing\n\n🖥️ testing 👉testing\n\nIS Ch 16\n\n (testing)\n\n\n\n\n\n\n9\nTue, Mar 10\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n\nThu, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n10\nTue, Mar 17\nHypothesis Testing\n\n\n\n\n\n\n\n\n\n\nThu, Mar 19\nTwo Population Means: Matched Pairs\n🖥️ two samples\nIS Ch 17\n\n (two samples)\n✍️ HW 5 (due 3/27)\n\nWorksheet 6\n\n\n\n\n11\nTue, Mar 24\nTwo Population Means: Independent Samples\n\n\n\n\nWorksheet 7\n\n\n\n\n\nThu, Mar 26\nInference for One Population Variance\n\n🖥️ variances  👉chi-squared\n\nIS Ch 18\n\n (variances)\n\n\n\n\n\n\n12\nTue, Mar 31\nInference about Two Population Variances\n👉 f\n\n\n\n✍️ Extra Credit (due 4/3)\n\n\n✅ Quiz 3\n\n\n\n\n\nThu, Apr 2\nNO CLASS: Easter break\n\n\n\n✍️ HW 6 (due 4/10)\n\nWorksheet 8\n\n\n\n\n13\nTue, Apr 7\nAnalysis of Variance (ANOVA) Rationale\n🖥️ ANOVA\nIS Ch 24\n\n (ANOVA data)\n\n\n\n\n\n\n\nThu, Apr 9\nAnalysis of Variance (ANOVA) Procedure\n\n\n\n✍️ HW 7 (due 4/17)\n\nWorksheet 9\n\n\n\n\n14\nTue, Apr 14\nCorrelation; Overview of Regression\n\n🖥️ correlation  🖥️ regression  👉 regression fitting\n\n\nIS Ch 27.1; IS Ch 27.2\n\n\n (correlation and regression)\n\n\n\n\n\n\n\nThu, Apr 16\nSimple Linear Regression: Model and Fitting Activity: Height vs. Shoe Size\n\n👉 sampling distribution of coefficients\n\nIS Ch 27.3 - 27.5\n\n\nWorksheet 10\n✅ Quiz 4\n\nExercise 2\n\n\n15\nTue, Apr 21\nIn-class Exam 2\n\n\n\n\n\n\n✅ Take-home Exam 2\n\n\n\n\nThu, Apr 23\nSimple Linear Regression: Inference\n\nIS Ch 27.6\n\n✍️ HW 8 (due 5/1)\n\n\n\n\n\n16\nTue, Apr 28\nSimple Linear Regression: Prediction\n\n\n\n\n\n\n📂 Final Project Guideline\n\n\n\nTue, Apr 30\nTo Be Determined SDSS Conference\n\n\n\n\n\n\n\n\n\n\n17\nFri, May 8\nFinal Project\n\n\n\n\n\n\n\n\n\n\n\nDr. Yu reserves the right to make changes to the schedule.",
+    "text": "This schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nReading\nR Code\nHomework\nWorksheet\nQuiz\nExam/Project\n\n\n\n1\nTue, Jan 13\nSyllabus/Overview of Statistics\n\n🖥️ syllabus🖥️ statistics and data\n\n\nSyllabusIS Ch1GenAI Video\n\n\n\n\n\n\n\n\n\nThu, Jan 15\nStatistical Studies and Data Collection; Data Type\n\nIS Ch 2\n\n✍️ HW 1 (due 1/23)\n\n\n\n\n\n\n2\nTue, Jan 20\nR Software and Computation\n\n🖥️ R and RStudio🖥️ data type and structure\n\nIS Ch 3\n\n (data type and structure)\n\n\n\n\n\n\n\nThu, Jan 22\nSummarizing Data: Tables and Graphics\n\n🖥️ data summary👉histogram breaks👉data extremes\n\nIS Ch 5 - 6\n\n (data graphics)\n\n\n\n\n\n\n3\nTue, Jan 27\nSummarizing Data: Numerical measures\n\n\n\n (data numerics)\n\n\n\n\n\n\n\nThu, Jan 29\nProbability Fundamentals\n\n🖥️ probability👉Venn diagram\n\nIS Ch 7 - 8\n\n✍️ HW 2 (due 2/6)\n\nWorksheet 1\n\n\n\n\n4\nTue, Feb 3\nConditional Probability, Independence, Bayes Formula\n\n\n\n\nWorksheet 2\n\n\n\n\n\nThu, Feb 5\nRandom Variables, Discrete Probability Distributions\n\n🖥️ distribution 👉binomial👉poisson\n\nIS Ch 9 - 10\n\n (discrete distribution)\n✍️ HW 3 (due 2/13✍️Extra Credit (due 2/13)\n\n\n✅ Quiz 1\n\n\n\n\n5\nTue, Feb 10\nContinuous Probability Distributions\n👉normal\n\nIS Ch 11\n\n (continuous distribution)\n\nWorksheet 3\n\n\n\n\n\nThu, Feb 12\nSampling Distributions Activity: Match the Scenario to the Distribution\n\n🖥️ sampling-dist-clt\nIS Ch 12\n\n (sampling distribution and CLT)\n\n\n\n\n\n\n6\nTue, Feb 17\nCentral Limit Theorem (CLT)\n👉CLT 👉Rolling dice\n\nIS Ch 13\n\n\n\n\n\n\n\n\nThu, Feb 19\nConfidence Intervals\n\n🖥️ confidence interval  👉CI\n\nIS Ch 14\n\n (confidence interval)\n✍️ HW 4 (due 2/27)\n\nWorksheet 4\n\n\n\n\n7\nTue, Feb 24\nConfidence Intervals\n👉Student-t\n\n\n\n\n\n\n\n\n\n\nThu, Feb 26\nExam 1 Review Activity: How Much Do Students Sleep?\n\n\n\n\n\nWorksheet 5\n✅ Quiz 2\n\nExercise 1\n\n\n8\nTue, Mar 3\nIn-class Exam 1\n\n\n\n\n\n\n✅ Take-home Exam 1\n\n\n\nThu, Mar 5\nHypothesis Testing\n\n🖥️ testing 👉testing\n\nIS Ch 16\n\n (testing)\n\n\n\n\n\n\n9\nTue, Mar 10\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n\nThu, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\n10\nTue, Mar 17\nHypothesis Testing\n\n\n\n\n\n\n\n\n\n\nThu, Mar 19\nTwo Population Means: Matched Pairs\n🖥️ two samples\nIS Ch 17\n\n (two samples)\n✍️ HW 5 (due 3/27)\n\nWorksheet 6\n\n\n\n\n11\nTue, Mar 24\nTwo Population Means: Independent Samples\n\n\n\n\nWorksheet 7\n\n\n\n\n\nThu, Mar 26\nInference for One Population Variance\n\n🖥️ variances  👉chi-squared\n\nIS Ch 18\n\n (variances)\n\n\n\n\n\n\n12\nTue, Mar 31\nInference about Two Population Variances\n👉 f\n\n\n\n✍️ Extra Credit (due 4/3)\n\n\n✅ Quiz 3\n\n\n\n\n\nThu, Apr 2\nNO CLASS: Easter break\n\n\n\n✍️ HW 6 (due 4/10)\n\nWorksheet 8\n\n\n\n\n13\nTue, Apr 7\nAnalysis of Variance (ANOVA) Rationale\n🖥️ ANOVA\nIS Ch 24\n\n (ANOVA data)\n\n\n\n\n\n\n\nThu, Apr 9\nAnalysis of Variance (ANOVA) Procedure\n\n\n\n✍️ HW 7 (due 4/17)\n\nWorksheet 9\n\n\n\n\n14\nTue, Apr 14\nCorrelation; Overview of Regression\n\n🖥️ correlation  🖥️ regression  👉 regression fitting\n\n\nIS Ch 27.1; IS Ch 27.2\n\n\n (correlation and regression)\n\n\n\n\n\n\n\nThu, Apr 16\nSimple Linear Regression: Model and Fitting Activity: Height vs. Shoe Size\n\n👉 sampling distribution of coefficients\n\nIS Ch 27.3 - 27.5\n\n\nWorksheet 10\n✅ Quiz 4\n\nExercise 2\n\n\n15\nTue, Apr 21\nIn-class Exam 2\n\n\n\n\n\n\n✅ Take-home Exam 2\n\n\n\nThu, Apr 23\nSimple Linear Regression: Inference\n\nIS Ch 27.6\n\n✍️ HW 8 (due 5/1)\n\n\n\n\n\n\n16\nTue, Apr 28\nSimple Linear Regression: Prediction\n\n\n\n\n\n\n📂 Final Project Guideline\n\n\n\n\nTue, Apr 30\nTo Be Determined SDSS Conference\n\n\n\n\n\n\n\n\n\n\n17\nFri, May 8\nFinal Project Due\n\n\n\n\n\n\n\n\n\n\n\nDr. Yu reserves the right to make changes to the schedule.",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -6842,14 +6842,14 @@
     "href": "project/streamlined_final_project.html",
     "title": "AI Final Project",
     "section": "",
-    "text": "Important\n\n\n\nThis is an individual project. You will have 7 to 10 days to complete it.\nPlease check D2L for the exact due date and submission instructions."
+    "text": "Important\n\n\n\nThis is an individual project due Friday, May 8, 5:30 PM.\nPlease submit your entire work in one PDF file to D2L &gt; Assessments &gt; Dropbox. Multiple files or a file that is not in pdf format is not allowed."
   },
   {
     "objectID": "project/streamlined_final_project.html#part-a.-short-data-analysis-report",
     "href": "project/streamlined_final_project.html#part-a.-short-data-analysis-report",
     "title": "AI Final Project",
     "section": "Part A. Short Data Analysis Report",
-    "text": "Part A. Short Data Analysis Report\nWrite a short report of about 2 to 3 pages.\nInclude:\n\nIntroduction\nBriefly explain the question and define the variables.\nGraphs\nInclude scatterplots for:\n\nstress versus sleep\nstress versus caffeine\nsleep versus caffeine\n\nModel\nFit a multiple linear regression model predicting stress from sleep and caffeine.\nInterpretation\nInterpret:\n\nthe intercept\nthe coefficient for sleep\nthe coefficient for caffeine\n\\(R^2\\)\n\nAssumptions and Limitations\nDiscuss at least two assumptions or diagnostic concerns and at least one limitation.\nConclusion\nGive a short conclusion in plain language."
+    "text": "Part A. Short Data Analysis Report\nWrite a 3-page report.\nInclude:\n\nIntroduction\nBriefly explain the question and define the variables.\nGraphs\nInclude scatterplots for:\n\nstress versus sleep\nstress versus caffeine\nsleep versus caffeine\n\nModel\nFit a multiple linear regression model predicting stress from sleep and caffeine.\nInterpretation\nInterpret:\n\nthe intercept\nthe coefficient for sleep\nthe coefficient for caffeine\n\\(R^2\\)\n\nAssumptions and Limitations\nDiscuss at least two assumptions or diagnostic concerns and at least one limitation.\nConclusion\nGive a short conclusion in plain language."
   },
   {
     "objectID": "project/streamlined_final_project.html#part-b.-ai-learning-record",
@@ -6863,7 +6863,7 @@
     "href": "project/streamlined_final_project.html#part-c.-reflection-and-evidence",
     "title": "AI Final Project",
     "section": "Part C. Reflection and Evidence",
-    "text": "Part C. Reflection and Evidence\nWrite a short reflection of about 250 to 350 words.\nAlso include selected transcript excerpts or screenshots that show how you used AI.\nYour reflection must answer these questions:\n\nHow did AI help you learn?\nWhat is one thing AI explained well?\nWhat is one place where AI was incomplete, vague, or wrong?\nHow did you check or verify the AI output?"
+    "text": "Part C. Reflection and Evidence\nWrite a short reflection of about 250 to 300 words.\nAlso include selected transcript excerpts or screenshots that show how you used AI.\nYour reflection must answer these questions:\n\nHow did AI help you learn?\nWhat is one thing AI explained well?\nWhat is one place where AI was incomplete, vague, or wrong?\nHow did you check or verify the AI output?"
   },
   {
     "objectID": "project/streamlined_final_project.html#you-may-use-ai-to",
@@ -7041,24 +7041,731 @@
     "text": "A researcher studies how weekly study hours predict exam score. What is the explanatory variable? What is the response variable?\nA fitted regression line is \\(\\hat{y} = 50 + 3x\\), where \\(x\\) is study hours per week and \\(y\\) is exam score.\n\n\nInterpret the slope 3 in context.\nInterpret the intercept 50 in context."
   },
   {
-    "objectID": "project/streamlined_final_project.html#days-1-to-3",
-    "href": "project/streamlined_final_project.html#days-1-to-3",
-    "title": "AI Final Project",
-    "section": "Days 1 to 3",
-    "text": "Days 1 to 3\n\nopen the data\nstart your AI conversation\nreview or learn the main regression ideas"
+    "objectID": "hw/hw08.html",
+    "href": "hw/hw08.html",
+    "title": "Homework 8",
+    "section": "",
+    "text": "Important\n\n\n\nDue Friday, May 1, 11:59 PM\n\n\n\n\nPlease submit your work in one PDF file to D2L &gt; Assessments &gt; Dropbox. Multiple files or a file that is not in pdf format is not allowed.\nIn your homework, please number questions in order.\n\n\nHandwritten tables and figures receive no credits.\nYou do not need to attach your code of any language you use in the homework. However, if you fail to complete your calculations or produce your table or figure, you receive partial credits if your code is attached.\nQuestions started with (MSSC) are required for MSSC 5720 students, and optional for MATH 4720 students.\n\nHomework Questions\n\nMaru and Lulu are both collecting data on number of rainy days in a year and the total rainfall for the year. Maru records rainfall in inches and Lulu in centimeters. How will their correlation coefficients compare?\n\n\n\nSuppose we fit a regression line to predict the shelf life of an apple based on its weight. For a particular apple, we predict the shelf life to be 4.6 days. The apple’s residual is -0.6 days. Did we over or under estimate the shelf-life of the apple? Explain your reasoning.\n\n\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n\n\n\nTar\n25.0\n27.0\n20.0\n24.0\n20.0\n20\n21.0\n24.0\n\n\nNicotine\n1.5\n1.7\n1.1\n1.6\n1.1\n1\n1.2\n1.4\n\n\n\n\n\n\n\nConstruct a scatterplot using tar for the \\(x\\) axis and nicotine for the \\(y\\) axis. Does the scatterplot suggest a linear relationship between the two variables? Are they positively or negatively related?\nLet \\(y\\) be the amount of nicotine and let \\(x\\) be the amount of tar. Fit a simple linear regression to the data and identify the sample regression equation.\nWhat percentage of the variation in nicotine can be explained by the linear correlation between nicotine and tar?\nThe Raleigh brand king size cigarette is not included in the table, and it has 23 mg of tar. What is the best predicted amount of nicotine? How does the predicted amount compare to the actual amount of 1.3 mg of nicotine? What is the value of residual?\nPerform the test \\(H_0: \\beta_1 = 0\\) vs. \\(H_1: \\beta_1 \\ne 0\\).\nProvide 95% confidence interval for \\(\\beta_1\\).\nGenerate the ANOVA table for the linear regression.\n\n\n\n\n\n(MSSC) We have been doing a variety of hypothesis tests, two-sample pooled \\(t\\) tests, \\(F\\)-test for comparing two variances for example. However, the null hypothesis significance testing (NHST) paradigm and the p-value usage have been much criticized and shown to be problematic and often misused in data analysis. In fact, in his research, Dr. Yu never does NHST or uses p-value taught in MATH 4720. Please read the articles\n\nRonald L. Wasserstein and Nicole A. Lazar (2016), “The ASA Statement on p-Values: Context, Process, and Purpose (page 131 – 132)”\nV. Amrhein, S. Greenland and B. McShane (2019), “Retire statistical significance”, Nature, 567, 305-307.\nR. Nuzzo (2014), “Scientific method: Statistical errors”, Nature, 506, 150–152.\n\nWrite a one-page summary discussing the problems of NHST paradigm and p-value. Welcome to share what does not make sense to you about the hypothesis testing (or confidence interval) that was proposed about 100 years ago.\n\n\n\n\n\nAI Usage Declaration. Using GenAI is permitted for this course. If you choose to use GenAI to assist with your homework, you must include a brief statement documenting your use. Please provide the following information:\n\n\nWhy/How I Used AI Why do you need to use GenAI? Which tool did you use? Describe your prompts or questions. What and how did you ask the AI to help you?\n\nGenerated Output Include a screenshot or excerpt (copy and paste) of the AI’s response.\n\nHow I Used the Output Did you revise it? Did you use it directly, or compare it with your answers? What decisions did you make based on the output?"
   },
   {
-    "objectID": "project/streamlined_final_project.html#days-4-to-6",
-    "href": "project/streamlined_final_project.html#days-4-to-6",
+    "objectID": "project/streamlined_final_project_accountability.html",
+    "href": "project/streamlined_final_project_accountability.html",
     "title": "AI Final Project",
-    "section": "Days 4 to 6",
-    "text": "Days 4 to 6\n\nmake the graphs\nfit the model\nwrite your first interpretations\nask AI to check your reasoning"
+    "section": "",
+    "text": "Important\n\n\n\nThis is an individual project.\nYou will have 7 to 10 days to complete it.\nPlease check D2L for the exact due date and submission instructions."
   },
   {
-    "objectID": "project/streamlined_final_project.html#days-7-to-10",
-    "href": "project/streamlined_final_project.html#days-7-to-10",
+    "objectID": "project/streamlined_final_project_accountability.html#part-0.-before-ai-thinking",
+    "href": "project/streamlined_final_project_accountability.html#part-0.-before-ai-thinking",
     "title": "AI Final Project",
+    "section": "Part 0. Before AI Thinking",
+    "text": "Part 0. Before AI Thinking\nBefore your first AI prompt, complete a short section of about half a page to one page.\nInclude:\n\nthe response variable and predictors\nyour predicted sign for the sleep coefficient\nyour predicted sign for the caffeine coefficient\nwhich predictor you think will matter more\none possible limitation or concern\nthe date and time you wrote this section\n\nWrite this in your own words before using AI."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#part-a.-short-data-analysis-report",
+    "href": "project/streamlined_final_project_accountability.html#part-a.-short-data-analysis-report",
+    "title": "AI Final Project",
+    "section": "Part A. Short Data Analysis Report",
+    "text": "Part A. Short Data Analysis Report\nWrite a short report of about 2 to 3 pages.\nInclude:\n\nIntroduction\nBriefly explain the question and define the variables.\nGraphs\nInclude scatterplots for:\n\nstress versus sleep\nstress versus caffeine\nsleep versus caffeine\n\nModel\nFit a multiple linear regression model predicting stress from sleep and caffeine.\nInterpretation\nInterpret:\n\nthe intercept\nthe coefficient for sleep\nthe coefficient for caffeine\n\\(R^2\\)\n\nCompare your first predictions to the fitted model\nExplain what you predicted in Part 0 and what actually happened.\nManual prediction task\nUse your fitted equation to compute predicted stress for these two cases:\n\nCase 1: sleep = 6 hours, caffeine = 100 mg\nCase 2: sleep = 8 hours, caffeine = 250 mg\n\nShow your calculation and explain which case has higher predicted stress and why.\nAssumptions and limitations\nDiscuss at least two assumptions or diagnostic concerns and at least one limitation.\nConclusion\nGive a short conclusion in plain language."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#part-b.-ai-learning-record",
+    "href": "project/streamlined_final_project_accountability.html#part-b.-ai-learning-record",
+    "title": "AI Final Project",
+    "section": "Part B. AI Learning Record",
+    "text": "Part B. AI Learning Record\nUse the AI learning record template.\nThis should be about 1 page.\nFor your most useful AI interactions, briefly record:\n\nwhat you were trying to learn\nwhat you asked\nwhat AI told you\nwhat you accepted, changed, or rejected\nhow you checked it\n\nAt least one row must show you checking, correcting, or declining an AI suggestion."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#part-c.-short-reflection",
+    "href": "project/streamlined_final_project_accountability.html#part-c.-short-reflection",
+    "title": "AI Final Project",
+    "section": "Part C. Short Reflection",
+    "text": "Part C. Short Reflection\nWrite a short reflection of about 200 to 300 words.\nYour reflection must answer these questions:\n\nHow did AI help you learn?\nWhat is one thing AI explained well?\nWhat is one place where AI was incomplete, vague, misleading, or wrong?\nWhat is one important part you had to do by yourself?\nHow did you verify the AI output?"
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#option-1.-in-person-check",
+    "href": "project/streamlined_final_project_accountability.html#option-1.-in-person-check",
+    "title": "AI Final Project",
+    "section": "Option 1. In person check",
+    "text": "Option 1. In person check\nMeet briefly with the instructor and answer a few short questions about your project."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#option-2.-short-recording",
+    "href": "project/streamlined_final_project_accountability.html#option-2.-short-recording",
+    "title": "AI Final Project",
+    "section": "Option 2. Short recording",
+    "text": "Option 2. Short recording\nSubmit a 2 to 3 minute one take recording.\nIn your recording, explain:\n\nyour response and predictors\nthe meaning of one coefficient\nwhich case in the manual prediction task has higher predicted stress\none limitation of your analysis\none place where AI was not enough by itself\n\nRules for the no AI explanation:\n\nno AI use while making the recording\nno reading AI written text\nspeak in your own words"
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#you-may-use-ai-to",
+    "href": "project/streamlined_final_project_accountability.html#you-may-use-ai-to",
+    "title": "AI Final Project",
+    "section": "You may use AI to",
+    "text": "You may use AI to\n\nask for simple explanations\nask AI to quiz you\nask for help understanding regression ideas\nask what assumptions you should check\nask AI to critique your reasoning"
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#you-may-not-use-ai-to",
+    "href": "project/streamlined_final_project_accountability.html#you-may-not-use-ai-to",
+    "title": "AI Final Project",
+    "section": "You may not use AI to",
+    "text": "You may not use AI to\n\nwrite your final report for you\ngive you final report ready paragraphs to submit\ncomplete your before AI thinking page\ndo your manual prediction task for you\nwrite a script for your no AI explanation\nreplace your own reasoning\n\nA simple rule:\n\nAI can help you learn, but it cannot replace your thinking."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#option-1",
+    "href": "project/streamlined_final_project_accountability.html#option-1",
+    "title": "AI Final Project",
+    "section": "Option 1",
+    "text": "Option 1\n\n\n\n\n\n\nTip\n\n\n\nI am learning multiple linear regression for a class project. Please teach me in simple language. Do not write my report. Ask me questions one at a time so I have to think."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#option-2",
+    "href": "project/streamlined_final_project_accountability.html#option-2",
+    "title": "AI Final Project",
+    "section": "Option 2",
+    "text": "Option 2\n\n\n\n\n\n\nTip\n\n\n\nI am working on a regression project with the variables sleep, caffeine, and stress. Please act like a tutor. Help me understand the model, coefficients, assumptions, and limitations, but do not give me final report text."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#option-3",
+    "href": "project/streamlined_final_project_accountability.html#option-3",
+    "title": "AI Final Project",
+    "section": "Option 3",
+    "text": "Option 3\n\n\n\n\n\n\nTip\n\n\n\nI am going to explain my reasoning about my regression project. Please tell me what is unclear, incomplete, or possibly wrong, and tell me what I should verify."
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#days-1-to-2",
+    "href": "project/streamlined_final_project_accountability.html#days-1-to-2",
+    "title": "AI Final Project",
+    "section": "Days 1 to 2",
+    "text": "Days 1 to 2\n\ncomplete Part 0 before AI\nopen the data\nstart your AI conversation after Part 0 is done"
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#days-3-to-5",
+    "href": "project/streamlined_final_project_accountability.html#days-3-to-5",
+    "title": "AI Final Project",
+    "section": "Days 3 to 5",
+    "text": "Days 3 to 5\n\nmake the graphs\nfit the model\nwrite your first interpretations\ncomplete the manual prediction task"
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#days-6-to-8",
+    "href": "project/streamlined_final_project_accountability.html#days-6-to-8",
+    "title": "AI Final Project",
+    "section": "Days 6 to 8",
+    "text": "Days 6 to 8\n\nask AI to check your reasoning\nrevise your report\ncomplete the AI learning record\nwrite the reflection"
+  },
+  {
+    "objectID": "project/streamlined_final_project_accountability.html#days-9-to-10",
+    "href": "project/streamlined_final_project_accountability.html#days-9-to-10",
+    "title": "AI Final Project",
+    "section": "Days 9 to 10",
+    "text": "Days 9 to 10\n\ndo your no AI explanation\ncombine your work into one PDF\nsubmit everything"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html",
+    "href": "project/final_project_dataset_menu.html",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "",
+    "text": "Important\n\n\n\nThis is an individual project. Plan to work on it over 7 to 10 days rather than in one sitting.\nPlease check D2L for the final due date, submission link, and the downloadable CSV files for all data sets.\nThis project asks you to do two things at the same time:\nThe goal is not to let AI complete the assignment for you. The goal is to use AI to help you learn something new, verify ideas, identify weaknesses in your understanding, and communicate your own conclusions clearly.\nBy completing this project, you will practice how to:"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#allowed-uses",
+    "href": "project/final_project_dataset_menu.html#allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Allowed uses",
+    "text": "Allowed uses\nYou may use AI to:\n\nask for plain language explanations of statistical ideas\nask AI to quiz you or question you step by step\nask for examples that are not based on your dataset\nask what assumptions, limitations, or diagnostic checks might matter\nask AI to critique your draft reasoning\nask AI to help you notice unclear wording or possible mistakes\nask AI to suggest what you should verify on your own"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#not-allowed-uses",
+    "href": "project/final_project_dataset_menu.html#not-allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Not allowed uses",
+    "text": "Not allowed uses\nYou may not use AI to:\n\nwrite your final report for you\nproduce final report ready paragraphs that you submit as your own writing\ninterpret your exact regression output and then copy that interpretation\ndecide your final conclusion for this dataset\nreplace your own reasoning with unverified AI claims\n\nA good rule is this:\n\nAI may support your learning process, but it may not replace your thinking."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#option-1.-medical-insurance-charges",
+    "href": "project/final_project_dataset_menu.html#option-1.-medical-insurance-charges",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 1. Medical Insurance Charges",
+    "text": "Option 1. Medical Insurance Charges\nSuggested response variable: charges\nSuggested predictors: age, bmi, children, smoker\nContext: The data record individual medical insurance charges along with personal characteristics and smoking status.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative\nthere are both numerical and categorical predictors\nthe relationships are more realistic than the original sleep data\ninterpretation in context is meaningful\nthe response may be right skewed, so diagnostics matter"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#option-2.-car-fuel-efficiency",
+    "href": "project/final_project_dataset_menu.html#option-2.-car-fuel-efficiency",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 2. Car Fuel Efficiency",
+    "text": "Option 2. Car Fuel Efficiency\nSuggested response variable: mpg\nSuggested predictors: horsepower, weight, acceleration, origin\nContext: The data describe automobiles and their fuel efficiency.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative and easy to understand\nthe predictors have clear physical meaning\nstudents can compare the effects of several predictors while holding others fixed\nat least one categorical predictor can be included"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#option-3.-diamond-prices",
+    "href": "project/final_project_dataset_menu.html#option-3.-diamond-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 3. Diamond Prices",
+    "text": "Option 3. Diamond Prices\nSuggested response variable: price\nSuggested predictors: carat, depth, table, cut\nContext: The data describe physical characteristics of diamonds and their market prices.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative\nthe predictors have different roles and scales\none predictor can be categorical\nthe response may be skewed, so model checking is important"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#option-4.-house-sale-prices",
+    "href": "project/final_project_dataset_menu.html#option-4.-house-sale-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 4. House Sale Prices",
+    "text": "Option 4. House Sale Prices\nSuggested response variable: sale_price\nSuggested predictors: living_area, bedrooms, house_age, overall_quality\nContext: The data describe residential homes and their sale prices.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative and highly interpretable\nstudents must think about what predictors belong in the model\nthe context makes coefficient interpretation interesting\nthe response may be skewed, so diagnostics matter"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#option-5.-student-achievement",
+    "href": "project/final_project_dataset_menu.html#option-5.-student-achievement",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 5. Student Achievement",
+    "text": "Option 5. Student Achievement\nSuggested response variable: final_score\nSuggested predictors: study_time, absences, prior_score, internet_access\nContext: The data describe student performance and study related variables.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative\nthe predictors are familiar and easy to explain\nstudents can interpret adjusted relationships in an education setting\nthere may be interesting limitations and confounding issues to discuss"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#important-rule-about-model-complexity",
+    "href": "project/final_project_dataset_menu.html#important-rule-about-model-complexity",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Important rule about model complexity",
+    "text": "Important rule about model complexity\nTo keep the projects comparable, your final model must:\n\nuse one quantitative response variable listed above\ninclude at least three predictors\ninclude at least two quantitative predictors\nkeep the model at a level appropriate for introductory statistics\n\nYou may use one categorical predictor if it is relevant.\nYou do not need interaction terms unless you want to explore one and can justify it clearly.\nYou may use a simple transformation such as \\(\\log(\\text{response})\\) only if your graphs and diagnostics suggest it is reasonable. A transformation is optional, not required."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#part-1.-data-analysis-report",
+    "href": "project/final_project_dataset_menu.html#part-1.-data-analysis-report",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 1. Data Analysis Report",
+    "text": "Part 1. Data Analysis Report\n\nFormat\n\nLength: 4 to 5 pages\nSpacing: single space\nFont: Times New Roman, 12 pt\nMargins: one inch on all sides\nDo not show code in the report\n\n\n\nRequired sections\n1. Introduction\nBriefly introduce the context of your chosen data set. Define the response variable and the predictors in your final model. State the goal of the analysis and explain why those predictors are reasonable choices.\n2. Exploratory Data Analysis\nCreate and discuss graphs that help you understand the relationships in your data.\nAt minimum, include:\n\none graph of the response variable\nscatterplots of the response versus each quantitative predictor in your final model\nif you use a categorical predictor, a suitable graph such as a side by side boxplot\n\nDescribe patterns you notice. For example, discuss direction, strength, unusual points, possible nonlinearity, and whether the relationships appear roughly linear.\n3. Model Building\nFit a multiple linear regression model using your chosen response and predictors.\nInclude:\n\nthe fitted regression equation\nthe main model output\na brief explanation of why this model is a reasonable choice\n\nIf you decide to use a transformed response, briefly explain why.\n4. Interpretation of Results\nInterpret the following in context:\n\nthe intercept\nat least two slope coefficients for quantitative predictors\nif applicable, one categorical predictor coefficient\n\nYour interpretations should make clear that each coefficient is interpreted while holding the other predictors constant.\n5. Model Fit, Assumptions, and Limitations\nDiscuss:\n\nwhat \\(R^2\\) tells you in this setting\nwhether the model appears useful for explanation or prediction\nat least two assumptions or diagnostic concerns\nat least one limitation of the analysis\n\nIf you compared an untransformed and transformed response model, briefly explain which one you chose and why.\n6. Conclusion\nWrite a short conclusion for a general audience. Summarize what the analysis suggests and what it does not prove."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#part-2.-ai-learning-log",
+    "href": "project/final_project_dataset_menu.html#part-2.-ai-learning-log",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 2. AI Learning Log",
+    "text": "Part 2. AI Learning Log\nThis section is a structured record of how you used AI to learn. It should usually be about 1 to 2 pages.\nFor each important interaction, briefly record:\n\nwhat you were trying to learn\nwhat you asked AI\nwhat the AI told you\nwhat you accepted, revised, or rejected\nhow you checked or verified the idea\n\nA long transcript by itself is not enough. The learning log should show your decision making."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#part-3.-verification-and-reflection-memo",
+    "href": "project/final_project_dataset_menu.html#part-3.-verification-and-reflection-memo",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 3. Verification and Reflection Memo",
+    "text": "Part 3. Verification and Reflection Memo\nThis section should be about 1 to 2 pages total.\n\nA. Verification and Critique\nYou must include at least one example where the AI was:\n\nincomplete,\nvague,\nmisleading, or\nwrong.\n\nFor that example, explain:\n\nwhat AI said\nwhy it was not fully satisfactory\nhow you noticed the problem\nwhat you concluded after checking it yourself\n\nYou must also include at least one example where AI genuinely helped you learn something important.\n\n\nB. Reflection\nWrite a short reflection of about 300 to 400 words addressing questions such as:\n\nWhich AI tool did you use?\nHow did AI help you learn multiple linear regression?\nWhat kind of prompt or interaction style worked best for you?\nWhat did AI do well?\nWhat did AI do poorly?\nWhat would you do differently next time when using AI to learn statistics?"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#part-4.-ai-conversation-appendix",
+    "href": "project/final_project_dataset_menu.html#part-4.-ai-conversation-appendix",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 4. AI Conversation Appendix",
+    "text": "Part 4. AI Conversation Appendix\nInclude enough evidence for me to understand your actual AI use. You may include:\n\nselected transcript excerpts,\nthe full transcript,\nscreenshots,\ncopied chat text,\nor a share link plus selected excerpts.\n\nYour appendix should begin with the starter prompt you chose and should include the most meaningful parts of the conversation."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#prompt-a.-concept-coach",
+    "href": "project/final_project_dataset_menu.html#prompt-a.-concept-coach",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt A. Concept Coach",
+    "text": "Prompt A. Concept Coach\n\n\n\n\n\n\nTip\n\n\n\nI am learning multiple linear regression for a class project using a real data set. Act as a concept coach. Do not write my report. Do not give me final interpretations for my dataset. Instead, teach me step by step in plain language. After each explanation, ask me one question so I have to think before moving on."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#prompt-b.-socratic-tutor",
+    "href": "project/final_project_dataset_menu.html#prompt-b.-socratic-tutor",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt B. Socratic Tutor",
+    "text": "Prompt B. Socratic Tutor\n\n\n\n\n\n\nTip\n\n\n\nI am working on a multiple linear regression project. Act as a Socratic tutor. Ask me one question at a time about model setup, predictor choice, coefficient interpretation, model fit, assumptions, and limitations. Only explain more after I answer. Do not write final report text for me."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#prompt-c.-critic-and-checker",
+    "href": "project/final_project_dataset_menu.html#prompt-c.-critic-and-checker",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt C. Critic and Checker",
+    "text": "Prompt C. Critic and Checker\n\n\n\n\n\n\nTip\n\n\n\nI am going to explain my reasoning about a multiple linear regression project. Your job is to critique my reasoning, point out what is unclear or incomplete, and suggest what I should verify. Do not give me final report ready paragraphs, and do not decide my final conclusion for me.\n\n\nYou may revise the prompt after you begin. What matters is that your interaction supports learning rather than outsourcing."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#days-1-to-2",
+    "href": "project/final_project_dataset_menu.html#days-1-to-2",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 1 to 2",
+    "text": "Days 1 to 2\n\nReview the assignment\nChoose one data set from D2L\nRead the variable descriptions\nStart your AI conversation\nLearn or review the basic ideas of multiple linear regression"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#days-3-to-4",
+    "href": "project/final_project_dataset_menu.html#days-3-to-4",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 3 to 4",
+    "text": "Days 3 to 4\n\nMake the graphs\nDecide on your predictors\nFit the model\nIdentify questions you still do not understand\nUse AI to help clarify concepts, not to finish the writing"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#days-5-to-6",
+    "href": "project/final_project_dataset_menu.html#days-5-to-6",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 5 to 6",
+    "text": "Days 5 to 6\n\nDraft your interpretations\nAsk AI to critique your reasoning\nVerify key ideas yourself\nFill in the AI learning log"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu.html#days-7-to-10",
+    "href": "project/final_project_dataset_menu.html#days-7-to-10",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
     "section": "Days 7 to 10",
-    "text": "Days 7 to 10\n\nrevise your report\ncomplete the AI learning record\nwrite the reflection\nadd transcript evidence\nsubmit one PDF"
+    "text": "Days 7 to 10\n\nWrite and revise the final report\nFinish the verification and reflection memo\nAdd the appendix\nProofread and submit one PDF"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html",
+    "href": "project/final_project_dataset_menu_with_downloads.html",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "",
+    "text": "Important\n\n\n\nThis is an individual project. Plan to work on it over 7 to 10 days rather than in one sitting.\nPlease check D2L for the final due date and submission link. The downloadable CSV files for all data sets are linked below and included in the project package.\nThis project asks you to do two things at the same time:\nThe goal is not to let AI complete the assignment for you. The goal is to use AI to help you learn something new, verify ideas, identify weaknesses in your understanding, and communicate your own conclusions clearly.\nBy completing this project, you will practice how to:"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#allowed-uses",
+    "href": "project/final_project_dataset_menu_with_downloads.html#allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Allowed uses",
+    "text": "Allowed uses\nYou may use AI to:\n\nask for plain language explanations of statistical ideas\nask AI to quiz you or question you step by step\nask for examples that are not based on your dataset\nask what assumptions, limitations, or diagnostic checks might matter\nask AI to critique your draft reasoning\nask AI to help you notice unclear wording or possible mistakes\nask AI to suggest what you should verify on your own"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#not-allowed-uses",
+    "href": "project/final_project_dataset_menu_with_downloads.html#not-allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Not allowed uses",
+    "text": "Not allowed uses\nYou may not use AI to:\n\nwrite your final report for you\nproduce final report ready paragraphs that you submit as your own writing\ninterpret your exact regression output and then copy that interpretation\ndecide your final conclusion for this dataset\nreplace your own reasoning with unverified AI claims\n\nA good rule is this:\n\nAI may support your learning process, but it may not replace your thinking."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#option-1.-medical-insurance-charges",
+    "href": "project/final_project_dataset_menu_with_downloads.html#option-1.-medical-insurance-charges",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 1. Medical Insurance Charges",
+    "text": "Option 1. Medical Insurance Charges\nDownload medical_insurance_charges.csv\nSuggested response variable: charges\nSuggested predictors: age, bmi, children, smoker\nContext: The data record individual medical insurance charges along with personal characteristics and smoking status.\nVariables included in the CSV: age, sex, bmi, children, smoker, region, charges.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative\nthere are both numerical and categorical predictors\nthe relationships are more realistic than the original sleep data\ninterpretation in context is meaningful\nthe response may be right skewed, so diagnostics matter"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#option-2.-car-fuel-efficiency",
+    "href": "project/final_project_dataset_menu_with_downloads.html#option-2.-car-fuel-efficiency",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 2. Car Fuel Efficiency",
+    "text": "Option 2. Car Fuel Efficiency\nDownload car_fuel_efficiency.csv\nSuggested response variable: mpg\nSuggested predictors: horsepower, weight, acceleration, origin\nContext: The data describe automobiles and their fuel efficiency.\nVariables included in the CSV: mpg, horsepower, weight, acceleration, origin, cylinders, displacement, model_year.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative and easy to understand\nthe predictors have clear physical meaning\nstudents can compare the effects of several predictors while holding others fixed\nat least one categorical predictor can be included"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#option-3.-diamond-prices",
+    "href": "project/final_project_dataset_menu_with_downloads.html#option-3.-diamond-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 3. Diamond Prices",
+    "text": "Option 3. Diamond Prices\nDownload diamond_prices.csv\nSuggested response variable: price\nSuggested predictors: carat, depth, table, cut\nContext: The data describe physical characteristics of diamonds and their market prices.\nVariables included in the CSV: price, carat, depth, table, cut, color, clarity, x, y, z.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative\nthe predictors have different roles and scales\none predictor can be categorical\nthe response may be skewed, so model checking is important"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#option-4.-house-sale-prices",
+    "href": "project/final_project_dataset_menu_with_downloads.html#option-4.-house-sale-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 4. House Sale Prices",
+    "text": "Option 4. House Sale Prices\nDownload house_sale_prices.csv\nSuggested response variable: sale_price\nSuggested predictors: living_area, bedrooms, house_age, overall_quality\nContext: The data describe residential homes and their sale prices.\nVariables included in the CSV: sale_price, living_area, bedrooms, house_age, overall_quality, overall_condition, lot_area, full_bath, neighborhood, year_built, year_sold.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative and highly interpretable\nstudents must think about what predictors belong in the model\nthe context makes coefficient interpretation interesting\nthe response may be skewed, so diagnostics matter"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#option-5.-student-achievement",
+    "href": "project/final_project_dataset_menu_with_downloads.html#option-5.-student-achievement",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 5. Student Achievement",
+    "text": "Option 5. Student Achievement\nDownload student_achievement.csv\nSuggested response variable: final_score\nSuggested predictors: study_time, absences, prior_score, internet_access\nContext: The data describe student performance and study related variables.\nVariables included in the CSV: final_score, prior_score, first_period_score, study_time, absences, internet_access, failures, age, sex, go_out, health.\nWhy this is a good multiple regression data set:\n\nthe response variable is quantitative\nthe predictors are familiar and easy to explain\nstudents can interpret adjusted relationships in an education setting\nthere may be interesting limitations and confounding issues to discuss"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#important-rule-about-model-complexity",
+    "href": "project/final_project_dataset_menu_with_downloads.html#important-rule-about-model-complexity",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Important rule about model complexity",
+    "text": "Important rule about model complexity\nTo keep the projects comparable, your final model must:\n\nuse one quantitative response variable listed above\ninclude at least three predictors\ninclude at least two quantitative predictors\nkeep the model at a level appropriate for introductory statistics\n\nYou may use one categorical predictor if it is relevant.\nYou do not need interaction terms unless you want to explore one and can justify it clearly.\nYou may use a simple transformation such as \\(\\log(\\text{response})\\) only if your graphs and diagnostics suggest it is reasonable. A transformation is optional, not required."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#part-1.-data-analysis-report",
+    "href": "project/final_project_dataset_menu_with_downloads.html#part-1.-data-analysis-report",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 1. Data Analysis Report",
+    "text": "Part 1. Data Analysis Report\n\nFormat\n\nLength: 3 to 5 pages\nSpacing: single space\nFont: Times New Roman, 12 pt\nMargins: one inch on all sides\nDo not show code in the report\n\n\n\nRequired sections\n1. Introduction\nBriefly introduce the context of your chosen data set. Define the response variable and the predictors in your final model. State the goal of the analysis and explain why those predictors are reasonable choices.\n2. Exploratory Data Analysis\nCreate and discuss graphs that help you understand the relationships in your data.\nAt minimum, include:\n\none graph of the response variable\nscatterplots of the response versus each quantitative predictor in your final model\nif you use a categorical predictor, a suitable graph such as a side by side boxplot\n\nDescribe patterns you notice. For example, discuss direction, strength, unusual points, possible nonlinearity, and whether the relationships appear roughly linear.\n3. Model Building\nFit a multiple linear regression model using your chosen response and predictors.\nInclude:\n\nthe fitted regression equation\nthe main model output\na brief explanation of why this model is a reasonable choice\n\nIf you decide to use a transformed response, briefly explain why.\n4. Interpretation of Results\nInterpret the following in context:\n\nthe intercept\nat least two slope coefficients for quantitative predictors\nif applicable, one categorical predictor coefficient\n\nYour interpretations should make clear that each coefficient is interpreted while holding the other predictors constant.\n5. Model Fit, Assumptions, and Limitations\nDiscuss:\n\nwhat \\(R^2\\) tells you in this setting\nwhether the model appears useful for explanation or prediction\nat least two assumptions or diagnostic concerns\nat least one limitation of the analysis\n\nIf you compared an untransformed and transformed response model, briefly explain which one you chose and why.\n6. Conclusion\nWrite a short conclusion for a general audience. Summarize what the analysis suggests and what it does not prove."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#part-2.-ai-learning-log",
+    "href": "project/final_project_dataset_menu_with_downloads.html#part-2.-ai-learning-log",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 2. AI Learning Log",
+    "text": "Part 2. AI Learning Log\nThis section is a structured record of how you used AI to learn. It should usually be about 1 to 2 pages.\nFor each important interaction, briefly record:\n\nwhat you were trying to learn\nwhat you asked AI\nwhat the AI told you\nwhat you accepted, revised, or rejected\nhow you checked or verified the idea\n\nA long transcript by itself is not enough. The learning log should show your decision making."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#part-3.-verification-and-reflection-memo",
+    "href": "project/final_project_dataset_menu_with_downloads.html#part-3.-verification-and-reflection-memo",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 3. Verification and Reflection Memo",
+    "text": "Part 3. Verification and Reflection Memo\nThis section should be about 1 to 2 pages total.\n\nA. Verification and Critique\nYou must include at least one example where the AI was:\n\nincomplete,\nvague,\nmisleading, or\nwrong.\n\nFor that example, explain:\n\nwhat AI said\nwhy it was not fully satisfactory\nhow you noticed the problem\nwhat you concluded after checking it yourself\n\nYou must also include at least one example where AI genuinely helped you learn something important.\n\n\nB. Reflection\nWrite a short reflection of about 300 to 400 words addressing questions such as:\n\nWhich AI tool did you use?\nHow did AI help you learn multiple linear regression?\nWhat kind of prompt or interaction style worked best for you?\nWhat did AI do well?\nWhat did AI do poorly?\nWhat would you do differently next time when using AI to learn statistics?"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#part-4.-ai-conversation-appendix",
+    "href": "project/final_project_dataset_menu_with_downloads.html#part-4.-ai-conversation-appendix",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 4. AI Conversation Appendix",
+    "text": "Part 4. AI Conversation Appendix\nInclude enough evidence for me to understand your actual AI use. You may include:\n\nselected transcript excerpts,\nthe full transcript,\nscreenshots,\ncopied chat text,\nor a share link plus selected excerpts.\n\nYour appendix should begin with the starter prompt you chose and should include the most meaningful parts of the conversation."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#prompt-a.-concept-coach",
+    "href": "project/final_project_dataset_menu_with_downloads.html#prompt-a.-concept-coach",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt A. Concept Coach",
+    "text": "Prompt A. Concept Coach\n\n\n\n\n\n\nTip\n\n\n\nI am learning multiple linear regression for a class project using a real data set. Act as a concept coach. Do not write my report. Do not give me final interpretations for my dataset. Instead, teach me step by step in plain language. After each explanation, ask me one question so I have to think before moving on."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#prompt-b.-socratic-tutor",
+    "href": "project/final_project_dataset_menu_with_downloads.html#prompt-b.-socratic-tutor",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt B. Socratic Tutor",
+    "text": "Prompt B. Socratic Tutor\n\n\n\n\n\n\nTip\n\n\n\nI am working on a multiple linear regression project. Act as a Socratic tutor. Ask me one question at a time about model setup, predictor choice, coefficient interpretation, model fit, assumptions, and limitations. Only explain more after I answer. Do not write final report text for me."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#prompt-c.-critic-and-checker",
+    "href": "project/final_project_dataset_menu_with_downloads.html#prompt-c.-critic-and-checker",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt C. Critic and Checker",
+    "text": "Prompt C. Critic and Checker\n\n\n\n\n\n\nTip\n\n\n\nI am going to explain my reasoning about a multiple linear regression project. Your job is to critique my reasoning, point out what is unclear or incomplete, and suggest what I should verify. Do not give me final report ready paragraphs, and do not decide my final conclusion for me.\n\n\nYou may revise the prompt after you begin. What matters is that your interaction supports learning rather than outsourcing."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#days-1-to-2",
+    "href": "project/final_project_dataset_menu_with_downloads.html#days-1-to-2",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 1 to 2",
+    "text": "Days 1 to 2\n\nReview the assignment\nChoose one data set from D2L\nRead the variable descriptions\nStart your AI conversation\nLearn or review the basic ideas of multiple linear regression"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#days-3-to-4",
+    "href": "project/final_project_dataset_menu_with_downloads.html#days-3-to-4",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 3 to 4",
+    "text": "Days 3 to 4\n\nMake the graphs\nDecide on your predictors\nFit the model\nIdentify questions you still do not understand\nUse AI to help clarify concepts, not to finish the writing"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#days-5-to-6",
+    "href": "project/final_project_dataset_menu_with_downloads.html#days-5-to-6",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 5 to 6",
+    "text": "Days 5 to 6\n\nDraft your interpretations\nAsk AI to critique your reasoning\nVerify key ideas yourself\nFill in the AI learning log"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads.html#days-7-to-10",
+    "href": "project/final_project_dataset_menu_with_downloads.html#days-7-to-10",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 7 to 10",
+    "text": "Days 7 to 10\n\nWrite and revise the final report\nFinish the verification and reflection memo\nAdd the appendix\nProofread and submit one PDF"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "",
+    "text": "Important\n\n\n\nThis is an individual project. Plan to work on it over 7 to 10 days rather than in one sitting.\nPlease check D2L for the final due date and submission link. The downloadable CSV files for all data sets are linked below and included in the project package.\nThis project asks you to do two things at the same time:\nThe goal is not to let AI complete the assignment for you. The goal is to use AI to help you learn something new, verify ideas, identify weaknesses in your understanding, and communicate your own conclusions clearly.\nBy completing this project, you will practice how to:"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#allowed-uses",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Allowed uses",
+    "text": "Allowed uses\nYou may use AI to:\n\nask for plain language explanations of statistical ideas\nask AI to quiz you or question you step by step\nask for examples that are not based on your dataset\nask what assumptions, limitations, or diagnostic checks might matter\nask AI to critique your draft reasoning\nask AI to help you notice unclear wording or possible mistakes\nask AI to suggest what you should verify on your own"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#not-allowed-uses",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#not-allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Not allowed uses",
+    "text": "Not allowed uses\nYou may not use AI to:\n\nwrite your final report for you\nproduce final report ready paragraphs that you submit as your own writing\ninterpret your exact regression output and then copy that interpretation\ndecide your final conclusion for this dataset\nreplace your own reasoning with unverified AI claims\n\nA good rule is this:\n\nAI may support your learning process, but it may not replace your thinking."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#option-1.-medical-insurance-charges",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#option-1.-medical-insurance-charges",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 1. Medical Insurance Charges",
+    "text": "Option 1. Medical Insurance Charges\nDownload medical_insurance_charges.csv\nSuggested response variable: charges\nSuggested predictors: age, bmi, children, smoker\nContext: The data record individual medical insurance charges along with personal characteristics and smoking status.\nVariables included in the CSV: age, sex, bmi, children, smoker, region, charges."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#option-2.-car-fuel-efficiency",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#option-2.-car-fuel-efficiency",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 2. Car Fuel Efficiency",
+    "text": "Option 2. Car Fuel Efficiency\n\nDownload car_fuel_efficiency.csv\nSuggested response variable: mpg\nSuggested predictors: horsepower, weight, acceleration, origin\nContext: The data describe automobiles and their fuel efficiency.\nVariables included in the CSV: mpg, horsepower, weight, acceleration, origin, cylinders, displacement, model_year."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#option-3.-diamond-prices",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#option-3.-diamond-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 3. Diamond Prices",
+    "text": "Option 3. Diamond Prices\n\nDownload diamond_prices.csv\nSuggested response variable: price\nSuggested predictors: carat, depth, table, cut\nContext: The data describe physical characteristics of diamonds and their market prices.\nVariables included in the CSV: price, carat, depth, table, cut, color, clarity, x, y, z."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#option-4.-house-sale-prices",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#option-4.-house-sale-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 4. House Sale Prices",
+    "text": "Option 4. House Sale Prices\n\nDownload house_sale_prices.csv\nSuggested response variable: sale_price\nSuggested predictors: living_area, bedrooms, house_age, overall_quality\nContext: The data describe residential homes and their sale prices.\nVariables included in the CSV: sale_price, living_area, bedrooms, house_age, overall_quality, overall_condition, lot_area, full_bath, neighborhood, year_built, year_sold."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#option-5.-student-achievement",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#option-5.-student-achievement",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 5. Student Achievement",
+    "text": "Option 5. Student Achievement\n\nDownload student_achievement.csv\nSuggested response variable: final_score\nSuggested predictors: study_time, absences, prior_score, internet_access\nContext: The data describe student performance and study related variables.\nVariables included in the CSV: final_score, prior_score, first_period_score, study_time, absences, internet_access, failures, age, sex, go_out, health."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#important-rule-about-model-complexity",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#important-rule-about-model-complexity",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Important rule about model complexity",
+    "text": "Important rule about model complexity\nTo keep the projects comparable, your final model must:\n\nuse one quantitative response variable listed above\ninclude at least three predictors\ninclude at least two quantitative predictors\nkeep the model at a level appropriate for introductory statistics\n\nYou may use one categorical predictor if it is relevant.\nYou do not need interaction terms unless you want to explore one and can justify it clearly.\nYou may use a simple transformation such as \\(\\log(\\text{response})\\) only if your graphs and diagnostics suggest it is reasonable. A transformation is optional, not required."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#part-1.-data-analysis-report",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#part-1.-data-analysis-report",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 1. Data Analysis Report",
+    "text": "Part 1. Data Analysis Report\n\nFormat\n\nLength: 3 to 5 pages\nSpacing: single space\nFont: Times New Roman, 12 pt\nMargins: one inch on all sides\nDo not show code in the report\n\n\n\nRequired sections\n1. Introduction\nBriefly introduce the context of your chosen data set. Define the response variable and the predictors in your final model. State the goal of the analysis and explain why those predictors are reasonable choices.\n2. Exploratory Data Analysis\nCreate and discuss graphs that help you understand the relationships in your data.\nAt minimum, include:\n\none graph of the response variable\nscatterplots of the response versus each quantitative predictor in your final model\nif you use a categorical predictor, a suitable graph such as a side by side boxplot\n\nDescribe patterns you notice. For example, discuss direction, strength, unusual points, possible nonlinearity, and whether the relationships appear roughly linear.\n3. Model Building\nFit a multiple linear regression model using your chosen response and predictors.\nInclude:\n\nthe fitted regression equation\nthe main model output\na brief explanation of why this model is a reasonable choice\n\nIf you decide to use a transformed response, briefly explain why.\n4. Interpretation of Results\nInterpret the following in context:\n\nthe intercept\nat least two slope coefficients for quantitative predictors\nif applicable, one categorical predictor coefficient\n\nYour interpretations should make clear that each coefficient is interpreted while holding the other predictors constant.\n5. Model Fit, Assumptions, and Limitations\nDiscuss:\n\nwhat \\(R^2\\) tells you in this setting\nwhether the model appears useful for explanation or prediction\nat least two assumptions or diagnostic concerns\nat least one limitation of the analysis\n\nIf you compared an untransformed and transformed response model, briefly explain which one you chose and why.\n6. Conclusion\nWrite a short conclusion for a general audience. Summarize what the analysis suggests and what it does not prove."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#part-2.-ai-learning-log",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#part-2.-ai-learning-log",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 2. AI Learning Log",
+    "text": "Part 2. AI Learning Log\nThis section is a structured record of how you used AI to learn. It should usually be about 1 to 2 pages.\nFor each important interaction, briefly record:\n\nwhat you were trying to learn\nwhat you asked AI\nwhat the AI told you\nwhat you accepted, revised, or rejected\nhow you checked or verified the idea\n\nA long transcript by itself is not enough. The learning log should show your decision making."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#part-3.-verification-and-reflection-memo",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#part-3.-verification-and-reflection-memo",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 3. Verification and Reflection Memo",
+    "text": "Part 3. Verification and Reflection Memo\nThis section should be about 1 to 2 pages total.\n\nA. Verification and Critique\nYou must include at least one example where the AI was:\n\nincomplete,\nvague,\nmisleading, or\nwrong.\n\nFor that example, explain:\n\nwhat AI said\nwhy it was not fully satisfactory\nhow you noticed the problem\nwhat you concluded after checking it yourself\n\nYou must also include at least one example where AI genuinely helped you learn something important.\n\n\nB. Reflection\nWrite a short reflection of about 300 to 400 words addressing questions such as:\n\nWhich AI tool did you use?\nHow did AI help you learn multiple linear regression?\nWhat kind of prompt or interaction style worked best for you?\nWhat did AI do well?\nWhat did AI do poorly?\nWhat would you do differently next time when using AI to learn statistics?"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#part-4.-ai-conversation-appendix",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#part-4.-ai-conversation-appendix",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 4. AI Conversation Appendix",
+    "text": "Part 4. AI Conversation Appendix\nInclude enough evidence for me to understand your actual AI use. You may include:\n\nselected transcript excerpts,\nthe full transcript,\nscreenshots,\ncopied chat text,\nor a share link plus selected excerpts.\n\nYour appendix should begin with the starter prompt you chose and should include the most meaningful parts of the conversation."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#prompt-a.-concept-coach",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#prompt-a.-concept-coach",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt A. Concept Coach",
+    "text": "Prompt A. Concept Coach\n\n\n\n\n\n\nTip\n\n\n\nI am learning multiple linear regression for a class project using a real data set. Act as a concept coach. Do not write my report. Do not give me final interpretations for my dataset. Instead, teach me step by step in plain language. After each explanation, ask me one question so I have to think before moving on."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#prompt-b.-socratic-tutor",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#prompt-b.-socratic-tutor",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt B. Socratic Tutor",
+    "text": "Prompt B. Socratic Tutor\n\n\n\n\n\n\nTip\n\n\n\nI am working on a multiple linear regression project. Act as a Socratic tutor. Ask me one question at a time about model setup, predictor choice, coefficient interpretation, model fit, assumptions, and limitations. Only explain more after I answer. Do not write final report text for me."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#prompt-c.-critic-and-checker",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#prompt-c.-critic-and-checker",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt C. Critic and Checker",
+    "text": "Prompt C. Critic and Checker\n\n\n\n\n\n\nTip\n\n\n\nI am going to explain my reasoning about a multiple linear regression project. Your job is to critique my reasoning, point out what is unclear or incomplete, and suggest what I should verify. Do not give me final report ready paragraphs, and do not decide my final conclusion for me.\n\n\nYou may revise the prompt after you begin. What matters is that your interaction supports learning rather than outsourcing."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#days-1-to-2",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#days-1-to-2",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 1 to 2",
+    "text": "Days 1 to 2\n\nReview the assignment\nChoose one data set from D2L\nRead the variable descriptions\nStart your AI conversation\nLearn or review the basic ideas of multiple linear regression"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#days-3-to-4",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#days-3-to-4",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 3 to 4",
+    "text": "Days 3 to 4\n\nMake the graphs\nDecide on your predictors\nFit the model\nIdentify questions you still do not understand\nUse AI to help clarify concepts, not to finish the writing"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#days-5-to-6",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#days-5-to-6",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 5 to 6",
+    "text": "Days 5 to 6\n\nDraft your interpretations\nAsk AI to critique your reasoning\nVerify key ideas yourself\nFill in the AI learning log"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_with_downloads (1).html#days-7-to-10",
+    "href": "project/final_project_dataset_menu_with_downloads (1).html#days-7-to-10",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 7 to 10",
+    "text": "Days 7 to 10\n\nWrite and revise the final report\nFinish the verification and reflection memo\nAdd the appendix\nProofread and submit one PDF"
+  },
+  {
+    "objectID": "project/dataset_variable_guide.html",
+    "href": "project/dataset_variable_guide.html",
+    "title": "Data Dictionary for Final Project Data Sets",
+    "section": "",
+    "text": "This guide explains the variables in the five data sets used for the final project.\nUse this guide when you are deciding:\n\nwhich data set to choose\nwhich variable should be the response variable\nwhich variables could be good predictors\nhow to interpret coefficients in context\n\n\n\n\n\n\n\nNote\n\n\n\nThese are cleaned course copies of the original data. Variable names in this guide match the CSV files provided with the project.\n\n\n\n\n\n\n\n\nTipMedical Insurance Charges\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nType\nWhat it means\nValues or notes\n\n\n\n\nage\nQuantitative\nAge of the individual\nMeasured in years\n\n\nsex\nCategorical\nRecorded sex of the individual\nfemale, male\n\n\nbmi\nQuantitative\nBody mass index\nHigher values usually indicate higher body mass relative to height\n\n\nchildren\nQuantitative\nNumber of children or dependents covered by the insurance plan\nWhole numbers\n\n\nsmoker\nCategorical\nWhether the individual is a smoker\nyes, no\n\n\nregion\nCategorical\nRegion of the United States where the individual lives\nnortheast, northwest, southeast, southwest\n\n\ncharges\nQuantitative\nIndividual medical insurance charges\nMeasured in US dollars\n\n\n\nCommon project idea: Use charges as the response variable and study how age, BMI, smoking, and number of children relate to medical costs.\n\n\n\n\n\n\n\n\n\nTipCar Fuel Efficiency\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nType\nWhat it means\nValues or notes\n\n\n\n\nmpg\nQuantitative\nFuel efficiency of the car\nMiles per gallon\n\n\nhorsepower\nQuantitative\nEngine power\nHorsepower\n\n\nweight\nQuantitative\nWeight of the car\nPounds\n\n\nacceleration\nQuantitative\nAcceleration performance measure\nMeasured in seconds. Lower values usually mean faster acceleration.\n\n\norigin\nCategorical\nWhere the car was made\nUsa, Europe, Japan\n\n\ncylinders\nQuantitative\nNumber of engine cylinders\nCommon values include 4, 6, and 8\n\n\ndisplacement\nQuantitative\nEngine displacement\nCubic inches\n\n\nmodel_year\nQuantitative\nModel year of the car\nRecorded here as two digit years from 70 to 82\n\n\n\nCommon project idea: Use mpg as the response variable and study how horsepower, weight, acceleration, and origin relate to fuel efficiency.\n\n\n\n\n\n\n\n\n\nTipDiamond Prices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nType\nWhat it means\nValues or notes\n\n\n\n\nprice\nQuantitative\nPrice of the diamond\nMeasured in US dollars\n\n\ncarat\nQuantitative\nWeight of the diamond\nCarats\n\n\ndepth\nQuantitative\nTotal depth percentage\nA common diamond proportion measure\n\n\ntable\nQuantitative\nTable width percentage\nA common diamond proportion measure\n\n\ncut\nCategorical\nOverall cut quality grade\nFair, Good, Very Good, Premium, Ideal\n\n\ncolor\nCategorical\nDiamond color grade\nD is closer to colorless; letters farther down the scale indicate more color\n\n\nclarity\nCategorical\nDiamond clarity grade\nHigher clarity means fewer visible internal flaws\n\n\nx\nQuantitative\nLength of the diamond\nMillimeters\n\n\ny\nQuantitative\nWidth of the diamond\nMillimeters\n\n\nz\nQuantitative\nDepth of the diamond\nMillimeters\n\n\n\nCommon project idea: Use price as the response variable and study how carat, cut, and physical dimensions relate to price.\n\n\n\n\n\n\n\n\n\nTipHouse Sale Prices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nType\nWhat it means\nValues or notes\n\n\n\n\nsale_price\nQuantitative\nSale price of the house\nMeasured in US dollars\n\n\nliving_area\nQuantitative\nAbove ground living area\nSquare feet\n\n\nbedrooms\nQuantitative\nNumber of bedrooms above ground level\nWhole numbers\n\n\nhouse_age\nQuantitative\nAge of the house at the time of sale\nComputed from year built and year sold. A value of -1 can occur for very new construction.\n\n\noverall_quality\nQuantitative\nOverall material and finish quality\nHigher values indicate better quality\n\n\noverall_condition\nQuantitative\nOverall condition of the house\nHigher values indicate better condition\n\n\nlot_area\nQuantitative\nLot size\nSquare feet\n\n\nfull_bath\nQuantitative\nNumber of full bathrooms\nWhole numbers\n\n\nneighborhood\nCategorical\nNeighborhood code in Ames, Iowa\n28 neighborhood categories\n\n\nyear_built\nQuantitative\nYear the house was built\nCalendar year\n\n\nyear_sold\nQuantitative\nYear the house was sold\nCalendar year\n\n\n\nCommon project idea: Use sale_price as the response variable and study how living area, house age, quality, and other house features relate to sale price.\n\n\n\n\n\n\n\n\n\nTipStudent Achievement\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nType\nWhat it means\nValues or notes\n\n\n\n\nfinal_score\nQuantitative\nFinal course grade\nScale from 0 to 20\n\n\nprior_score\nQuantitative\nLater prior grade before the final grade\nScale from 0 to 20\n\n\nfirst_period_score\nQuantitative\nEarlier grade from the first grading period\nScale from 0 to 20\n\n\nstudy_time\nQuantitative\nWeekly study time category\n1 = less than 2 hours, 2 = 2 to 5 hours, 3 = 5 to 10 hours, 4 = more than 10 hours\n\n\nabsences\nQuantitative\nNumber of school absences\nWhole numbers\n\n\ninternet_access\nCategorical\nWhether the student has internet access at home\nYes, No\n\n\nfailures\nQuantitative\nNumber of past class failures\nValues from 0 to 3\n\n\nage\nQuantitative\nAge of the student\nYears\n\n\nsex\nCategorical\nRecorded sex of the student\nFemale, Male\n\n\ngo_out\nQuantitative\nHow often the student goes out with friends\nScale from 1 to 5, where larger values mean going out more often\n\n\nhealth\nQuantitative\nSelf reported current health status\nScale from 1 to 5, where larger values mean better health\n\n\n\nCommon project idea: Use final_score as the response variable and study how prior performance, study time, absences, and other student characteristics relate to final achievement.\n\n\n\n\nTips for choosing variables\nWhen you build your final model, try to choose predictors that make sense in context. A good project does not only fit a model. It also explains why the predictors belong in the model.\nA few examples:\n\nIn the insurance data, smoker is likely an important predictor of charges.\nIn the car data, weight and horsepower are natural predictors of mpg.\nIn the diamond data, carat is likely strongly related to price.\nIn the housing data, living_area and overall_quality are natural predictors of sale_price.\nIn the student data, prior_score and study_time are natural predictors of final_score.\n\nYou should still examine graphs and think about whether your final model is reasonable."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html",
+    "href": "project/final_project_dataset_menu_shorter.html",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "",
+    "text": "Important\n\n\n\nThis is an individual project. Plan to work on it over 7 to 10 days rather than in one sitting.\nPlease check D2L for the final due date and submission link. The downloadable CSV files for all data sets are linked below and included in the project package.\nThis project asks you to do two things at the same time:\nThe goal is not to let AI complete the assignment for you. The goal is to use AI to help you learn something new, verify ideas, identify weaknesses in your understanding, and communicate your own conclusions clearly.\nBy completing this project, you will practice how to:"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#allowed-uses",
+    "href": "project/final_project_dataset_menu_shorter.html#allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Allowed uses",
+    "text": "Allowed uses\nYou may use AI to:\n\nask for plain language explanations of statistical ideas\nask AI to quiz you or question you step by step\nask for examples that are not based on your dataset\nask what assumptions, limitations, or diagnostic checks might matter\nask AI to critique your draft reasoning\nask AI to help you notice unclear wording or possible mistakes\nask AI to suggest what you should verify on your own"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#not-allowed-uses",
+    "href": "project/final_project_dataset_menu_shorter.html#not-allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Not allowed uses",
+    "text": "Not allowed uses\nYou may not use AI to:\n\nwrite your final report for you\nproduce final report ready paragraphs that you submit as your own writing\ninterpret your exact regression output and then copy that interpretation\ndecide your final conclusion for this dataset\nreplace your own reasoning with unverified AI claims\n\nA good rule is this:\n\nAI may support your learning process, but it may not replace your thinking."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#option-1.-medical-insurance-charges",
+    "href": "project/final_project_dataset_menu_shorter.html#option-1.-medical-insurance-charges",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 1. Medical Insurance Charges",
+    "text": "Option 1. Medical Insurance Charges\nDownload medical_insurance_charges.csv\nSuggested response variable: charges\nSuggested predictors: age, bmi, children, smoker\nContext: The data record individual medical insurance charges along with personal characteristics and smoking status.\nVariables included in the CSV: age, sex, bmi, children, smoker, region, charges."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#option-2.-car-fuel-efficiency",
+    "href": "project/final_project_dataset_menu_shorter.html#option-2.-car-fuel-efficiency",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 2. Car Fuel Efficiency",
+    "text": "Option 2. Car Fuel Efficiency\n\nDownload car_fuel_efficiency.csv\nSuggested response variable: mpg\nSuggested predictors: horsepower, weight, acceleration, origin\nContext: The data describe automobiles and their fuel efficiency.\nVariables included in the CSV: mpg, horsepower, weight, acceleration, origin, cylinders, displacement, model_year."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#option-3.-diamond-prices",
+    "href": "project/final_project_dataset_menu_shorter.html#option-3.-diamond-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 3. Diamond Prices",
+    "text": "Option 3. Diamond Prices\n\nDownload diamond_prices.csv\nSuggested response variable: price\nSuggested predictors: carat, depth, table, cut\nContext: The data describe physical characteristics of diamonds and their market prices.\nVariables included in the CSV: price, carat, depth, table, cut, color, clarity, x, y, z."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#option-4.-house-sale-prices",
+    "href": "project/final_project_dataset_menu_shorter.html#option-4.-house-sale-prices",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 4. House Sale Prices",
+    "text": "Option 4. House Sale Prices\n\nDownload house_sale_prices.csv\nSuggested response variable: sale_price\nSuggested predictors: living_area, bedrooms, house_age, overall_quality\nContext: The data describe residential homes and their sale prices.\nVariables included in the CSV: sale_price, living_area, bedrooms, house_age, overall_quality, overall_condition, lot_area, full_bath, neighborhood, year_built, year_sold."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#option-5.-student-achievement",
+    "href": "project/final_project_dataset_menu_shorter.html#option-5.-student-achievement",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Option 5. Student Achievement",
+    "text": "Option 5. Student Achievement\n\nDownload student_achievement.csv\nSuggested response variable: final_score\nSuggested predictors: study_time, absences, prior_score, internet_access\nContext: The data describe student performance and study related variables.\nVariables included in the CSV: final_score, prior_score, first_period_score, study_time, absences, internet_access, failures, age, sex, go_out, health."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#important-rule-about-model-complexity",
+    "href": "project/final_project_dataset_menu_shorter.html#important-rule-about-model-complexity",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Important rule about model complexity",
+    "text": "Important rule about model complexity\nTo keep the projects comparable, your final model must:\n\nuse one quantitative response variable listed above\ninclude at least three predictors\ninclude at least two quantitative predictors\nkeep the model at a level appropriate for introductory statistics\n\nYou may use one categorical predictor if it is relevant.\nYou do not need interaction terms unless you want to explore one and can justify it clearly.\nYou may use a simple transformation such as \\(\\log(\\text{response})\\) only if your graphs and diagnostics suggest it is reasonable. A transformation is optional, not required."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#part-1.-data-analysis-report",
+    "href": "project/final_project_dataset_menu_shorter.html#part-1.-data-analysis-report",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 1. Data Analysis Report",
+    "text": "Part 1. Data Analysis Report\n\nFormat\n\nLength: 3 to 5 pages\nSpacing: single space\nFont: Times New Roman, 12 pt\nMargins: one inch on all sides\nDo not show code in the report\n\nDownload report template\n\n\nRequired sections\n1. Introduction\nBriefly introduce the context of your chosen data set. Define the response variable and the predictors in your final model. State the goal of the analysis and explain why those predictors are reasonable choices.\n2. Exploratory Data Analysis\nCreate and discuss graphs that help you understand the relationships in your data.\nAt minimum, include:\n\none graph of the response variable\nscatterplots of the response versus each quantitative predictor in your final model\nif you use a categorical predictor, a suitable graph such as a side by side boxplot\n\nDescribe patterns you notice. For example, discuss direction, strength, unusual points, possible nonlinearity, and whether the relationships appear roughly linear.\n3. Model Building\nFit a multiple linear regression model using your chosen response and predictors.\nInclude:\n\nthe fitted regression equation\nthe main model output\na brief explanation of why this model is a reasonable choice\n\nIf you decide to use a transformed response, briefly explain why.\n4. Interpretation of Results\nInterpret the following in context:\n\nthe intercept\nat least two slope coefficients for quantitative predictors\nif applicable, one categorical predictor coefficient\n\nYour interpretations should make clear that each coefficient is interpreted while holding the other predictors constant.\n5. Model Fit, Assumptions, and Limitations\nDiscuss:\n\nwhat \\(R^2\\) tells you in this setting\nwhether the model appears useful for explanation or prediction\nat least two assumptions or diagnostic concerns\nat least one limitation of the analysis\n\nIf you compared an untransformed and transformed response model, briefly explain which one you chose and why.\n6. Conclusion\nWrite a short conclusion for a general audience. Summarize what the analysis suggests and what it does not prove."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#part-2.-ai-use-record-and-conversation-evidence",
+    "href": "project/final_project_dataset_menu_shorter.html#part-2.-ai-use-record-and-conversation-evidence",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 2. AI Use Record and Conversation Evidence",
+    "text": "Part 2. AI Use Record and Conversation Evidence\nDownload AI usage template\nIt should be about 1 to 2 pages, not counting optional screenshots.\nYour goal is to show how you used AI, not to paste an unnecessarily long transcript.\nFor your most important AI interactions, briefly record:\n\nwhat you were trying to learn\nwhat you asked AI\nwhat AI told you\nwhat you accepted, revised, or rejected\nhow you checked or verified the idea\n\nThen include enough conversation evidence for me to understand your actual AI use. You may include:\n\nshort transcript excerpts,\nscreenshots,\ncopied chat text,\nor a share link plus a few selected excerpts.\n\nStart this section with the starter prompt you chose.\nA long transcript by itself is not enough. This section should highlight the most meaningful parts of your AI use."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#part-3.-verification-and-reflection-memo",
+    "href": "project/final_project_dataset_menu_shorter.html#part-3.-verification-and-reflection-memo",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 3. Verification and Reflection Memo",
+    "text": "Part 3. Verification and Reflection Memo\nDownload Reflection template\nThis section should be about 1 page total.\n\nA. Verification and Critique\nBriefly describe:\n\none example where AI was incomplete, vague, misleading, or wrong, and\none example where AI genuinely helped you learn something useful.\n\nFor the weak AI example, explain in a few sentences:\n\nwhat AI said\nwhy it was not fully satisfactory\nhow you checked it\nwhat you concluded instead\n\n\n\nB. Reflection\nWrite a short reflection of about 150 to 250 words addressing questions such as:\n\nWhich AI tool did you use?\nHow did AI help you learn multiple linear regression?\nWhat did AI do well?\nWhat did AI do poorly?\nWhat would you do differently next time?"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#prompt-a.-concept-coach",
+    "href": "project/final_project_dataset_menu_shorter.html#prompt-a.-concept-coach",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt A. Concept Coach",
+    "text": "Prompt A. Concept Coach\n\n\n\n\n\n\nTip\n\n\n\nI am learning multiple linear regression for a class project using a real data set. Act as a concept coach. Do not write my report. Do not give me final interpretations for my dataset. Instead, teach me step by step in plain language. After each explanation, ask me one question so I have to think before moving on."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#prompt-b.-socratic-tutor",
+    "href": "project/final_project_dataset_menu_shorter.html#prompt-b.-socratic-tutor",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt B. Socratic Tutor",
+    "text": "Prompt B. Socratic Tutor\n\n\n\n\n\n\nTip\n\n\n\nI am working on a multiple linear regression project. Act as a Socratic tutor. Ask me one question at a time about model setup, predictor choice, coefficient interpretation, model fit, assumptions, and limitations. Only explain more after I answer. Do not write final report text for me."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#prompt-c.-critic-and-checker",
+    "href": "project/final_project_dataset_menu_shorter.html#prompt-c.-critic-and-checker",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Prompt C. Critic and Checker",
+    "text": "Prompt C. Critic and Checker\n\n\n\n\n\n\nTip\n\n\n\nI am going to explain my reasoning about a multiple linear regression project. Your job is to critique my reasoning, point out what is unclear or incomplete, and suggest what I should verify. Do not give me final report ready paragraphs, and do not decide my final conclusion for me.\n\n\nYou may revise the prompt after you begin. What matters is that your interaction supports learning rather than outsourcing."
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#days-1-to-2",
+    "href": "project/final_project_dataset_menu_shorter.html#days-1-to-2",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 1 to 2",
+    "text": "Days 1 to 2\n\nReview the assignment\nChoose one data set from D2L\nRead the variable descriptions\nStart your AI conversation\nLearn or review the basic ideas of multiple linear regression"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#days-3-to-4",
+    "href": "project/final_project_dataset_menu_shorter.html#days-3-to-4",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 3 to 4",
+    "text": "Days 3 to 4\n\nMake the graphs\nDecide on your predictors\nFit the model\nIdentify questions you still do not understand\nUse AI to help clarify concepts, not to finish the writing"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#days-5-to-6",
+    "href": "project/final_project_dataset_menu_shorter.html#days-5-to-6",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 5 to 6",
+    "text": "Days 5 to 6\n\nDraft your interpretations\nAsk AI to critique your reasoning\nVerify key ideas yourself\nBuild your AI use record with a few strong excerpts"
+  },
+  {
+    "objectID": "project/final_project_dataset_menu_shorter.html#days-7-to-10",
+    "href": "project/final_project_dataset_menu_shorter.html#days-7-to-10",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Days 7 to 10",
+    "text": "Days 7 to 10\n\nWrite and revise the final report\nFinish the verification and reflection memo\nProofread and submit one PDF"
+  },
+  {
+    "objectID": "project/final_project.html",
+    "href": "project/final_project.html",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "",
+    "text": "Important\n\n\n\nThis is an individual project. Plan to work on it over 7 to 10 days rather than in one sitting.\nPlease check D2L for the final due date and submission link. The downloadable CSV files for all data sets are linked below and included in the project package.\nThis project asks you to do two things at the same time:\nThe goal is not to let AI complete the assignment for you. The goal is to use AI to help you learn something new, verify ideas, identify weaknesses in your understanding, and communicate your own conclusions clearly.\nBy completing this project, you will practice how to:"
+  },
+  {
+    "objectID": "project/final_project.html#allowed-uses",
+    "href": "project/final_project.html#allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Allowed uses",
+    "text": "Allowed uses\nYou may use AI to:\n\nask for plain language explanations of statistical ideas\nask AI to quiz you or question you step by step\nask for examples that are not based on your dataset\nask what assumptions, limitations, or diagnostic checks might matter\nask AI to critique your draft reasoning\nask AI to help you notice unclear wording or possible mistakes\nask AI to suggest what you should verify on your own"
+  },
+  {
+    "objectID": "project/final_project.html#not-allowed-uses",
+    "href": "project/final_project.html#not-allowed-uses",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Not allowed uses",
+    "text": "Not allowed uses\nYou may not use AI to:\n\nwrite your final report for you\nproduce final report ready paragraphs that you submit as your own writing\ninterpret your exact regression output and then copy that interpretation\ndecide your final conclusion for this dataset\nreplace your own reasoning with unverified AI claims\n\nA good rule is this:\n\nAI may support your learning process, but it may not replace your thinking."
+  },
+  {
+    "objectID": "project/final_project.html#important-rule-about-model-complexity",
+    "href": "project/final_project.html#important-rule-about-model-complexity",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Important rule about model complexity",
+    "text": "Important rule about model complexity\nTo keep the projects comparable, your final model must:\n\nuse one quantitative response variable listed above\ninclude at least three predictors\ninclude at least two quantitative predictors\nkeep the model at a level appropriate for introductory statistics\n\nYou may use one categorical predictor if it is relevant.\nYou do not need interaction terms unless you want to explore one and can justify it clearly.\nYou may use a simple transformation such as \\(\\log(\\text{response})\\) only if your graphs and diagnostics suggest it is reasonable. A transformation is optional, not required."
+  },
+  {
+    "objectID": "project/final_project.html#part-1.-data-analysis-report",
+    "href": "project/final_project.html#part-1.-data-analysis-report",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 1. Data Analysis Report",
+    "text": "Part 1. Data Analysis Report\n\nFormat\n\nLength: 3 to 5 pages\nSpacing: single space\nFont: Times New Roman, 12 pt\nMargins: one inch on all sides\nDo not show code in the report\n\nDownload report template\n\n\nRequired sections\n1. Introduction\nBriefly introduce the context of your chosen data set. Define the response variable and the predictors in your final model. State the goal of the analysis and explain why those predictors are reasonable choices.\n2. Exploratory Data Analysis\nCreate and discuss graphs that help you understand the relationships in your data.\nAt minimum, include:\n\none graph of the response variable\nscatterplots of the response versus each quantitative predictor in your final model\nif you use a categorical predictor, a suitable graph such as a side by side boxplot\n\nDescribe patterns you notice. For example, discuss direction, strength, unusual points, possible nonlinearity, and whether the relationships appear roughly linear.\n3. Model Building\nFit a multiple linear regression model using your chosen response and predictors.\nInclude:\n\nthe fitted regression equation\nthe main model output\na brief explanation of why this model is a reasonable choice\n\nIf you decide to use a transformed response, briefly explain why.\n4. Interpretation of Results\nInterpret the following in context:\n\nthe intercept\nat least two slope coefficients for quantitative predictors\nif applicable, one categorical predictor coefficient\n\nYour interpretations should make clear that each coefficient is interpreted while holding the other predictors constant.\n5. Model Fit, Assumptions, and Limitations\nDiscuss:\n\nwhat \\(R^2\\) tells you in this setting\nwhether the model appears useful for explanation or prediction\nat least two assumptions or diagnostic concerns\nat least one limitation of the analysis\n\nIf you compared an untransformed and transformed response model, briefly explain which one you chose and why.\n6. Conclusion\nWrite a short conclusion for a general audience. Summarize what the analysis suggests and what it does not prove."
+  },
+  {
+    "objectID": "project/final_project.html#part-2.-ai-use-record-and-conversation-evidence",
+    "href": "project/final_project.html#part-2.-ai-use-record-and-conversation-evidence",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 2. AI Use Record and Conversation Evidence",
+    "text": "Part 2. AI Use Record and Conversation Evidence\nDownload AI usage template\nIt should be about 1 to 2 pages, not counting optional screenshots.\nYour goal is to show how you used AI, not to paste an unnecessarily long transcript.\nFor your most important AI interactions, briefly record:\n\nwhat you were trying to learn\nwhat you asked AI\nwhat AI told you\nwhat you accepted, revised, or rejected\nhow you checked or verified the idea\n\nThen include enough conversation evidence for me to understand your actual AI use. You may include:\n\nshort transcript excerpts,\nscreenshots,\ncopied chat text,\nor a share link plus a few selected excerpts.\n\nStart this section with the starter prompt you chose.\nA long transcript by itself is not enough. This section should highlight the most meaningful parts of your AI use."
+  },
+  {
+    "objectID": "project/final_project.html#part-3.-verification-and-reflection-memo",
+    "href": "project/final_project.html#part-3.-verification-and-reflection-memo",
+    "title": "Final Project: Learning Multiple Linear Regression with Generative AI",
+    "section": "Part 3. Verification and Reflection Memo",
+    "text": "Part 3. Verification and Reflection Memo\nDownload Reflection template\nThis section should be about 1 page total.\n\nA. Verification and Critique\nBriefly describe:\n\none example where AI was incomplete, vague, misleading, or wrong, and\none example where AI genuinely helped you learn something useful.\n\nFor the weak AI example, explain in a few sentences:\n\nwhat AI said\nwhy it was not fully satisfactory\nhow you checked it\nwhat you concluded instead\n\n\n\nB. Reflection\nWrite a short reflection of about 150 to 250 words addressing questions such as:\n\nWhich AI tool did you use?\nHow did AI help you learn multiple linear regression?\nWhat did AI do well?\nWhat did AI do poorly?\nWhat would you do differently next time?"
   }
 ]
