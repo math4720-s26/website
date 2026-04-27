@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,18 +33,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b6e6edf6cb1293d7f667c2f39c143ab5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-8dda004152c753601ea85dbdafdd9cfd.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2c9d57f40c98f3370ab025cbbe6ad21c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4b76a250a39d5c7218af10f11b137de1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-311c866fdd058187a59d486837a94991.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-1da5838089477fe5b285348978043904.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -116,7 +117,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -323,7 +324,8 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/math4720-s26/website" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -438,7 +440,7 @@ Title
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1774534830000" data-listing-reading-time-sort="11" data-listing-word-count-sort="2032" data-listing-title-sort="Exercise 1" data-listing-filename-sort="exercise1.qmd">
+<tr data-index="0" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1774534830580" data-listing-reading-time-sort="11" data-listing-word-count-sort="2032" data-listing-title-sort="Exercise 1" data-listing-filename-sort="exercise1.qmd">
 <td>
 <a href="./exercise/exercise1.html" class="title listing-title">Exercise 1</a>
 </td>
@@ -448,7 +450,7 @@ Title
 
 </tr>
 
-<tr data-index="1" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1776470515000" data-listing-reading-time-sort="8" data-listing-word-count-sort="1529" data-listing-title-sort="Exercise 2" data-listing-filename-sort="exercise2.qmd">
+<tr data-index="1" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1776470515149" data-listing-reading-time-sort="8" data-listing-word-count-sort="1529" data-listing-title-sort="Exercise 2" data-listing-filename-sort="exercise2.qmd">
 <td>
 <a href="./exercise/exercise2.html" class="title listing-title">Exercise 2</a>
 </td>
@@ -458,7 +460,7 @@ Title
 
 </tr>
 
-<tr data-index="2" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1766611991000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215" data-listing-title-sort="Exercise 3" data-listing-filename-sort="exercise3.qmd">
+<tr data-index="2" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1766611991869" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215" data-listing-title-sort="Exercise 3" data-listing-filename-sort="exercise3.qmd">
 <td>
 <a href="./exercise/exercise3.html" class="title listing-title">Exercise 3</a>
 </td>
@@ -468,7 +470,7 @@ Title
 
 </tr>
 
-<tr data-index="3" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1766611991000" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Key Topics of Multiple Linear Regression" data-listing-filename-sort="exercise_mlr.qmd">
+<tr data-index="3" data-categories="RXhlcmNpc2U=" data-listing-file-modified-sort="1766611991869" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Key Topics of Multiple Linear Regression" data-listing-filename-sort="exercise_mlr.qmd">
 <td>
 <a href="./exercise/exercise_mlr.html" class="title listing-title">Key Topics of Multiple Linear Regression</a>
 </td>
